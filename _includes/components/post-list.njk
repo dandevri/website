@@ -1,0 +1,5 @@
+<ul>
+  {%- for blog in collections.blog -%}
+    <li><a href="{{ blog.url }}">{{ blog.data.title }}</a></li>
+  {%- endfor -%}
+</ul>
