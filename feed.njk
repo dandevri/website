@@ -7,20 +7,20 @@ permalink: feed.xml
   <subtitle>{{ metadata.feed.description }}</subtitle>
   <link href="{{ metadata.url }}/feed.xml" rel="self"/>
   <link href="{{ metadata.url }}"/>
-  <updated>{{ collections.blog | rssLastUpdatedDate }}</updated>
+  <updated>{{ collections.article | rssLastUpdatedDate }}</updated>
   <id>{{ metadata.url }}</id>
   <author>
     <name>{{ metadata.author}}</name>
     <email>{{ metadata.mail }}</email>
   </author>
-  {%- for blog in collections.blog %}
-  {% set absolutePostUrl %}{{ blog.url | url | absoluteUrl(metadata.url) }}{% endset %}
+  {%- for article in collections.article %}
+  {% set absolutePostUrl %}{{ article.url | url | absoluteUrl(metadata.url) }}{% endset %}
   <entry>
-    <title>{{ blog.data.title }}</title>
+    <title>{{ article.data.title }}</title>
     <link href="{{ absolutePostUrl }}"/>
-    <updated>{{ blog.date | rssDate }}</updated>
+    <updated>{{ article.date | rssDate }}</updated>
     <id>{{ absolutePostUrl }}</id>
-    <content type="html">{{ blog.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+    <content type="html">{{ article.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
   </entry>
   {%- endfor %}
 </feed>
