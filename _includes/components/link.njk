@@ -1,0 +1,19 @@
+{% macro int(link, label) %}
+  <a class="btn" href="{{ link }}">{{ label }}</a>
+{% endmacro %}
+
+{% macro ext(link, label) %}
+  <a class="btn" href="{{ link }}" target="_blank" rel="noopener">{{ label }}</a>
+{% endmacro %}
+
+{% macro inl(link, label) %}
+  <a href="{{ link }}" target="_blank" rel="noopener">{{ label }}</a>
+{% endmacro %}
+
+{% macro mail(link) %}
+  <a href="mailto:{{ link }}">{{ link }}</a>
+{% endmacro %}
+
+{% macro tel(link) %}
+  <a href="tel:+{{ link }}">{{ link }}</a>
+{% endmacro %}

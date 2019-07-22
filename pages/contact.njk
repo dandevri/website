@@ -1,0 +1,54 @@
+---
+layout: layouts/default
+title: Contact
+permalink: contact/
+---
+{% import 'components/link.njk' as link %}
+{% import 'components/details.njk' as details %}
+
+<h1>Contact</h1>
+
+<h2>Let's talk about your idea!</h2>
+
+<p>I value my time so please keep it short.</p>
+
+<h3>Mail</h3>
+
+<p>Oh, e-mail. I have a bit of a love–hate relationship with digital letters. The most <em>formal</em> way to reach me which usually yields a <em>crafted</em> response from me.
+
+<ul>
+  <li>{{ link.mail("hi@dandevri.es") }} (personal)</li>
+  <li>{{ link.mail("finance@dandevri.es") }} (business)</li>
+  <li>{{ link.mail("d.de.vries4@hva.nl") }} (university)</li>
+</ul>
+
+<h3>Chat</h3>
+<em>Informal</em> way to reach me for <em>quick</em> questions and <em>brief</em> responses.
+
+<ul>
+  <li>{{ link.inl("https://keybase.io/dandevri", "Keybase @dandevri") }}</li>
+  <li>{{ link.inl("https://api.whatsapp.com/send?phone=31641025262", "WhatsApp Conversation") }}</li>
+  <li>{{ link.inl("https://www.twitter.com/dandevri", "Twitter Direct Message") }}</li>
+  <li>{{ link.tel("31641025262") }}</li>
+</ul>
+
+<h3>Social</h3>
+
+Best suited to keep track of what I'm doing without engaging in the matter. <br>
+<em>In order of most active</em>
+
+<ul>
+  <li>{{ link.inl("https://www.twitter.com/dandevri", "Twitter") }}</li>
+  <li>{{ link.inl("https://github.com/dandevri", "GitHub") }}</li>
+  <li>{{ link.inl("https://www.linkedin.com/in/dandevri/", "LinkedIn") }}</li>
+  <li>{{ link.inl("https://www.instagram.com/dandevri/", "Instagram") }}</li>
+  <li>{{ link.inl("https://dev.to/dandevri", "Dev.to") }}</li>
+  <li>{{ link.inl("https://dribbble.com/dandevri", "Dribbble") }}</li>
+</ul>
+
+<h3>Faq</h3>
+
+{{ details.details("Ask me Anything?", "  I host a #ama over on dev.to. You can see if I already answered your question publicly!") }}
+{{ details.details("Why are you slow to respond?", "  I batch process most of my messages at the end of the day instead of constantly checking and refreshing.") }}
+{{ details.details("Invite me to speak", " Please read this guide for speaking. Check out the speaking page for upcomming events. I've prepared a press kit.") }}
+{{ details.details("You are not responding!", "   I try to respond to urgent messages and mail first. If you don't have a reply within 3/4 days that usually means I decided your request wasn't worth my time. Hé, you are in my inbox!") }}
