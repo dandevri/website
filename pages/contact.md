@@ -12,11 +12,15 @@ I value my time so please keep it short.
 
 ### Mail
 
+Oh, e-mail. I have a bit of a love–hate relationship with digital letters. The most *formal* way to reach me which usually yields a *crafted* response from me.
+
 * <a href="mailto:hi@dandevri.es?subject=👋">hi@dandevri.es</a> (personal)
 * <a href="mailto:finance@dandevri.es?subject=👋">finance@dandevri.es</a> (business)
 * <a href="mailto:d.de.vries4@hva.nl?subject=👋">d.de.vries4@hva.nl</a> (university)
 
 ### Chat
+*Informal* way to reach me for *quick* questions and *brief* responses.
+
 * Keybase [@dandevri](https://keybase.io/dandevri)
 * WhatsApp [conversation](https://api.whatsapp.com/send?phone=31641025262)
 * Twitter [Direct Message](https://www.twitter.com/dandevri)
@@ -24,6 +28,7 @@ I value my time so please keep it short.
 
 ### Social
 
+Best suited to keep track of what I'm doing without engaging in the matter. <br>
 **In order of most active*
 
 * [Twitter](https://www.twitter.com/dandevri)
