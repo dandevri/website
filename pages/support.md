@@ -8,6 +8,12 @@ permalink: support/
 
 If you like my speaking, writing, courses and projects, please consider supporting me. It helps me keep most of my resources free (as in freedom, not free as in free frappuccinos).
 
+**Examples of resources**
+* Slides and video's from talks
+* The best tweets on the gram
+* Course material
+* Open-source projects
+
 ## Patreon
 
 If you want to continously want to support me in the form of monthly donations Patreon is the best option. You get access to Patreon only content and will get exclusive early access to future content and products.
