@@ -1,0 +1,29 @@
+---
+layout: layouts/default
+title: Uses
+permalink: uses/
+---
+
+<h1>Uses</h1>
+
+<h2>Workstation</h2>
+
+<ul>
+{% for item in uses.workstation %}
+  <li>
+    <p><a href="{{ item.link }}">{{ item.title }}</a></p>
+    <p>{{ item.description }}</p>
+  </li>
+{% endfor %}
+</ul>
+
+<h2>Software</h2>
+
+<ul>
+{% for item in uses.software %}
+  <li>
+    <p><a href="{{ item.link }}">{{ item.title }}</a></p>
+    <p>{{ item.description }}</p>
+  </li>
+{% endfor %}
+</ul>
