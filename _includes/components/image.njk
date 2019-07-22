@@ -1,0 +1,8 @@
+{% macro image(src1, src2, alt) %}
+  <picture>
+    <source srcset="{{ src1 }}" type="image/webp">
+    <img src="{{ src2 }}" alt="{{ alt }}">
+  </picture>
+{% endmacro %}
+
+{{ image("/static/img/image.webp", "/static/img/image.jpg", "Alt of the image") }}

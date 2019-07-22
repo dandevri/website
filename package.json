@@ -1,0 +1,63 @@
+{
+  "name": "static-site-starter",
+  "version": "1.0.0",
+  "description": " A boilerplate for building static websites ",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx eleventy",
+    "build:js": "uglifyjs static/js/script.js -c -o _site/static/js/script.js",
+    "build:webp": "imagemin --plugin=webp static/img/* --out-dir=_site/static/img/",
+    "build:img": "imagemin --plugin=mozjpeg --plugin=pngquant --plugin=svgo static/img/* --out-dir=_site/static/img/ & npm run build:webp",
+    "build:css": " postcss css/base.css -o css/style.css -w",
+    "dev": "npm run build:css & npx eleventy --serve ",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dandevri/static-site-starter.git"
+  },
+  "keywords": [
+    "static-site",
+    "boilerplate"
+  ],
+  "author": "Danny de Vries <hi@dandevri.es> (https://dandevri.es)",
+  "contributors": [
+    "Danny de Vries <hi@dandevri.es> (https://dandevri.es)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dandevri/static-site-starter/issues"
+  },
+  "homepage": "https://github.com/dandevri/static-site-starter#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.8.3",
+    "@11ty/eleventy-plugin-rss": "^1.0.6",
+    "autoprefixer": "^9.5.1",
+    "cssnano": "^4.1.10",
+    "eslint": "^5.16.0",
+    "imagemin-cli": "^4.0.1",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "imagemin-svgo": "^7.0.0",
+    "imagemin-webp": "^5.1.0",
+    "postcss-cli": "^6.1.2",
+    "postcss-font-magician": "^2.2.1",
+    "postcss-import": "^12.0.1",
+    "postcss-mixins": "^6.2.1",
+    "postcss-nested": "^4.1.2",
+    "postcss-normalize": "^8.0.0",
+    "postcss-scss": "^2.0.0",
+    "postcss-simple-vars": "^5.0.2",
+    "stylelint-config-standard": "^18.3.0",
+    "uglify-js": "^3.6.0"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard",
+    "rules": {
+      "at-rule-no-unknown": null
+    }
+  },
+  "dependencies": {
+    "luxon": "^1.15.0"
+  }
+}

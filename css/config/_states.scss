@@ -1,0 +1,25 @@
+@define-mixin hover-link {
+  transition: $250ms;
+
+  &:hover,
+  &:focus {
+    color: $secondary;
+    box-shadow: 0 -30px 0 0 #222 inset;
+  }
+}
+
+@define-mixin focus-link {
+  &:focus {
+    outline-style: dashed;
+    outline-width: 2px;
+    outline-color: $primary;
+    outline-offset: 4px;
+  }
+}
+
+p a,
+li a {
+  box-shadow: 0 -1px 0 0 #222 inset;
+  @mixin hover-link;
+  @mixin focus-link;
+}

@@ -1,0 +1,12 @@
+{% macro imageMotion(src1, src2, src3, alt) %}
+<div class="image-motion">
+  <picture>
+    <source srcset="{{ src1 }}" media="(prefers-reduced-motion: reduce)">
+    <source srcset="{{ src3 }}" type="video/mp4">
+    <img src="{{ src2 }}" alt="{{ alt }}">
+  </picture>
+  <button class="animate-button">Animate</button>
+</div>
+{% endmacro %}
+
+{{ imageMotion("/static/img/blade-runner.png", "/static/img/blade-runner.gif", "/static/img/blade-runner.mp4", "Blade Runner Blip") }}

@@ -1,0 +1,12 @@
+header {
+  height: 40vh;
+  background: $primary;
+  color: $secondary;
+  display: flex;
+  align-items: center;
+
+  div {
+    max-width: 38rem;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,13 @@
+---
+layout: layouts/default
+title: Blog
+permalink: blog/
+---
+
+<h1>Blog</h1>
+
+<ul>
+{%- for blog in collections.blog -%}
+  <li><a href="{{ blog.url }}">{{ blog.data.title }}</a></li>
+{%- endfor -%}
+</ul>

@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    {% include 'config/meta.njk' %}
+    {% include 'config/favicon.njk' %}
+    {% include 'config/social.njk' %}
+    {% include 'config/pre.njk' %}
+    <title>{{ metadata.title }}</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script src="/static/js/script.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    {{ content | safe }}
+  </body>
+</html>

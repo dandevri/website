@@ -1,0 +1,22 @@
+picture,
+.image-motion {
+  position: relative;
+}
+
+.image-motion .animate-button {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: $p-l;
+  left: $p-l;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .image-motion .animate-button {
+    display: block;
+
+    &-hide {
+      display: none;
+    }
+  }
+}

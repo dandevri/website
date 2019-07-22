@@ -1,0 +1,10 @@
+{% macro linkInt(link, label) %}
+  <a class="btn" href="{{ link }}">{{ label }}</a>
+{% endmacro %}
+
+{% macro linkExt(link, label) %}
+  <a class="btn" href="{{ link }}" target="_blank" rel="noopener">{{ label }}</a>
+{% endmacro %}
+
+{{ linkInt("https://dandevri.es/", "Internal") }}
+{{ linkExt("https://dandevri.es/", "External") }}
