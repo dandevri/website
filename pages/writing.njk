@@ -4,10 +4,4 @@ title: Writing
 permalink: writing/
 ---
 
-<h1>Blog</h1>
-
-<ul>
-{%- for blog in collections.blog -%}
-  <li><a href="{{ blog.url }}">{{ blog.data.title }}</a></li>
-{%- endfor -%}
-</ul>
+{% include 'components/post-list.njk' %}
