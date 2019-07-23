@@ -4,7 +4,17 @@ nav {
   align-items: center;
   padding: 1em;
 
+  img {
+    width: 4em;
+  }
+
   ul {
     display: flex;
+    overflow-x: auto;
+    @mixin reset-list;
+
+    li:not(:last-child) {
+      margin-right: 1em;
+    }
   }
 }
