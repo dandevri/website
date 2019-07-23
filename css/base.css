@@ -11,5 +11,6 @@
 @import 'components/nav.scss';
 @import 'components/button.scss';
 @import 'components/image-motion.scss';
+@import 'components/post-list.scss';
 
 @import-normalize;

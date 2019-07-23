@@ -7,6 +7,10 @@ module.exports = function(config) {
   config.addPassthroughCopy("css/style.css");
   config.addPlugin(pluginRss);
 
+  config.addFilter("readableDate", dateObj => {
+    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
+  });
+
   config.addFilter('htmlDateString', (dateObj) => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
   });
