@@ -1,0 +1,13 @@
+<ol class="weeknote-list">
+  {%- for weeknote in collections.weeknote | reverse -%}
+    <li class="weeknote-item">
+      <a href="{{ weeknote.url }}">{{ weeknote.data.title }}</a>
+      <span class="weeknote-tag">{{ weeknote.data.type }}</span>
+      <div class="weeknote-meta">
+        <img class="weeknote-avatar" src="/static/img/avatar.jpg" alt="Profile Picture of Danny de Vries">
+        <span>{{ metadata.author }}</span>
+        <time datetime="{{ weeknote.date | htmlDateString }}"> ▪ {{ weeknote.date | readableDate }}</time><br>
+      </div>
+    </li>
+  {%- endfor -%}
+</ol>

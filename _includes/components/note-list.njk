@@ -1,0 +1,14 @@
+<ol class="note-list">
+  {%- for note in collections.note | reverse -%}
+    <li class="note-item">
+      <a href="{{ note.url }}">{{ note.data.title }}</a>
+      <p>{{ note.templateContent | safe }}</p>
+      <span class="note-tag">{{ note.data.type }}</span>
+      <div class="note-meta">
+        <img class="note-avatar" src="/static/img/avatar.jpg" alt="Profile Picture of Danny de Vries">
+        <span>{{ metadata.author }}</span>
+        <time datetime="{{ note.date | htmlDateString }}"> ▪ {{ note.date | readableDate }}</time><br>
+      </div>
+    </li>
+  {%- endfor -%}
+</ol>

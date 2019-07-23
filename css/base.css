@@ -12,5 +12,6 @@
 @import 'components/button.scss';
 @import 'components/image-motion.scss';
 @import 'components/post-list.scss';
+@import 'components/list.scss';
 
 @import-normalize;
