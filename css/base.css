@@ -10,6 +10,7 @@
 
 /* Atoms */
 @import 'components/atoms/button.scss';
+@import 'components/atoms/signature.scss';
 @import 'components/atoms/image-motion.scss';
 
 /* Molecules */
@@ -19,5 +20,6 @@
 @import 'components/molecules/link-list.scss';
 @import 'components/molecules/tag-list.scss';
 @import 'components/molecules/list.scss';
+@import 'components/molecules/post.scss';
 
 @import-normalize;

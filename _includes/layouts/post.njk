@@ -5,21 +5,18 @@ layout: layouts/base
 <section class="post">
 
 <header>
-  <h1 class="display">{{ title }}</h1>
-  <h2>{{ subtitle }}</h2>
-  <span>{{ date | readableDate }}</span>
-  <ul>
-    <li>Tag 1</li>
-    <li>Tag 2</li>
-    <li>Tag 3</li>
-  </ul>
-  <span>{{ content | readingTime }}</span>
+  <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
+  <span> ▪ {{ content | readingTime }}</span>
+  <h1 class="header__title display">{{ title }}</h1>
+  <h2 class="header__subtitle">{{ subtitle }}</h2>
 </header>
 
 <main>
   {{ content | safe }}
+  {% include 'components/atoms/signature.njk' %}
+  {% include 'components/molecules/tags.njk' %}
+  {% include 'components/atoms/bio.njk' %}
 </main>
-
 </section>
 
 <footer>

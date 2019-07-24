@@ -9,3 +9,15 @@
     margin-right: 1em;
   }
 }
+
+.category-list {
+  @mixin reset-list;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid black;
+  padding: 0 1em;
+
+  li {
+    margin-right: 1em;
+  }
+}
