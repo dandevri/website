@@ -2,9 +2,12 @@
 layout: layouts/base
 ---
 
-{% include 'components/nav.njk' %}
 {% include 'components/header.njk' %}
 
-<main>
+<main class="wrapper">
   {{ content | safe }}
 </main>
+
+<footer>
+  {% include 'components/nav.njk' %}
+</footer>
