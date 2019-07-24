@@ -7,12 +7,16 @@
 @import 'config/_layout.scss';
 
 /* Components */
-@import 'components/header.scss';
-@import 'components/nav.scss';
-@import 'components/button.scss';
-@import 'components/image-motion.scss';
-@import 'components/post-list.scss';
-@import 'components/tag-list.scss';
-@import 'components/list.scss';
+
+/* Atoms */
+@import 'components/atoms/button.scss';
+@import 'components/atoms/image-motion.scss';
+
+/* Molecules */
+@import 'components/molecules/header.scss';
+@import 'components/molecules/nav.scss';
+@import 'components/molecules/post-list.scss';
+@import 'components/molecules/tag-list.scss';
+@import 'components/molecules/list.scss';
 
 @import-normalize;
