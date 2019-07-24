@@ -1,4 +1,4 @@
-.post-list {
+.article-list {
   @mixin reset-list;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(30em, 1fr));
