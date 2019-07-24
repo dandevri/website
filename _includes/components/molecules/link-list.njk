@@ -1,0 +1,5 @@
+<ol class="link-list">
+  {%- for link in collections.link | reverse -%}
+    {% include 'components/atoms/links.njk' %}
+  {%- endfor -%}
+</ol>

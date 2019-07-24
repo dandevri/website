@@ -16,6 +16,7 @@
 @import 'components/molecules/header.scss';
 @import 'components/molecules/nav.scss';
 @import 'components/molecules/post-list.scss';
+@import 'components/molecules/link-list.scss';
 @import 'components/molecules/tag-list.scss';
 @import 'components/molecules/list.scss';
 
