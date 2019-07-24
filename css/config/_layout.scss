@@ -3,3 +3,33 @@
   padding: 1.5rem;
   margin: auto;
 }
+
+.post {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+}
+
+.post header {
+  grid-column: 2 / 5;
+  background: white;
+  color: black;
+}
+
+.post > * {
+  grid-column: 3 / 4;
+}
+
+.post  img {
+  grid-column: 1 / -1;
+  border: 1px solid black;
+}
+
+.post p:first-child {
+  font-size: 1.2em;
+  grid-column: 3 / 5;
+}
+
+.post blockquote {
+  border-left: 3px solid #0B0C0C;
+  padding: 0 1em;
+}

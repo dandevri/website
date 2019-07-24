@@ -1,0 +1,26 @@
+---
+layout: layouts/base
+---
+
+<section class="post">
+
+<header>
+  <h1 class="display">{{ title }}</h1>
+  <h2>{{ subtitle }}</h2>
+  <span>{{ date | readableDate }}</span>
+  <ul>
+    <li>Tag 1</li>
+    <li>Tag 2</li>
+    <li>Tag 3</li>
+  </ul>
+</header>
+
+<main>
+  {{ content | safe }}
+</main>
+
+</section>
+
+<footer>
+  {% include 'components/nav.njk' %}
+</footer>

@@ -1,23 +1,18 @@
 ---
 title: Back to JS basics
+subtitle: JS is here to stay, without you I got trouble.
 description: JS is here to stay, without you I got trouble. To understand you here is a quick refresher on the intro of JavaScript.
 slug: back-to-js-basics
 date: 2017-06-25
 tags: article
-layout: layouts/default.njk
+layout: layouts/post.njk
 permalink: /articles/{{ slug }}/index.html
 ---
-
-# {{ title }}
-
-JS is here to stay, without you I got trouble. To understand you here is a quick refresher on the intro of JavaScript.
-
-![This macbook has a JS sticker on it. I don’t normally have this sticker on. Just to make it look pretty for the picture 🌈](https://cdn-images-1.medium.com/max/6908/1*_Ct_7IYxpWRCZdEygYsioQ.jpeg)*This macbook has a JS sticker on it. I don’t normally have this sticker on. Just to make it look pretty for the picture 🌈*
 
 We all read [this article](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f) from last year. (NO!? you’ve been living under a rock or something?) It’s easy to get caught up in a JavaScript library and never get out. I’ve seen people know more about React and jQuery than pure vanilla JS.
 
 When I started the [Minor Web Development](http://www.hva.nl/opleiding/communication-and-multimedia-design/communication-and-multimedia-design.html) at the University of Applied Sciences Amsterdam I had (what buddhist call) a **beginner’s mind.**
-> # It refers to having an attitude of openness, eagerness, and lack of preconceptions when studying a subject, even when studying at an advanced level, just as a beginner in that subject would.
+> It refers to having an attitude of openness, eagerness, and lack of preconceptions when studying a subject, even when studying at an advanced level, just as a beginner in that subject would.
 
 People around me would sit behind their keyboard and start writing line after line of complex JS code. I would come in, and curious as I was, would ask ‘simple’ questions like;
 > Where does this function gets invoked?
