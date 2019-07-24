@@ -1,9 +1,0 @@
-<ol class="post-list">
-  {%- for article in collections.article | reverse -%}
-    <li>
-      <a href="{{ article.url }}">{{ article.data.title }}</a>
-      <p>{{ article.data.description }}</p>
-      <time datetime="{{ article.date | htmlDateString }}">{{ article.date | readableDate }}</time>
-    </li>
-  {%- endfor -%}
-</ol>

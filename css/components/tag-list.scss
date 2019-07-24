@@ -1,0 +1,11 @@
+.tag-list {
+  @mixin reset-list;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid black;
+  padding: 3em;
+
+  li {
+    margin-right: 1em;
+  }
+}

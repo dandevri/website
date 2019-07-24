@@ -1,0 +1,11 @@
+<section class="post-list">
+  {%- for article in collections.article | reverse -%}
+    <article>
+      <a href="{{ article.url }}">
+        <h3>{{ article.data.title }}</h3>
+        <p>{{ article.data.description }}</p>
+        <time datetime="{{ article.date | htmlDateString }}">{{ article.date | readableDate }}</time>
+      </a>
+    </article>
+  {%- endfor -%}
+</ol>
