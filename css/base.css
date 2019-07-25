@@ -12,6 +12,7 @@
 @import 'components/atoms/button.scss';
 @import 'components/atoms/signature.scss';
 @import 'components/atoms/image-motion.scss';
+@import 'components/atoms/details.scss';
 
 /* Molecules */
 @import 'components/molecules/header.scss';
