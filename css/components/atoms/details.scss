@@ -10,7 +10,7 @@ details {
 }
 
 summary {
-  list-style-image: url(/static/img/marker.svg);
+  list-style-image: url(/static/img/marker-light.svg);
   padding: 1em 1em;
   background-color: #000;
   box-shadow: 0 1px 5px 0 rgba(0,0,0,.05);
@@ -19,7 +19,7 @@ summary {
 }
 
 summary::-webkit-details-marker {
-  background: url(/static/img/marker.svg);
+  background: url(/static/img/marker-light.svg);
   color: transparent;
   width: 2em;
 }

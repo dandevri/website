@@ -6,9 +6,6 @@ module.exports = {
     require('postcss-mixins'),
     require('postcss-nested'),
     require('postcss-simple-vars'),
-    require('postcss-font-magician')({
-      display: 'swap'
-    }),
     require('autoprefixer'),
     require('cssnano'),
   ]

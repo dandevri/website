@@ -4,6 +4,7 @@ const { DateTime } = require("luxon");
 
 module.exports = function(config) {
   config.addPassthroughCopy("static/img");
+  config.addPassthroughCopy("static/fonts");
   config.addPassthroughCopy("static/js");
   config.addPassthroughCopy("css/style.css");
 
