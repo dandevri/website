@@ -1,8 +1,3 @@
-.wrapper {
-  max-width: 50rem;
-  margin: 6%;
-}
-
 .post {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
@@ -33,6 +28,13 @@
   padding: 0 1em;
 }
 
-.home p {
+.home {
   font-size: 1.5em;
+  max-width: 50rem;
+  margin: 6%;
+}
+
+.wrapper {
+  max-width: 50rem;
+  margin: 6%;
 }

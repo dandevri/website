@@ -1,16 +1,30 @@
 ---
-layout: layouts/default
+layout: layouts/home
 title: Hi, I'm Danny.
-description: A freelance front-end designer and lecturer at the Amsterdam University of Applied Sciences where I teach about code in the technical courses of our program such as front-end and back-end.
 ---
 
 {% import 'components/atoms/card.njk' as card %}
 
-<section class="home">
-  <p><strong>I'm in the process of live-designing this site. I'm filling it with content and have a Notion board with design inspiration. <a href="https://github.com/systemdes/personal-website">Follow along on GitHub</a></strong></p>
+<header>
+  <div>
+    <h1 class="display">{{ title }}</h1>
+    <p> I'm a designer with an organized, systematic and inclusive approach. I also work as a lecturer at the Amsterdam University of Applied Sciences where I lecture about code in the technical courses of our program such as <a href="https://github.com/cmda-bt">front-end and back-end.</a></p>
+  </div>
+</header>
 
-  <p>Details matter. With a clean, functional and minimal aesthetic I can work on your companies: visual language, user interface, experience design or front-end website.</p>
-
+{# <section class="home">
+  <h3>Me in 100 words:</h3>
   <p>I work as a lecturer and researcher at the Amsterdam University of Applied Sciences where I lecture about code in the technical courses of our program such as front-end and back-end.</p>
+</section> #}
 
+<section class="article-list">
+  {{ card.block("About", "I have a blog where I write long posts, notes and post links.", "/about", "More about me") }}
+  {{ card.block("Writing", "I have a blog where I write long posts, notes and post links.", "/writing", "See posts") }}
+  {{ card.block("Speaking", "I have a blog where I write long posts, notes and post links.", "/speaking", "See posts") }}
+  {{ card.block("Teaching", "I have a blog where I write long posts, notes and post links.", "/teaching", "See posts") }}
+  {{ card.block("Projects", "I have a blog where I write long posts, notes and post links.", "/projects", "See posts") }}
+  {{ card.block("Mentorship", "I have a blog where I write long posts, notes and post links.", "/mentorship", "See posts") }}
+  {{ card.block("Support", "I have a blog where I write long posts, notes and post links.", "/contact", "See posts") }}
+  {{ card.block("Contact", "I have a blog where I write long posts, notes and post links.", "/contact", "See posts") }}
 </section>
+
