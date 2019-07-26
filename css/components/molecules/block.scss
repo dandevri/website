@@ -1,0 +1,13 @@
+.block {
+  column-count: 2;
+  padding: 2em;
+  border: 1px solid black;
+  margin-top: 0;
+
+  &__title {
+    background: black;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 0.5em;
+  }
+}

@@ -23,5 +23,6 @@
 @import 'components/molecules/tag-list.scss';
 @import 'components/molecules/list.scss';
 @import 'components/molecules/post.scss';
+@import 'components/molecules/block.scss';
 
 @import-normalize;
