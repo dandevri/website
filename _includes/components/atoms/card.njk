@@ -1,0 +1,7 @@
+{% macro block(title, description, link, linkText) %}
+  <article class="card">
+    <h4>{{ title }}</h4>
+    <p>{{ description }}</p>
+    <a href="{{ link }}">{{ linkText }}</a>
+  </article>
+{% endmacro %}

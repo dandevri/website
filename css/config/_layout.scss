@@ -1,6 +1,6 @@
 .wrapper {
-  max-width: 38rem;
-  padding: 1.5rem;
+  max-width: 50rem;
+  margin: 6%;
 }
 
 .post {
@@ -31,4 +31,8 @@
 .post blockquote {
   border-left: 3px solid #0B0C0C;
   padding: 0 1em;
+}
+
+.home p {
+  font-size: 1.5em;
 }
