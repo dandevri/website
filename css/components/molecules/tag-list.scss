@@ -1,12 +1,22 @@
-.tag-list {
+.tag__list {
   @mixin reset-list;
   display: flex;
   flex-wrap: wrap;
-  border-bottom: 1px solid black;
+  align-items: center;
+  border-bottom: 2px solid black;
   padding: 3em;
 
   li {
     margin-right: 1em;
+  }
+
+  li:not(:first-child) {
+    border: 2px solid black;
+    padding: 0.25em 0.5em;
+
+    a {
+      box-shadow: none;
+    }
   }
 }
 
@@ -19,5 +29,17 @@
 
   li {
     margin-right: 1em;
+  }
+}
+
+.skip__list {
+  @mixin reset-list;
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    margin-right: 1em;
+    border: 2px solid black;
+    padding: 0.5em;
   }
 }

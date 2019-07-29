@@ -2,9 +2,12 @@ header {
   padding: 6%;
   color: $primary;
   border: 1px solid black;
+  background-image: url("/static/img/dot-pattern.svg");
+  background-position: 1% 4%;
 
   div {
     max-width: 50rem;
+    background: #fff;
   }
 
   h1,
