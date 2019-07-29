@@ -46,8 +46,24 @@ const works = [
   },
 ]
 
+const call = [
+  {
+    description: "Recorded converstation to review for later use",
+  },
+  {
+    description: "Chat using appear.in and as many people can join in on the session",
+  },
+  {
+    description: "Write-up of actionable steps",
+  },
+  {
+    description: "Based on the giving information, I'll research and review up front",
+  },
+]
+
 module.exports = {
   help,
   get,
-  works
+  works,
+  call
 }
