@@ -8,23 +8,56 @@ layout: layouts/default.njk
 permalink: /weeknotes/1/index.html
 ---
 
-# {{ title }}
+*Week: {{ week }} ▪ Date: {{ date | htmlDateString }}*
 
-Pitch hypotheses series A financing stock startup analytics. Analytics business model canvas iPad gen-z responsive web design research & development metrics alpha paradigm shift iteration. Ownership crowdfunding learning curve hackathon equity long tail scrum project deployment angel investor traction social proof venture entrepreneur. Seed round infographic branding scrum project stock market entrepreneur business-to-business. Research & development business plan angel investor assets. Funding pivot MVP facebook. Accelerator analytics disruptive crowdfunding buzz ownership freemium mass market iteration conversion. IPad business model canvas agile development non-disclosure agreement business plan social proof churn rate android business-to-consumer customer. Termsheet assets lean startup twitter graphical user interface entrepreneur pitch marketing success equity business plan bootstrapping. Iteration long tail seed round launch party responsive web design holy grail direct mailing ecosystem.
+Every week I jot down what I'm working on with a list of curated articles, resources and tools that I'm digging. Have a look at the [updates][updates] page to see how you can follow me and receive these weekly notes in your inbox.
+
+---
+
 
 ## Links
 
-* Link
-* Link
-* Link
+[Title of the link][example.com] ↗  
+Entrepreneur graphical user interface lean startup twitter business-to-consumer long tail  
+[example.com][example.com]
 
-## Currently
-* playing: Game
-* reading: Book
-* watching: Movie
+[Title of the link][example.com] ↗  
+Entrepreneur graphical user interface lean startup twitter business-to-consumer long tail  
+[example.com][example.com]
+
+[Title of the link][example.com] ↗  
+Entrepreneur graphical user interface lean startup twitter business-to-consumer long tail  
+[example.com][example.com]
+
+[Title of the link][example.com] ↗  
+Entrepreneur graphical user interface lean startup twitter business-to-consumer long tail  
+[example.com][example.com]
+
+[Title of the link][example.com] ↗  
+Entrepreneur graphical user interface lean startup twitter business-to-consumer long tail  
+[example.com][example.com]
+
+## Events
+[18th of July] ▪ [Name of the event][example.com] ↗  
+Creative niche market metrics startup android deployment angel investor.
+[example.com][example.com]
 
 ## Project
 
-Working on a Raspberry Pi Project
+Research & development incubator seed money scrum project infographic monetization return on investment series A financing business-to-business lean startup venture crowdfunding burn rate. Buyer interaction design direct mailing creative validation entrepreneur infographic beta alpha business-to-business burn rate stealth. Product management beta MVP android venture A/B testing branding.
+
+## Learning
+Monetization social media marketing equity prototype hypotheses alpha analytics ramen entrepreneur business-to-consumer scrum project. Equity business plan creative business-to-business angel investor niche market crowdfunding partner network iteration focus virality mass market branding bootstrapping. 
 
 
+## Media
+
+↪ Playing: Blood & Truth on the Playstation VR  
+↪ Reading: Atomic Habits by James Clear  
+↪ Watching: Stranger Things 3 on Netflix  
+
+
+<!--- Links --->
+
+[updates]: https://www.dandevri.es/updates
+[example.com]: https://www.example.com/
