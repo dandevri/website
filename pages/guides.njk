@@ -1,0 +1,11 @@
+---
+layout: layouts/default
+title: Guides
+permalink: guides/
+---
+
+<section class="guideslist">
+  {%- for article in collections.guide | reverse -%}
+    {% include 'components/atoms/article.njk' %}
+  {%- endfor -%}
+</section>
