@@ -4,9 +4,19 @@ title: Uses
 permalink: uses/
 ---
 
-<h1>Uses</h1>
+Here are the tools of the trade that I love to use. I'm an absolute gearhead and edc person. I recommend each item on this list and switch things up pretty often to see if a specific tool or software improves my workflow.
 
-<h2>Workstation</h2>
+<ul class="skip__list">
+  <li><a href="#development">Development ↓</a></li>
+  <li><a href="#applications">Applications ↓</a></li>
+  <li><a href="#edc">EDC ↓</a></li>
+  <li><a href="#projects">Projects ↓</a></li>
+  <li><a href="#workflows">Workflows ↓</a></li>
+</ul>
+
+<h2>Desk Setup</h2>
+
+<p>For me it's very important to have a clean, functional, ergonomic and well-designed environment to remain focussed. </p>
 
 <ul>
 {% for item in uses.workstation %}
@@ -17,13 +27,109 @@ permalink: uses/
 {% endfor %}
 </ul>
 
-<h2>Software</h2>
+<h2>Mobile station</h2>
 
 <ul>
-{% for item in uses.software %}
+{% for item in uses.mobile %}
   <li>
     <p><a href="{{ item.link }}">{{ item.title }}</a></p>
     <p>{{ item.description }}</p>
   </li>
 {% endfor %}
 </ul>
+
+
+<h2>Development</h2>
+
+<ul>
+{% for item in uses.development %}
+  <li>
+    <p><a href="{{ item.link }}">{{ item.title }}</a></p>
+    <p>{{ item.description }}</p>
+  </li>
+{% endfor %}
+</ul>
+
+<h2>Recording</h2>
+
+<ul>
+{% for item in uses.recording %}
+  <li>
+    <p><a href="{{ item.link }}">{{ item.title }}</a></p>
+    <p>{{ item.description }}</p>
+  </li>
+{% endfor %}
+</ul>
+
+<h2>Applications</h2>
+
+<ul>
+{% for item in uses.applications %}
+  <li>
+    <p><a href="{{ item.link }}">{{ item.title }}</a> - {{ item.description }}</p>
+  </li>
+{% endfor %}
+</ul>
+
+<h3>Web apps</h3>
+
+<ul>
+{% for item in uses.websites %}
+  <li>
+    <p><a href="{{ item.link }}">{{ item.title }}</a> - {{ item.description }}</p>
+  </li>
+{% endfor %}
+</ul>
+
+<h3>Utilities</h3>
+
+<ul>
+{% for item in uses.utilities %}
+  <li>
+    <p><a href="{{ item.link }}">{{ item.title }}</a> - {{ item.description }}</p>
+  </li>
+{% endfor %}
+</ul>
+
+<h2>Design</h2>
+
+<ul>
+{% for item in uses.design %}
+  <li>
+    <p><a href="{{ item.link }}">{{ item.title }}</a></p>
+    <p>{{ item.description }}</p>
+  </li>
+{% endfor %}
+</ul>
+
+<h2>EDC</h2>
+
+<ul>
+{% for item in uses.edc %}
+  <li>
+    <p><a href="{{ item.link }}">{{ item.title }}</a></p>
+    <p>{{ item.description }}</p>
+  </li>
+{% endfor %}
+</ul>
+
+{# <h2>Home</h2>
+
+<ul>
+{% for item in uses.home %}
+  <li>
+    <p><a href="{{ item.link }}">{{ item.title }}</a></p>
+    <p>{{ item.description }}</p>
+  </li>
+{% endfor %}
+</ul> #}
+
+{# <h3>Workflows</h3>
+
+<ul>
+{% for item in uses.workflows %}
+  <li>
+    <p><a href="{{ item.link }}">{{ item.title }}</a> - {{ item.description }}</p>
+  </li>
+{% endfor %}
+</ul> #}
