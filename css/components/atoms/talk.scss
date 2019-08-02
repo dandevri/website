@@ -1,0 +1,14 @@
+.talks {
+  li {
+    border: 2px solid black;
+    margin-bottom: 1em;
+    @mixin reset-list;
+
+    img {
+      height: 20vh;
+      width: 100%;
+      object-fit: cover;
+      object-position: 50% 30%;
+    }
+  }
+}

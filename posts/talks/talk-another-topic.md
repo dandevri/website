@@ -1,10 +1,9 @@
 ---
-title: Talk about a topic
+title: Talk on another topic
 description: 
-slug: talk-topic
+slug: talk-another-topic
 date: 2019-05-31
 tags: talks
-image: /static/img/talk.jpg
 layout: layouts/default.njk
 permalink: /speaking/talk/{{ slug }}/index.html
 ---

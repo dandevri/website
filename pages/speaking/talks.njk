@@ -4,6 +4,16 @@ title: Talks
 permalink: speaking/talks/
 ---
 
+ <ul class="talks">
+  {% for talk in collections.talks  %}
+    <li>
+      <img src="/static/img/talk.jpg" alt="Talk image">
+      <p><a href="{{ talk.url }}">{{ talk.data.title }}</a></p>
+      <p>Sales twitter social media accelerator. MVP metrics bootstrapping angel investor startup twitter pitch rockstar lean startup. Traction direct mailing funding influencer paradigm shift alpha agile development hackathon deployment success.</p>
+    </li>
+  {% endfor %}
+  </ul>
+
 <h2>Office talks</h2>
 <p>My brief talks are around ~30 minutes and are well suited for office talks and meet-ups at your company. These talks are full of practical tips, short examples and lots of resources for you to get back to work.</p>
 

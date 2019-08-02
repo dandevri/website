@@ -24,7 +24,7 @@ permalink: speaking/
 <h2>Upcoming events</h2>
 
   <ul class="event">
-  {% for item in events.events | limit(2) %}
+  {% for item in events.events | limit(3) %}
     <li>
       <p>{{ item.date }}</p>
       <p><a href="{{ item.link }}">{{ item.title }}</a></p>

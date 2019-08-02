@@ -15,6 +15,7 @@
 @import 'components/atoms/details.scss';
 @import 'components/atoms/card.scss';
 @import 'components/atoms/event.scss';
+@import 'components/atoms/talk.scss';
 
 /* Molecules */
 @import 'components/molecules/header.scss';
