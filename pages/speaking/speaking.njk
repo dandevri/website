@@ -1,0 +1,50 @@
+---
+layout: layouts/default
+title: Speaking
+permalink: speaking/
+---
+
+{% import 'components/atoms/link.njk' as link %}
+
+<p>When I started as a lecturer I fell in love with speaking and teaching students new skills. After a year or so I asked myself; 'Why keep this all this stuff I and students are learning inside the classroom?'. After that I started sharing my knowledge at meet-ups but that quickly turned into giving guest-lectures at companies. Things escalated  and I was regularly asked to talk at conferences, schools and other companies with growing audiences. </p>
+
+<p>If you’re interested in having me speak or host a workshop at your event or conference, {{ link.inl("/press-kit/guidelines", "please read this first") }} and get in touch! I've also prepared a {{ link.inl("/press-kit/resources", "press kit") }} with material you can copy-paste.</p>
+
+<a class="btn" href="#">I want you to speak at my event!</a>
+<p>Perhaps I can interest you in a workshop instead?</p>
+
+<h2>Talks</h2>
+
+<p>I'd like to talk about tech, building for the web and tinkering with code. Some of my talks are technical with code examples. I'm fascinated by how people interact and spend their time in this digital age.</p>
+
+<p>My brief talks are around ~30 minutes and are well suited for office talks and meet-ups at your company. These talks are full of practical tips, short examples and lots of resources for you to get back to work.</p>
+
+<a class="btn" href="/speaking/talks">All talks</a>
+
+<h2>Upcoming events</h2>
+
+  <ul>
+  {% for item in events.events2018 %}
+    <li>
+      <p><a href="{{ item.link }}">{{ item.title }}</a></p>
+      <p>{{ item.date }}</p>
+      <p>{{ item.location }}</p>
+      <p>{{ item.slides }}</p>
+      <p>{{ item.video }}</p>
+    </li>
+  {% endfor %}
+  </ul>
+
+<a class="btn" href="/speaking/events">All events</a>
+
+<h2>Interviews</h2>
+
+  <ul>
+  {% for item in interviews.interviews %}
+    <li>
+      <p><a href="{{ item.link }}">{{ item.title }}</a></p>
+    </li>
+  {% endfor %}
+  </ul>
+
+<a class="btn" href="/speaking/interviews">All interviews</a>

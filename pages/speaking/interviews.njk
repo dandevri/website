@@ -1,0 +1,13 @@
+---
+layout: layouts/default
+title: Interviews
+permalink: speaking/interviews/
+---
+
+  <ul>
+  {% for item in interviews.interviews %}
+    <li>
+      <p><a href="{{ item.link }}">{{ item.title }}</a></p>
+    </li>
+  {% endfor %}
+  </ul>

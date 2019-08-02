@@ -1,0 +1,17 @@
+---
+layout: layouts/default
+title: Events
+permalink: speaking/events/
+---
+
+  <ul>
+  {% for item in events.events2018 %}
+    <li>
+      <p><a href="{{ item.link }}">{{ item.title }}</a></p>
+      <p>{{ item.date }}</p>
+      <p>{{ item.location }}</p>
+      <p>{{ item.slides }}</p>
+      <p>{{ item.video }}</p>
+    </li>
+  {% endfor %}
+  </ul>
