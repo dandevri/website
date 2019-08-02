@@ -1,14 +1,46 @@
-const events2018 = [
+const events = [
   {
-    title: "Golden Dot Awards 2019",
-    link: "https://www.cmd-amsterdam.nl/gda-2019/",
+    title: "Event",
+    link: "Link",
     date: "2019-07-03",
-    location: "Amsterdam, The Netherlands",
-    video: "youtube.com",
-    slides: "slides.com"
+    location: "Location",
+    video: "http://www.youtube.com",
+    slides: "http://www.slides.com"
+  },
+  {
+    title: "Event",
+    link: "Link",
+    date: "2019-07-03",
+    location: "Location",
+    video: "http://www.youtube.com",
+    slides: "http://www.slides.com"
+  },
+  {
+    title: "Event",
+    link: "Link",
+    date: "2019-07-03",
+    location: "Location",
+    video: "http://www.youtube.com",
+    slides: "http://www.slides.com"
+  },
+  {
+    title: "Event",
+    link: "Link",
+    date: "2019-07-03",
+    location: "Location",
+    video: "http://www.youtube.com",
+    slides: "http://www.slides.com"
+  },
+  {
+    title: "Event",
+    link: "Link",
+    date: "2019-07-03",
+    location: "Location",
+    video: "http://www.youtube.com",
+    slides: "http://www.slides.com"
   },
 ]
 
 module.exports = {
-  events2018
+  events
 }

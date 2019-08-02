@@ -23,14 +23,13 @@ permalink: speaking/
 
 <h2>Upcoming events</h2>
 
-  <ul>
-  {% for item in events.events2018 %}
+  <ul class="event">
+  {% for item in events.events | limit(2) %}
     <li>
-      <p><a href="{{ item.link }}">{{ item.title }}</a></p>
       <p>{{ item.date }}</p>
+      <p><a href="{{ item.link }}">{{ item.title }}</a></p>
       <p>{{ item.location }}</p>
-      <p>{{ item.slides }}</p>
-      <p>{{ item.video }}</p>
+      <p><a href="{{ item.slides }}">Slides</a> · <a href="{{ item.video }}">Video</a></p>
     </li>
   {% endfor %}
   </ul>

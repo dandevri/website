@@ -19,6 +19,14 @@ module.exports = function(config) {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
   });
 
+  config.addFilter('limit', (array, n) => {
+    if( n < 0 ) {
+      return array.slice(n);
+    }
+
+    return array.slice(0, n);
+  });
+
 
   return {
     passthroughFileCopy: true,
