@@ -1,0 +1,7 @@
+{% macro cta(title, description, link, linkText) %}
+  <div class="cta">
+    <h5>{{ title }}</h6>
+    <p>{{ description }}</p>
+    <a class="btn" href="{{ link }}">{{ linkText }}</a>
+  </div>
+{% endmacro %}
