@@ -39,7 +39,7 @@ permalink: speaking/
 <h2>Interviews</h2>
 
   <ul>
-  {% for item in interviews.interviews %}
+  {% for item in interviews.interviews | limit(3) %}
     <li>
       <p><a href="{{ item.link }}">{{ item.title }}</a></p>
     </li>
