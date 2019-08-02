@@ -17,6 +17,7 @@
 @import 'components/atoms/event.scss';
 @import 'components/atoms/talk.scss';
 @import 'components/atoms/cta.scss';
+@import 'components/atoms/project.scss';
 
 /* Molecules */
 @import 'components/molecules/header.scss';

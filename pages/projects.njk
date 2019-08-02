@@ -3,5 +3,12 @@ layout: layouts/default
 title: Projects
 permalink: projects/
 ---
-
-<h1>Projects</h1>
+{%- for project in collections.project -%}
+  <article class="project">
+    <a href="{{ project.url }}">
+      <img src="{{ project.data.image }}" alt="Project Thubmail">
+      <h3>{{ project.data.title }}</h3>
+      <p>{{ project.data.description }}</p>
+    </a>
+  </article>
+{%- endfor -%}
