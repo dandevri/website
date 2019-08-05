@@ -4,13 +4,18 @@ nav {
   padding: 1em;
 
   img {
-    width: 2em;
+    width: 1.2em;
     margin-right: 1em;
+  }
+
+  a {
+    vertical-align: super;
   }
 
   ul {
     display: flex;
     overflow-x: auto;
+    opacity: 0.8;
     @mixin reset-list;
 
     li:not(:last-child) {

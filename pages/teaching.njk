@@ -1,22 +1,9 @@
 ---
 layout: layouts/default
 title: Teaching
+description: An overview of workshops I can give at your conference or office and courses from the Amsterdam University of Applied Sciences. I've also made some online courses to learn with me on the web.
 permalink: teaching/
 ---
-
-<h2>Courses</h2>
-<p>These are the courses I give at the Amsterdam University Communication and Multimedia Design</p>
-  <ul class="course">
-  {% for item in courses.courses %}
-    <article class="project">
-    <a href="{{ item.url }}">
-      <img src="{{ item.image }}" alt="item Thubmail">
-      <h3>{{ item.title }}</h3>
-      <p>{{ item.description }}</p>
-    </a>
-  </article>
-  {% endfor %}
-  </ul>
 
 <h2>Workshops</h2>
 <p>I do workshops covering designing for the web for your conference or office.</p>
@@ -36,6 +23,20 @@ permalink: teaching/
 <p>Learn with me around the web.</p>
   <ul class="workshop">
   {% for item in classes.classes %}
+    <article class="project">
+    <a href="{{ item.url }}">
+      <img src="{{ item.image }}" alt="item Thubmail">
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.description }}</p>
+    </a>
+  </article>
+  {% endfor %}
+  </ul>
+
+<h2>Courses</h2>
+<p>These are all the technical courses I give at Communication and Multimedia design at the Amsterdam University of Applied Sciences. Such as Project-tech, front-end, back-end and data visualization.</p>
+  <ul class="course">
+  {% for item in courses.courses %}
     <article class="project">
     <a href="{{ item.url }}">
       <img src="{{ item.image }}" alt="item Thubmail">

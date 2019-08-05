@@ -1,13 +1,9 @@
 ---
 layout: layouts/default
 title: About
+description: tl;dr Hi, I'm Danny (@dandevri), a freelance front-end designer and lecturer at the Amsterdam University of Applied Sciences where I teach about code in the technical courses of our program such as front-end and back-end.
 permalink: about/
 ---
-*tl;dr*
-
-*Hi, I'm Danny (@dandevri), a freelance front-end designer and lecturer at the Amsterdam University of Applied Sciences where I teach about code in the technical courses of our program such as front-end and back-end.*
-
-<hr>
 
 I'm Danny. A digital native focussing on design systems, brand identity and creative coding to help digital products take shape. My approach is organized, systematic and inclusive.
 

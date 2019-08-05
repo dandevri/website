@@ -1,26 +1,11 @@
 header {
-  padding: 6%;
+  padding: 3% 6%;
   color: $primary;
-  border: 1px solid black;
-  background-image: url("/static/img/dot-pattern.svg");
-  background-position: 1% 4%;
+  border-bottom: 1px solid #d0d0d0;
+  background: #f2f2f2;
 
   div {
     max-width: 50rem;
-    background: #fff;
-  }
-
-  h1,
-  h2 {
-    margin: 0;
-  }
-
-  h2 {
-    font-size: 1.5em;
-  }
-
-  p {
-    font-size: 1.8em;
   }
 
   time, span {
