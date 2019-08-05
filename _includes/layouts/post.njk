@@ -2,8 +2,6 @@
 layout: layouts/base
 ---
 
-<section class="post">
-
 <header>
   <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
   <span> ▪ {{ content | readingTime }}</span>
@@ -11,7 +9,7 @@ layout: layouts/base
   <h2 class="header__subtitle">{{ subtitle }}</h2>
 </header>
 
-<main>
+<main class="wrapper">
   {{ content | safe }}
   {% include 'components/atoms/signature.njk' %}
   {% include 'components/molecules/tags.njk' %}
