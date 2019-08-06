@@ -4,13 +4,16 @@ title: Projects
 description: Silly projects scattered around the web. Sometimes I tinker with code or create DIY projects. Most of them are just fun side projects that have no meaning at all and aren't for anybody to use.
 permalink: projects/
 ---
+{% import 'components/atoms/card.njk' as card %}
+
 {%- for project in collections.project -%}
-  <article class="project">
-    <a href="{{ project.url }}">
-      <img src="{{ project.data.image }}" alt="Project Thubmail">
-      <span> {{ project.data.type }}</span>
-      <h3>{{ project.data.title }}</h3>
-      <p>{{ project.data.description }}</p>
-    </a>
-  </article>
+  {{ card.project
+    (
+      project.url,
+      project.data.image,
+      project.data.type,
+      project.data.title,
+      project.data.description
+    )
+  }}
 {%- endfor -%}

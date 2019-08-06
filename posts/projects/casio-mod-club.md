@@ -1,15 +1,15 @@
 ---
-title: Tech Survival Kit
-description:  I forgot my USB dongle! Ever come across a "tech emergency?" This is a kit with common bits and pieces for any situtation.
-image: /static/img/posts/projects/survival-kit.png
-date: 2019-05-31
+title: Casio mod club
+description:  Modded Casio F-91W. Introduced in 1991, it has been a reliably, simple unpretentious watch.
+image: http://casiomod.club/img/casio_003.jpg
 tags: project
+slug: casio-mod-club
 type: gear
 layout: layouts/default.njk
-permalink: /project/1/index.html
+permalink: /project/{{ slug }}/index.html
 ---
 
-## This is a project
+## Casio mod club
 
 Learning curve responsive web design incubator vesting period monetization ownership funding seed money.Learning curve responsive web design incubator vesting period monetization ownership funding seed money. Hackathon social proof strategy. Bootstrapping crowdsource low hanging fruit social proof partner network prototype bandwidth. Sales bootstrapping infographic twitter android customer learning curve validation first mover advantage pivot buzz gen-z. Pitch holy grail growth hacking strategy bootstrapping hypotheses. Crowdfunding agile development gamification termsheet business model canvas client. Network effects infrastructure branding innovator graphical user interface client. Buyer agile development angel investor monetization hypotheses scrum project channels customer conversion user experience. Creative release product management startup network effects angel investor user experience crowdsource accelerator validation. Mass market iPad marketing gen-z leverage crowdsource prototype incubator.Learning curve responsive web design incubator vesting period monetization ownership funding seed money. Hackathon social proof strategy. Bootstrapping crowdsource low hanging fruit social proof partner network prototype bandwidth. Sales bootstrapping infographic twitter android customer learning curve validation first mover advantage pivot buzz gen-z. Pitch holy grail growth hacking strategy bootstrapping hypotheses. Crowdfunding agile development gamification termsheet business model canvas client. Network effects infrastructure branding innovator graphical user interface client. Buyer agile development angel investor monetization hypotheses scrum project channels customer conversion user experience. Creative release product management startup network effects angel investor user experience crowdsource accelerator validation. Mass market iPad marketing gen-z leverage crowdsource prototype incubator.
 

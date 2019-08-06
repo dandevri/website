@@ -12,3 +12,14 @@
     <a href="{{ link }}">{{ linkText }}</a>
   </article>
 {% endmacro %}
+
+{% macro project(url, image, type, title, description) %}
+  <article class="project">
+    <a href="{{ url }}">
+      <img src="{{ image }}" alt="{{ title }}">
+      <span> {{ type }}</span>
+      <h3>{{ title }}</h3>
+      <p>{{ description }}</p>
+    </a>
+  </article>
+{% endmacro %}
