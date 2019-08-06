@@ -1,8 +1,8 @@
 header {
   padding: 3% 6%;
   color: $primary;
-  border-bottom: 1px solid #d0d0d0;
-  background: #f2f2f2;
+  border-bottom: 1px solid $secondary;
+  background: $neutral;
 
   div {
     max-width: 50rem;
@@ -10,5 +10,9 @@ header {
 
   time, span {
     font-size: 0.8em;
+  }
+
+  p {
+    margin: 0;
   }
 }

@@ -1,5 +1,6 @@
-$primary: #1a202c;
-$secondary: #fff;
+$primary: #2e2e2e;
+$secondary: #dedede;
+$neutral: #fff;
 
 $250ms: 250ms ease;
 $350ms: 350ms ease;
@@ -7,3 +8,8 @@ $350ms: 350ms ease;
 $p-s: 0.2em;
 $p-m: 0.5em;
 $p-l: 1em;
+
+body {
+  background: $neutral;
+  color: $primary;
+}
