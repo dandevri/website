@@ -11,3 +11,23 @@
     margin-top: 0;
   }
 }
+
+.card-item {
+  border: 1px solid #1A202C;
+  padding: 2em;
+  margin-top: 3em;
+  min-width: 25vw;
+  max-width: 25vw;
+  margin-right: 5em;
+}
+
+.card-meta {
+  @mixin reset-list;
+  border-top: 1px solid $primary;
+  display: flex;
+}
+
+
+.project {
+  position: relative;
+}

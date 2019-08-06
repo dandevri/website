@@ -4,18 +4,22 @@ title: Teaching
 description: An overview of workshops I can give at your conference or office and courses from the Amsterdam University of Applied Sciences. I've also made some online courses to learn with me on the web.
 permalink: teaching/
 ---
+{% import 'components/atoms/card.njk' as card %}
 
 <h2>Workshops</h2>
 <p>I do workshops covering designing for the web for your conference or office.</p>
   <ul class="workshop">
-  {% for item in workshops.workshops %}
-    <article class="project">
-    <a href="{{ item.url }}">
-      <img src="{{ item.image }}" alt="item Thubmail">
-      <h3>{{ item.title }}</h3>
-      <p>{{ item.description }}</p>
-    </a>
-  </article>
+  {% for workshop in workshops.workshops %}
+    {{ card.course
+      (
+        workshop.url,
+        workshop.image,
+        workshop.title,
+        workshop.description,
+        workshop.type,
+        workshop.length
+      )
+    }}
   {% endfor %}
   </ul>
 
@@ -38,6 +42,7 @@ permalink: teaching/
   <ul class="course">
   {% for item in courses.courses %}
     <article class="project">
+    {% include 'components/atoms/corner.njk' %}
     <a href="{{ item.url }}">
       <img src="{{ item.image }}" alt="item Thubmail">
       <h3>{{ item.title }}</h3>
