@@ -14,6 +14,9 @@ const help = [
   {
     description: "Help you setting goals and actually reaching them",
   },
+  {
+    description: "Help you setting goals and actually reaching them",
+  },
 ]
 
 const get = [

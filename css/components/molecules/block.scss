@@ -1,8 +1,20 @@
 .block {
   column-count: 2;
-  padding: 2em;
+  column-gap: 2em;
+  padding: 1em 2em;
   border: 1px solid black;
   margin-top: 0;
+  columns: 30ch;
+  overflow: auto;
+
+  li {
+    column-span: all;
+  }
+
+  li:nth-last-child(n+5),
+  li:nth-last-child(n+5) ~ * {
+  column-span: none;
+}
 
   &__title {
     background: black;
