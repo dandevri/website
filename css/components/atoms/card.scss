@@ -1,4 +1,13 @@
 .card {
-  border: 2px solid black;
-  padding: 2em;
+  background: $primary;
+  color: $secondary;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 0 $neutral,5px 5px 0 $primary;
+  margin: 2em 0;
+  display: inline-block;
+
+  h4 {
+    margin-top: 0;
+  }
 }
