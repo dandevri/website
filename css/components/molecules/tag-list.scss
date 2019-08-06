@@ -44,3 +44,37 @@
     padding: 0.5em;
   }
 }
+
+.interview {
+  @mixin reset-list;
+  padding: 1em 0;
+  border-bottom: 1px solid $secondary;
+  border-top: 1px solid $secondary;
+  margin: 0;
+  position: relative;
+
+  &-podcast {
+    &:after {
+      content: url('/static/img/ui-icons/podcast.svg');
+      position: absolute;
+      right: 0;
+      top: 40%;
+      right: 5%;
+    }
+  }
+
+  &-article {
+    &:after {
+      content: url('/static/img/ui-icons/article.svg');
+      position: absolute;
+      right: 0;
+      top: 40%;
+      right: 5%;
+    }
+  }
+}
+
+.interview-list {
+  margin-bottom: 2em;
+  padding: 0;
+}

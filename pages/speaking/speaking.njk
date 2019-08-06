@@ -39,10 +39,11 @@ permalink: speaking/
 
 <h2>Interviews</h2>
 
-  <ul>
-  {% for item in interviews.interviews | limit(3) %}
-    <li>
-      <p><a href="{{ item.link }}">{{ item.title }}</a></p>
+  <ul class="interview-list">
+  {% for item in interviews.interviews | limit(5) %}
+    <li class="interview interview-{{ item.type }}">
+      <p><a href="{{ item.link }}">{{ item.title }} {{ item.episode }}</a></p>
+      <p>with {{ item.publication }} • {{ item.date }}</p>
     </li>
   {% endfor %}
   </ul>

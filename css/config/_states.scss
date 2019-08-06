@@ -16,10 +16,3 @@
     outline-offset: 4px;
   }
 }
-
-p a,
-li a {
-  box-shadow: 0 -1px 0 0 #222 inset;
-  @mixin hover-link;
-  @mixin focus-link;
-}
