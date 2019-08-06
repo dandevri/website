@@ -1,13 +1,32 @@
 .btn {
-  background: $secondary;
-  color: $primary;
-  border: 1px solid $primary;
-  padding: $p-m $p-l;
-  transition: all $250ms;
 
-  &:hover,
-  &:focus {
+  &-primary {
     background: $primary;
     color: $secondary;
+    padding: 1em 2em;
+    transition: all $250ms;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 0 $neutral,5px 5px 0 $primary;
+    @mixin reset-link;
+  }
+
+  &-secondary {
+    border: 1px solid $primary;
+    color: $primary;
+    padding: 0.7em 0.7em;
+    transition: all $250ms;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    @mixin reset-link;
+  }
+}
+
+.btn-secondary {
+  &::after {
+    content: "→";
+    margin-left: 1em;
+    margin-right: 0.2em;
+    vertical-align: text-bottom;
   }
 }
