@@ -10,7 +10,7 @@ permalink: teaching/
 <p>I do workshops covering designing for the web for your conference or office.</p>
   <ul class="workshop">
   {% for workshop in workshops.workshops %}
-    {{ card.course
+    {{ card.workshop
       (
         workshop.url,
         workshop.image,
@@ -26,28 +26,34 @@ permalink: teaching/
 <h2>Online Classes</h2>
 <p>Learn with me around the web.</p>
   <ul class="workshop">
-  {% for item in classes.classes %}
-    <article class="project">
-    <a href="{{ item.url }}">
-      <img src="{{ item.image }}" alt="item Thubmail">
-      <h3>{{ item.title }}</h3>
-      <p>{{ item.description }}</p>
-    </a>
-  </article>
+    {% for class in classes.classes %}
+    {{ card.class
+      (
+        class.url,
+        class.image,
+        class.title,
+        class.description,
+        class.type,
+        class.length
+      )
+    }}
   {% endfor %}
   </ul>
 
 <h2>Courses</h2>
 <p>These are all the technical courses I give at Communication and Multimedia design at the Amsterdam University of Applied Sciences. Such as Project-tech, front-end, back-end and data visualization.</p>
+
   <ul class="course">
-  {% for item in courses.courses %}
-    <article class="project">
-    {% include 'components/atoms/corner.njk' %}
-    <a href="{{ item.url }}">
-      <img src="{{ item.image }}" alt="item Thubmail">
-      <h3>{{ item.title }}</h3>
-      <p>{{ item.description }}</p>
-    </a>
-  </article>
+    {% for course in courses.courses %}
+    {{ card.class
+      (
+        course.url,
+        course.image,
+        course.title,
+        course.description,
+        course.type,
+        course.length
+      )
+    }}
   {% endfor %}
   </ul>

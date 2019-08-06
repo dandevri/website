@@ -24,7 +24,7 @@
   </article>
 {% endmacro %}
 
-{% macro course(url, image, title, description, type, length) %}
+{% macro workshop(url, image, title, description, type, length) %}
   <article class="card-item">
     <a href="{{ url }}">
       <img src="{{ image }}" alt="{{ title }}">
@@ -34,6 +34,27 @@
         <li>{{ length }} • </li>
         <li>{{ type }}</li>
       </ul>
+    </a>
+  </article>
+{% endmacro %}
+
+{% macro class(url, image, title, description, type, length) %}
+  <article class="card-item">
+    <a href="{{ url }}">
+      <img src="{{ image }}" alt="{{ title }}">
+      <h3>{{ title }}</h3>
+      <p>{{ description }}</p>
+    </a>
+  </article>
+{% endmacro %}
+
+{% macro course(url, image, title, description, type, length) %}
+  <article class="card-item">
+    {% include 'components/atoms/corner.njk' %}
+    <a href="{{ url }}">
+      <img src="{{ image }}" alt="{{ title }}">
+      <h3>{{ title }}</h3>
+      <p>{{ description }}</p>
     </a>
   </article>
 {% endmacro %}
