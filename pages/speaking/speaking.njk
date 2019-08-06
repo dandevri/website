@@ -20,17 +20,25 @@ permalink: speaking/
 
 <p>My brief talks are around ~30 minutes and are well suited for office talks and meet-ups at your company. These talks are full of practical tips, short examples and lots of resources for you to get back to work.</p>
 
-<a class="btn" href="/speaking/talks">All talks</a>
+<a class="btn" href="/speaking/talks">Full list of talks</a>
 
-<h3>Upcoming events</h3>
+<h3>events</h3>
 
-  <ul class="event">
+  <ul class="event-list">
   {% for item in events.events | limit(3) %}
-    <li>
+    <li class="event">
       <p>{{ item.date }}</p>
       <p><a href="{{ item.link }}">{{ item.title }}</a></p>
       <p>{{ item.location }}</p>
-      <p><a href="{{ item.slides }}">Slides</a> · <a href="{{ item.video }}">Video</a></p>
+      <p>
+      {% if item.slides %}
+        <a href="{{ item.slides }}">Slides</a>
+        {% elif item.video %}
+        <a href="{{ item.video }}">Video</a>
+        {% else %}
+        <p>{{ item.appear }}</p>
+      {% endif %}
+      </p>
     </li>
   {% endfor %}
   </ul>

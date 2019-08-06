@@ -1,43 +1,10 @@
 const events = [
   {
-    title: "Event",
-    link: "Link",
+    title: "Golden Dot Awards 2019",
+    link: "https://www.cmd-amsterdam.nl/gda-2019/",
     date: "2019-07-03",
-    location: "Location",
-    video: "http://www.youtube.com",
-    slides: "http://www.slides.com"
-  },
-  {
-    title: "Event",
-    link: "Link",
-    date: "2019-07-03",
-    location: "Location",
-    video: "http://www.youtube.com",
-    slides: "http://www.slides.com"
-  },
-  {
-    title: "Event",
-    link: "Link",
-    date: "2019-07-03",
-    location: "Location",
-    video: "http://www.youtube.com",
-    slides: "http://www.slides.com"
-  },
-  {
-    title: "Event",
-    link: "Link",
-    date: "2019-07-03",
-    location: "Location",
-    video: "http://www.youtube.com",
-    slides: "http://www.slides.com"
-  },
-  {
-    title: "Event",
-    link: "Link",
-    date: "2019-07-03",
-    location: "Location",
-    video: "http://www.youtube.com",
-    slides: "http://www.slides.com"
+    location: "Amsterdam, The Netherlands",
+    appear: "attending"
   },
 ]
 

@@ -1,8 +1,11 @@
-.event {
+.event-list {
   @mixin reset-list;
-  li {
-    border: 2px solid black;
+
+  .event {
     @mixin reset-list;
-    padding: 1em;
+    border: 1px solid $secondary;
+    padding: 1em 2em;
+    margin-bottom: 2em;
   }
+
 }
