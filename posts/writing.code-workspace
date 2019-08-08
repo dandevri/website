@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.fontFamily": "iA Writer Duospace, Monaco, 'Courier New', monospace",
+		"workbench.colorTheme": "White Night",
+		"editor.wordWrap": "on",
+		"editor.rulers": [],
+		"alex.enable": true,
+		"terminal.integrated.fontFamily": "Monaco, 'Courier New', monospace"
+	}
+}
