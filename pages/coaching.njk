@@ -8,16 +8,13 @@ permalink: coaching/
 {% import 'components/atoms/card.njk' as card %}
 {% import 'components/atoms/quote.njk' as quote %}
 {% import 'components/atoms/button.njk' as button %}
+{% import 'components/molecules/skip-list.njk' as list %}
 
 <p>I wouldn't be where I am today if it wasn't for the people surrounding me that always pushed me further and to get more out of life. People put me in environments where I wasn't really ready for, I did things where I didn't have any credits for. 'Go do it, because it needs to happen.' And off I went figuring stuff out along the way.I have a ton of admiration for these people that believed in me in pushed me. And I'm making an effort to “pay it forward” by helping other professionals out. </p>
 
 <p> I've experienced that people need slight guidance or an 'accountability partner' to get them over the edge. Making mistakes is a good thing but learning from good experiences might even be better. Having a mentor could prevent me making bad decisions tons of times. </p>
 
-<ul class="skip__list">
-  <li><a href="#mentorship">Mentorship ↓</a></li>
-  <li><a href="#coaching">Coaching ↓</a></li>
-  <li><a href="#feedback">Feedback ↓</a></li>
-</ul>
+{{ list.skip('mentorship', 'coaching', 'feedback') }}
 
 <h2 id="mentorship">Mentorship</h2>
 
@@ -25,22 +22,22 @@ permalink: coaching/
 
 <p>Mentor Experience: Part of the Ladies that UX Amsterdam mentorship program, I'm a lecturer and coach at the amsterdam university of applied sciences were I help students all the time.</p>
 
-<h3 class="block__title">Help you with</h3>
-<ul class="block">
+<h3 class="block-title">Help you with</h3>
+<ul class="block-list">
   {% for item in mentorship.help %}
     <li>{{ item.description }}</li>
   {% endfor %}
 </ul>
 
-<h3 class="block__title">What you'll get</h3>
-<ul class="block">
+<h3 class="block-title">What you'll get</h3>
+<ul class="block-list">
   {% for item in mentorship.get %}
     <li>{{ item.description }}</li>
   {% endfor %}
 </ul>
 
-<h3 class="block__title">How it works</h3>
-<ul class="block">
+<h3 class="block-title">How it works</h3>
+<ul class="block-list">
   {% for item in mentorship.works %}
     <li>{{ item.description }}</li>
   {% endfor %}

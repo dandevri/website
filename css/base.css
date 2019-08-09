@@ -9,27 +9,21 @@
 
 /* Atoms */
 @import 'components/atoms/button.scss';
-@import 'components/atoms/signature.scss';
 @import 'components/atoms/image-motion.scss';
 @import 'components/atoms/details.scss';
 @import 'components/atoms/card.scss';
 @import 'components/atoms/event.scss';
-@import 'components/atoms/talk.scss';
 @import 'components/atoms/modal.scss';
-@import 'components/atoms/project.scss';
-@import 'components/atoms/block.scss';
 @import 'components/atoms/link.scss';
 @import 'components/atoms/article.scss';
 @import 'components/atoms/biography.scss';
+@import 'components/atoms/interview.scss';
+@import 'components/atoms/code.scss';
 
 /* Molecules */
 @import 'components/molecules/header.scss';
-@import 'components/molecules/nav.scss';
-@import 'components/molecules/post-list.scss';
-@import 'components/molecules/link-list.scss';
-@import 'components/molecules/tag-list.scss';
+@import 'components/molecules/navigation.scss';
 @import 'components/molecules/list.scss';
-@import 'components/molecules/post.scss';
 @import 'components/molecules/block.scss';
 @import 'components/molecules/footer.scss';
 

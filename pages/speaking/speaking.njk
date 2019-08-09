@@ -24,24 +24,11 @@ permalink: speaking/
 
 <h3>Events</h3>
 
-  <ul class="event-list">
+<ul class="event-list">
   {% for item in events.events | limit(3) %}
-    <li class="event">
-      <p>{{ item.date }}</p>
-      <p><a href="{{ item.link }}">{{ item.title }}</a></p>
-      <p>{{ item.location }}</p>
-      <p>
-      {% if item.slides %}
-        <a href="{{ item.slides }}">Slides</a>
-        {% elif item.video %}
-        <a href="{{ item.video }}">Video</a>
-        {% else %}
-        <p>{{ item.appear }}</p>
-      {% endif %}
-      </p>
-    </li>
+    {% include 'components/atoms/event.njk' %}
   {% endfor %}
-  </ul>
+</ul>
 
 {{ button.secondary("/speaking/events", "All events") }}
 
@@ -49,10 +36,7 @@ permalink: speaking/
 
   <ul class="interview-list">
   {% for item in interviews.interviews | limit(5) %}
-    <li class="interview interview-{{ item.type }}">
-      <p><a href="{{ item.link }}">{{ item.title }} {{ item.episode }}</a></p>
-      <p>with {{ item.publication }} • {{ item.date }}</p>
-    </li>
+    {% include 'components/atoms/interview.njk' %}
   {% endfor %}
   </ul>
 

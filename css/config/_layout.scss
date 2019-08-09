@@ -25,4 +25,11 @@ h2 {
 
 .home {
   height: 50vh;
+  background-color: $cm;
+  padding: $s6;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30em, 1fr));
 }

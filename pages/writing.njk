@@ -4,5 +4,8 @@ title: Writing
 permalink: writing/
 ---
 
-
-{% include 'components/molecules/article-list.njk' %}
+<section class="article-list columns">
+  {%- for article in collections.article | reverse -%}
+    {% include 'components/atoms/article.njk' %}
+  {%- endfor -%}
+</section>

@@ -1,11 +1,11 @@
 nav {
   display: flex;
   align-items: center;
-  padding: 1em;
+  padding: $s1;
 
   img {
     width: 1.2em;
-    margin-right: 1em;
+    margin-right: $s1;
   }
 
   a {
@@ -19,7 +19,7 @@ nav {
     @mixin reset-list;
 
     li:not(:last-child) {
-      margin-right: 1em;
+      margin-right: $s1;
     }
   }
 }

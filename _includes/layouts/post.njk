@@ -12,11 +12,11 @@ layout: layouts/base
 <main class="wrapper">
   {{ content | safe }}
   {% include 'components/atoms/signature.njk' %}
-  {% include 'components/molecules/tags.njk' %}
   {% include 'components/atoms/biography.njk' %}
 </main>
 </section>
 
 <footer>
-  {% include 'components/molecules/nav.njk' %}
+  {% include 'components/molecules/tag-list.njk' %}
+  {% include 'components/molecules/navigation.njk' %}
 </footer>

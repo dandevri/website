@@ -1,101 +1,31 @@
-.note-list {
+.tag-list {
   @mixin reset-list;
-
-  .note-item {
-    border: 1px solid black;
-    padding: 1rem;
-    position: relative;
-  }
-
-  .note-tag {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 0.5em 1em;
-    background: black;
-    color: white;
-  }
-
-  .note-avatar {
-    width: 3em;
-    border-radius: 100%;
-    margin-right: 0.5em;
-  }
-
-  .note-meta {
-    display: flex;
-    align-items: center;
-  }
-
-  time {
-    margin-left: 0.5em;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-top: $b2;
+  border-bottom: $b2;
+  padding: $s1 $s5;
 }
 
-.weeknote-list {
-  @mixin reset-list;
-
-  .weeknote-item {
-    border: 1px solid black;
-    padding: 1rem;
-    position: relative;
-  }
-
-  .weeknote-tag {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 0.5em 1em;
-    background: black;
-    color: white;
-  }
-
-  .weeknote-avatar {
-    width: 3em;
-    border-radius: 100%;
-    margin-right: 0.5em;
-  }
-
-  .weeknote-meta {
-    display: flex;
-    align-items: center;
-  }
-
-  time {
-    margin-left: 0.5em;
-  }
+.tag-item {
+  margin-right: $s1;
 }
 
-.link-list {
+.tag-title {
+  font-weight: 700;
+  margin-right: $s1;
+}
+
+.skip-list {
   @mixin reset-list;
+  display: flex;
+  flex-wrap: wrap;
+}
 
-  .link-item {
-    border: 1px solid black;
-    padding: 1rem;
-    position: relative;
-  }
-
-  .link-tag {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 0.5em 1em;
-    background: black;
-    color: white;
-  }
-
-  .link-avatar {
-    width: 3em;
-    border-radius: 100%;
-    margin-right: 0.5em;
-  }
-
-  .link-meta {
-    display: flex;
-    align-items: center;
-  }
-
-  time {
-    margin-left: 0.5em;
-  }
+.skip-item {
+  @mixin reset-link;
+  margin-right: $s1;
+  border: $b1;
+  padding: $s-1;
 }
