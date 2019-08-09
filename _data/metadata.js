@@ -1,5 +1,5 @@
 const metadata = {
-  title: "Static Site Starter",
+  title: "Danny de Vries",
   author: "Danny de Vries",
   mail: "hi@dandevri.es",
   url: "https://example.com",

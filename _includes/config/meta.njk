@@ -9,3 +9,10 @@
 <link rel="shortlink" href="{{ metadata.url }}{{ page.url }}">
 <link rel="dns-prefetch" href="{{ metadata.url }}">
 <link rel="preconnect" href="{{ metadata.url }}">
+<title>
+  {% if title %}
+    {{ title + ' - ' + metadata.author }}
+  {% else %}
+    {{ metadata.author }}
+  {% endif %}
+</title>
