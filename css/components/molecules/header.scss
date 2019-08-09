@@ -1,18 +1,10 @@
 header {
-  padding: $s6;
+  padding: calc($s6 * 2);
   color: $cc;
   border-bottom: 1px solid $cc;
   background: $cm;
 
-  div {
-    max-width: 50rem;
-  }
-
   time, span {
     font-size: 0.8em;
-  }
-
-  p {
-    margin: 0;
   }
 }

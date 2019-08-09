@@ -1,32 +1,56 @@
 ---
 layout: layouts/home
-title: Hi, I'm Danny.
 ---
 
 {% import 'components/atoms/card.njk' as card %}
 
-<header>
-  <div>
-    <h1 class="display">{{ title }}</h1>
-    <p> I'm a front-end designer building digital products trough my design practice <a href="#"">Studio Title</a> and tinkering with code on <a href="#">digital projects</a> on the side.</p>
-    <p> I also work as a lecturer at the <a href="https://www.amsterdamuas.com/">Amsterdam University of Applied Sciences</a> where I lecture about code in the technical courses of <a href="https://www.cmd-amsterdam.nl/english/">our program</a> such as <a href="https://github.com/cmda-bt">front-end and back-end.</a></p>
-  </div>
+
+<header class="header--image">
+    <h1>Danny de Vries</h1>
+    <h2>is a Lecturer and UX engineer.</h2>
+    <p> Hi! I'm UX engineer building digital products trough my design practice <a href="#">Studio Title</a> and tinkering with code on <a href="#">digital projects</a> on the side. I also work as a lecturer at the <a href="https://www.amsterdamuas.com/">Amsterdam University of Applied Sciences</a> where I lecture about code in the technical courses of <a href="https://www.cmd-amsterdam.nl/english/">our program</a> such as <a href="https://github.com/cmda-bt">front-end and back-end.</a></p>
 </header>
+
+<main>
 
 <section class="home">
   <h3>Writing</h3>
-  <p>I have a blog where I write long posts, notes and post links. Guides aswell and sometimes longer essays. Some weeknotes each week as well.</p>
+  <p>I have a blog where I write long posts, notes and post links. Guides aswell and sometimes longer essays.</p>
+  {% include 'components/molecules/article-list.njk' %}
 </section>
 
-
-<section class="home">
-  <h3>About</h3>
-  <p>I have a blog where I write long posts, notes and post links. Guides aswell and sometimes longer essays. Some weeknotes each week as well.</p>
-</section>
-
-<section class="home">
+<section class="home home--image">
   <h3>Speaking</h3>
   <p>I have a blog where I write long posts, notes and post links. Guides aswell and sometimes longer essays. Some weeknotes each week as well.</p>
+
+    <ul class="event-list">
+  {% for item in events.events | limit(3) %}
+    <li class="event">
+      <p>{{ item.date }}</p>
+      <p><a href="{{ item.link }}">{{ item.title }}</a></p>
+      <p>{{ item.location }}</p>
+      <p>
+      {% if item.slides %}
+        <a href="{{ item.slides }}">Slides</a>
+        {% elif item.video %}
+        <a href="{{ item.video }}">Video</a>
+        {% else %}
+        <p>{{ item.appear }}</p>
+      {% endif %}
+      </p>
+    </li>
+  {% endfor %}
+  </ul>
+
+    <ul class="interview-list">
+  {% for item in interviews.interviews | limit(5) %}
+    <li class="interview interview-{{ item.type }}">
+      <p><a href="{{ item.link }}">{{ item.title }} {{ item.episode }}</a></p>
+      <p>with {{ item.publication }} • {{ item.date }}</p>
+    </li>
+  {% endfor %}
+  </ul>
+
 </section>
 
 <section class="home">
@@ -34,10 +58,16 @@ title: Hi, I'm Danny.
   <p>I have a blog where I write long posts, notes and post links. Guides aswell and sometimes longer essays. Some weeknotes each week as well.</p>
 </section>
 
-<section class="article-list">
-  {{ card.block("Projects", "Some of the silly DIY and code tinkering projects I've been working on.", "/projects", "See projects") }}
-  {{ card.block("Coaching", "Looking for a mentor to give guidance? Maybe a coaching session or just some quick feedback?", "/coaching", "Read about coaching") }}
-  {{ card.block("Support", "If you like my speaking, writing, courses and projects, you can consider supporting me.", "/contact", "Support me") }}
-  {{ card.block("Contact", "Feel free to contact me if you have any questions. You can e-mail, chat or follow me on social.", "/contact", "Get in touch") }}
+
+<section class="home">
+  <h3>Projects</h3>
+  <p>I have a blog where I write long posts, notes and post links. Guides aswell and sometimes longer essays. Some weeknotes each week as well.</p>
+  </ul>
 </section>
 
+<section class="blocks">
+  {{ card.block("Coaching", "Looking for a mentor to give guidance? Maybe a coaching session or just some quick feedback?", "/coaching", "Read about coaching") }}
+  {{ card.block("Support", "If you like my speaking, writing, courses and projects, you can consider supporting me.", "/support", "Support me") }}
+  {{ card.block("Contact", "Feel free to contact me if you have any questions. You can e-mail, chat or follow me on social.", "/contact", "Get in touch") }}
+</section>
+</main>

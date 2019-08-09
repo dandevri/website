@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(30em, 1fr));
 
-  article {
+  .writing {
     border-right: 1px solid #d0d0d0;
     border-bottom: 1px solid #d0d0d0;
     padding: 3em;

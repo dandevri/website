@@ -1,9 +1,7 @@
 .card {
   background: $cn;
-  color: $cm;
+  color: $cc;
   padding: 1em 2em;
-  text-transform: uppercase;
-  box-shadow: 2px 2px 0 $cm,5px 5px 0 $cn;
   margin: 2em 0;
   display: inline-block;
 
@@ -30,4 +28,8 @@
 
 .project {
   position: relative;
+}
+
+.home {
+  height: 50vh;
 }

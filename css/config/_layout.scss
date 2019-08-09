@@ -2,10 +2,19 @@ main > * + * {
   margin-top: $s2;
 }
 
-main {
-  padding: $s6;
+header > * + * {
+  margin-top: $s2;
 }
 
-p {
+main {
+  padding: calc($s6 * 2);
+}
+
+p,
+h2 {
   max-width: $width;
+}
+
+.blocks {
+  display: flex;
 }

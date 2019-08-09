@@ -18,6 +18,7 @@
 @import 'components/atoms/talk.scss';
 @import 'components/atoms/cta.scss';
 @import 'components/atoms/project.scss';
+@import 'components/atoms/block.scss';
 
 /* Molecules */
 @import 'components/molecules/header.scss';
