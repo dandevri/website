@@ -3,7 +3,7 @@
 
   .event {
     @mixin reset-list;
-    border: 1px solid $secondary;
+    border: 1px solid $cm;
     padding: 1em 2em;
     margin-bottom: 2em;
   }

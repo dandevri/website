@@ -1,9 +1,9 @@
 .card {
-  background: $primary;
-  color: $secondary;
+  background: $cn;
+  color: $cm;
   padding: 1em 2em;
   text-transform: uppercase;
-  box-shadow: 2px 2px 0 $neutral,5px 5px 0 $primary;
+  box-shadow: 2px 2px 0 $cm,5px 5px 0 $cn;
   margin: 2em 0;
   display: inline-block;
 
@@ -23,7 +23,7 @@
 
 .card-meta {
   @mixin reset-list;
-  border-top: 1px solid $primary;
+  border-top: 1px solid $cn;
   display: flex;
 }
 

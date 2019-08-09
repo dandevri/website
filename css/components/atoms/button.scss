@@ -1,19 +1,19 @@
 .btn {
 
   &-primary {
-    background: $primary;
-    color: $secondary;
+    background: $cn;
+    color: $cm;
     padding: 1em 2em;
     transition: all $250ms;
     font-size: 0.8em;
     text-transform: uppercase;
-    box-shadow: 2px 2px 0 $neutral,5px 5px 0 $primary;
+    box-shadow: 2px 2px 0 $cm,5px 5px 0 $cn;
     @mixin reset-link;
   }
 
   &-secondary {
-    border: 1px solid $primary;
-    color: $primary;
+    border: 1px solid $cn;
+    color: $cn;
     padding: 0.7em 0.7em;
     transition: all $250ms;
     font-size: 0.8em;

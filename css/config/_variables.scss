@@ -1,15 +1,26 @@
-$primary: #2e2e2e;
-$secondary: #dedede;
-$neutral: #fff;
+$cn: #ffffff;
+$cm: #fafbfc;
+$cc: #111111;
+$cl: #3b3b3b;
 
 $250ms: 250ms ease;
 $350ms: 350ms ease;
 
-$p-s: 0.2em;
-$p-m: 0.5em;
-$p-l: 1em;
+/* Ratio */
+$ratio: 1.25; // Major third
+$base: 1rem;
+$width: 75ch;
+
+/* Scale */
+$s0: calc($base);
+$s1: calc($base * $ratio);
+$s2: calc($base * $ratio * $ratio);
+$s3: calc($base * $ratio * $ratio * $ratio);
+$s4: calc($base * $ratio * $ratio * $ratio * $ratio);
+$s5: calc($base * $ratio * $ratio * $ratio * $ratio * $ratio);
+$s6: calc($base * $ratio * $ratio * $ratio * $ratio * $ratio * $ratio);
 
 body {
-  background: $neutral;
-  color: $primary;
+  background: $cn;
+  color: $cc;
 }

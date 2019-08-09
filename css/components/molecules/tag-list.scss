@@ -40,7 +40,7 @@
 
   li {
     margin-right: 1em;
-    border: 1px solid $secondary;
+    border: 1px solid $cm;
     padding: 0.5em;
 
     a {
@@ -52,8 +52,8 @@
 .interview {
   @mixin reset-list;
   padding: 1em 0;
-  border-bottom: 1px solid $secondary;
-  border-top: 1px solid $secondary;
+  border-bottom: 1px solid $cm;
+  border-top: 1px solid $cm;
   margin: 0;
   position: relative;
 

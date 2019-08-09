@@ -3,7 +3,7 @@
 
   &:hover,
   &:focus {
-    color: $secondary;
+    color: $cm;
     box-shadow: 0 -30px 0 0 #222 inset;
   }
 }
@@ -12,7 +12,7 @@
   &:focus {
     outline-style: dashed;
     outline-width: 2px;
-    outline-color: $primary;
+    outline-color: $cn;
     outline-offset: 4px;
   }
 }

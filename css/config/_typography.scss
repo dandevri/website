@@ -19,59 +19,28 @@
   font-weight: 200;
 }
 
-html {
-  font-size: 18px;
-}
-
-body {
+:root {
+  font-size: calc($base * $ratio);
   font-family: 'Simplon Mono', monospace;
-  font-weight: 400;
-  line-height: 1.45;
+  line-height: $ratio;
 }
 
 p {
-  margin-bottom: 1.25em;
+  line-height: calc($base * $ratio * $ratio);
+  color: $cl;
 }
 
-h1, h2, h3, h4, h5 {
-  margin: 2.75rem 0 1rem;
-  font-family: 'Simplon Mono', monospace;
-  font-weight: 400;
-  line-height: 1.15;
-}
+h1 { font-size: $s6; }
+h2 { font-size: $s5; }
+h3 { font-size: $s4; }
+h4 { font-size: $s3; }
+h5 { font-size: $s2; }
+h6 { font-size: $s1; }
 
-h1 {
-  margin-top: 0;
-  font-size: 3.052em;
-  font-weight: 700;
-}
-
-h2 {
-  font-size: 2.441em;
-}
-
-h3 {
-  font-size: 1.25em;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-}
-
-h4 {
-  font-size: 1.563em;
-}
-
-h5 {
-  font-size: 1.25em;
-}
-
-small,
-.text_small {
-  font-size: 0.8em;
-}
+small { font-size: $s0; }
+time { font-size: $s0; }
 
 time {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  font-size: 0.8em;
 }
