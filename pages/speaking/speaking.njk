@@ -6,12 +6,13 @@ permalink: speaking/
 ---
 
 {% import 'components/atoms/link.njk' as link %}
+{% import 'components/atoms/button.njk' as button %}
 
 <p>When I started as a lecturer I fell in love with speaking and teaching students new skills. After a year or so I asked myself; 'Why keep this all this stuff I and students are learning inside the classroom?'. After that I started sharing my knowledge at meet-ups but that quickly turned into giving guest-lectures at companies. Things escalated  and I was regularly asked to talk at conferences, schools and other companies with growing audiences. </p>
 
 <p>If you’re interested in having me speak or host a workshop at your event or conference, {{ link.inl("/press-kit/guidelines", "please read this first") }} and get in touch! I've also prepared a {{ link.inl("/press-kit/resources", "press kit") }} with material you can copy-paste.</p>
 
-<a class="btn-primary" href="#">I want you to speak</a>
+{{ button.primary("/contact", "Let's talk!") }}
 
 <h2>Talks</h2>
 
@@ -19,9 +20,9 @@ permalink: speaking/
 
 <p>My brief talks are around ~30 minutes and are well suited for office talks and meet-ups at your company. These talks are full of practical tips, short examples and lots of resources for you to get back to work.</p>
 
-<a class="btn-secondary" href="/speaking/talks">Full list of talks</a>
+{{ button.primary("/speaking/talks", "All talks") }}
 
-<h3>events</h3>
+<h3>Events</h3>
 
   <ul class="event-list">
   {% for item in events.events | limit(3) %}
@@ -42,7 +43,7 @@ permalink: speaking/
   {% endfor %}
   </ul>
 
-<a class="btn-secondary" href="/speaking/events">All events</a>
+{{ button.secondary("/speaking/events", "All events") }}
 
 <h2>Interviews</h2>
 
@@ -55,4 +56,4 @@ permalink: speaking/
   {% endfor %}
   </ul>
 
-<a class="btn-secondary" href="/speaking/interviews">All interviews</a>
+{{ button.secondary("/speaking/interviews", "All interviews") }}

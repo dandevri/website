@@ -11,6 +11,9 @@ $ratio: 1.25; // Major third
 $base: 1rem;
 $width: 45rem;
 
+$s-1: calc($base / $ratio);
+$s-2: calc($base / $ratio / $ratio);
+
 /* Scale */
 $s0: calc($base);
 $s1: calc($base * $ratio);

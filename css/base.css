@@ -19,6 +19,7 @@
 @import 'components/atoms/cta.scss';
 @import 'components/atoms/project.scss';
 @import 'components/atoms/block.scss';
+@import 'components/atoms/link.scss';
 
 /* Molecules */
 @import 'components/molecules/header.scss';

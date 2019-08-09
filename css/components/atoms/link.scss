@@ -1,0 +1,9 @@
+.link-int::after {
+  content: "→";
+  margin-left: $s0;
+}
+
+.link-ext::after {
+  content: "↗";
+  margin-left: $s0;
+}

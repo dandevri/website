@@ -1,8 +1,10 @@
+{% import 'components/atoms/link.njk' as link %}
+
 {% macro block(title, description, link, linkText) %}
   <article class="card">
     <h4>{{ title }}</h4>
     <p>{{ description }}</p>
-    <a href="{{ link }}">{{ linkText }}</a>
+    <a class="link-int" href="{{ link }}">{{ linkText }}</a>
   </article>
 {% endmacro %}
 
