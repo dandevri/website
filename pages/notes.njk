@@ -5,7 +5,7 @@ permalink: notes/
 ---
 {% import 'components/atoms/card.njk' as card %}
 
-<ol class="note-list">
+<ol class="container line">
   {%- for note in collections.note | reverse -%}
     {{ card.list
       (

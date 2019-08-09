@@ -20,6 +20,7 @@ $width: 45rem;
 
 $s-1: calc($base / $ratio);
 $s-2: calc($base / $ratio / $ratio);
+$s-3: calc($base / $ratio / $ratio / $ratio);
 
 /* Scale */
 $s0: calc($base);

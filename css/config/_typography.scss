@@ -37,10 +37,13 @@ h4 { font-size: $s3; }
 h5 { font-size: $s2; }
 h6 { font-size: $s1; }
 
-small { font-size: $s0; }
-time { font-size: $s0; }
+small {
+  font-size: $s-1;
+  font-weight: 700;
+}
+
+time { font-size: $s-1; }
 
 time {
-  text-transform: uppercase;
   letter-spacing: 0.1rem;
 }

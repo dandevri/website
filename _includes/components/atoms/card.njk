@@ -26,13 +26,19 @@
 
 {% macro list(url, title, content, date, type) %}
   <li class="card card-list">
-    <a href="{{ url }}">{{ title }}</a>
-    <p>{{ content }}</p>
-    <span class="list-type">{{ type }}</span>
+    <div class="list-content content">
+    {% if title %}
+      <span href="{{ url }}">{{ title }}</span>
+    {% endif %}
+      {{ content }}
+    </div>
     <div class="list-meta">
       <img class="list-avatar" src="/static/img/avatar.jpg" alt="Profile Picture of Danny de Vries">
-      <span>Danny de Vries</span>
-      <time datetime="{{ date | htmlDateString }}"> ▪ {{ date | readableDate }}</time><br>
+      <small>Danny de Vries</small>
+      <span class="divider">·</span>
+      <time datetime="{{ date | htmlDateString }}"> {{ date | readableDate }}</time>
+      <span class="list-type">{{ type }}</span>
+      <a href="{{ url }}"></a>
     </div>
   </li>
 {% endmacro %}

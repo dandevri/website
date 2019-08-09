@@ -1,6 +1,7 @@
 .card {
   display: inline-block;
-  padding: $s2;
+  width: 40em;
+  background: $cm;
 
   &-item {
     background: $cm;
@@ -14,27 +15,43 @@
   }
 
   &-list {
-    @mixin reset-list;
     border: $b1;
-    padding: $s2;
     position: relative;
 
     .list-meta {
       display: flex;
       align-items: center;
+      background: $cn;
+      padding: $s0 $s4 $s0 $s4;
+    }
+
+    .list-content {
+      padding: $s4 $s4 $s0 $s4;
     }
 
     .list-type {
-      position: absolute;
-      top: 0;
-      right: 0;
-      padding: $s-2 $s-1;
+      padding: $s-3 $s-1;
       background: $cc;
       color: $cn;
+      font-size: $s-1;
+      position: absolute;
+      bottom: 0;
+      right: 0;
     }
 
     .list-avatar {
       width: $s4;
+      border-radius: 100%;
+      margin-right: $s1;
+    }
+
+    a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      display: block;
     }
   }
 }

@@ -7,7 +7,7 @@ header > * + * {
 }
 
 main {
-  padding: calc($s6 * 2);
+  padding: $s6 calc($s6 * 2);
 }
 
 p,
@@ -32,4 +32,16 @@ h2 {
 .columns {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(30em, 1fr));
+}
+
+.container {
+  width: $width;
+}
+
+.container > * + * {
+  margin-top: $s4;
+}
+
+.content > * + * {
+  margin-top: $s2;
 }
