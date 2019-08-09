@@ -5,6 +5,7 @@ const courses = [
     link: "https://cmda-bt.github.io/be-course-18-19/docs/",
     description: "In Backend we peek behind the curtains and inspect what’s behind the web. You build web apps with Node.js, communicate with HTTP, and store data in a database with MongoDB. In this course you’ll advance your web dev skills. You’ll learn to use computers to actually make what you design work: people can actually fill in forms, like things, and upload files.",
     location: "University of Applied Sciences Amsterdam",
+    type: "Code"
   },
   {
     title: "JavaScript bootcamp",
@@ -12,6 +13,7 @@ const courses = [
     link: "https://cmda-bt.github.io/be-course-18-19/docs/",
     description: "We kick Blok Tech @CMDA off with a JavaScript bootcamp before we start with Back-end, Front-end 2 and Project Tech. This bootcamp will refresh and build further on the knowledge acquired in Internetstandaarden, Inleiding Programmeren, and Blok Web.",
     location: "University of Applied Sciences Amsterdam",
+    type: "Code"
   },
   {
     title: "Systematic UI design",
@@ -19,6 +21,7 @@ const courses = [
     link: "https://cmda-bt.github.io/be-course-18-19/docs/",
     description: "The course Systematic UI design teaches students to design User Interfaces in a more modular way. We explore Atomic Design principles and see how we can actually implement those principles using Sketch and Principle.",
     location: "University of Applied Sciences Amsterdam",
+    type: "Design"
   },
   {
     title: "Tech-track",
@@ -26,6 +29,7 @@ const courses = [
     link: "https://cmda-bt.github.io/be-course-18-19/docs/",
     description: "In Tech Track you’ll advance your web dev skills, learn how to learn libraries and frameworks, and to create interactive visualisations from external data. Tech Track is an elective track of three courses given in Information Design (fall semester), building further on knowledge acquired in Internetstandaarden, Inleiding Programmeren, Frontend 1, Frontend 2, and Backend.",
     location: "University of Applied Sciences Amsterdam",
+    type: "Code"
   },
   {
     title: "Project Tech",
@@ -33,6 +37,7 @@ const courses = [
     link: "https://cmda-bt.github.io/be-course-18-19/docs/",
     description: "In Project Tech you'll build a dynamic prototype of a web application. In different roles you take a well-argued position on, among other things, the privacy and security aspects of the application. You'll also learn to navigate the command line, version control with Git & GitHub and make sure code style is consistent.",
     location: "University of Applied Sciences Amsterdam",
+    type: "Code"
   },
 ]
 

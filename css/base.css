@@ -2,7 +2,6 @@
 @import 'config/_variables.scss';
 @import 'config/_typography.scss';
 @import 'config/_utilities.scss';
-@import 'config/_states.scss';
 @import 'config/_reset.scss';
 @import 'config/_layout.scss';
 
@@ -16,10 +15,12 @@
 @import 'components/atoms/card.scss';
 @import 'components/atoms/event.scss';
 @import 'components/atoms/talk.scss';
-@import 'components/atoms/cta.scss';
+@import 'components/atoms/modal.scss';
 @import 'components/atoms/project.scss';
 @import 'components/atoms/block.scss';
 @import 'components/atoms/link.scss';
+@import 'components/atoms/article.scss';
+@import 'components/atoms/biography.scss';
 
 /* Molecules */
 @import 'components/molecules/header.scss';

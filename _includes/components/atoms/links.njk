@@ -1,9 +1,0 @@
-<li class="link-item">
-  <a href="{{ link.url }}">{{ link.data.title }}</a>
-  <p>{{ link.templateContent | safe }}</p>
-  <div class="link-meta">
-    <img class="link-avatar" src="/static/img/avatar.jpg" alt="Profile Picture of Danny de Vries">
-    <span>{{ metadata.author }}</span>
-    <time datetime="{{ link.date | htmlDateString }}"> ▪ {{ link.date | readableDate }}</time><br>
-  </div>
-</li>

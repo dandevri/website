@@ -1,35 +1,40 @@
 .card {
-  background: $cn;
-  color: $cc;
-  padding: 1em 2em;
-  margin: 2em 0;
   display: inline-block;
+  padding: $s2;
 
-  h4 {
-    margin-top: 0;
+  &-item {
+    background: $cm;
+    color: $cc;
+    max-width: 20vw;
+    border: $b1;
   }
-}
 
-.card-item {
-  border: 1px solid #1A202C;
-  padding: 2em;
-  margin-top: 3em;
-  min-width: 25vw;
-  max-width: 25vw;
-  margin-right: 5em;
-}
+  &-product {
+    border: $b1;
+  }
 
-.card-meta {
-  @mixin reset-list;
-  border-top: 1px solid $cn;
-  display: flex;
-}
+  &-list {
+    @mixin reset-list;
+    border: $b1;
+    padding: $s2;
+    position: relative;
 
+    .list-meta {
+      display: flex;
+      align-items: center;
+    }
 
-.project {
-  position: relative;
-}
+    .list-type {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: $s-2 $s-1;
+      background: $cc;
+      color: $cn;
+    }
 
-.home {
-  height: 50vh;
+    .list-avatar {
+      width: $s4;
+    }
+  }
 }

@@ -4,4 +4,18 @@ title: Links
 permalink: links/
 ---
 
-{% include 'components/molecules/link-list.njk' %}
+{% import 'components/atoms/card.njk' as card %}
+
+<ol class="links-list">
+  {%- for link in collections.link | reverse -%}
+    {{ card.list
+      (
+        link.url,
+        link.data.title,
+        link.templateContent | safe,
+        link.data.date,
+        link.data.type
+      )
+    }}
+  {%- endfor -%}
+</ol>

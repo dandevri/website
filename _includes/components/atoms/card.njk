@@ -1,7 +1,5 @@
-{% import 'components/atoms/link.njk' as link %}
-
 {% macro block(title, description, link, linkText) %}
-  <article class="card">
+  <article class="card card-block">
     <h4>{{ title }}</h4>
     <p>{{ description }}</p>
     <a class="link-int" href="{{ link }}">{{ linkText }}</a>
@@ -9,14 +7,14 @@
 {% endmacro %}
 
 {% macro product(title, link, linkText) %}
-  <article class="card">
+  <article class="card card-product">
     <h4>{{ title }}</h4>
     <a href="{{ link }}">{{ linkText }}</a>
   </article>
 {% endmacro %}
 
-{% macro project(url, image, type, title, description) %}
-  <article class="project">
+{% macro item(url, image, type, title, description) %}
+  <article class="card card-item">
     <a href="{{ url }}">
       <img src="{{ image }}" alt="{{ title }}">
       <span> {{ type }}</span>
@@ -26,37 +24,15 @@
   </article>
 {% endmacro %}
 
-{% macro workshop(url, image, title, description, type, length) %}
-  <article class="card-item">
-    <a href="{{ url }}">
-      <img src="{{ image }}" alt="{{ title }}">
-      <h3>{{ title }}</h3>
-      <p>{{ description }}</p>
-      <ul class="card-meta">
-        <li>{{ length }} • </li>
-        <li>{{ type }}</li>
-      </ul>
-    </a>
-  </article>
-{% endmacro %}
-
-{% macro class(url, image, title, description, type, length) %}
-  <article class="card-item">
-    <a href="{{ url }}">
-      <img src="{{ image }}" alt="{{ title }}">
-      <h3>{{ title }}</h3>
-      <p>{{ description }}</p>
-    </a>
-  </article>
-{% endmacro %}
-
-{% macro course(url, image, title, description, type, length) %}
-  <article class="card-item">
-    {% include 'components/atoms/corner.njk' %}
-    <a href="{{ url }}">
-      <img src="{{ image }}" alt="{{ title }}">
-      <h3>{{ title }}</h3>
-      <p>{{ description }}</p>
-    </a>
-  </article>
+{% macro list(url, title, content, date, type) %}
+  <li class="card card-list">
+    <a href="{{ url }}">{{ title }}</a>
+    <p>{{ content }}</p>
+    <span class="list-type">{{ type }}</span>
+    <div class="list-meta">
+      <img class="list-avatar" src="/static/img/avatar.jpg" alt="Profile Picture of Danny de Vries">
+      <span>Danny de Vries</span>
+      <time datetime="{{ date | htmlDateString }}"> ▪ {{ date | readableDate }}</time><br>
+    </div>
+  </li>
 {% endmacro %}

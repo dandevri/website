@@ -1,25 +1,22 @@
 details {
-  margin-bottom: 1em;
+  summary {
+    list-style-image: url(/static/img/marker-light.svg);
+    padding: $s1;
+    background-color: $cc;
+    box-shadow: $bs1;
+    color: $cn;
+    max-width: $width;
+  }
+
+  summary::-webkit-details-marker {
+    background: url(/static/img/marker-light.svg);
+    color: transparent;
+    width: 2em;
+  }
 
   p {
-    background: #1A202C;
-    color: #fff;
-    padding: 1em 1em;
-    border-radius: 0.2rem;
+    background: $cc;
+    color: $cn;
+    padding: $s1;
   }
-}
-
-summary {
-  list-style-image: url(/static/img/marker-light.svg);
-  padding: 1em 1em;
-  background-color: #000;
-  box-shadow: 0 1px 5px 0 rgba(0,0,0,.05);
-  color: #fff;
-  border-radius: 0.2rem;
-}
-
-summary::-webkit-details-marker {
-  background: url(/static/img/marker-light.svg);
-  color: transparent;
-  width: 2em;
 }

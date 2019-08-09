@@ -4,7 +4,6 @@ const workshops = [
     image: "/static/img/talk.jpg",
     link: "https://cmda-bt.github.io/be-course-18-19/docs/",
     description: "Creating a design system. Everything from basic principles to workflows with many hands-on exercises and assignments for your own product.",
-    length: "Full-day Workshop",
     type: "design"
   },
   {
@@ -20,7 +19,6 @@ const workshops = [
     image: "/static/img/talk.jpg",
     link: "https://cmda-bt.github.io/be-course-18-19/docs/",
     description: "The course Systematic UI design teaches students to design User Interfaces in a more modular way. We explore Atomic Design principles and see how we can actually implement those principles using Sketch and Principle.",
-    length: "Full-day Workshop",
     type: "code"
   },
 ]

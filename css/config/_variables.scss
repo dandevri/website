@@ -6,6 +6,13 @@ $cl: #3b3b3b;
 $250ms: 250ms ease;
 $350ms: 350ms ease;
 
+/* Borders */
+$b1: 1px solid $cc;
+$b2: 1px solid $cl;
+
+/* Shadows */
+$bs1: rgba(15, 15, 15, 0.5) 0px 1px 2px, rgba(15, 15, 15, 0.5) 3px 3px, rgba(17, 17, 17, 0.3) 0px 0px 0px 1px inset;
+
 /* Ratio */
 $ratio: 1.25; // Major third
 $base: 1rem;

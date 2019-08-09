@@ -7,6 +7,7 @@ permalink: coaching/
 
 {% import 'components/atoms/card.njk' as card %}
 {% import 'components/atoms/quote.njk' as quote %}
+{% import 'components/atoms/button.njk' as button %}
 
 <p>I wouldn't be where I am today if it wasn't for the people surrounding me that always pushed me further and to get more out of life. People put me in environments where I wasn't really ready for, I did things where I didn't have any credits for. 'Go do it, because it needs to happen.' And off I went figuring stuff out along the way.I have a ton of admiration for these people that believed in me in pushed me. And I'm making an effort to “pay it forward” by helping other professionals out. </p>
 
@@ -75,7 +76,9 @@ permalink: coaching/
 
 <p>Pick my brain! You simply submit your work (attachment), URL of your project with a bit of context or detailed explanation of your problem. Only thing I ask from you if you buy me a cup of coffee.</p>
 <p>I love giving feedback or doing quick reviews (first impressions) of projects. I talk while interacting with the URL or work you've provided and send back an 5 minute recorded video.</p>
-<a class="btn-primary" href="#">Request feedback</a>
+
+{{ button.primary("#", "Request feedback")}}
+
 <span>Sample of video</span>
 
 {# <h2>Don't take my word for it</h2>

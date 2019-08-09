@@ -3,5 +3,18 @@ layout: layouts/default
 title: Notes
 permalink: notes/
 ---
+{% import 'components/atoms/card.njk' as card %}
 
-{% include 'components/molecules/note-list.njk' %}
+<ol class="note-list">
+  {%- for note in collections.note | reverse -%}
+    {{ card.list
+      (
+        note.url,
+        note.data.title,
+        note.templateContent | safe,
+        note.data.date,
+        note.data.type
+      )
+    }}
+  {%- endfor -%}
+</ol>
