@@ -1,9 +1,12 @@
 .article-item {
   border-right: $b1;
-  border-bottom: $b1;
   padding: $s5;
 
   a {
     text-decoration: none;
   }
+}
+
+.article-list {
+  border-top: $b1;
 }

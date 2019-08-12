@@ -1,38 +1,56 @@
 ---
 layout: layouts/home
 ---
-
-{% import 'components/atoms/card.njk' as card %}
+{% import 'components/atoms/button.njk' as button %}
 
 
 <header>
     <h1>Danny de Vries</h1>
-    <h2>is a Lecturer and UX engineer.</h2>
-    <p> Hi! I'm UX engineer building digital products trough my design practice <a href="#">Studio Title</a> and tinkering with code on <a href="#">digital projects</a> on the side. I also work as a lecturer at the <a href="https://www.amsterdamuas.com/">Amsterdam University of Applied Sciences</a> where I lecture about code in the technical courses of <a href="https://www.cmd-amsterdam.nl/english/">our program</a> such as <a href="https://github.com/cmda-bt">front-end and back-end.</a></p>
+    <h2 class="d-1">is a <strong>Lecturer</strong> and <strong>UX engineer.</strong></h2>
+    <p> Hi! I'm building digital products trough my design practice <a href="#">Studio Title</a> and tinkering with code on <a href="#">digital projects</a> on the side. I also work as a lecturer at the <a href="https://www.amsterdamuas.com/">Amsterdam University of Applied Sciences</a> where I lecture about code in the technical courses of <a href="https://www.cmd-amsterdam.nl/english/">our program</a> such as <a href="https://github.com/cmda-bt">front-end and back-end.</a></p>
+    {{ button.primary('/about', 'More words >')}}
 </header>
 
 <main>
 
 <section class="home">
-  <h3>Writing</h3>
-  <p>I have a blog where I write long posts, notes and post links. Guides aswell and sometimes longer essays.</p>
+  <section class="article-list c-2">
+  {%- for article in collections.article | reverse | limit(3) -%}
+    {% include 'components/atoms/article.njk' %}
+  {%- endfor -%}
+  <a class="article-item" href="/writing">See all writing →</a>
+</section>
 </section>
 
-<section class="home home--image">
-  <h3>Speaking</h3>
-  <p>I have a blog where I write long posts, notes and post links. Guides aswell and sometimes longer essays. Some weeknotes each week as well.</p>
+<section class="home bg cont">
+  <h3 class="p">Speaking</h3>
+  <p class="p">I'd like to talk about tech, building for the web and tinkering with code. Some of my talks are technical with code examples. I can give these at your conference or within office hours at your company or meet-up.</p>
+  {{ button.primary('/speaking', 'All talks')}}
+  {{ button.secondary('/about', 'Events')}}
 </section>
 
-<section class="home">
-  <h3>Teaching</h3>
-  <p>I have a blog where I write long posts, notes and post links. Guides aswell and sometimes longer essays. Some weeknotes each week as well.</p>
+<section class="home cont">
+<h3>Projects</h3>
+  {% import 'components/atoms/card.njk' as card %}
+
+{%- for project in collections.project | limit(3) -%}
+  {{ card.item
+    (
+      project.url,
+      project.data.image,
+      project.data.title,
+      project.data.description
+    )
+  }}
+{%- endfor -%}
+<a class="article-item" href="/projects">See all projects →</a>
 </section>
 
-
-<section class="home">
-  <h3>Projects</h3>
-  <p>I have a blog where I write long posts, notes and post links. Guides aswell and sometimes longer essays. Some weeknotes each week as well.</p>
-  </ul>
+<section class="home bg cont">
+  <h3 class="p">Teaching</h3>
+  <p class="p">An overview of workshops I can give at your conference or office and courses from the Amsterdam University of Applied Sciences. I've also made some online courses to learn with me on the web.</p>
+  {{ button.primary('/teaching', 'All courses')}}
+  {{ button.secondary('/teaching', 'Workshops')}}
 </section>
 
 <section class="blocks">

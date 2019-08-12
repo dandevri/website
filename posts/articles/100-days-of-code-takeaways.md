@@ -1,6 +1,6 @@
 ---
 title: 100 Days of Code Takeaways
-description: About a year ago I made a promise to myself. Spend an hour every day learning new stuff. In the weekends I would watch a course or read some articles but the time devoted on ‘learning’ was really inconsistent. That’s when a couple of months later I started my 100 days of code challenge.
+description: About a year ago I made a promise to myself. Spend an hour every day learning new stuff. In the weekends I would watch a course or read some articles but the time devoted on ‘learning’ was really inconsistent.
 slug: 100-days-of-code-takeaways
 date: 2018-10-30
 tags: article

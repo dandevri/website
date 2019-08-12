@@ -3,6 +3,11 @@
   width: 40em;
   background: $cm;
 
+  &-block {
+    padding: $s6;
+    border-right: $bs1;
+  }
+
   &-link {
     text-decoration: none;
   }

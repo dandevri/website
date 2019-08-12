@@ -1,13 +1,9 @@
-main > * + * {
+.wrapper > * + * {
   margin-top: $s2;
 }
 
 header > * + * {
   margin-top: $s2;
-}
-
-main {
-  padding: $s6 calc($s6 * 2);
 }
 
 p,
@@ -24,14 +20,17 @@ h2 {
 }
 
 .home {
-  height: 50vh;
-  background-color: $cn;
-  padding: $s6;
+  border-bottom: $bs1;
 }
 
-.columns {
+.c-1 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(30em, 1fr));
+}
+
+.c-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25em, 1fr));
 }
 
 .container {
@@ -44,4 +43,24 @@ h2 {
 
 .content > * + * {
   margin-top: $s2;
+}
+
+.wrapper {
+  padding: calc($s6 * 2);
+}
+
+.bg {
+  background-image: url('/static/img/talk.jpg');
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: right;
+}
+
+.bg > * + * {
+  margin-top: $s2;
+}
+
+.cont {
+  padding: $s6;
+  height: 40vh;
 }
