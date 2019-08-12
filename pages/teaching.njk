@@ -8,13 +8,12 @@ permalink: teaching/
 
 <h2>Workshops</h2>
 <p>I do workshops covering designing for the web for your conference or office.</p>
-  <ul class="workshop">
+  <ul class="workshop space">
   {% for workshop in workshops.workshops %}
     {{ card.item
       (
         workshop.url,
         workshop.image,
-        workshop.type,
         workshop.title,
         workshop.description
       )
@@ -24,13 +23,12 @@ permalink: teaching/
 
 <h2>Online Classes</h2>
 <p>Learn with me around the web.</p>
-  <ul class="classes">
+  <ul class="classes space">
     {% for class in classes.classes %}
     {{ card.item
       (
         class.url,
         class.image,
-        class.type,
         class.title,
         class.description
       )
@@ -41,13 +39,12 @@ permalink: teaching/
 <h2>Courses</h2>
 <p>These are all the technical courses I give at Communication and Multimedia design at the Amsterdam University of Applied Sciences. Such as Project-tech, front-end, back-end and data visualization.</p>
 
-  <ul class="course">
+  <ul class="course space">
     {% for course in courses.courses %}
     {{ card.item
       (
         course.url,
         course.image,
-        course.type,
         course.title,
         course.description
       )

@@ -3,11 +3,33 @@
   width: 40em;
   background: $cm;
 
+  &-link {
+    text-decoration: none;
+  }
+
   &-item {
     background: $cm;
     color: $cc;
     max-width: 20vw;
     border: $b1;
+    max-height: 50vh;
+  }
+
+  h3 {
+    font-size: $s1;
+  }
+
+  img {
+    max-height: 20vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  span {
+    background: $cc;
+    color: $cn;
+    display: block;
+    padding: 0 $s2;
   }
 
   &-product {
@@ -23,10 +45,6 @@
       align-items: center;
       background: $cn;
       padding: $s0 $s4 $s0 $s4;
-    }
-
-    .list-content {
-      padding: $s4 $s4 $s0 $s4;
     }
 
     .list-type {
@@ -54,4 +72,12 @@
       display: block;
     }
   }
+}
+
+.list-content {
+  padding: $s2;
+}
+
+.space > * + * {
+  margin: $s4;
 }

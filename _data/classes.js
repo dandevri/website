@@ -1,19 +1,11 @@
 const classes = [
   {
-    title: "Youtube channel",
+    title: "Youtube Channel",
     image: "/static/img/talk.jpg",
     link: "https://cmda-bt.github.io/be-course-18-19/docs/",
-    description: "We kick Blok Tech @CMDA off with a JavaScript bootcamp before we start with Back-end, Front-end 2 and Project Tech. This bootcamp will refresh and build further on the knowledge acquired in Internetstandaarden, Inleiding Programmeren, and Blok Web.",
+    description: "Making Youtube video's as a way to teach and show how I work and think as a UX engineer.",
     location: "University of Applied Sciences Amsterdam",
     type: "youtube"
-  },
-  {
-    title: "Tutorials",
-    image: "/static/img/talk.jpg",
-    link: "https://cmda-bt.github.io/be-course-18-19/docs/",
-    description: "We kick Blok Tech @CMDA off with a JavaScript bootcamp before we start with Back-end, Front-end 2 and Project Tech. This bootcamp will refresh and build further on the knowledge acquired in Internetstandaarden, Inleiding Programmeren, and Blok Web.",
-    location: "University of Applied Sciences Amsterdam",
-    type: "tutorials"
   },
 ]
 

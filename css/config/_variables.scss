@@ -1,6 +1,6 @@
 $cn: #ffffff;
-$cm: #fafbfc;
-$cc: #111111;
+$cm: #f8f9fb;
+$cc: #0a2437;
 $cl: #3b3b3b;
 
 $250ms: 250ms ease;
@@ -32,6 +32,6 @@ $s5: calc($base * $ratio * $ratio * $ratio * $ratio * $ratio);
 $s6: calc($base * $ratio * $ratio * $ratio * $ratio * $ratio * $ratio);
 
 body {
-  background: $cn;
+  background: $cm;
   color: $cc;
 }

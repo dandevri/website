@@ -1,6 +1,6 @@
 ---
 title: Tech Survival Kit
-description:  I forgot my USB dongle! Ever come across a "tech emergency?" This is a kit with common bits and pieces for any situtation.
+description:  Ever come across a "tech emergency?" This is a kit with bits for any situation.
 image: /static/img/posts/projects/survival-kit.png
 tags: project
 slug: tech-survival-kit
