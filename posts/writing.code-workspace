@@ -6,10 +6,25 @@
 	],
 	"settings": {
 		"editor.fontFamily": "iA Writer Duospace, Monaco, 'Courier New', monospace",
-		"workbench.colorTheme": "White Night",
 		"editor.wordWrap": "on",
 		"editor.rulers": [],
 		"alex.enable": true,
-		"terminal.integrated.fontFamily": "Monaco, 'Courier New', monospace"
+    "terminal.integrated.fontFamily": "Monaco, 'Courier New', monospace",
+    "editor.renderLineHighlight": "none",
+    "workbench.colorTheme": "White Night",
+    "workbench.colorCustomizations": {
+      "[White Night]": {
+      "editorCursor.foreground": "#fff",
+      "terminalCursor.foreground": "#fff",
+      "editor.selectionBackground": "#202020",
+      "editor.selectionHighlightBackground": "#202020",
+      }
+    },
+    "workbench.settings.useSplitJSON": true,
+    "color-highlight.markRuler": false,
+    "editor.minimap.enabled": false,
+    "editor.cursorStyle": "line-thin",
+    "editor.fontLigatures": true,
+    "git.enabled": false,
 	}
 }
