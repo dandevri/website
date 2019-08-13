@@ -25,7 +25,6 @@
     "editor.minimap.enabled": false,
     "editor.cursorStyle": "line-thin",
     "editor.fontLigatures": true,
-    "git.enabled": false,
     "workbench.iconTheme": null,
 	}
 }
