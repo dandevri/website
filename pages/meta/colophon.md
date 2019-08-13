@@ -8,6 +8,11 @@ permalink: colophon/
 
 This site is mostly powered by Hand Coding™ with a splash of [11ty][11ty] and many [plugins and packages][packages]. You can peek at the source on [GitHub][repo]. It's hosted on [netlify][netlify].
 
+No cookies or third-party tracking scripts are embedded on this site. Privacy is more important than metrics.
+
+Layout and components are mostly from [Every Layout][layout] and [Inclusive Components][components]. CSS follow the [ITCSS][itcss] architecture. Component folder structure is based on [Atomic Design][atomic]. Small design tweaks come from [Refactoring UI][refactoring].
+
+
 I mostly used my hands to type on a keyboard but was accompanied by lots of different tools and products which are listed on this [uses][uses] page.
 
 It was designed design-tool free™, straight in the browser without any unecessary comps and mockups. The text is set in [Simplon][simplon] by [Swiss Typeface][swiss]. Icons and other assets are created using [Figma][figma] or [Dotgrid][dotgrid].
@@ -27,3 +32,8 @@ Thanks everyone!
 [netlify]: https://www.netlify.com/
 [figma]: https://www.figma.com/
 [dotgrid]: https://hundredrabbits.itch.io/dotgrid
+[layout]: https://every-layout.dev/
+[components]: https://inclusive-components.design/
+[itcss]: https://itcss.io/
+[atomic]: http://atomicdesign.bradfrost.com/
+[refactoring]: https://refactoringui.com/
