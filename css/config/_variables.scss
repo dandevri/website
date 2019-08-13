@@ -10,9 +10,6 @@ $350ms: 350ms ease;
 $b1: 2px solid $cc;
 $b2: 2px solid $cl;
 
-/* Shadows */
-$bs1: -4px 4px 0 0 $cl;
-
 /* Ratio */
 $ratio: 1.25; // Major third
 $base: 1rem;
@@ -22,6 +19,10 @@ $s-1: calc($base / $ratio);
 $s-2: calc($base / $ratio / $ratio);
 $s-3: calc($base / $ratio / $ratio / $ratio);
 
+$s-4: calc(-$base / $ratio);
+$s-5: calc(-$base / $ratio / $ratio);
+$s-6: calc(-$base / $ratio / $ratio / $ratio);
+
 /* Scale */
 $s0: calc($base);
 $s1: calc($base * $ratio);
@@ -30,6 +31,11 @@ $s3: calc($base * $ratio * $ratio * $ratio);
 $s4: calc($base * $ratio * $ratio * $ratio * $ratio);
 $s5: calc($base * $ratio * $ratio * $ratio * $ratio * $ratio);
 $s6: calc($base * $ratio * $ratio * $ratio * $ratio * $ratio * $ratio);
+
+/* Shadows */
+$bs1: $s-1 $s-1 $cc;
+$bs2: $s-2 $s-2 $cc;
+$bs3: $s-4 $s-1 $cc;
 
 body {
   background: $cm;

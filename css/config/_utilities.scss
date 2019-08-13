@@ -38,3 +38,12 @@ ul {
     left: 2.5rem;
   }
 }
+
+.highlight {
+  background: $cc;
+  color: $cn;
+  box-decoration-break: clone;
+  padding: $s-3 $s-1;
+  display: inline-block;
+  text-transform: uppercase;
+}
