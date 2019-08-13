@@ -1,3 +1,7 @@
+.block {
+  max-width: $width;
+}
+
 .block-list {
     column-count: 2;
     column-gap: 2em;
@@ -6,7 +10,7 @@
     padding: $s1 $s4;
     border: $b1;
     margin-top: 0;
-    width: $width;
+    line-height: $s2;
 
   li {
     column-span: all;
@@ -19,7 +23,6 @@
 }
 
 .block-title {
-  width: $width;
   background: $cc;
   color: $cn;
   margin-bottom: 0;

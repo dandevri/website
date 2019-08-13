@@ -13,11 +13,21 @@
   }
 
   &-item {
-    background: $cm;
+    background: $cn;
     color: $cc;
     max-width: 20vw;
     border: $b1;
     max-height: 50vh;
+    margin: $s2;
+
+    h3 {
+      border: $b1;
+      padding: $s-2;
+      display: inline-block;
+      position: absolute;
+      transform: translateY(-3rem);
+      background: $cn;
+    }
   }
 
   h3 {
@@ -39,6 +49,23 @@
 
   &-product {
     border: $b1;
+    padding: $s4 $s1 $s1 $s1;
+    background: $cn;
+    margin-top: $s6;
+    display: block;
+
+    p {
+      background: $cn;
+      font-size: $s-1;
+      text-transform: uppercase;
+      border: $b1;
+      padding: $s-3 $s-1;
+      font-weight: bold;
+      box-shadow: $bs1;
+      display: inline-block;
+      position: absolute;
+      transform: translateY(-4rem)
+    }
   }
 
   &-list {

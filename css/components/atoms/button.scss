@@ -1,7 +1,6 @@
 .btn {
   padding: $s-1 $s2;
   @mixin reset-link;
-  box-shadow: $bs1;
 
   &-primary {
     background: $cl;

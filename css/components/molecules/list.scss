@@ -21,11 +21,13 @@
   @mixin reset-list;
   display: flex;
   flex-wrap: wrap;
+  margin-top: $s4;
+  margin-bottom: $s4;
 }
 
 .skip-item {
   @mixin reset-link;
   margin-right: $s1;
   border: $b1;
-  padding: $s-1;
+  padding: $s-2;
 }

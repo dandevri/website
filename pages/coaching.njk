@@ -22,49 +22,56 @@ permalink: coaching/
 
 <p>Mentor Experience: Part of the Ladies that UX Amsterdam mentorship program, I'm a lecturer and coach at the amsterdam university of applied sciences were I help students all the time.</p>
 
-<h3 class="block-title">Help you with</h3>
-<ul class="block-list">
-  {% for item in mentorship.help %}
-    <li>{{ item.description }}</li>
-  {% endfor %}
-</ul>
+<div class="block">
+  <h3 class="block-title">Help you with</h3>
+  <ul class="block-list">
+    {% for item in mentorship.help %}
+      <li>{{ item.description }}</li>
+    {% endfor %}
+  </ul>
+</div>
 
-<h3 class="block-title">What you'll get</h3>
-<ul class="block-list">
-  {% for item in mentorship.get %}
-    <li>{{ item.description }}</li>
-  {% endfor %}
-</ul>
+<div class="block">
+  <h3 class="block-title">What you'll get</h3>
+  <ul class="block-list">
+    {% for item in mentorship.get %}
+      <li>{{ item.description }}</li>
+    {% endfor %}
+  </ul>
+</div>
 
-<h3 class="block-title">How it works</h3>
-<ul class="block-list">
-  {% for item in mentorship.works %}
-    <li>{{ item.description }}</li>
-  {% endfor %}
-</ul>
+<div class="block">
+  <h3 class="block-title">How it works</h3>
+  <ul class="block-list">
+    {% for item in mentorship.works %}
+      <li>{{ item.description }}</li>
+    {% endfor %}
+  </ul>
+</div>
 
-<h3>Apply for a mentorship</h3>
+<h4>Apply for a mentorship</h4>
 
 <p>If you’re interested, please apply below! It doesn't really matter where you are in your career. Basic digital design knowledge and is passionate for the web. It's best to have an active (side) project, job or job oppurtinity to apply the skills to. It's best to be proactive, share your experience as much as possible and come prepard with questions.</p>
 
 <p>I prefer in-person sessions but if that's not possible due to travel time or costs video chats are also possible. I want to make sure we are a good fit. I specialise in the areas mentioned above, if your dream area is not on that list I might not be the best mentor for you.</p>
 
-{{ card.product("Mentorship Program 19-20", "/#", "Apply now") }}
+{{ card.product("Apply now", "/#", "Mentorship Program 19-20") }}
 
 
 <h2 id="coaching">Coaching session</h2>
 
 <p>We get together on a 1:1 video call for an hour and talk about your needs and how I can help. We'll record the session(s) so you can review it later. You'll leave with actionable steps.</p>
 
+<div class="block">
+  <h3 class="block-title">How it works</h3>
+  <ul class="block-list">
+    {% for item in mentorship.call %}
+      <li>{{ item.description }}</li>
+    {% endfor %}
+  </ul>
+</div>
+
 <p><strong>Single sessions</strong> are great for bouncing around ideas quickly. <strong>Triple sessions</strong> are recommended for longer term goals. We can then do an <em>orienting {1), progress (2) & review (3)</em> session.</p>
-
-<h3 class="block__title">How it works</h3>
-<ul class="block">
-  {% for item in mentorship.call %}
-    <li>{{ item.description }}</li>
-  {% endfor %}
-</ul>
-
 
 {{ card.product("1x Coaching Session", "/#", "Buy session") }}
 {{ card.product("3x Coaching Session", "/#", "Buy session") }}

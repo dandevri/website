@@ -16,16 +16,3 @@ During the Minor Web Development Communication and Multimedia Design at the Univ
 I work as a lecturer and researcher at the Amsterdam University of Applied Sciences where I lecture about code in the technical courses of our program such as "front-end and back-end".
 
 I live by these 10 principles: [Manifest](/manifest)
-
-Back in the day: [origin story](/writing/origin-story)
-
-## 5 facts
-* N1: Read about 40 books a year
-* N2: I'm into playing indie games 
-* N3: I'm an absolute gearhead and love edc
-* N4: Make a playlist every week
-* N5: I like brewing coffee
----
-
-### Let's talk about your idea
-Contact me
