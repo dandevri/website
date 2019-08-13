@@ -1,14 +1,19 @@
 <li class="event-item">
-  <p>{{ item.date }}</p>
-  <p><a href="{{ item.link }}">{{ item.title }}</a></p>
-  <p>{{ item.location }}</p>
-  <p>
-  {% if item.slides %}
-    <a href="{{ item.slides }}">Slides</a>
-    {% elif item.video %}
-    <a href="{{ item.video }}">Video</a>
-    {% else %}
-    <p>{{ item.appear }}</p>
-  {% endif %}
-  </p>
+  <div class="event-bar">
+    <img src="{{ item.logo }}">
+  </div>
+  <div class="event-content">
+    <p>{{ item.date }}</p>
+    <p><a href="{{ item.link }}">{{ item.title }}</a></p>
+    <p>{{ item.location }}</p>
+    <p>
+    {% if item.slides %}
+      <a href="{{ item.slides }}">Slides</a>
+      {% elif item.video %}
+      <a href="{{ item.video }}">Video</a>
+      {% else %}
+      <p>{{ item.appear }}</p>
+    {% endif %}
+    </p>
+  </div>
 </li>

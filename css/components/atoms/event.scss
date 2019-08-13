@@ -3,7 +3,20 @@
 
   .event-item {
     @mixin reset-list;
-    border: $b1;
+    border-top: $b1;
     padding: $s1 $s2;
+    display: flex;
+    flex-wrap: wrap;
+    background: $cn;
+    width: $width;
+
+    &:last-child {
+      border-bottom: $b1;
+    }
+  }
+
+  .event-bar {
+    flex-basis: 4ch;
+    margin-right: $s3;
   }
 }

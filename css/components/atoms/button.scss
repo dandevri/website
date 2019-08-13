@@ -1,14 +1,14 @@
 .btn {
-  padding: $s-1 $s2;
+  padding: $s-2 $s-1;
   @mixin reset-link;
 
   &-primary {
-    background: $cl;
+    background: $cc;
     color: $cn;
   }
 
   &-secondary {
-    background: $cm;
+    background: $cn;
     color: $cc;
   }
 }
