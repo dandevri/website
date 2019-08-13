@@ -6,6 +6,10 @@ header > * + * {
   margin-top: $s2;
 }
 
+.full-width > * + * {
+  margin-top: $s2;
+}
+
 p,
 h2 {
   max-width: $width;
@@ -13,10 +17,6 @@ h2 {
 
 .blocks {
   display: flex;
-}
-
-.full-width {
-  padding: 0;
 }
 
 .home {
@@ -46,7 +46,12 @@ h2 {
 }
 
 .wrapper {
-  padding: calc($s6 * 2);
+  padding: $s6 calc($s6 * 2) calc($s6 * 2) calc($s6 * 2);
+  max-width: $width;
+}
+
+.full-width {
+  padding: $s6 calc($s6 * 2) calc($s6 * 2) calc($s6 * 2);
 }
 
 .bg {
@@ -67,4 +72,8 @@ h2 {
 
 .wrapper h2 {
   margin-top: $s6;
+}
+
+.block-thing > * + * {
+  margin-top: $s2;
 }

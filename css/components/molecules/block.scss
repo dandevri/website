@@ -28,3 +28,19 @@
   margin-bottom: 0;
   padding: $s-1 $s1;
 }
+
+.block-thing {
+  border: $b1;
+  padding: $s2;
+  margin-top: $s6;
+
+  h3 {
+    font-size: $s1;
+    border: $b1;
+    padding: $s-2;
+    display: inline-block;
+    position: absolute;
+    transform: translateY(-3rem);
+    background: $cn;
+  }
+}

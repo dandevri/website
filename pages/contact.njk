@@ -7,8 +7,8 @@ permalink: contact/
 {% import 'components/atoms/link.njk' as link %}
 {% import 'components/atoms/details.njk' as details %}
 
+<div class="block-thing">
 <h3>Mail</h3>
-
 <p>Oh, e-mail. I have a bit of a love–hate relationship with digital letters. The most <em>formal</em> way to reach me which usually yields a <em>crafted</em> response from me.
 
 <ul>
@@ -16,7 +16,9 @@ permalink: contact/
   <li>{{ link.mail("finance@dandevri.es") }} (business)</li>
   <li>{{ link.mail("d.de.vries4@hva.nl") }} (university)</li>
 </ul>
+</div>
 
+<div class="block-thing">
 <h3>Chat</h3>
 <p><em>Informal</em> way to reach me for <em>quick</em> questions and <em>brief</em> responses.</p>
 
@@ -26,11 +28,12 @@ permalink: contact/
   <li>{{ link.ext("https://www.twitter.com/dandevri", "Twitter Direct Message") }}</li>
   <li>{{ link.tel("+316 41 02 52 62") }}</li>
 </ul>
+</div>
 
+<div class="block-thing">
 <h3>Social</h3>
-
-Best suited to keep track of what I'm doing without engaging in the matter. <br>
-<em>In order of most active</em>
+<p>Best suited to keep track of what I'm doing without engaging in the matter.
+<em>In order of most active</em></p>
 
 <ul>
   <li>{{ link.inl("https://www.twitter.com/dandevri", "Twitter") }}</li>
@@ -40,6 +43,8 @@ Best suited to keep track of what I'm doing without engaging in the matter. <br>
   <li>{{ link.inl("https://dev.to/dandevri", "Dev.to") }}</li>
   <li>{{ link.inl("https://dribbble.com/dandevri", "Dribbble") }}</li>
 </ul>
+</div>
+
 
 <h3>Faq</h3>
 
