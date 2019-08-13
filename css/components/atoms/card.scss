@@ -40,13 +40,6 @@
     object-fit: cover;
   }
 
-  span {
-    background: $cc;
-    color: $cn;
-    display: block;
-    padding: 0 $s2;
-  }
-
   &-product {
     border: $b1;
     padding: $s4 $s1 $s1 $s1;
@@ -77,6 +70,7 @@
       align-items: center;
       background: $cn;
       padding: $s0 $s4 $s0 $s4;
+      border-top: $b1;
     }
 
     .list-type {
