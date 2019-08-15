@@ -1,8 +1,20 @@
 header {
-  padding: 3.8147vw 7.6294vw 3.8147vw 7.6294vw;
+  padding: 3vw;
   color: $cc;
   background: $cn;
   outline: $b1;
   display: inline-block;
-  box-shadow: $bs2;
+  position: relative;
+}
+
+header:before {
+  @mixin b-1;
+}
+
+header:after {
+  @mixin b-2;
+}
+
+.home h1 {
+  font-size: $s5;
 }

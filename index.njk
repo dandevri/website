@@ -2,38 +2,32 @@
 layout: layouts/home
 ---
 {% import 'components/atoms/button.njk' as button %}
+{% import 'components/atoms/card.njk' as card %}
 
 
-<header>
+<header class="home">
     <h1>Danny de Vries</h1>
     <h2 class="d-1">is a <strong>Lecturer</strong> and <strong>front-end designer.</strong></h2>
     <p> Hi! I'm the founder of <a href="#">Studio Deckard</a> and build my own <a href="#">digital products</a> as a front-end designer. I also work as a lecturer at <a href="https://www.amsterdamuas.com/">CMD Amsterdam</a> where I lecture about designing for the web such as <a href="https://github.com/cmda-bt">front-end and back-end.</a></p>
     {{ button.primary('/about', 'More words')}}
 </header>
 
-<main>
-
-<section class="home">
-  <section class="article-list c-2">
-  {%- for article in collections.article | reverse | limit(3) -%}
+<main class="space">
+<section class="home grid grid-m">
+  {%- for article in collections.article | reverse | limit(4) -%}
     {% include 'components/atoms/article.njk' %}
   {%- endfor -%}
-  <a class="article-item" href="/writing">See all writing →</a>
-</section>
 </section>
 
-<section class="home bg cont">
+<section class="home bg">
   <h3 class="p">Speaking</h3>
   <p class="p">I'd like to talk about tech, building for the web and tinkering with code. Some of my talks are technical with code examples. I can give these at your conference or within office hours at your company or meet-up.</p>
   {{ button.primary('/speaking', 'All talks')}}
   {{ button.secondary('/about', 'Events')}}
 </section>
 
-<section class="home cont">
-<h3>Projects</h3>
-  {% import 'components/atoms/card.njk' as card %}
-
-{%- for project in collections.project | limit(3) -%}
+<section class="home grid grid-m">
+{%- for project in collections.project | limit(4) -%}
   {{ card.item
     (
       project.url,
@@ -43,17 +37,16 @@ layout: layouts/home
     )
   }}
 {%- endfor -%}
-<a class="article-item" href="/projects">See all projects →</a>
 </section>
 
-<section class="home bg cont">
+<section class="home bg">
   <h3 class="p">Teaching</h3>
   <p class="p">An overview of workshops I can give at your conference or office and courses from the Amsterdam University of Applied Sciences. I've also made some online courses to learn with me on the web.</p>
   {{ button.primary('/teaching', 'All courses')}}
   {{ button.secondary('/teaching', 'Workshops')}}
 </section>
 
-<section class="blocks">
+<section class="blocks grid grid-l">
   {{ card.block("Coaching", "Looking for a mentor to give guidance? Maybe a coaching session or just some quick feedback?", "/coaching", "Read about coaching") }}
   {{ card.block("Support", "If you like my speaking, writing, courses and projects, you can consider supporting me.", "/support", "Support me") }}
   {{ card.block("Contact", "Feel free to contact me if you have any questions. You can e-mail, chat or follow me on social.", "/contact", "Get in touch") }}

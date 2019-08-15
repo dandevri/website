@@ -15,22 +15,8 @@ h2 {
   max-width: $width;
 }
 
-.blocks {
-  display: flex;
-}
-
 .home {
   border-bottom: $bs1;
-}
-
-.c-1 {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(30em, 1fr));
-}
-
-.c-2 {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(25em, 1fr));
 }
 
 .container {
@@ -46,28 +32,11 @@ h2 {
 }
 
 .wrapper {
-  margin: 3.8147vw 7.6294vw 7.6294vw;
   max-width: $width;
-}
-
-.full-width {
-  margin: 3.8147vw 7.6294vw 7.6294vw;
-}
-
-.bg {
-  background-image: url('/static/img/talk.jpg');
-  background-repeat: no-repeat;
-  background-size: 50%;
-  background-position: right;
 }
 
 .bg > * + * {
   margin-top: $s2;
-}
-
-.cont {
-  padding: $s6;
-  height: 40vh;
 }
 
 .wrapper h2 {
@@ -82,4 +51,24 @@ h2 {
   display: grid;
   grid-gap: $s3;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+.grid-m {
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+}
+
+.grid-l {
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+}
+
+.space > * + * {
+  margin-top: $s6;
+}
+
+body {
+  margin: calc(3vw * 2);
+}
+
+main {
+  margin-top: $s6;
 }

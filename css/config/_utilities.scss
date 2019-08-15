@@ -47,3 +47,37 @@ ul {
   display: inline-block;
   text-transform: uppercase;
 }
+
+@define-mixin b-1 {
+  content: "";
+  position: absolute;
+  display: block;
+  z-index: 2;
+  background-color: rgb(243, 243, 243);
+  width: 14px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  transform: skewY(45deg) scaleX(-1);
+  transform-origin: center right;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+  border-left: 2px solid #000;
+}
+
+@define-mixin b-2 {
+  content: "";
+  position: absolute;
+  display: block;
+  z-index: 2;
+  background-color: rgb(243, 243, 243);
+  height: 14px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transform: skewX(45deg) scaleY(-1);
+  transform-origin: bottom center;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  border-left: 2px solid #000;
+}

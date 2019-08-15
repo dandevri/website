@@ -45,3 +45,13 @@
     background: $cn;
   }
 }
+
+.bg {
+  background-image: url('/static/img/talk.jpg');
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: right;
+  background-color: white;
+  border: $b1;
+  padding: $s3;
+}
