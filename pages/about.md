@@ -1,18 +1,64 @@
 ---
 layout: layouts/default
 title: About
-description: tl;dr Hi, I'm Danny (@dandevri), a freelance front-end designer and lecturer at the Amsterdam University of Applied Sciences where I teach about code in the technical courses of our program such as front-end and back-end.
+description: tl;dr Hi! I'm Danny de Vries. A front-end engineer creating my own digital products, working and helping others trough my design studio Deckard and lecturer at the Amsterdam University of Applied Sciences.
 permalink: about/
 ---
 
-I'm Danny. A digital native focussing on design systems, brand identity and creative coding to help digital products take shape. My approach is organized, systematic and inclusive.
+![Portrait of Danny de Vries](/static/img/portrait.jpg)
 
-Details matter. With a clean, functional and minimal aesthetic I can work on your companies: visual language, user interface, experience design or front-end website.
+I'm passionate about design systems, brand identities, privacy, time well spent, interfaces and web development. My approach is organized, systematic and inclusive.
 
-I've worked at agencies like Fabrique and We Brand Creative working on projects for high-profile clients such as Rijksmuseum Boerhaave, Wolfgang and TESO. While doing Freelance work on the side.
 
-During the Minor Web Development Communication and Multimedia Design at the University of Applied Sciences Amsterdam I've worked on projects for the Netherlands War Graves Foundation, Funda and the Public Library of Amsterdam.
+**Lecturing**
 
-I work as a lecturer and researcher at the Amsterdam University of Applied Sciences where I lecture about code in the technical courses of our program such as "front-end and back-end".
+I'm a lecturer and mentor at [Communication and Multimedia Design][cmd], a human-centred and context-sensitive bachelor-level design education in the field of interactive digital products and services, at the [Amsterdam University of Applied Sciences][auas]. I lecture about designing for the web in the technical courses of [our program][bt] such as; front-end, [back-end][be] & [data visualization][tt].
+
+**Speaking**
+
+I like to speak at conferences, meetups and offices or give a guest lecture at your school or university. You should invite me. I share what I learn trough [writing posts][writing] or [online classes and courses][teaching].
+
+**Projects**
+
+I'm a big believer in [digital side projects][projects] and continuously creating. A lot of what I do is [open source][os].
+
+I'm pretty good at tinkering with a Raspberry Pi, watching sci-fi series and playing indie games. When I'm offline I like to cook while listening to podcasts and [reading books][books].
+
+*Bookmarks*
+* *Movie:* [Blade Runner (1982)][blade]
+* *Series:* [Silicon Valley (2014)][valley]
+* *Book:* [Deep Work by Cal Newport][deep]
+* *Link:* [Design Machines][machines]
+
+
+**Back in the day**
+
+I graduated from [CMD Amsterdam][cmd] with a Bachelor of Science and started working at agencies like [Fabrique][fabrique] and [We Brand Creative][wbrnd] working on projects for high-profile clients all while doing freelance projects on the side. I saw the good, the bad, and the ugly when it came to dealing with clients, project deadlines and agency culture and got fed up.
+
+So I decided to only work on my own products or work with positive companies trough my design [Studio Deckard][deckard]. Shortly after graduating I was also asked to teach at the Amsterdam University and have been doing both ever since.
+
+
+---
 
 I live by these 10 principles: [Manifest](/manifest)
+Have a look at my resume: [Resume](/resume)
+
+[cmd]: https://www.cmd-amsterdam.nl/english/
+[auas]: https://www.amsterdamuas.com/
+[bt]: https://github.com/cmda-bt
+[be]: https://github.com/cmda-bt/be-course-18-19
+[tt]: https://github.com/cmda-tt
+[projects]: /projects
+[os]: https://github.com/dandevri
+[writing]: /writing
+[teaching]: /teaching
+[speak]: /speaking
+[books]: https://www.goodreads.com/user/show/82448855-danny-de-vries
+[fabrique]: https://www.fabrique.com/
+[wbrnd]: https://www.webrandcreative.nl/
+[deckard]: https:/www.deckard.digital
+
+[blade]: https://www.imdb.com/title/tt0083658/
+[machines]: https://louderthanten.com/coax/design-machines:
+[deep]: www.calnewport.com/books/deep-work/
+[valley]: https://www.imdb.com/title/tt2575988/
