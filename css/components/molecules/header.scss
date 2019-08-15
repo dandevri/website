@@ -1,7 +1,8 @@
 header {
-  padding: $s6 calc($s6 * 2) ;
+  padding: 3.8147vw 7.6294vw 3.8147vw 7.6294vw;
   color: $cc;
   background: $cn;
-  border: $b1;
+  outline: $b1;
   display: inline-block;
+  box-shadow: $bs2;
 }

@@ -1,6 +1,5 @@
 .card {
   display: inline-block;
-  width: 40em;
   background: $cm;
 
   &-block {
@@ -15,10 +14,7 @@
   &-item {
     background: $cn;
     color: $cc;
-    max-width: 20vw;
     border: $b1;
-    max-height: 50vh;
-    margin-right: $s2;
 
     h3 {
       border: $b1;
@@ -102,8 +98,4 @@
 
 .list-content {
   padding: $s2;
-}
-
-.space > * + * {
-  margin: $s4;
 }

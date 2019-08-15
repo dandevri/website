@@ -6,13 +6,15 @@ permalink: projects/
 ---
 {% import 'components/atoms/card.njk' as card %}
 
-{%- for project in collections.project -%}
-  {{ card.item
-    (
-      project.url,
-      project.data.image,
-      project.data.title,
-      project.data.description
-    )
-  }}
-{%- endfor -%}
+<section class="grid">
+  {%- for project in collections.project -%}
+    {{ card.item
+      (
+        project.url,
+        project.data.image,
+        project.data.title,
+        project.data.description
+      )
+    }}
+  {%- endfor -%}
+</section>
