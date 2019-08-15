@@ -2,7 +2,7 @@
 @import 'config/_variables.scss';
 @import 'config/_typography.scss';
 @import 'config/_utilities.scss';
-@import 'config/_reset.scss';
+@import 'config/_global.scss';
 @import 'config/_layout.scss';
 
 /* Components */

@@ -3,7 +3,15 @@
   padding: $s5;
   background: $cn;
 
+  h3 {
+    font-size: $s2;
+  }
+
   a {
     text-decoration: none;
+  }
+  
+  a > * + * {
+    margin-top: $s1;
   }
 }

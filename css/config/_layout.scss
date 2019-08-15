@@ -1,50 +1,34 @@
+body {
+  margin: calc(3vw * 2);
+}
+
+main {
+  margin-top: calc(3vw * 2);
+}
+
 .wrapper > * + * {
   margin-top: $s2;
-}
-
-header > * + * {
-  margin-top: $s2;
-}
-
-.full-width > * + * {
-  margin-top: $s2;
-}
-
-p,
-h2 {
-  max-width: $width;
-}
-
-.home {
-  border-bottom: $bs1;
-}
-
-.container {
-  width: $width;
-}
-
-.container > * + * {
-  margin-top: $s4;
 }
 
 .content > * + * {
   margin-top: $s2;
 }
 
-.wrapper {
-  max-width: $width;
+.card > * + * {
+  margin-top: $s1;
 }
 
 .bg > * + * {
   margin-top: $s2;
 }
 
-.wrapper h2 {
-  margin-top: $s6;
+.block-contact > * + * {
+  margin-top: $s2;
 }
 
-.block-thing > * + * {
-  margin-top: $s2;
+p,
+h2 {
+  max-width: $width;
 }
 
 .grid {
@@ -62,13 +46,5 @@ h2 {
 }
 
 .space > * + * {
-  margin-top: $s6;
-}
-
-body {
-  margin: calc(3vw * 2);
-}
-
-main {
-  margin-top: $s6;
+  margin-top: calc($s5 * 2);
 }

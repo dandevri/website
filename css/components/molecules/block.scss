@@ -29,11 +29,12 @@
   padding: $s-1 $s1;
 }
 
-.block-thing {
+.block-contact {
   border: $b1;
   padding: $s2;
   margin-top: $s6;
   background: $cn;
+  width: $width;
 
   h3 {
     font-size: $s1;
@@ -54,4 +55,12 @@
   background-color: white;
   border: $b1;
   padding: $s3;
+  position: relative;
+  height: 28vh;
+}
+
+.home-avatar {
+  float: left;
+  height: 6em;
+  margin-right: $s2;
 }

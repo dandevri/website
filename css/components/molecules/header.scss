@@ -7,6 +7,10 @@ header {
   position: relative;
 }
 
+header > * {
+  margin-top: $s2;
+}
+
 header:before {
   @mixin b-1;
 }

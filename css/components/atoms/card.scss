@@ -6,6 +6,7 @@
     padding: $s4;
     background: $cn;
     border: $b1;
+    position: relative;
   }
 
   &-link {
@@ -43,6 +44,7 @@
     background: $cn;
     margin-top: $s6;
     display: block;
+    max-width: $width;
 
     p {
       background: $cn;

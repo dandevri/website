@@ -26,3 +26,11 @@ a {
 p ul {
   padding-left: $s1;
 }
+
+time {
+  display: inline-block;
+}
+
+img {
+  filter: grayscale()
+}
