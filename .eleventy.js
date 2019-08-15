@@ -1,6 +1,12 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const readingTime = require('eleventy-plugin-reading-time');
 const { DateTime } = require("luxon");
+const markdownIt = require('markdown-it')({
+  html: true,
+  breaks: true,
+  linkify: true
+});
+
 
 module.exports = function(config) {
   config.addPassthroughCopy("static/img");
@@ -25,6 +31,10 @@ module.exports = function(config) {
     }
 
     return array.slice(0, n);
+  });
+
+  config.addFilter('markdownFilter', (value) => {
+    return markdownIt.render(value);
   });
 
 
