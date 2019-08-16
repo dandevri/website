@@ -6,12 +6,13 @@ permalink: colophon/
 
 © Site made by Danny de Vries. You shall not steal.
 
-This site is mostly powered by Hand Coding™ with a splash of [11ty][11ty] and many [plugins and packages][packages]. You can peek at the source on [GitHub][repo]. It's hosted on [netlify][netlify].
+This site is mostly powered by Hand Coding™ with a splash of [11ty][11ty] and many [plugins and packages][packages]. You can peek at the source on [GitHub][repo]. It's hosted on [Netlify][netlify]. Feel free to submit a [GitHub issue][issue] if you found a bug or  spot a typo.
 
 No cookies or third-party tracking scripts are embedded on this site. Privacy is more important than metrics.
 
-Layout and components are mostly from [Every Layout][layout] and [Inclusive Components][components]. CSS follow the [ITCSS][itcss] architecture. Component folder structure is based on [Atomic Design][atomic]. Small design tweaks come from [Refactoring UI][refactoring].
+This site is committed to providing an experience that functions for the widest possible audience, regardless of technology or ability. It's tested on multiple browsers, conform AA level compliance for [WCAG 2.1][wcag], audited with [automating testing services][audit] and checked with a screen reader.
 
+Layout and components are mostly from [Every Layout][layout] and [Inclusive Components][components]. CSS follow the [ITCSS][itcss] architecture. Component folder structure is based on [Atomic Design][atomic]. Small design tweaks come from [Refactoring UI][refactoring].
 
 I mostly used my hands to type on a keyboard but was accompanied by lots of different tools and products which are listed on this [uses][uses] page.
 
@@ -37,3 +38,6 @@ Thanks everyone!
 [itcss]: https://itcss.io/
 [atomic]: http://atomicdesign.bradfrost.com/
 [refactoring]: https://refactoringui.com/
+[issue]: https://github.com/systemdes/personal-website/issues
+[audit]: https://github.com/dandevri/static-site-starter/wiki/audits
+[wcag]: https://www.w3.org/TR/WCAG21/
