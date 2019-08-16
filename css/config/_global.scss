@@ -59,3 +59,22 @@ hr {
 div ul {
   padding-left: $s1;
 }
+
+ol {
+  padding-left: $s2;
+  list-style: none;
+  counter-reset: number;
+}
+
+ol li {
+  counter-increment: number;
+
+  &:before {
+    content: "0" counter(number);
+    font-weight: bold;
+    font-size: $s-1;
+    letter-spacing: .1em;
+    margin-left: -1.5rem;
+    position: absolute;
+  }
+}

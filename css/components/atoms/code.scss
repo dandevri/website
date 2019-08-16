@@ -1,6 +1,8 @@
 p code {
-  border: $b1;
   padding: 0.25em;
+  border-radius: 3px;
+  border: $b1;
+  box-shadow: 0 2px 0 $cc;
 }
 
 pre {
