@@ -8,7 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     background: $cn;
-    width: $width;
+    max-width: $width;
 
     &:last-child {
       border-bottom: $b1;

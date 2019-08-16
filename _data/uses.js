@@ -1,18 +1,18 @@
 const workstation = [
   {
-    title: "MacBook Po 13-inch (Late 2017 with touchbar)",
+    title: "MacBook Po 13-inch (Late 2017 without touchbar)",
     link: "https://www.apple.com/nl/shop/buy-mac/macbook-pro",
-    description: "This is my main machine that I use 90% of the time. I'm not a huge fan of the keyboard and don't use the touchbar very often. The health of my battery seems to decrease very quickly. Overall not my favorite computer but it's sleek, thin and I'm pretty locked in the Apple Ecosystem.",
+    description: "This is my main machine that I use 90% of the time. I'm not a huge fan of the keyboard and the health of the battery seems to decrease very quickly. Overall not my favorite computer but it's sleek, thin and I'm pretty locked in the Apple Ecosystem.",
   },
   {
     title: "Logitech MX Master 2S",
     link: "https://www.logitech.com/en-us/product/mx-master-2s-flow",
-    description: "Probably the most ergonomic mouse, it fits my hand perfectly. Lots of useful buttons that can be assigned to common action within the logitech software.",
+    description: "Probably the most ergonomic mouse, it fits my hand perfectly. Lots of useful macro buttons that can be assigned to common actions within the Logitech software.",
   },
   {
     title: "Dell UltraSharp 25-inch (U2515H) Monitor",
     link: "https://www.dell.com/ee/business/p/dell-u2515h-monitor/pd",
-    description: "Best bang for your buck. It's the perfect size for a monitor and is well designed. The color calibration is superb and has lots of ports.",
+    description: "Best bang for your buck. It's the perfect size for a monitor and is well designed. The color calibration is superb and has lots of I/O.",
   },
   {
     title: "Satechi Vertical Aluminum Laptop Stand",
@@ -27,7 +27,7 @@ const workstation = [
   {
     title: "Beyerdynamic DT 770 PRO headphone",
     link: "https://europe.beyerdynamic.com/dt-770-pro.html",
-    description: "Clean and balanced reference headphone for listing to music and watching video's. Not to overpowered bass and a very comfortable fit for long sessions",
+    description: "Clean and balanced reference headphone for listening to music and watching video's. Not to overpowered bass and a very comfortable fit for long sessions",
   },
 ]
 
@@ -35,7 +35,7 @@ const mobile = [
   {
     title: "iPad Pro 13 inch Space Grey",
     link: "https://www.apple.com/lae/ipad-pro/",
-    description: "An almost laptop replacement for on the go. With the iPad OS update it's almost a full fledge workstation and with the keyboard cover and pencil typing and annotating documents are a breeze.",
+    description: "An almost laptop replacement for on the go. With the iPad OS update it's almost a full fledge workstation and with the keyboard cover and pencil typing and annotating documents are a breeze. Amazing screen for watching series.",
   },
   {
     title: "Sony WH-H900N wireless headphones",
@@ -58,7 +58,7 @@ const development = [
   {
     title: "Visual Studio Code",
     link: "https://code.visualstudio.com/",
-    description: "Code editor of choice and use the intergrated terminal along with it. Switched from using Atom and Hyper. Currently using the Night Owl Theme with Victor Mono.",
+    description: "Code editor of choice and use the integrated terminal along with it. Switched from using Atom and Hyper. Currently using the Night Owl Theme with Fira Code.",
   },
   {
     title: "Extensions and settings",
@@ -81,7 +81,7 @@ const recording = [
   {
     title: "Open Broadcast Software",
     link: "https://obsproject.com/",
-    description: "Most people see OBS as live streaming software but it's also great to record my screen for courses and tutorials.",
+    description: "Most people see OBS as live streaming software but it's also great to record your screen for courses and tutorials.",
   },
   {
     title: " Devine BM-1000 studio microphone",
@@ -100,38 +100,38 @@ const applications = [
   {
     title: "1Password",
     link: "https://1password.com/",
-    description: "Best password manager out there",
+    description: "Best password manager out there. Great design and many handy integrated features such as the watchtower and one-time password generator.",
   },
   {
     title: "Firefox",
     link: "https://www.mozilla.org/en-US/firefox",
-    description: "Main browser and devtools of choice",
+    description: "Main browser and developer tools of choice, especially for working with layout and typography. Also have almost any other browser installed for cross-browser testing.",
   },
   {
-    title: "Private internet access",
+    title: "Private Internet Access",
     link: "https://www.privateinternetaccess.com/",
-    description: "Virtual Private Network Service",
+    description: "You should pay for your VPN. NordVPN also seems like a good option but I already had a license for PIA. Might switch to another provider someday.",
   },
   {
     title: "Stack",
     link: "https://www.transip.nl/stack/",
-    description: "Online cloud storage",
+    description: "Online cloud storage and back-up service. The servers are in the Netherlands and you get 1tb for free.",
   },
 
   {
     title: "Spotify",
     link: "https://www.spotify.com/nl/",
-    description: "Digital Music Service",
+    description: "Spotify all the way. I create a playlist every week and curate a lot of house music. The daily mixes and Spotify curated playlists are not that bad.",
   },
   {
     title: "IINA",
     link: "https://iina.io/",
-    description: "Modern media player for macOS",
+    description: "Modern open source media player for macOS. A better alternative to Quicktime. The UI is better and more configurable and plays back more file types.",
   },
   {
     title: "Apple Mail",
     link: "https://support.apple.com/en-us/HT204093",
-    description: "The trusty default mail app",
+    description: "The trusty default mail app. I've tried lots of applications but always come back to the default app. I hate it when you need to pay monthly for an e-mail application.",
   },
 ]
 
@@ -139,17 +139,17 @@ const design = [
   {
     title: "UI Design Tools",
     link: "#",
-    description: "Most of my prototyping happens straight in the browser. I know my way around tools such as Sketch, Invision Studio, Adobe XD, Framer X woring with different clients and teams but personally I'll usually go with Figma.",
+    description: "Most of my prototyping happens straight in the browser. I know my way around tools as Sketch, Invision Studio, Adobe XD, Framer X etc. but personally I'll usually go for Figma.",
   },
   {
     title: "Photo editing",
     link: "#",
-    description: "I don't do a lot of heavy photo-editing but usually some light touch up work. Mostly in Lightroom CC or Pixelmator.",
+    description: "I don't do a lot of heavy photo-editing but usually some light touch up work. Mostly in Lightroom CC or Affinity Photo.",
   },
   {
     title: "Design Utilities",
     link: "#",
-    description: "I like small design tools for specific use case. DotGrid and Ronin are some of my favorites.",
+    description: "I like small design tools for very specific tasks and use cases. DotGrid and Ronin are some of my favorites.",
   },
 ]
 
@@ -157,12 +157,12 @@ const edc = [
   {
     title: "XD Design Bobby Pro Backpack",
     link: "https://www.xd-design.com/us-us/bobby-pro-anti-theft-backpack-black?returnurl=%2fus-us%2fsearch%3fq%3dpro",
-    description: "I like bags with lots of pockets and dividers, it has little features such as a card holder and key holder. It's water-resistant, looks techy and has a padded laptop compartment.",
+    description: "Lots of pockets and dividers, it has little features such as a card holder and key holder. It's water-resistant, looks techy and has a padded laptop compartment.",
   },
   {
     title: "Orbit Key Active Black",
     link: "https://www.orbitkey.com/collections/key-organiser/products/orbitkey-2-0-active?variant=8198980993120",
-    description: "Key Organiser, keeps my keys neat and tidy and fits perfectly on the key holder of the backpack.",
+    description: "Key Organizer, keeps my keys neat and tidy and fits perfectly on the key holder of the backpack.",
   },
   {
     title: "Secrid Wallet Slim Vintage Black",
@@ -185,32 +185,32 @@ const utilities = [
   {
     title: "Alfred",
     link: "https://www.alfredapp.com/",
-    description: "MacOS swiss army knife and a great spotlight replacement."
+    description: "MacOS swiss army knife and a great spotlight replacement. It's worth paying for a license you can add workflows."
   },
   {
     title: "Spectacle",
     link: "https://www.spectacleapp.com/",
-    description: "Window management with handy keyboard shortcuts"
+    description: "Window management with handy keyboard shortcuts. Do you ever want to resize windows by hand?"
   },
   {
     title: "iStat Menus",
     link: "https://bjango.com/mac/istatmenus/",
-    description: "Mac system monitor but also useful for date and time controls"
+    description: "Mac system monitor but also useful for detailed battery status and time zone controls. In combination with bartender makes for a clean menu bar."
   },
   {
     title: "CleanMyMac X",
     link: "https://macpaw.com/cleanmymac",
-    description: "Removes junk and optimizes your mac"
+    description: "Removes junk and optimizes your mac. I run this every other week to clean up my folders and update applications."
   },
   {
     title: "HazeOver",
     link: "https://hazeover.com/",
-    description: "Highlights windows by fading out all others"
+    description: "Highlights windows by fading out all others. It's a bit getting used to but lets you focus on one window at a time and closing after your done."
   },
   {
     title: "Bartender",
     link: "https://www.macbartender.com/",
-    description: "Hides mac menu bar items"
+    description: "Hides mac menu bar items and lets you organize them in a menu."
   },
 ]
 
@@ -218,22 +218,22 @@ const websites = [
   {
     title: "Notion",
     link: "https://www.notion.so/",
-    description: "For keeping my life together",
+    description: "For keeping my life together. I have quite a sophisticated setup based on the GTD model and bullet journal methods.",
   },
   {
     title: "Feedbin",
     link: "https://feedbin.com/",
-    description: "Simple RSS feed reader",
+    description: "Simple RSS feed reader. I subscribe to a lot of peoples blogs and newsletters to keep my mail inbox clutter free.",
   },
   {
     title: "Slack",
     link: "https://slack.com/intl/en-nl/",
-    description: "Avoiding work tool",
+    description: "Avoiding work tool.",
   },
   {
     title: "Google calendar",
     link: "https://calendar.google.com",
-    description: "Trying not to get burned out",
+    description: "Trying not to get burned out. My calendar is my holy grail. If something is on there I'll do it. I've looked into fantastical but that isn't available on my android phone.",
   },
 ]
 

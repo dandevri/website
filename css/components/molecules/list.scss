@@ -27,7 +27,14 @@
 
 .skip-item {
   @mixin reset-link;
-  margin-right: $s1;
+  margin-right: $s-2;
   border: $b1;
-  padding: $s-2;
+  padding: calc($s-2 / 3) calc($s-2);
+  font-weight: 700;
+  text-transform: uppercase;
+
+  &::before {
+      content: "#";
+      margin-right: -0.7em;
+  }
 }

@@ -1,22 +1,17 @@
 ---
 layout: layouts/default
 title: Uses
+description: Here are the tools of the trade that I love to use. I recommend each item on this list and switch things up pretty often to see if something improves my workflow. If I’m missing something, let me know!
 permalink: uses/
 ---
 
-Here are the tools of the trade that I love to use. I'm an absolute gearhead and edc person. I recommend each item on this list and switch things up pretty often to see if a specific tool or software improves my workflow.
+{% import 'components/molecules/skip-list.njk' as list %}
 
-<ul class="skip__list">
-  <li><a href="#development">Development ↓</a></li>
-  <li><a href="#applications">Applications ↓</a></li>
-  <li><a href="#edc">EDC ↓</a></li>
-  <li><a href="#projects">Projects ↓</a></li>
-  <li><a href="#workflows">Workflows ↓</a></li>
-</ul>
+{{ list.skip('development', 'applications', 'edc') }}
 
 <h2>Desk Setup</h2>
 
-<p>For me it's very important to have a clean, functional, ergonomic and well-designed environment to remain focussed. </p>
+<p>For me, it's very important to have a clutter-free, ergonomic and well-designed environment to stay focussed. </p>
 
 <ul>
 {% for item in uses.workstation %}
@@ -39,7 +34,7 @@ Here are the tools of the trade that I love to use. I'm an absolute gearhead and
 </ul>
 
 
-<h2>Development</h2>
+<h2 id="development">Development</h2>
 
 <ul>
 {% for item in uses.development %}
@@ -61,12 +56,13 @@ Here are the tools of the trade that I love to use. I'm an absolute gearhead and
 {% endfor %}
 </ul>
 
-<h2>Applications</h2>
+<h2 id="applications">Applications</h2>
 
 <ul>
 {% for item in uses.applications %}
   <li>
-    <p><a href="{{ item.link }}">{{ item.title }}</a> - {{ item.description }}</p>
+    <p><a href="{{ item.link }}">{{ item.title }}</a></p>
+    <p>{{ item.description }}</p>
   </li>
 {% endfor %}
 </ul>
@@ -76,7 +72,8 @@ Here are the tools of the trade that I love to use. I'm an absolute gearhead and
 <ul>
 {% for item in uses.websites %}
   <li>
-    <p><a href="{{ item.link }}">{{ item.title }}</a> - {{ item.description }}</p>
+    <p><a href="{{ item.link }}">{{ item.title }}</a></p>
+    <p>{{ item.description }}</p>
   </li>
 {% endfor %}
 </ul>
@@ -86,12 +83,13 @@ Here are the tools of the trade that I love to use. I'm an absolute gearhead and
 <ul>
 {% for item in uses.utilities %}
   <li>
-    <p><a href="{{ item.link }}">{{ item.title }}</a> - {{ item.description }}</p>
+    <p><a href="{{ item.link }}">{{ item.title }}</a></p>
+    <p>{{ item.description }}</p>
   </li>
 {% endfor %}
 </ul>
 
-<h2>Design</h2>
+<h3>Design</h3>
 
 <ul>
 {% for item in uses.design %}
@@ -102,7 +100,7 @@ Here are the tools of the trade that I love to use. I'm an absolute gearhead and
 {% endfor %}
 </ul>
 
-<h2>EDC</h2>
+<h2 id="edc">Everyday Carry</h2>
 
 <ul>
 {% for item in uses.edc %}

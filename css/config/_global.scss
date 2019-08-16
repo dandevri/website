@@ -23,8 +23,22 @@ a {
   display: inline-block;
 }
 
-p ul {
+p ul,
+main > ul {
   padding-left: $s1;
+  max-width: $width;
+
+  li {
+    margin-top: $s1;
+
+    p {
+      margin-top: $s-3;
+    }
+
+    a {
+      font-weight: 700;
+    }
+  }
 }
 
 time {
