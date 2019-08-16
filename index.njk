@@ -10,25 +10,30 @@ layout: layouts/home
     <h1>Danny de Vries</h1>
     <h2 class="d-1">is a <strong>Lecturer</strong> and <strong>front-end designer.</strong></h2>
     <p> Hi! I'm the founder of <a href="#">Studio Deckard</a> and build my own <a href="#">digital products</a> as a front-end designer. I also work as a lecturer at <a href="https://www.amsterdamuas.com/">CMD Amsterdam</a> where I lecture about designing for the web such as <a href="https://github.com/cmda-bt">front-end and back-end.</a></p>
-    {{ button.primary('/about', 'More words')}}
+    {{ button.primary('/about', 'More words about me')}}
 </header>
 
 <main class="space">
 <section class="home grid grid-m">
-  {%- for article in collections.article | reverse | limit(4) -%}
+  {%- for article in collections.article | reverse | limit(3) -%}
     {% include 'components/atoms/article.njk' %}
   {%- endfor -%}
+    <article class="article-item article-next">
+    <a href="/writing">
+      <h3>See all posts →</h3>
+    </a>
+  </article>
 </section>
 
-<section class="home bg">
+<section class="home bg bg-speaking">
   <h3 class="p">Speaking</h3>
-  <p class="p">I'd like to talk about tech, building for the web and tinkering with code. Some of my talks are technical with code examples. I can give these at your conference or within office hours at your company or meet-up.</p>
+  <p class="p">Passionate about building for the web and tinkering with code. I can give a talk or guest lecture at your conference, university or office hours. My talks are brief and to the point with lots of examples and actionable tips. You can also ask me to host and moderate your event, like a MC but without the rap. </p>
   {{ button.primary('/speaking', 'All talks')}}
   {{ button.secondary('/about', 'Events')}}
 </section>
 
 <section class="home grid grid-m">
-{%- for project in collections.project | limit(4) -%}
+{%- for project in collections.project | limit(3) -%}
   {{ card.item
     (
       project.url,
@@ -38,11 +43,15 @@ layout: layouts/home
     )
   }}
 {%- endfor -%}
+<article class="article-item article-next">
+    <a href="/projects">
+      <h3>See all projects →</h3>
+    </a>
 </section>
 
-<section class="home bg">
+<section class="home bg bg-teaching">
   <h3 class="p">Teaching</h3>
-  <p class="p">An overview of workshops I can give at your conference or office and courses from the Amsterdam University of Applied Sciences. I've also made some online courses to learn with me on the web.</p>
+  <p class="p">You'll usually find me in front of a classroom at the Amsterdam University in the technical courses of our program but I also share what I learn by giving full-day workshops and creating online classes and courses so you can learn with me around the web.</p>
   {{ button.primary('/teaching', 'All courses')}}
   {{ button.secondary('/teaching', 'Workshops')}}
 </section>

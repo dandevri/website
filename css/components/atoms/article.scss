@@ -1,6 +1,6 @@
 .article-item {
   border: $b1;
-  padding: $s5;
+  padding: $s4;
   background: $cn;
 
   h3 {
@@ -10,8 +10,14 @@
   a {
     text-decoration: none;
   }
-  
+
   a > * + * {
     margin-top: $s1;
   }
+}
+
+.article-next {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
 }
