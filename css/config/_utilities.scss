@@ -81,3 +81,15 @@ ul {
   border-bottom: 2px solid #000;
   border-left: 2px solid #000;
 }
+
+@define-mixin focus {
+  transition: outline-offset .1s ease-in;
+  outline-offset: 4px;
+
+  &:focus {
+    outline: 2px dotted black;
+    outline-offset: 2px;
+    background:lightgrey;
+    color: $cc;
+  }
+}
