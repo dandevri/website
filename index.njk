@@ -5,7 +5,7 @@ layout: layouts/home
 {% import 'components/atoms/card.njk' as card %}
 
 
-<header class="home">
+<header class="home animate">
     <img class="home-avatar" src="/static/img/avatar.jpg">
     <h1>Danny de Vries</h1>
     <h2 class="d-1">is a <strong>Lecturer</strong> and <strong>front-end designer.</strong></h2>
@@ -14,11 +14,11 @@ layout: layouts/home
 </header>
 
 <main class="space">
-<section class="home grid grid-m">
+<section class="home grid grid">
   {%- for article in collections.article | reverse | limit(3) -%}
     {% include 'components/atoms/article.njk' %}
   {%- endfor -%}
-    <article class="article-item article-next">
+    <article class="article-next">
     <a href="/writing">
       <h3>See all posts →</h3>
     </a>
@@ -32,7 +32,7 @@ layout: layouts/home
   {{ button.secondary('/about', 'Events')}}
 </section>
 
-<section class="home grid grid-m">
+<section class="home grid grid">
 {%- for project in collections.project | limit(3) -%}
   {{ card.item
     (
@@ -43,7 +43,7 @@ layout: layouts/home
     )
   }}
 {%- endfor -%}
-<article class="article-item article-next">
+<article class="article-next">
     <a href="/projects">
       <h3>See all projects →</h3>
     </a>

@@ -17,6 +17,7 @@
     background: $cn;
     color: $cc;
     border: $b1;
+    @mixin hover;
 
     h3 {
       border: $b1;

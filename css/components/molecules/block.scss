@@ -35,6 +35,10 @@
   margin-top: $s6;
   background: $cn;
   max-width: $width;
+  
+  ul {
+    @mixin fade-out;
+  }
 
   h3 {
     font-size: $s1;

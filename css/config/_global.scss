@@ -1,4 +1,4 @@
-@mixin reduced-motion;
+/* @mixin reduced-motion; */
 
 *, ::after, ::before {
   margin: 0;
@@ -28,6 +28,7 @@ p ul,
 main > ul {
   padding-left: $s1;
   max-width: $width;
+  @mixin fade-out;
 
   li {
     margin-top: $s1;
@@ -53,4 +54,8 @@ img {
 hr {
   width: 10%;
   opacity: 0.2;
+}
+
+div ul {
+  padding-left: $s1;
 }
