@@ -5,7 +5,7 @@ layout: layouts/home
 {% import 'components/atoms/card.njk' as card %}
 
 
-<header class="home animate">
+<header class="header-home animate">
     <img class="home-avatar" src="/static/img/avatar.jpg">
     <h1>Danny de Vries</h1>
     <h2 class="d-1">is a <strong>Lecturer</strong> and <strong>front-end designer.</strong></h2>
@@ -67,7 +67,7 @@ layout: layouts/home
 </section>
 
 <section class="blocks grid">
-  {{ card.block("Coaching", "Looking for a mentor to give guidance? Maybe a coaching session or just some quick feedback?", "/coaching", "Read about coaching") }}
+  {{ card.block("Coaching", "Looking for a mentor to give guidance? Maybe a coaching session or just some quick feedback?", "/coaching", "About coaching") }}
   {{ card.block("Support", "If you like my speaking, writing, courses and projects, you can consider supporting me.", "/support", "Support me") }}
   {{ card.block("Contact", "Feel free to contact me if you have any questions. You can e-mail, chat or follow me on social.", "/contact", "Get in touch") }}
 </section>

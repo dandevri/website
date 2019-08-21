@@ -20,7 +20,7 @@
 }
 
 :root {
-  font-size: calc($base * $ratio);
+  font-size: calc(.333vw + $base);
   font-family: 'Simplon Mono', monospace;
   line-height: $ratio;
 }

@@ -1,5 +1,8 @@
 main {
-  margin: calc(3vw * 2);
+  margin-top: calc(3vh * 2);
+  margin-right: calc(3vw * 2);
+  margin-bottom: calc(3vh * 2);
+  margin-left: calc(3vw * 2);
 }
 
 .wrapper > * + * {
@@ -29,10 +32,10 @@ h2 {
 
 .grid {
   display: grid;
-  grid-gap: $s3;
+  grid-gap: $s4;
   grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
 }
 
-.space > * + * {
+.space > * {
   margin-top: calc($s5 * 2);
 }
