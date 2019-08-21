@@ -2,6 +2,6 @@
   <a href="{{ article.url }}">
     <h3>{{ article.data.title }}</h3>
     <p>{{ article.data.description }}</p>
-    <time datetime="{{ article.date | htmlDateString }}">{{ article.date | readableDate }}</time>
+    <time datetime="{{ article.date | htmlDateString }}">{{ article.date | dotDate }}</time>
   </a>
 </article>
