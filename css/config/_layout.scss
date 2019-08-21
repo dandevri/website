@@ -1,9 +1,5 @@
-body {
-  margin: calc(3vw * 2);
-}
-
 main {
-  margin-top: calc(3vw * 2);
+  margin: calc(3vw * 2);
 }
 
 .wrapper > * + * {
@@ -34,15 +30,7 @@ h2 {
 .grid {
   display: grid;
   grid-gap: $s3;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-}
-
-.grid-m {
-  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-}
-
-.grid-l {
-  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
 }
 
 .space > * + * {

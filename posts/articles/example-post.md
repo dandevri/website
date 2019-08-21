@@ -4,7 +4,7 @@ subtitle: Bootstrapping investor validation focus venture.
 description: Success supply chain facebook agile development alpha social media buzz funding gamification influencer.
 slug: example-post
 date: 2019-07-24
-tags: ['article', 'essay', 'tech', 'productivity']
+tags: ['article', 'tech', 'productivity']
 layout: layouts/post.njk
 permalink: /articles/{{ slug }}/index.html
 ---

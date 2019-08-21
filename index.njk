@@ -26,10 +26,15 @@ layout: layouts/home
 </section>
 
 <section class="home bg bg-speaking">
-  <h3 class="p">Speaking</h3>
-  <p class="p">Passionate about building for the web and tinkering with code. I can give a talk or guest lecture at your conference, university or office hours. My talks are brief and to the point with lots of examples and actionable tips. You can also ask me to host and moderate your event, like a MC but without the rap. </p>
-  {{ button.primary('/speaking', 'All talks')}}
-  {{ button.secondary('/about', 'Events')}}
+  <div>
+    <div class="content">
+      <h3 class="p">Speaking</h3>
+      <p class="p">Passionate about building for the web and tinkering with code. I can give a talk or guest lecture at your conference, university or office hours. My talks are brief and to the point with lots of examples and actionable tips. You can also ask me to host and moderate your event, like a MC but without the rap. </p>
+      {{ button.primary('/speaking', 'All talks')}}
+      {{ button.secondary('/about', 'Events')}}
+    </div>
+    <img src="/static/img/photos/talk.jpg"/>
+  </div>
 </section>
 
 <section class="home grid grid">
@@ -50,13 +55,18 @@ layout: layouts/home
 </section>
 
 <section class="home bg bg-teaching">
-  <h3 class="p">Teaching</h3>
-  <p class="p">You'll usually find me in front of a classroom at the Amsterdam University in the technical courses of our program but I also share what I learn by giving full-day workshops and creating online classes and courses so you can learn with me around the web.</p>
-  {{ button.primary('/teaching', 'All courses')}}
-  {{ button.secondary('/teaching', 'Workshops')}}
+  <div>
+    <div class="content">
+      <h3 class="p">Teaching</h3>
+      <p class="p">You'll usually find me in front of a classroom at the Amsterdam University in the technical courses of our program but I also share what I learn by giving full-day workshops and creating online classes and courses so you can learn with me around the web.</p>
+      {{ button.primary('/teaching', 'All courses')}}
+      {{ button.secondary('/teaching', 'Workshops')}}
+    </div>
+    <img src="/static/img/photos/classroom.jpg"/>
+  </div>
 </section>
 
-<section class="blocks grid grid-l">
+<section class="blocks grid">
   {{ card.block("Coaching", "Looking for a mentor to give guidance? Maybe a coaching session or just some quick feedback?", "/coaching", "Read about coaching") }}
   {{ card.block("Support", "If you like my speaking, writing, courses and projects, you can consider supporting me.", "/support", "Support me") }}
   {{ card.block("Contact", "Feel free to contact me if you have any questions. You can e-mail, chat or follow me on social.", "/contact", "Get in touch") }}

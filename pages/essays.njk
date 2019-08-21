@@ -1,0 +1,11 @@
+---
+layout: layouts/default
+title: Essays
+permalink: essays/
+---
+
+<section class="article-list grid grid-m">
+  {%- for essay in collections.essay | reverse -%}
+    {% include 'components/atoms/essay.njk' %}
+  {%- endfor -%}
+</section>

@@ -35,7 +35,7 @@
   margin-top: $s6;
   background: $cn;
   max-width: $width;
-  
+
   ul {
     @mixin fade-out;
   }
@@ -63,12 +63,28 @@
   filter: grayscale();
 }
 
-.bg-speaking {
-  background-image: url('/static/img/photos/talk.jpg');
+.bg > * {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -0.5rem;
 }
 
-.bg-teaching {
-  background-image: url('/static/img/photos/classroom.jpg');
+.bg > * > * {
+  margin: 0.5rem;
+}
+
+.bg img {
+  flex-basis: 25rem;
+  flex-grow: 1;
+  object-fit: cover;
+  max-height: 25vh;
+  margin-left: $s6;
+}
+
+.content {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: calc(50% - 1rem);
 }
 
 .home-avatar {

@@ -2,12 +2,7 @@
 layout: layouts/base
 ---
 
-<header class="post">
-  <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
-  <span> ▪ {{ content | readingTime }}</span>
-  <h1 class="header__title display">{{ title }}</h1>
-  <h2 class="header__subtitle">{{ subtitle }}</h2>
-</header>
+{% include 'components/molecules/cover.njk' %}
 
 <main class="wrapper">
   {{ content | safe }}

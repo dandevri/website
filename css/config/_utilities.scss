@@ -54,7 +54,7 @@ ul {
   display: block;
   z-index: 2;
   background-color: rgb(243, 243, 243);
-  width: 14px;
+  width: calc(1.25 * 1vw);
   top: 0;
   bottom: 0;
   right: 0;
@@ -73,7 +73,7 @@ ul {
   display: block;
   z-index: 2;
   background-color: rgb(243, 243, 243);
-  height: 14px;
+  height: calc(1.25 * 1vw);;
   left: 0;
   bottom: 0;
   right: 0;

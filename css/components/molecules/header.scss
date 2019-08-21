@@ -1,5 +1,5 @@
 header {
-  padding: 3vw;
+  padding: $s3;
   color: $cc;
   background: $cn;
   outline: $b1;
@@ -7,7 +7,7 @@ header {
   position: relative;
 }
 
-header > * {
+header > * + * {
   margin-top: $s2;
 }
 
@@ -21,4 +21,8 @@ header:after {
 
 .home h1 {
   font-size: $s5;
+}
+
+.home, .animate, .post {
+  margin: calc(3vw * 2);
 }

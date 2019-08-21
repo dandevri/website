@@ -25,5 +25,6 @@
 @import 'components/molecules/list.scss';
 @import 'components/molecules/block.scss';
 @import 'components/molecules/footer.scss';
+@import 'components/molecules/cover.scss';
 
 /* @import-normalize; */

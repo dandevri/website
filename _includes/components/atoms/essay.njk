@@ -1,0 +1,7 @@
+<article class="article-item">
+  <a href="{{ essay.url }}">
+    <h3>{{ essay.data.title }}</h3>
+    <p>{{ essay.data.description }}</p>
+    <time datetime="{{ essay.date | htmlDateString }}">{{ essay.date | dotDate }}</time>
+  </a>
+</article>

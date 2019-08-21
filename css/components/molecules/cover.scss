@@ -1,0 +1,19 @@
+.cover {
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+}
+
+.cover > .center {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.cover > * {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cover > :last-child:not(h1) {
+  margin-bottom: 0;
+}
