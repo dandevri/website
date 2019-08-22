@@ -19,6 +19,7 @@
 
 .skip-list {
   @mixin reset-list;
+  @mixin fade-out;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: $s4;

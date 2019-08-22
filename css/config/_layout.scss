@@ -42,7 +42,7 @@ h2 {
   grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
 }
 
-.space > * {
+.space > * + *{
   margin-top: $s4;
 }
 

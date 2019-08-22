@@ -4,6 +4,7 @@ header {
   outline: $b1;
   display: inline-block;
   position: relative;
+  margin: calc(3vw * 2);
 }
 
 header > * + * {
@@ -18,8 +19,4 @@ header > * + * {
   font-size: $s2;
   margin-top: $s-7;
   font-weight: 400;
-}
-
-.header-home, .animate, .post {
-  margin: calc(3vw * 2);
 }

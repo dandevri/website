@@ -24,8 +24,7 @@ a {
   @mixin focus;
 }
 
-p ul,
-main > ul {
+p ul {
   padding-left: $s1;
   max-width: $width;
   @mixin fade-out;
