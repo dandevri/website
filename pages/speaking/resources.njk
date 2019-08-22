@@ -6,6 +6,7 @@ permalink: /speaking/resources/
 ---
 
 {% import 'components/atoms/link.njk' as link %}
+{% import 'components/atoms/button.njk' as button %}
 
 <h3>Meta</h3>
 
@@ -16,7 +17,6 @@ permalink: /speaking/resources/
   <li>Website: www.dandevri.es</li>
   <li>Social: @dandevri</li>
 </ul>
-
 
 <h3>Social</h3>
 
@@ -30,19 +30,17 @@ permalink: /speaking/resources/
 </ul>
 
 <h3>Biography</h3>
-<span><em>One-line pitch (third person):</em></span>
-<p>Danny is a freelance front-end designer tinkering with code and lecturer at the Amsterdam University of Applied Sciences.</p>
 
-<span><em>Short-bio (third person):</em></span>
-<p> Danny is a freelance front-end designer building digital products trough his design practice Studio Title and tinkering with code on digital projects on the side. He also works as a lecturer at the Amsterdam University of Applied Sciences where he lectures about web development in the technical courses of the program.</p>
+<p><em>One-line pitch (third person):</em></p>
+<p>Danny de Vries is a front-end designer creating digital products and lecturer at the Amsterdam University of Applied Sciences.</p>
 
-<h3>Looking for photos?</h3>
+<p><em>Short bio (third person):</em></p>
+<p> Danny de Vries is a front-end designer building digital products. He is passionate about design systems, brand identities, interfaces and web development. His approach is organized, systematic and inclusive. He also works as a lecturer at the Amsterdam University of Applied Sciences where he lectures about web development in the technical courses of the program.</p>
 
-<a href="/static/img/avatar.jpg">
-  <img src="/static/img/avatar.jpg"></img>
-</a>
+<p><em>Long bio (third person):</em></p>
+<p> Danny de Vries is a front-end designer building digital products. He is passionate about design systems, brand identities, interfaces and web development. His approach is organized, systematic and inclusive. He is also a lecturer and mentor at Communication and Multimedia Design, a human-centred and context-sensitive bachelor-level design education in the field of interactive digital products and services, at the Amsterdam University of Applied Sciences. He lectures in the technical courses of that program such as; front-end, back-end & data visualization.</p>
 
 <h3>Download</h3>
-Download everything in <code>markdown</code> format with full resolution web optimized <code>.jpeg</code> images.
+<p>Here's a <code>.zip</code> with full resolution web optimized .jpeg images and all the biographies in <code>.md</code> format.</p>
 
-<a class="btn" href="/static/other/#">Download .zip</a>
+{{ button.primary('/static/other/presskit.zip', 'Download .zip')}}
