@@ -5,7 +5,11 @@ description: A few things I've written. These are longer articles but I also wri
 permalink: writing/
 ---
 
-<section class="article-list grid grid-m">
+{% import 'components/molecules/tags-list.njk' as list %}
+
+{{ list.tag('notes', 'weeknotes', 'journal', 'guides', 'essays', 'links') }}
+
+<section class="article-list grid grid-l">
   {%- for article in collections.article | reverse -%}
     {% include 'components/atoms/article.njk' %}
   {%- endfor -%}

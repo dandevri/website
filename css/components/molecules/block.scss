@@ -23,8 +23,8 @@
 }
 
 .block-title {
-  background: $cc;
-  color: $cn;
+  background: $grey;
+  color: $white;
   margin-bottom: 0;
   padding: $s-1 $s1;
 }
@@ -33,7 +33,7 @@
   border: $b1;
   padding: $s2;
   margin-top: $s6;
-  background: $cn;
+  background: $white;
   max-width: $width;
 
   ul {
@@ -47,7 +47,7 @@
     display: inline-block;
     position: absolute;
     transform: translateY(-3rem);
-    background: $cn;
+    background: $white;
   }
 }
 
@@ -77,14 +77,16 @@
   flex-basis: 25rem;
   flex-grow: 1;
   object-fit: cover;
-  max-height: 25vh;
-  margin-left: $s6;
+  height: 35vh;
+  border: $b1;
+  box-shadow: $bs2;
 }
 
 .content {
   flex-basis: 0;
   flex-grow: 999;
   min-width: calc(50% - 1rem);
+  margin-right: $s6;
 }
 
 .home-avatar {

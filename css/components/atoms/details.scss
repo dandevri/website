@@ -2,8 +2,8 @@ details {
   summary {
     list-style-image: url(/static/img/marker-light.svg);
     padding: $s1;
-    background-color: $cc;
-    color: $cn;
+    background-color: $black;
+    color: $white;
     max-width: $width;
   }
 
@@ -14,8 +14,8 @@ details {
   }
 
   p {
-    background: $cc;
-    color: $cn;
+    background: $grey;
+    color: $white;
     padding: $s1;
   }
 }

@@ -21,7 +21,6 @@
   @mixin reset-list;
   display: flex;
   flex-wrap: wrap;
-  margin-top: $s4;
   margin-bottom: $s4;
 }
 
@@ -37,4 +36,9 @@
       content: "#";
       margin-right: -0.7em;
   }
+}
+
+.list {
+  padding: 0;
+  list-style: none;
 }

@@ -1,0 +1,15 @@
+---
+layout: layouts/base
+---
+{% import 'components/atoms/card.njk' as card %}
+
+<main class="wrapper">
+  {{ card.detail
+    (
+      {{ title }},
+      {{ templateContent | safe }},
+      {{ date }},
+      {{ type }}
+    )
+  }}
+</main>

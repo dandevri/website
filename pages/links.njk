@@ -1,12 +1,12 @@
 ---
-layout: layouts/default
+layout: layouts/overview
 title: Links
 permalink: links/
 ---
 
 {% import 'components/atoms/card.njk' as card %}
 
-<ol class="links-list">
+<ul class="list">
   {%- for link in collections.link | reverse -%}
     {{ card.list
       (
@@ -18,4 +18,4 @@ permalink: links/
       )
     }}
   {%- endfor -%}
-</ol>
+</ul>

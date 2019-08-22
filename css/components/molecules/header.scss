@@ -1,31 +1,25 @@
 header {
   padding: $s3;
-  color: $cc;
-  background: $cn;
+  background: $white;
   outline: $b1;
   display: inline-block;
   position: relative;
 }
 
 header > * + * {
-  margin-top: $s2;
+  margin-top: $s3;
 }
 
-header:before {
-  @mixin b-1;
+.header-home h1 {
+  font-size: $s4;
 }
 
-header:after {
-  @mixin b-2;
-}
-
-.home h1 {
-  font-size: $s5;
+.header-home h2 {
+  font-size: $s2;
+  margin-top: $s-7;
+  font-weight: 400;
 }
 
 .header-home, .animate, .post {
-  margin-top: calc(3vw * 2);
-  margin-right: calc(3vw * 2);
-  margin-left: calc(3vw * 2);
-  margin-bottom: 0vw;
+  margin: calc(3vw * 2);
 }

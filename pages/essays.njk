@@ -1,10 +1,10 @@
 ---
-layout: layouts/default
+layout: layouts/overview
 title: Essays
 permalink: essays/
 ---
 
-<section class="article-list grid grid-m">
+<section class="article-list grid-l">
   {%- for essay in collections.essay | reverse -%}
     {% include 'components/atoms/essay.njk' %}
   {%- endfor -%}

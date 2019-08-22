@@ -1,10 +1,10 @@
 .card {
   display: inline-block;
-  background: $cm;
+  background: $white;
 
   &-block {
     padding: $s4;
-    background: $cn;
+    background: $white;
     border: $b1;
     position: relative;
   }
@@ -14,8 +14,8 @@
   }
 
   &-item {
-    background: $cn;
-    color: $cc;
+    background: $white;
+    color: $grey;
     border: $b1;
     @mixin hover;
 
@@ -25,7 +25,7 @@
       display: inline-block;
       position: absolute;
       transform: translateY(-3rem);
-      background: $cn;
+      background: $white;
     }
   }
 
@@ -42,13 +42,13 @@
   &-product {
     border: $b1;
     padding: $s4 $s1 $s1 $s1;
-    background: $cn;
+    background: $white;
     margin-top: $s6;
     display: block;
     max-width: $width;
 
     p {
-      background: $cn;
+      background: $white;
       font-size: $s-1;
       text-transform: uppercase;
       border: $b1;
@@ -68,15 +68,15 @@
     .list-meta {
       display: flex;
       align-items: center;
-      background: $cn;
+      background: $white;
       padding: $s0 $s4 $s0 $s4;
       border-top: $b1;
     }
 
     .list-type {
       padding: $s-3 $s-1;
-      background: $cc;
-      color: $cn;
+      background: $grey;
+      color: $white;
       font-size: $s-1;
       position: absolute;
       bottom: 0;
@@ -98,6 +98,10 @@
       display: block;
     }
   }
+}
+
+.content a {
+  position: relative;
 }
 
 .list-content {

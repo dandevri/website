@@ -6,6 +6,7 @@ permalink: support/
 ---
 
 {% import 'components/atoms/link.njk' as link %}
+{% import 'components/atoms/button.njk' as button %}
 
 <p>You can decide how much you want to donate (<a href="https://en.wikipedia.org/wiki/Pay_what_you_want">Pay what you want</a>) and decide how much my resources are worth.</p>
 
@@ -21,17 +22,10 @@ permalink: support/
 
 <p>If you want to continously support me in the form of monthly 'subscription' Patreon is the best option. You get access to Patreon only content and will get exclusive early access to future content and products.</p>
 
-{{ link.ext("https://www.patreon.com/dandevri", "Patreon Page") }}
+{{ button.primary('https://www.patreon.com/dandevri', 'Patreon Page')}}
 
 <h2>Donate</h2>
 
-<ul>
-  <li>{{ link.inl("https://bunq.me/dandevri/3", "Cup of coffee (€3)") }}</li>
-  <li>{{ link.inl("https://bunq.me/dandevri/6", "Cup of coffee with pie (€6)") }}</li>
-  <li>{{ link.inl("https://bunq.me/dandevri", "Or choose your amount") }}</li>
-</ul>
-
-<h3>Spend</h3>
 <p>Your contribution will be well spent.
 
 <ul>
@@ -39,3 +33,7 @@ permalink: support/
   <li>Video and audio gear to create better content (e.g. microphone, mixer)</li>
   <li>Hosting and transcription costs (e.g. podcast, web hosting)</li>
 </ul>
+
+{{ button.secondary('https://bunq.me/dandevri/3', 'Cup of coffee (€3)')}}
+{{ button.secondary('https://bunq.me/dandevri/6', 'Cup of coffee with pie (€6)')}}
+{{ button.secondary('https://bunq.me/dandevri', 'Or choose your amount')}}

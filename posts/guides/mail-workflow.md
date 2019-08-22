@@ -2,7 +2,7 @@
 title: Mail Workflow
 date: 2019-08-08
 tags: guide
-layout: layouts/default.njk
+layout: layouts/essay.njk
 slug: mail-workflow
 permalink: /guides/{{ slug }}/index.html
 ---

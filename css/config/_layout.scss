@@ -1,5 +1,5 @@
 main {
-  margin-top: calc(3vh * 2);
+  margin-top: 0;
   margin-right: calc(3vw * 2);
   margin-bottom: calc(3vh * 2);
   margin-left: calc(3vw * 2);
@@ -36,6 +36,20 @@ h2 {
   grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
 }
 
+.grid-l {
+  display: grid;
+  grid-gap: $s5;
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+}
+
 .space > * {
-  margin-top: calc($s5 * 2);
+  margin-top: $s4;
+}
+
+.overview {
+  margin-top: 12vh;
+}
+
+.overview > * + * {
+  margin-top: $s6;
 }

@@ -1,12 +1,12 @@
 ---
-layout: layouts/default
+layout: layouts/overview
 title: Weeknotes
 permalink: weeknotes/
 ---
 
 {% import 'components/atoms/card.njk' as card %}
 
-<ol class="weeknote-list">
+<ul class="list">
   {%- for weeknote in collections.weeknote | reverse -%}
     {{ card.list
       (
@@ -18,4 +18,4 @@ permalink: weeknotes/
       )
     }}
   {%- endfor -%}
-</ol>
+</ul>

@@ -43,3 +43,22 @@
     </div>
   </li>
 {% endmacro %}
+
+{% macro detail(title, content, date, type) %}
+  <li class="card card-list">
+    <div class="list-content content">
+    {% if title %}
+      <span href="{{ url }}">{{ title }}</span>
+    {% endif %}
+      {{ content }}
+    </div>
+    <div class="list-meta">
+      <img class="list-avatar" src="/static/img/avatar.jpg" alt="Profile Picture of Danny de Vries">
+      <small>Danny de Vries</small>
+      <span class="divider">·</span>
+      <time datetime="{{ date | htmlDateString }}"> {{ date | readableDate }}</time>
+      <span class="list-type">{{ type }}</span>
+      <a href="{{ url }}"></a>
+    </div>
+  </li>
+{% endmacro %}

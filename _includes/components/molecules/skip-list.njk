@@ -1,7 +1,8 @@
-{% macro skip(link1, link2, link3) %}
+{% macro skip(link1, link2, link3, link4) %}
   <ul class="skip-list">
     <li><a class="skip-item" href="#{{ link1 }}"> {{ link1 }}</a></li>
     <li><a class="skip-item"  href="#{{ link2 }}"> {{ link2 }}</a></li>
     <li><a class="skip-item"  href="#{{ link3 }}"> {{ link3 }}</a></li>
+    <li><a class="skip-item"  href="#{{ link4 }}"> {{ link4 }}</a></li>
   </ul>
 {% endmacro %}

@@ -1,5 +1,21 @@
 ---
-layout: layouts/default
+layout: layouts/overview
 title: Journal
 permalink: journal/
 ---
+
+{% import 'components/atoms/card.njk' as card %}
+
+<ul class="list line">
+  {%- for journal in collections.journal | reverse -%}
+    {{ card.list
+      (
+        journal.url,
+        journal.data.title,
+        journal.templateContent | safe,
+        journal.data.date,
+        journal.data.type
+      )
+    }}
+  {%- endfor -%}
+</ul>

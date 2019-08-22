@@ -1,14 +1,19 @@
 .btn {
   padding: $s-2 $s-1;
+  font-size: 0.9rem;
   @mixin reset-link;
 
   &-primary {
-    background: $cc;
-    color: $cn;
+    background: $black;
+    color: $white;
+    box-shadow:
+      inset 0 2px 0 $grey,
+      0 1px 3px hsla(213, 5%, 39%, .2);
   }
 
   &-secondary {
-    background: $cn;
-    color: $cc;
+    background: $white;
+    color: $grey;
+    border: $b1;
   }
 }

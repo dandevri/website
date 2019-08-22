@@ -1,10 +1,10 @@
 ---
-layout: layouts/default
+layout: layouts/overview
 title: Guides
 permalink: guides/
 ---
 
-<section class="guideslist">
+<section class="guideslist grid-l">
   {%- for article in collections.guide | reverse -%}
     {% include 'components/atoms/article.njk' %}
   {%- endfor -%}

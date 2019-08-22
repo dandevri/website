@@ -1,18 +1,11 @@
 .article-item {
   border: $b1;
   padding: $s4;
-  background: $cn;
+  background: $white;
   @mixin hover;
 
   h3 {
     font-size: $s2;
-    border: $b1;
-    padding: $s-2;
-    display: inline-block;
-    position: absolute;
-    transform: translate(0rem, -4rem);
-    background: $cn;
-    z-index: 3;
   }
 
   a {
@@ -30,5 +23,6 @@
   align-items: center;
   border: $b1;
   padding: $s4;
-  background: $cn;
+  background: $white;
+  color: $grey;
 }

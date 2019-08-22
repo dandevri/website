@@ -20,14 +20,14 @@
 }
 
 :root {
-  font-size: calc(.333vw + $base);
+  font-size: calc(.125vw + $base);
   font-family: 'Simplon Mono', monospace;
   line-height: $ratio;
 }
 
 p {
   line-height: calc($base * $ratio * $ratio);
-  color: $cl;
+  color: $grey;
 }
 
 h1 { font-size: $s2; }

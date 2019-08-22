@@ -1,11 +1,11 @@
 ---
-layout: layouts/default
+layout: layouts/overview
 title: Notes
 permalink: notes/
 ---
 {% import 'components/atoms/card.njk' as card %}
 
-<ol class="container line">
+<ul class="list line">
   {%- for note in collections.note | reverse -%}
     {{ card.list
       (
@@ -17,4 +17,4 @@ permalink: notes/
       )
     }}
   {%- endfor -%}
-</ol>
+</ul>
