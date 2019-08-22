@@ -13,6 +13,3 @@ _site
 
 # environment variables file
 .env
-
-# font files
-/static/fonts
