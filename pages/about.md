@@ -5,7 +5,7 @@ description: tl;dr Hi! I'm Danny de Vries. A front-end engineer creating my own 
 permalink: about/
 ---
 
-![Portrait of Danny de Vries](/static/img/portrait.jpg)
+![Portrait of Danny de Vries](/static/img/photos/portrait.jpg)
 
 I'm passionate about design systems, brand identities, privacy, time well spent, interfaces and web development. My approach is organized, systematic and inclusive.
 

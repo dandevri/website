@@ -1,6 +1,6 @@
 details {
   summary {
-    list-style-image: url(/static/img/marker-light.svg);
+    list-style-image: url(/static/img/icons/arker-light.svg);
     padding: $s1;
     background-color: $black;
     color: $white;
@@ -8,7 +8,7 @@ details {
   }
 
   summary::-webkit-details-marker {
-    background: url(/static/img/marker-light.svg);
+    background: url(/static/img/icons/marker-light.svg);
     color: transparent;
     width: 2em;
   }
