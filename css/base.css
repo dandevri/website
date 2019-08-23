@@ -1,9 +1,30 @@
-/* Configuration */
-@import 'config/_variables.scss';
-@import 'config/_typography.scss';
-@import 'config/_utilities.scss';
-@import 'config/_global.scss';
-@import 'config/_layout.scss';
+/* Settings */
+@import 'settings/_ratio.scss';
+@import 'settings/_scale.scss';
+@import 'settings/_colors.scss';
+@import 'settings/_borders.scss';
+@import 'settings/_easing.scss';
+@import 'settings/_shadows.scss';
+
+/* Tools */
+@import 'tools/_font.scss';
+@import 'tools/_mixins.scss';
+@import 'tools/_keyframes.scss';
+
+/* Generic */
+@import 'generic/_reset.scss';
+@import 'generic/_sizing.scss';
+@import 'generic/_layout.scss';
+@import 'generic/_typography.scss';
+
+/* Utilities */
+@import 'utilities/_toggle.scss';
+
+/* Elements */
+@import 'elements/_lists.scss';
+@import 'elements/_headings.scss';
+
+
 
 /* Components */
 

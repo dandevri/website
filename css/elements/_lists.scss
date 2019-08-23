@@ -1,0 +1,16 @@
+p ul {
+  padding-left: $s1;
+  max-width: $width;
+  @mixin fade-out;
+
+  li {
+
+    p {
+      margin-top: $s-3;
+    }
+
+    a {
+      font-weight: 700;
+    }
+  }
+}

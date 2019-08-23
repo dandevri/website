@@ -13,7 +13,6 @@ module.exports = function(config) {
   config.addPassthroughCopy("static/fonts");
   config.addPassthroughCopy("static/js");
   config.addPassthroughCopy("static/other");
-  config.addPassthroughCopy("css/style.css");
 
   config.addPlugin(pluginRss);
   config.addPlugin(readingTime);

@@ -1,44 +1,11 @@
-/* @mixin reduced-motion; */
-
-*, ::after, ::before {
-  margin: 0;
-  padding: 0;
-}
-
 img {
   max-width: 100%;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-figure {
-  margin: 0;
 }
 
 a {
   color: inherit;
   display: inline-block;
   @mixin focus;
-}
-
-p ul {
-  padding-left: $s1;
-  max-width: $width;
-  @mixin fade-out;
-
-  li {
-
-    p {
-      margin-top: $s-3;
-    }
-
-    a {
-      font-weight: 700;
-    }
-  }
 }
 
 time {
@@ -75,4 +42,9 @@ ol li {
     margin-left: -1.5rem;
     position: absolute;
   }
+}
+
+body {
+  background: $white;
+  color: $black;
 }

@@ -1,0 +1,31 @@
+:root {
+  font-size: calc(.125vw + $base);
+  font-family: 'Simplon Mono', monospace;
+  line-height: $ratio;
+}
+
+p {
+  line-height: calc($base * $ratio * $ratio);
+  color: $grey;
+}
+
+small {
+  font-size: $s-1;
+  font-weight: 700;
+}
+
+time { font-size: $s-1; }
+
+time {
+  letter-spacing: 0.1rem;
+}
+
+.d-1 {
+  font-weight: 400;
+  font-size: $s2;
+  margin-top: 0;
+}
+
+ul {
+  line-height: 1.6;
+}
