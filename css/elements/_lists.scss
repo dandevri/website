@@ -17,4 +17,9 @@ p ul {
 
 ul {
   line-height: 1.6;
+  padding-left: $s1;
+}
+
+.multi > * + * {
+  margin-top: $s1;
 }

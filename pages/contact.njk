@@ -1,13 +1,13 @@
 ---
 layout: layouts/default
 title: Contact
-description: Feel free to contact me if you have any questions. You can e-mail, chat or follow me on any of the social platforms. You can find me on many places on the internet as @dandevri.
+description: You can e-mail, chat or follow me on any of the social platforms. Find me on many places on the internet as @dandevri.
 permalink: contact/
 ---
+
 {% import 'components/atoms/link.njk' as link %}
 {% import 'components/atoms/details.njk' as details %}
 
-<div class="block-contact">
 <h3>Mail</h3>
 <p>Oh, e-mail. I have a bit of a love–hate relationship with digital letters. The most <em>formal</em> way to reach me which usually yields a <em>crafted</em> response from me.
 
@@ -16,9 +16,9 @@ permalink: contact/
   <li>{{ link.mail("finance@dandevri.es") }} (business)</li>
   <li>{{ link.mail("d.de.vries4@hva.nl") }} (university)</li>
 </ul>
-</div>
 
-<div class="block-contact">
+
+
 <h3>Chat</h3>
 <p><em>Informal</em> way to reach me for <em>quick</em> questions and <em>brief</em> responses.</p>
 
@@ -28,9 +28,8 @@ permalink: contact/
   <li>{{ link.ext("https://www.twitter.com/dandevri", "Twitter Direct Message") }}</li>
   <li>{{ link.tel("+316 41 02 52 62") }}</li>
 </ul>
-</div>
 
-<div class="block-contact">
+
 <h3>Social</h3>
 <p>Best suited to keep track of what I'm doing without engaging in the matter.
 <em>In order of most active</em></p>
@@ -43,7 +42,6 @@ permalink: contact/
   <li>{{ link.inl("https://dev.to/dandevri", "Dev.to") }}</li>
   <li>{{ link.inl("https://dribbble.com/dandevri", "Dribbble") }}</li>
 </ul>
-</div>
 
 {{ details.details(
   "Ask Me Anything?",

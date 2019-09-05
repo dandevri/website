@@ -1,13 +1,15 @@
 ---
 layout: layouts/default
 title: About
-description: tl;dr Hi! I'm Danny de Vries. A front-end engineer creating my own digital products, working and helping others trough my design studio Deckard and lecturer at the Amsterdam University of Applied Sciences.
+description: tl;dr Hi! I'm Danny de Vries. Indie Maker creating products for the web, working with small companies trough my design studio and lecturer at CMD Amsterdam.
 permalink: about/
 ---
 
 ![Portrait of Danny de Vries](/static/img/photos/portrait.jpg)
 
 I'm passionate about design systems, brand identities, privacy, time well spent, interfaces and web development. My approach is organized, systematic and inclusive.
+
+I live by these [10 principles](/principles).
 
 
 **Lecturing**
@@ -36,12 +38,6 @@ I'm pretty good at tinkering with a Raspberry Pi, watching sci-fi series and pla
 I graduated from [CMD Amsterdam][cmd] with a Bachelor of Science and started working at agencies like [Fabrique][fabrique] and [We Brand Creative][wbrnd] working on projects for high-profile clients all while doing freelance projects on the side. I saw the good, the bad, and the ugly when it came to dealing with clients, project deadlines and agency culture and got fed up.
 
 So I decided to only work on my own products or work with positive companies trough my design [Studio Deckard][deckard]. Shortly after graduating I was also asked to teach at the Amsterdam University and have been doing both ever since.
-
-
----
-
-I live by these 10 principles: [Manifest](/manifest)
-Have a look at my resume: [Resume](/resume)
 
 [cmd]: https://www.cmd-amsterdam.nl/english/
 [auas]: https://www.amsterdamuas.com/

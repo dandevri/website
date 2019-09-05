@@ -1,7 +1,7 @@
 ---
 layout: layouts/default
 title: Uses
-description: Here are the tools of the trade that I love to use. I recommend each item on this list and switch things up pretty often to see if something improves my workflow. If I’m missing something, let me know!
+description: Here are the tools of the trade that I love to use. I recommend each item on this list and switch things up pretty often to see if something improves my workflow.
 permalink: uses/
 ---
 
@@ -13,7 +13,7 @@ permalink: uses/
 
 <p>For me, it's very important to have a clutter-free, ergonomic and well-designed environment to stay focussed. </p>
 
-<ul>
+<ul class="multi">
 {% for item in uses.workstation %}
   <li>
     <p><a href="{{ item.link }}">{{ item.title }}</a></p>
@@ -24,7 +24,7 @@ permalink: uses/
 
 <h2>Mobile station</h2>
 
-<ul>
+<ul class="multi">
 {% for item in uses.mobile %}
   <li>
     <p><a href="{{ item.link }}">{{ item.title }}</a></p>
@@ -36,7 +36,7 @@ permalink: uses/
 
 <h2 id="development">Development</h2>
 
-<ul>
+<ul class="multi">
 {% for item in uses.development %}
   <li>
     <p><a href="{{ item.link }}">{{ item.title }}</a></p>
@@ -47,7 +47,7 @@ permalink: uses/
 
 <h2>Recording</h2>
 
-<ul>
+<ul class="multi">
 {% for item in uses.recording %}
   <li>
     <p><a href="{{ item.link }}">{{ item.title }}</a></p>
@@ -58,7 +58,7 @@ permalink: uses/
 
 <h2 id="applications">Applications</h2>
 
-<ul>
+<ul class="multi">
 {% for item in uses.applications %}
   <li>
     <p><a href="{{ item.link }}">{{ item.title }}</a></p>
@@ -69,7 +69,7 @@ permalink: uses/
 
 <h3>Web apps</h3>
 
-<ul>
+<ul class="multi">
 {% for item in uses.websites %}
   <li>
     <p><a href="{{ item.link }}">{{ item.title }}</a></p>
@@ -80,7 +80,7 @@ permalink: uses/
 
 <h3>Utilities</h3>
 
-<ul>
+<ul class="multi">
 {% for item in uses.utilities %}
   <li>
     <p><a href="{{ item.link }}">{{ item.title }}</a></p>
@@ -91,7 +91,7 @@ permalink: uses/
 
 <h3>Design</h3>
 
-<ul>
+<ul class="multi">
 {% for item in uses.design %}
   <li>
     <p><a href="{{ item.link }}">{{ item.title }}</a></p>
@@ -102,7 +102,7 @@ permalink: uses/
 
 <h2 id="edc">Everyday Carry</h2>
 
-<ul>
+<ul class="multi">
 {% for item in uses.edc %}
   <li>
     <p><a href="{{ item.link }}">{{ item.title }}</a></p>
@@ -110,24 +110,3 @@ permalink: uses/
   </li>
 {% endfor %}
 </ul>
-
-{# <h2>Home</h2>
-
-<ul>
-{% for item in uses.home %}
-  <li>
-    <p><a href="{{ item.link }}">{{ item.title }}</a></p>
-    <p>{{ item.description }}</p>
-  </li>
-{% endfor %}
-</ul> #}
-
-{# <h3>Workflows</h3>
-
-<ul>
-{% for item in uses.workflows %}
-  <li>
-    <p><a href="{{ item.link }}">{{ item.title }}</a> - {{ item.description }}</p>
-  </li>
-{% endfor %}
-</ul> #}

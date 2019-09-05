@@ -1,5 +1,5 @@
 ---
-layout: layouts/overview
+layout: layouts/default
 title: principles
 permalink: principles/
 ---

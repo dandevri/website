@@ -1,24 +1,17 @@
 main {
-  margin-top: 0;
-  margin-right: calc(3vw * 2);
-  margin-bottom: calc(3vh * 2);
-  margin-left: calc(3vw * 2);
+  max-width: $width;
+  margin: 0 auto;
+  padding: $s1;
 }
 
-.wrapper > * + * {
-  margin-top: $s2;
-}
-
-.content > * + * {
-  margin-top: $s2;
-}
-
-.card > * + * {
+main > * + * {
   margin-top: $s1;
 }
 
-.bg > * + * {
-  margin-top: $s2;
+.container {
+  max-width: $width;
+  margin: 0 auto;
+  padding: $s1;
 }
 
 .block-contact > * + * {

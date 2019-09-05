@@ -1,0 +1,35 @@
+---
+layout: layouts/default
+title: Updates
+description: You probably don't want to check my site every day, subscribe to my feeds or follow me on social to receive updates on a regular basis.
+permalink: updates/
+---
+
+{% import 'components/atoms/link.njk' as link %}
+
+<h3>RSS feeds</h3>
+
+<p>I personally use <a href="https://Feedbin.com">feedbin</a> to subscribe to RSS feeds. You could also use <a href="https://rssmailer.app/">RSSMailer</a> to receive mails in your inbox.</p>
+
+<ul>
+  <li>{{ link.inl("http://www.dandevri.es/articles/feed.xml", "Articles") }}</li>
+  <li>{{ link.inl("http://www.dandevri.es/notes/feed.xml", "Notes") }}</li>
+  <li>{{ link.inl("http://www.dandevri.es/weeknotes/feed.xml", "Weeknotes") }}</li>
+  <li>{{ link.inl("http://www.dandevri.es/journal/feed.xml", "Journal") }}</li>
+  <li>{{ link.inl("http://www.dandevri.es/guides/feed.xml", "Guides") }}</li>
+  <li>{{ link.inl("http://www.dandevri.es/guides/feed.xml", "Essays") }}</li>
+  <li>{{ link.inl("http://www.dandevri.es/links/feed.xml", "Links") }}</li>
+</ul>
+
+<h3>Social</h3>
+
+<p>You can also follow me on social media. I post most (not all) of my writing and resources on one of these channels</p>
+
+<ul>
+  <li>{{ link.inl("https://www.twitter.com/dandevri", "Twitter") }}</li>
+  <li>{{ link.inl("https://github.com/dandevri", "GitHub") }}</li>
+  <li>{{ link.inl("https://www.linkedin.com/in/dandevri/", "LinkedIn") }}</li>
+  <li>{{ link.inl("https://www.instagram.com/dandevri/", "Instagram") }}</li>
+  <li>{{ link.inl("https://dev.to/dandevri", "Dev.to") }}</li>
+  <li>{{ link.inl("https://dribbble.com/dandevri", "Dribbble") }}</li>
+</ul>
