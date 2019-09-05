@@ -8,7 +8,7 @@ Hi! I'm Danny de Vries (@dandevri), which you've probably already guessed from t
 
 I'm an Indie Maker building digital products for the web, working and helping small companies trough my tiny design studio and lecture about building for the web at the Amsterdam University of Applied Sciences.
 
-![](/static/img/photos/portrait.jpg)
+![Danny sitting in front of a Laptop](/static/img/photos/portrait_laptop.jpg)
 
 **Speaking**
 
