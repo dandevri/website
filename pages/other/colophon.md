@@ -10,6 +10,8 @@ This site is mostly powered by Hand Coding™ with a splash of [11ty][11ty] and 
 
 No cookies or third-party tracking scripts are embedded on this site. Privacy is more important than metrics.
 
+Heavily inspired by the [IndieWeb][indieweb] concept. I wanted to own my content and be in control of how my content is presented.
+
 This site is committed to providing an experience that functions for the widest possible audience, regardless of technology or ability. It's tested on multiple browsers, conform AA level compliance for [WCAG 2.1][wcag], audited with [automating testing services][audit] and checked with a screen reader.
 
 Layout and components are mostly from [Every Layout][layout] and [Inclusive Components][components]. CSS follow the [ITCSS][itcss] architecture. Component folder structure is based on [Atomic Design][atomic]. Small design tweaks come from [Refactoring UI][refactoring].
@@ -41,3 +43,4 @@ Thanks everyone!
 [issue]: https://github.com/systemdes/personal-website/issues
 [audit]: https://github.com/dandevri/static-site-starter/wiki/audits
 [wcag]: https://www.w3.org/TR/WCAG21/
+[indieweb]: https://indieweb.org/
