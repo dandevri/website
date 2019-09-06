@@ -18,6 +18,7 @@
 @import 'generic/_typography.scss';
 
 /* Utilities */
+@import 'utilities/_text.scss';
 @import 'utilities/_toggle.scss';
 
 /* Elements */
