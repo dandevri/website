@@ -8,6 +8,12 @@ permalink: writing/
 
 {{ list.tag('notes', 'weeknotes', 'journal', 'guides', 'essays', 'links') }}
 
+<p>I write about: {{ taglist }}</p>
+{% for tag in collections.tagList %}
+  {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+  <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+{% endfor %}
+
 <section class="article-list grid grid-l">
   {%- for article in collections.article | reverse -%}
     {% include 'components/atoms/article.njk' %}

@@ -42,6 +42,7 @@ module.exports = function(config) {
     return markdownIt.render(value);
   });
 
+  config.addCollection("tagList", require("./_11ty/getTagList"));
 
   return {
     passthroughFileCopy: true,

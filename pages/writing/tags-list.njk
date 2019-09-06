@@ -1,0 +1,12 @@
+---
+layout: layouts/default
+permalink: /tags/
+title: All tags
+---
+
+{% for tag in collections.tagList %}
+  {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+  <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+{% endfor %}
+
+<p>See <a href="{{ '/tags/' | url }}">all tags</a>.</p>

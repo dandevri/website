@@ -1,0 +1,36 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - nav
+    - post
+    - posts
+    - note
+    - weeknote
+    - project
+    - journal
+    - guide
+    - essay
+    - link
+    - tagList
+    - talks
+    - article
+  addAllPagesToCollections: true
+layout: layouts/default
+renderData:
+  title: Tagged “{{ tag }}”
+permalink: /tags/{{ tag }}/
+---
+<h1>Tagged “{{ tag }}”</h1>
+
+<ol>
+{% set taglist = collections[ tag ] %}
+{% for post in taglist | reverse %}
+  <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
+{% endfor %}
+</ol>
+
+<p>See <a href="{{ '/tags/' | url }}">all tags</a>.</p>
