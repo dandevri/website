@@ -43,8 +43,8 @@
 @import 'components/atoms/code.scss';
 
 /* Molecules */
-@import 'components/molecules/nav.scss';
 @import 'components/molecules/header.scss';
+@import 'components/molecules/nav.scss';
 @import 'components/molecules/list.scss';
 @import 'components/molecules/block.scss';
 @import 'components/molecules/footer.scss';

@@ -4,6 +4,15 @@ title: Danny de Vries
 description: Indie Maker and Lecturer
 ---
 
+```txt
+     _                 _                 _
+  __| | __ _ _ __   __| | _____   ___ __(_)
+ / _` |/ _` | '_ \ / _` |/ _ \ \ / / '__| |
+| (_| | (_| | | | | (_| |  __/\ V /| |  | |
+ \__,_|\__,_|_| |_|\__,_|\___| \_/ |_|  |_|
+                                           
+```
+
 Hi! I'm Danny de Vries (@dandevri), which you've probably already guessed from the header above. I'm passionate about tinkering with code, brand identities and web development. My approach is organized, systematic and inclusive.
 
 I'm an Indie Maker building digital products for the web, working and helping small companies trough my tiny design studio and lecture about building for the web at the Amsterdam University of Applied Sciences.

@@ -1,11 +1,17 @@
 main {
-  max-width: $width;
-  margin: 0 auto;
-  padding: $s1;
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: 75%;
 }
 
-main > * + * {
+.content > * + * {
   margin-top: $s1;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
 }
 
 .container {
@@ -53,4 +59,8 @@ h2 {
   height: 96vh;
   width: 100%;
   flex-direction: column;
+}
+
+.content {
+  padding: $s4;
 }

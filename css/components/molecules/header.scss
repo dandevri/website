@@ -12,3 +12,25 @@ header h2 {
   line-height: 1.5;
   font-weight: 400;
 }
+
+.site-header {
+  flex-basis: 10rem;
+  flex-grow: 1;
+  background: $black;
+  color: $white;
+  padding: $s3;
+}
+
+@media (max-width: 60em) {
+  .site-header {
+    order: 2;
+  }
+}
+
+main header {
+  padding: $s4;
+}
+
+main header > * + * {
+  margin-top: $s1;
+}
