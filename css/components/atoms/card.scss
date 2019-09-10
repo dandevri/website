@@ -9,24 +9,11 @@
     position: relative;
   }
 
-  &-link {
-    text-decoration: none;
-  }
-
   &-item {
     background: $white;
     color: $grey;
     border: $b1;
     @mixin hover;
-
-    h3 {
-      border: $b1;
-      padding: $s-2;
-      display: inline-block;
-      position: absolute;
-      transform: translateY(-3rem);
-      background: $white;
-    }
   }
 
   h3 {

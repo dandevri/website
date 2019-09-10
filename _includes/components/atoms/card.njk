@@ -15,13 +15,12 @@
 
 {% macro item(url, image, title, description) %}
   <article class="card card-item">
-    <a class="card-link" href="{{ url }}">
       <img src="{{ image }}" alt="{{ title }}">
       <div class="list-content content">
         <h3>{{ title }}</h3>
         <p>{{ description }}</p>
+        <a class="card-link" href="{{ url }}">more about {{ title }}</a>
       </div>
-    </a>
   </article>
 {% endmacro %}
 
