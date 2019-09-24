@@ -4,10 +4,8 @@ title: Interviews
 permalink: speaking/interviews/
 ---
 
-  <ul>
+  <ul class="interview-list">
   {% for item in interviews.interviews %}
-    <li>
-      <p><a href="{{ item.link }}">{{ item.title }}</a></p>
-    </li>
+    {% include 'components/atoms/interview.njk' %}
   {% endfor %}
   </ul>

@@ -4,13 +4,8 @@ title: Events
 permalink: speaking/events/
 ---
 
-  <ul class="event">
+<ul class="event-list">
   {% for item in events.events %}
-    <li>
-      <p>{{ item.date }}</p>
-      <p><a href="{{ item.link }}">{{ item.title }}</a></p>
-      <p>{{ item.location }}</p>
-      <p><a href="{{ item.slides }}">Slides</a> · <a href="{{ item.video }}">Video</a></p>
-    </li>
+    {% include 'components/atoms/event.njk' %}
   {% endfor %}
-  </ul>
+</ul>
