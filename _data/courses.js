@@ -39,6 +39,14 @@ const courses = [
     location: "University of Applied Sciences Amsterdam",
     type: "Code"
   },
+  {
+    title: "Web Animation",
+    image: "https://camo.githubusercontent.com/2a37917cbc35e7c9fd2a770f8862739251feaa4b/68747470733a2f2f636d64612d6d696e6f722d7669642e6769746875622e696f2f7765622d616e696d6174696f6e2d31382d31392f6173736574732f62616e6e65722e737667",
+    link: "https://github.com/cmda-minor-vid/web-animation-18-19",
+    description: "Students create a prototype that heavily focusses on interactivity and animations. Instead of static design and prototyping tools they work straight into the browser using in-browser (dev)tools.",
+    location: "University of Applied Sciences Amsterdam",
+    type: "Code"
+  },
 ]
 
 module.exports = {
