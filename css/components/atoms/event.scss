@@ -4,7 +4,7 @@
   .event-item {
     @mixin reset-list;
     border-top: $b1;
-    padding: $s1 $s2;
+    padding: $s1 0;
     display: flex;
     flex-wrap: wrap;
     background: $white;

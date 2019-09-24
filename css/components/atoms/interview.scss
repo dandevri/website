@@ -1,10 +1,14 @@
 .interview {
   @mixin reset-list;
-  padding: $s2;
+  padding: $s1 0;
   border-top: $b1;
   background: $white;
   position: relative;
   max-width: $width;
+
+  &-list {
+    padding: 0;
+  }
 
   &:last-child {
     border-bottom: $b1;
