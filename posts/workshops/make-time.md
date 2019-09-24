@@ -9,23 +9,4 @@ layout: layouts/default.njk
 permalink: /teaching/workshop/{{ slug }}/index.html
 ---
 
-Alpha product management hackathon ecosystem prototype leverage first mover advantage partner network stealth. Stock founders rockstar monetization user experience business-to-consumer product management. Burn rate funding metrics. Gamification vesting period success. Crowdsource low hanging fruit user experience holy grail beta virality validation startup social proof network effects.
-
-## Video
-
-*Insert iframe here*
-
-## Slides
-
-*Insert iframe here*
-
-## Resources
-
-* [Link to a resource](link)
-* [Link to a resource](link)
-* [Link to a resource](link)
-* [Link to a resource](link)
-* [Link to a resource](link)
-* [Link to a resource](link)
-
-[link]: www.example.com
+This workshop won't really focus on a specific technology, it will ground you in fundamentals and core principles.
