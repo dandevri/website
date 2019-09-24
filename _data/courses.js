@@ -10,7 +10,7 @@ const courses = [
   {
     title: "JavaScript bootcamp",
     image: "https://camo.githubusercontent.com/57e49d24afe4d3da55a0c130bb7183f0696de8b4/68747470733a2f2f636d64612d62742e6769746875622e696f2f6a732d626f6f7463616d702d31382d31392f6173736574732f62616e6e65722e737667",
-    link: "https://cmda-bt.github.io/be-course-18-19/docs/",
+    link: "https://github.com/cmda-bt/js-bootcamp-18-19",
     description: "Students refresh their web development knowledge with a 5-day Bootcamp focusing on programming principles in JavaScript and implementing them into an existing project.",
     location: "University of Applied Sciences Amsterdam",
     type: "Code"
@@ -18,7 +18,7 @@ const courses = [
   {
     title: "Systematic UI design",
     image: "https://camo.githubusercontent.com/a63da2ae795b0a2ebae171fc034f4b7973363774/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f636d64612d74742f6c6f676f4064336162643862312f62616e6e65722e737667",
-    link: "https://cmda-bt.github.io/be-course-18-19/docs/",
+    link: "https://github.com/cmda-sud",
     description: "This course teaches students to design User Interfaces in a more modular way. They explore Design Items and work with the Atomic Design principles inside Sketch and Principle.",
     location: "University of Applied Sciences Amsterdam",
     type: "Design"
@@ -26,7 +26,7 @@ const courses = [
   {
     title: "Tech-track",
     image: "https://camo.githubusercontent.com/a63da2ae795b0a2ebae171fc034f4b7973363774/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f636d64612d74742f6c6f676f4064336162643862312f62616e6e65722e737667",
-    link: "https://cmda-bt.github.io/be-course-18-19/docs/",
+    link: "https://github.com/cmda-tt",
     description: "Students learn how to work with front-end libraries and frameworks, and to create interactive data visualisations from external data from external APIs.",
     location: "University of Applied Sciences Amsterdam",
     type: "Code"
@@ -34,7 +34,7 @@ const courses = [
   {
     title: "Project Tech",
     image: "https://camo.githubusercontent.com/38cd320c081a9a4a95063768e069411dc9f35c0d/68747470733a2f2f636d64612d62742e6769746875622e696f2f70742d636f757273652d31382d31392f6173736574732f62616e6e65722e737667",
-    link: "https://cmda-bt.github.io/be-course-18-19/docs/",
+    link: "https://github.com/cmda-bt/pt-course-18-19",
     description: "In Project Tech students learn everything about the web development toolkit. They learn to do technical research, navigate the command line and version control with Git.",
     location: "University of Applied Sciences Amsterdam",
     type: "Code"
