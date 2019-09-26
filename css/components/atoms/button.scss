@@ -7,13 +7,13 @@
     background: $black;
     color: $white;
     box-shadow:
-      inset 0 2px 0 $grey,
+      inset 0 2px 0 $black,
       0 1px 3px hsla(213, 5%, 39%, .2);
   }
 
   &-secondary {
     background: $white;
-    color: $grey;
+    color: $black;
     border: $b1;
   }
 }

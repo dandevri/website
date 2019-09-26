@@ -1,17 +1,13 @@
 .card {
   display: inline-block;
-  background: $white;
 
   &-block {
     padding: $s4;
-    background: $white;
     border: $b1;
     position: relative;
   }
 
   &-item {
-    background: $white;
-    color: $grey;
     border: $b1;
     @mixin hover;
   }
@@ -29,13 +25,11 @@
   &-product {
     border: $b1;
     padding: $s4 $s1 $s1 $s1;
-    background: $white;
     margin-top: $s6;
     display: block;
     max-width: $width;
 
     p {
-      background: $white;
       font-size: $s-1;
       text-transform: uppercase;
       border: $b1;
@@ -55,14 +49,13 @@
     .list-meta {
       display: flex;
       align-items: center;
-      background: $white;
       padding: $s0 $s4 $s0 $s4;
       border-top: $b1;
     }
 
     .list-type {
       padding: $s-3 $s-1;
-      background: $grey;
+      background: $black;
       color: $white;
       font-size: $s-1;
       position: absolute;

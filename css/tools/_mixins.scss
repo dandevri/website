@@ -32,7 +32,7 @@ ul {
     content: '';
     display: block;
     width: 1px;
-    background-color: $grey;
+    background-color: $black;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -100,7 +100,7 @@ ul {
     outline: 2px dotted black;
     outline-offset: 2px;
     background:lightgrey;
-    color: $grey;
+    color: $black;
   }
 }
 

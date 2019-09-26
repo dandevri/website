@@ -20,6 +20,7 @@
 /* Utilities */
 @import 'utilities/_text.scss';
 @import 'utilities/_toggle.scss';
+@import 'utilities/_color-scheme.scss';
 
 /* Elements */
 @import 'elements/_lists.scss';

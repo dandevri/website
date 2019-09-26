@@ -1,7 +1,6 @@
 .article-item {
   border: $b1;
   padding: $s4;
-  background: $white;
   @mixin hover;
 
   h3 {
@@ -24,5 +23,5 @@
   border: $b1;
   padding: $s4;
   background: $white;
-  color: $grey;
+  color: $black;
 }

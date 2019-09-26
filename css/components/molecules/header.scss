@@ -1,5 +1,4 @@
 header {
-  background: $light-grey;
   padding: $s4 0;
 }
 
@@ -16,8 +15,7 @@ header h2 {
 .site-header {
   flex-basis: 10rem;
   flex-grow: 1;
-  background: $black;
-  color: $white;
+  border-right: $b1;
   padding: $s3;
 }
 
