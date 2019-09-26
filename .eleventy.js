@@ -44,6 +44,10 @@ module.exports = function(config) {
 
   config.addCollection("tagList", require("./_11ty/getTagList"));
 
+  config.addFilter("size", (posts) => {
+		return posts.length;
+	});
+
   return {
     passthroughFileCopy: true,
     dir: {

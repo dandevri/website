@@ -1,0 +1,27 @@
+---
+layout: layouts/default
+title: Stats
+permalink: stats/
+---
+
+<h3>Writing</h3>
+<p>Posts: {{ collections.all | size }}</p>
+<p>Articles: {{ collections.article | size }}</p>
+<p>Essays: {{ collections.essay | size }}</p>
+<p>Guides: {{ collections.guide | size }}</p>
+<p>Journal: {{ collections.journal | size }}</p>
+<p>Links: {{ collections.link | size }}</p>
+<p>Notes: {{ collections.note | size }}</p>
+<p>Weeknotes: {{ collections.weeknote | size }}</p>
+
+<h3>Speaking</h3>
+<p>Talks: {{ collections.talks | size }}</p>
+<p>Events: {{ events.events | size }}</p>
+<p>Interviews: {{ interviews.interviews | size }}</p>
+
+<h3>Projects</h3>
+<p>Projects: {{ collections.project | size }}</p>
+
+<h3>Teaching</h3>
+<p>Workshops: {{ collections.workshop | size }}</p>
+<p>Courses: {{ courses.courses | size }}</p>
