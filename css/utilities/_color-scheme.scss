@@ -3,6 +3,11 @@
     background: black;
     color: white;
     border-color: white;
+    transition: color $250ms, background-color $250ms;
+  }
+
+  ul {
+    list-style-image: url(/static/img/icons/marker-light.svg);
   }
 
   img {
