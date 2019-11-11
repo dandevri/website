@@ -9,7 +9,7 @@
     "build:webp": "imagemin --plugin=webp static/img/* --out-dir=_site/static/img/",
     "build:img": "imagemin --plugin=mozjpeg --plugin=pngquant --plugin=svgo static/img/* --out-dir=_site/static/img/ & npm run build:webp",
     "build:css": " postcss css/base.css -o css/style.css -w",
-    "dev": "npm run build:css & npx eleventy --serve ",
+    "dev": "npm run build:css & npx eleventy --serve --quiet",
     "debug": "DEBUG=* npx eleventy"
   },
   "repository": {
