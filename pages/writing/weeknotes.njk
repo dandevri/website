@@ -6,6 +6,8 @@ permalink: weeknotes/
 
 {% import 'components/atoms/card.njk' as card %}
 
+<em>Every week I jot down what I'm working on with a list of curated articles, resources and tools that I'm digging. Have a look at the updates page to see how you can follow me and receive these weekly notes in your inbox.</em>
+
 <ul class="list">
   {%- for weeknote in collections.weeknote | reverse -%}
     {{ card.list
