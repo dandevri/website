@@ -2,20 +2,22 @@
 layout: layouts/base
 ---
 
-<header class="post">
-  <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
-  <span> ▪ {{ content | readingTime }}</span>
-  <h1 class="header__title display">{{ title }}</h1>
-  <h2 class="header__subtitle">{{ subtitle }}</h2>
-</header>
+{% include 'components/molecules/site-header.njk' %}
 
-<main class="wrapper">
-  {{ content | safe }}
-  {% include 'components/atoms/signature.njk' %}
-  {% include 'components/atoms/biography.njk' %}
-</main>
+  <main class="wrapper">
+    <header class="post">
+      <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
+      <span> ▪ {{ content | readingTime }}</span>
+      <h1 class="header__title display">{{ title }}</h1>
+      <h2 class="header__subtitle">{{ subtitle }}</h2>
+    </header>
+    <div class="content">
+      {{ content | safe }}
+      {% include 'components/atoms/signature.njk' %}
+      {% include 'components/atoms/biography.njk' %}
+    </div>
+    <footer>
+      {% include 'components/molecules/tag-list.njk' %}
+    </footer>
+  </main>
 </section>
-
-<footer>
-  {% include 'components/molecules/tag-list.njk' %}
-</footer>
