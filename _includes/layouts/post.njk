@@ -9,7 +9,7 @@ layout: layouts/base
       <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
       <span> ▪ {{ content | readingTime }}</span>
       <h1 class="header__title display">{{ title }}</h1>
-      <h2 class="header__subtitle">{{ subtitle }}</h2>
+      <h2 class="header__subtitle">{{ description }}</h2>
     </header>
     <div class="content">
       {{ content | safe }}
