@@ -1,6 +1,8 @@
 <ul class="tag-list">
   <li class="tag-title">Tags:</li>
   {% for tag in tags %}
-    <li class="tag-item">{{ tag }}</li>
+    <li class="tag-item">
+      <a href="/tags/{{ tag }}">{{ tag }}</a>
+    </li>
   {% endfor %}
 </ul>

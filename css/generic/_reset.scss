@@ -33,13 +33,15 @@ ol {
 
 ol li {
   counter-increment: number;
+  margin-left: 0.5rem;
 
   &:before {
     content: "0" counter(number);
     font-weight: bold;
     font-size: $s-1;
     letter-spacing: .1em;
-    margin-left: -1.5rem;
+    margin-top: 0.1rem;
+    margin-left: -2rem;
     position: absolute;
   }
 }

@@ -13,8 +13,10 @@ layout: layouts/base
     </header>
     <div class="content">
       {{ content | safe }}
-      {% include 'components/atoms/signature.njk' %}
-      {% include 'components/atoms/biography.njk' %}
+      <div class="footer"
+        {% include 'components/atoms/signature.njk' %}
+        {% include 'components/atoms/biography.njk' %}
+      </div>
     </div>
     <footer>
       {% include 'components/molecules/tag-list.njk' %}

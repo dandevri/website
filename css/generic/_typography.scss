@@ -19,6 +19,21 @@ time {
   letter-spacing: 0.1rem;
 }
 
+blockquote {
+  font-style: italic;
+  margin: $s1;
+
+  footer {
+    text-align: right;
+  }
+}
+
+
+.content > p:last-of-type::after {
+    color: #fff;
+    content: " \25A0";
+}
+
 .d-1 {
   font-weight: 400;
   font-size: $s2;

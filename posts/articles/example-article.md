@@ -8,18 +8,56 @@ layout: layouts/post.njk
 permalink: /articles/{{ slug }}/index.html
 ---
 
-With the launch of a personal site comes the desire to [create more instead of consume.](https://tjcx.me/posts/consumption-distraction/) By having a site up it forces myself to create content for it. For the last couple of weeks I got into the habit of writing notes, posting links and creating journal entries. It's time to start taking this to the next level by scheduling more time for writing and work on longer opinionated articles.
+## Heading 2
 
-## Control of content
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, [from a Lorem Ipsum passage](#), and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
-Instead of relying on social media channels to publish notes and blogging platforms such as medium for articles **I wanted control over how I presented myself online**. I create markdown files, commit them to this repository and then syndicate elsewhere. Inspired by the IndieWeb concept where you are in control of your own content. The content I put out is a resource for myself, writing about topics [that my past self would have found really helpful.](https://dev.to/ladybug/why-blogging-is-awesome-127)
+### Heading 3
 
-## MVP
+* **This is a multi-line list**: The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+* **This is a multi-line list**: The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
-This personal site is powered by Hand Coding™ with a splash of [11ty](https://www.11ty.io/) and many plugins and packages. You can peek [at the source on GitHub](at the source on GitHub), it's hosted on [Netlify](https://www.netlify.com/). Layout and accessible components are from [Every Layout](https://every-layout.dev/) and Inclusive [Components.](https://inclusive-components.design/) CSS follows the [ITCSS](https://itcss.io/) architecture and the component folder structure is based on [Atomic Design](http://atomicdesign.bradfrost.com/). Small design tweaks come from [Refactoring UI](https://refactoringui.com/). 
 
-I have a Notion board to keep track of everything I want to add to this website, both from a design and development perspective. Lots of components are still to be made and performance & accessibility improvements are on their way. A good personal website is an investment: it's an iterative process and consumes quite a lot of my time but it's also a playground to try out new things such as browser features or design exploration. [A little corner of the internet hat I own.](https://www.vanschneider.com/a-love-letter-to-personal-websites)
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
 
-## Better writing
+* This is a single item
+* This is a single item
+* This is a single item
+* This is a single item
 
-From all the skills I'm pretty decent at, writing is the one thing I suck at. I have lots of thoughts and scribble notes in a small Field Notes book (about ~112 drafts and ideas) but never ever have I taken the time to craft them into good sentences that are enjoyable to read. The idea is to start drafts for a little momentum and then improve over time. I created a [writing workflow](https://www.dandevri.es/guides/writing-workflow/) under the 'guides' section to have a bit of structure. Oh well, improving this skill comes from **doing** and **deliberately practicing** so let this be the first step.
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+
+* **This is a single line list** that's more of a sentence
+* **This is a single line list** that's more of a sentence
+* **This is a single line list** that's more of a sentence
+
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. 
+
+> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
+
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. 
+
+> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
+> <footer>Author Name, <cite>“Work Title”</cite></footer>
+
+
+
+
+## Heading 2
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+
+1. This is a numbered list item
+2. This is a numbered list item
+3. This is a numbered list item
+4. This is a numbered list item
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+
+1. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+2. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+3. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+4. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+5. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+The `standard chunk` of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.

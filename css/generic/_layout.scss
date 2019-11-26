@@ -24,8 +24,7 @@ body {
   margin-top: $s2;
 }
 
-p,
-h2 {
+.content > * {
   max-width: $width;
 }
 
