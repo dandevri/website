@@ -37,7 +37,7 @@ figcaption::before {
   position: relative;
 }
 
-.content > p:last-of-type::after {
+.post > p:last-of-type::after {
     color: #fff;
     content: " \25A0";
 }

@@ -8,7 +8,6 @@ permalink: writing/
 
 {{ list.tag('articles', 'notes', 'weeknotes', 'journal', 'guides', 'essays', 'links') }}
 
-<p>I write about: {{ taglist }}</p>
 {% for tag in collections.tagList %}
   {% set tagUrl %}/tags/{{ tag }}/{% endset %}
   <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
