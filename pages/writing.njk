@@ -6,7 +6,7 @@ permalink: writing/
 ---
 {% import 'components/molecules/tags-list.njk' as list %}
 
-{{ list.tag('notes', 'weeknotes', 'journal', 'guides', 'essays', 'links') }}
+{{ list.tag('articles', 'notes', 'weeknotes', 'journal', 'guides', 'essays', 'links') }}
 
 <p>I write about: {{ taglist }}</p>
 {% for tag in collections.tagList %}

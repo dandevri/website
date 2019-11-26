@@ -21,6 +21,8 @@ module.exports = function(collection) {
           case "talks":
           case "article":
           case "essay":
+          case "workshops":
+          case "workshop":
             return false;
         }
 
