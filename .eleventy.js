@@ -18,6 +18,10 @@ module.exports = function(config) {
   config.addPlugin(pluginRss);
   config.addPlugin(readingTime);
 
+  config.addShortcode("figure", function(url, caption) {
+    return `<figure><img src="${url}" alt="${caption}"><figcaption>Caption of the image</figcaption></figure>`
+  });
+
   config.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
   });
