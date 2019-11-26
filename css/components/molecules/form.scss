@@ -1,0 +1,16 @@
+.boilerform {
+  color: $white;
+}
+
+label, input {
+  display: inline-block;
+  width: 100%;
+}
+
+fieldset {
+  padding: $s2;
+}
+
+fieldset > * + * {
+  margin-top: $s1;
+}

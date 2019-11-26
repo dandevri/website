@@ -49,5 +49,6 @@
 @import 'components/molecules/list.scss';
 @import 'components/molecules/block.scss';
 @import 'components/molecules/cover.scss';
+@import 'components/molecules/form.scss';
 
 /* @import-normalize; */
