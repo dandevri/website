@@ -28,6 +28,14 @@ blockquote {
   }
 }
 
+figcaption::before {
+  content: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNyAxMy4wOSI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiNjMmMyYzI7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5jYW1lcmE8L3RpdGxlPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTguNSA1LjQ0YTIuMjEgMi4yMSAwIDEgMCAyLjIxIDIuMjEgMi4yMSAyLjIxIDAgMCAwLTIuMjEtMi4yMXpNMTQuNzkgMi4yMWgtMi41NWEyLjIxIDIuMjEgMCAwIDAtMi4yNC0yLjIxaC0zYTIuMjEgMi4yMSAwIDAgMC0yLjI0IDIuMjFoLTIuNTVhMi4yMSAyLjIxIDAgMCAwLTIuMjEgMi4yMXY2LjQ2YTIuMjEgMi4yMSAwIDAgMCAyLjIxIDIuMjFoMTIuNThhMi4yMSAyLjIxIDAgMCAwIDIuMjEtMi4yMXYtNi40NmEyLjIxIDIuMjEgMCAwIDAtMi4yMS0yLjIxem0tNi4yOSA5LjM1YTMuOTEgMy45MSAwIDEgMSAzLjkxLTMuOTEgMy45MSAzLjkxIDAgMCAxLTMuOTEgMy45MXoiLz48L3N2Zz4=);
+  display: inline-block;
+  width: 1em;
+  padding-right: .6em;
+  vertical-align: baseline;
+  position: relative;
+}
 
 .content > p:last-of-type::after {
     color: #fff;
