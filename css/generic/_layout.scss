@@ -55,9 +55,14 @@ body {
 .center {
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 96vh;
   width: 100%;
   flex-direction: column;
+}
+
+.center > * + * {
+  margin-top: $s1;
 }
 
 .content {

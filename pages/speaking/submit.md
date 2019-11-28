@@ -3,8 +3,10 @@ layout: layouts/empty
 permalink: submit/
 ---
 
-# Thanks your for your request!
 
-I'll get back to you in a couple of days.
+
+# 🎉 <br/> Thanks your for your request!
+
+Through your input from this form I can estimate my availability. I'll try to get back to you within 2-3 days. 
 
 [Go back to the homepage](/)
