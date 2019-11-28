@@ -1,7 +1,9 @@
 ![Static Site Starter](/docs/github-banner.jpg)
 
+---
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8101fd14-c131-4e52-969a-ccc0ffd038c4/deploy-status)](https://app.netlify.com/sites/suspicious-lamport-275cea/deploys)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dandevri/static-site-starter)
+[![Fits on a Floppy](https://img.shields.io/badge/fits%20on%20a%20floppy-informational)](https://fitonafloppy.website/?website=dandevri.es&https=true)
 
 # static-site-starter
 
@@ -32,6 +34,8 @@ npm run dev
 ```
 
 to start the live-reloadzz on a local development server.
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dandevri/static-site-starter)
 
 ## License
 
