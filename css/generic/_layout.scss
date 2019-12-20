@@ -61,6 +61,27 @@ body {
   flex-direction: column;
 }
 
+.newsletter {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  max-width: 40vw;
+  min-width: 40vw;
+  flex-direction: column;
+  padding: 0 10vw 0 10vw;
+  background: $black;
+}
+
+.newsletter > * + * {
+  margin-top: $s1;
+}
+
+.bg-image {
+  width: 100vw;
+  height: 100vh;
+  background: url(/static/img/bg-pattern.jpg)
+}
+
 .center > * + * {
   margin-top: $s1;
 }

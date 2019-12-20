@@ -34,10 +34,41 @@ fieldset > * + * {
   margin-top: $s2;
 }
 
-form > * + * {
-  margin-top: $s4;
+fieldset {
+  margin-top: $s3;
 }
 
 button {
   font-family: inherit;
+}
+
+
+.sign {
+  overflow: hidden;
+}
+
+.sign > * {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sign > * > * {
+  flex-grow: 1;
+}
+
+.sign > * > :first-child {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: calc(80%);
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
