@@ -1,14 +1,21 @@
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, init ial-scale=1, viewport-fit=cover">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="{{ metadata.description }}">
+<meta name="subject" content="{{ metadata.subject }}">
+<meta name="rating" content="General">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="msapplication-config" content="browserconfig.xml">
+<meta name="application-name" content="{{ metadata.author }}">
 <link rel="canonical" href="{{ metadata.url }}{{ page.url }}">
 <link rel="shortlink" href="{{ metadata.url }}{{ page.url }}">
 <link rel="dns-prefetch" href="{{ metadata.url }}">
 <link rel="preconnect" href="{{ metadata.url }}">
+<link rel="license" href="{{ metadata.license }}">
+<link rel="me" href="{{ metadata.url }}" type="text/html">
+<link rel="me" href="mailto:{{ metadata.mail }}">
+<link rel="archives" href="https://web.archive.org/web/2019*/dandevri.es">
 <title>
   {% if title %}
     {{ title + ' — ' + metadata.author }}
