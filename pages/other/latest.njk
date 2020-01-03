@@ -1,0 +1,53 @@
+---
+layout: layouts/default
+title: Latest
+description: The lastest posts from this website.
+permalink: latest/
+---
+
+{% import 'components/atoms/card.njk' as card %}
+
+<h2>Writing</h2>
+
+{%- for article in collections.article | reverse | limit(1) -%}
+  {% include 'components/atoms/article.njk' %}
+{%- endfor -%}
+
+<h2>Note</h2>
+
+<ul class="list line">
+  {%- for note in collections.note | reverse | limit(1) -%}
+    {{ card.list
+      (
+        note.url,
+        note.data.title,
+        note.templateContent | safe,
+        note.data.date,
+        note.data.type
+      )
+    }}
+  {%- endfor -%}
+</ul>
+
+<h2>Event</h2>
+
+<ul class="event-list">
+  {% for item in events.events | reverse | limit(1) %}
+    {% include 'components/atoms/event.njk' %}
+  {% endfor %}
+</ul>
+
+<h2>Project</h2>
+
+<section class="grid-l">
+  {%- for project in collections.project | limit(1) -%}
+    {{ card.item
+      (
+        project.url,
+        project.data.image,
+        project.data.title,
+        project.data.description
+      )
+    }}
+  {%- endfor -%}
+</section>
