@@ -1,9 +1,11 @@
 ---
 layout: layouts/default
-title: referrals
+title: Referrals
 permalink: referrals/
 ---
 
-Brave GitHub: https://brave.com/xki904  
-Brave Twitter: https://brave.com/tnk152
-Brave Website: https://brave.com/cbu444
+| Company           | url                      | 
+| ---               | ---                      | 
+| Brave GitHub      | https://brave.com/xki904 | 
+| Brave Twitter     | https://brave.com/tnk152 | 
+| Brave Website     | https://brave.com/cbu444 | 
