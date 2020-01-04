@@ -22,6 +22,10 @@ It was designed design-tool free™, straight in the browser without any unecess
 
 I wanted to thank the people behind the technologies of this website and the people's personal websites I've taken inspiration from. So I did in this [humans.txt][humans] file.
 
+* [Monetizations and referrals](/monetization)
+* [Privacy and ethics](/privacy)
+* [License and OSS](/license)
+
 Thanks everyone!
 
 
