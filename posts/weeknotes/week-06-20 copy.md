@@ -5,7 +5,7 @@ week: 06
 type: weeknote
 tags: weeknote
 layout: layouts/default.njk
-permalink: /weeknotes/05/index.html
+permalink: /weeknotes/06/index.html
 ---
 
 *Week: {{ week }} ▪ Date: {{ date | htmlDateString }}*
