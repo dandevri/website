@@ -1,0 +1,56 @@
+---
+title: Weeknote 06
+date: 2020-02-09
+week: 06
+type: weeknote
+tags: weeknote
+layout: layouts/default.njk
+permalink: /weeknotes/05/index.html
+---
+
+*Week: {{ week }} ▪ Date: {{ date | htmlDateString }}*
+---
+
+This was quite a busy week. Lot's of assessments and re-sits. It drains your energy very quickly. Even if it's just 4 / 5 hours a day (no full days) grading is mentally pretty demanding. You need to be sharp every student no matter the time of day.
+
+This week was also the first week of the Basic Teaching Qualification. What struck me was that all of us encounter the same 'problems' and there are a lot of similarities when teaching that are not related to specific course subject content. Our group has about +20 teachers that all work in different programs at our university. That difference and diversity of people's views and opinions about teaching is inspiring.
+
+## Links
+
+* TCJX on the difference between knowledge and wisdom and how it relates to [self-help books][help].
+* A lot of articles from different people about [Design Systems][ds] and Frank Chimero sums them up nicely.
+* Wendy Steffens from Fabrique wrote about a [usability test][test] they did with visually impaired users.
+* I've been using Firefox as my daily browser for over a year and [Brad Frost also switched][firefox].
+
+**More to click**
+* [Min and Max Width/Height in CSS][min]
+* [Setting Up Your Webcam for streaming][webcam]
+
+## Project
+
+Started planning out the content and layout of a course website. One of my side projects is that I want to create more tutorials (online courses). So I started researching how to make good screencasts and how different popular course platforms are structured.
+
+## Learning
+
+Didn't do a ton of learning this week. I usually set aside ~30 minutes a day to work on an online course but this week I didn't make time for it, I'm still trying to finish [Kyle Simpson his front-end masters course][master].
+
+## Media diet
+
+↪ **Playing**: Finished [Inside][inside] on the Playstation 4 over the weekend. Takes a couple of hours with a fantastic (weird) ending.
+
+↪ **Reading**: Started in [Ultralearning][ultra] by Scott H Young about how to learn and master skills quickly.
+
+↪ **Watching**: [Parasite][parasite] was so freaking good. On my wishlist for a very long time and oh did it deliver. I also watched the pilot of [The Witcher][witcher] and so far so good.
+
+[help]: https://tjcx.me/posts/defense-self-help/
+[ds]: https://frankchimero.com/blog/2020/who-cares/
+[test]: https://www.fabrique.nl/blog/2020/1/insights-usability-testing-visually-impaired-users/
+[min]: https://ishadeed.com/article/min-max-css/
+[webcam]: https://mattstauffer.com/blog/setting-up-your-webcam-lights-and-audio-for-remote-work-podcasting-videos-and-streaming/
+[firefox]: https://bradfrost.com/blog/post/switching-to-firefox/
+[master]: https://frontendmasters.com/courses/getting-started-javascript-v2/
+
+[inside]: https://www.metacritic.com/game/playstation-4/inside
+[parasite]: https://www.imdb.com/title/tt6751668
+[ultra]: https://www.goodreads.com/book/show/44770129-ultralearning
+[witcher]: https://www.imdb.com/title/tt5180504/
