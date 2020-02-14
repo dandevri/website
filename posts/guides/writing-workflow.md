@@ -10,7 +10,7 @@ permalink: /guides/{{ slug }}/index.html
 
 ## Why write?
 Writing is a general good skill to have and it's the best medium to voice 
-your opinions. For me it's a way to understand the material I'm personally learning and write thins to remember them. This is my entire writing workflow, from initial idea to draft to published article.
+your opinions. For me it's a way to understand the material I'm personally learning and write things to remember them. This is my entire writing workflow, from initial idea to draft to published article.
 
 Some guiding principles for my workflow:
 
@@ -62,7 +62,7 @@ After the final draft is finished I run the text trough [Grammarly](grammarly) a
 
 ## Becoming a better writer
 
-There is still a huge list of writing related books on my [Goodreads shelf][shelf] to improve my writing skills but [Writing for designers by Scott Kubie](writing-fordesigners) is a great starter. On [Writing Well by William Zinsser][well] and [Bird by Bird][bird] by Anne Lamott are good books to a bit more in-depth.  For better technical writing the [Shoptalk Show Episode with Rachel Andrew](shoptalk) is a good listen. Writing for all types of audiences is not that easy. Make sure to [avoid these words][words].
+There is still a huge list of writing related books on my [Goodreads shelf][shelf] to improve my writing skills but [Writing for designers by Scott Kubie](writing-fordesigners) is a great starter. On [Writing Well by William Zinsser][well] and [Bird by Bird][bird] by Anne Lamott are good books to a bit more in-depth.  For better technical writing the [Shoptalk Show Episode with Rachel Andrew](shoptalk) is a good listen. Writing for all types of audiences is not that easy. Make sure to [avoid these words][words]. [We define our words, but they don't define us][defined].
 
 * It's not because its already written you shouldn't write.
 * Creating a content calendar forces you to write and stick to deadlines. 
@@ -79,6 +79,12 @@ There is still a huge list of writing related books on my [Goodreads shelf][shel
 * Keep my (short) articles around ~1000 words with a maximum of ~2000 words.
 * The title shoud be around ~30 characters.
 * Heading levels are correct and are logically placed (where they need to break text)
+* Don't explain why I wrote something but explain why they should read it.
+* Be honest and don't try to be an expert.
+* Swear only if it's necessary to make the point.
+* It's better to be clear than funny.
+* Never ever [tech shame][shame].
+* Don't relly on links in text alone, they should only provide context.
 
 ---
 
@@ -95,7 +101,8 @@ There is still a huge list of writing related books on my [Goodreads shelf][shel
 * [Blogging Workflow by Ali Spittel](https://dev.to/aspittel/my-blog-post-workflow-from-topic-to-publication-4n78)
 * [My Blogging Editing Process by Lindsey Kopacz](https://www.a11ywithlindsey.com/blog/blogging-editing-process)
 * [Writing Mode in VS Code by Diéssica Gurskas](https://diessi.ca/blog/writing-mode-in-vs-code/)
-* [Syntax - Blogging](https://syntax.fm/show/168/blogging)
+* [SyntaxFM on Blogging](https://syntax.fm/show/168/blogging)
+* [A blogging style guide by Robert Heaton](https://robertheaton.com/2018/12/06/a-blogging-style-guide/)
 
 [zen-mode]: https://code.visualstudio.com/docs/getstarted/tips-and-tricks
 [workspaces]: https://code.visualstudio.com/docs/getstarted/settings
@@ -128,3 +135,5 @@ There is still a huge list of writing related books on my [Goodreads shelf][shel
 [obvious]: https://sivers.org/obvious
 [compensation]: https://twitter.com/cassidoo/status/1207029680315850752?s=20
 [mistakes]: https://en.wikipedia.org/wiki/Wabi-sabi
+[defined]: https://www.selfdefined.app
+[shame]: https://www.urbandictionary.com/define.php?term=Tech%20shame
