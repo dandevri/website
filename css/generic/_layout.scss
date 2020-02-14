@@ -64,10 +64,8 @@ body {
 .newsletter {
   display: flex;
   justify-content: center;
-  height: 100vh;
-  max-width: 40vw;
-  min-width: 40vw;
   flex-direction: column;
+  height: 100vh;
   padding: 0 10vw 0 10vw;
   background: $white;
 }
@@ -75,6 +73,14 @@ body {
 .newsletter > * + * {
   margin-top: $s1;
 }
+
+@media (min-width: 1400px) {
+  .newsletter {
+    max-width: 40vw;
+    min-width: 40vw;
+  }
+}
+
 
 .bg-image {
   width: 100vw;
