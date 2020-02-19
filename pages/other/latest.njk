@@ -1,7 +1,7 @@
 ---
 layout: layouts/default
 title: Latest
-description: The lastest posts from this website.
+description: The lastest things from this website.
 permalink: latest/
 ---
 
@@ -37,6 +37,15 @@ permalink: latest/
   {% endfor %}
 </ul>
 
+<h2>Photo</h2>
+
+<ul class="photo-list">
+  {% for photo in collections.photo | reverse | limit(1) %}
+    {% include 'components/atoms/photo.njk' %}
+  {% endfor %}
+</ul>
+
+
 <h2>Project</h2>
 
 <section class="grid-l">
@@ -50,4 +59,5 @@ permalink: latest/
       )
     }}
   {%- endfor -%}
+
 </section>
