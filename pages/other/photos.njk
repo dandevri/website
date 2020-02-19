@@ -1,0 +1,12 @@
+---
+layout: layouts/default
+title: Photos
+description:
+permalink: photos/
+---
+
+<ul class="photo-list">
+  {% for photo in collections.photo | reverse %}
+    {% include 'components/atoms/photo.njk' %}
+  {% endfor %}
+</ul>
