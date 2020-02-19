@@ -1,0 +1,30 @@
+.social {
+  list-style-image: none;
+  list-style-type: none;
+  display: grid;
+  grid-gap: $s2;
+  padding-left: 0;
+
+  @media (min-width: 38em) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+  &-title {
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+
+  a {
+    text-decoration: none;
+    display: grid;
+    text-decoration: none;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 1.3rem;
+  }
+
+  img {
+    width: $s3;
+    grid-row: 1/span 2;
+  }
+}

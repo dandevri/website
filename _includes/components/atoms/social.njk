@@ -1,0 +1,9 @@
+{% macro icon(link, icon, platform, description) %}
+  <li class="social-link">
+    <a href="{{ link }}">
+      <img src="{{ icon }}">
+      <p class="social-title">{{ platform }}</p>
+      <p class="social-description">{{ description }}</p>
+    </a>
+  </li>
+{% endmacro %}

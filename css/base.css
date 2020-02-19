@@ -42,6 +42,7 @@
 @import 'components/atoms/biography.scss';
 @import 'components/atoms/interview.scss';
 @import 'components/atoms/code.scss';
+@import 'components/atoms/social.scss';
 
 /* Molecules */
 @import 'components/molecules/header.scss';
