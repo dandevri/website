@@ -6,6 +6,7 @@ permalink: contact/
 ---
 
 {% import 'components/atoms/link.njk' as link %}
+{% import 'components/atoms/social.njk' as social %}
 {% import 'components/atoms/details.njk' as details %}
 
 <h3>Mail</h3>
@@ -13,10 +14,9 @@ permalink: contact/
 
 <ul>
   <li>{{ link.mail("hi@dandevri.es") }} (personal)</li>
-  <li>{{ link.mail("finance@dandevri.es") }} (business)</li>
+  <li>{{ link.mail("finance@dandevri.es") }} (administration)</li>
   <li>{{ link.mail("d.de.vries4@hva.nl") }} (university)</li>
 </ul>
-
 
 
 <h3>Chat</h3>
@@ -34,26 +34,28 @@ permalink: contact/
 <p>Best suited to keep track of what I'm doing without engaging in the matter.
 <em>In order of most active</em></p>
 
-<ul>
-  <li>{{ link.inl("https://www.twitter.com/dandevri", "Twitter") }}</li>
-  <li>{{ link.inl("https://github.com/dandevri", "GitHub") }}</li>
-  <li>{{ link.inl("https://www.linkedin.com/in/dandevri/", "LinkedIn") }}</li>
-  <li>{{ link.inl("https://www.instagram.com/dandevri/", "Instagram") }}</li>
-  <li>{{ link.inl("https://dev.to/dandevri", "Dev.to") }}</li>
-  <li>{{ link.inl("https://dribbble.com/dandevri", "Dribbble") }}</li>
+<ul class="social">
+  {{ social.icon("https://www.twitter.com/dandevri", "/static/img/icons/social/twitter.svg", "Twitter", "Tweets about tech and other random stuff.") }}
+  {{ social.icon("https://github.com/dandevri", "/static/img/icons/social/github.svg", "GitHub", "Open-source projects and contributions.") }}
+  {{ social.icon("https://www.linkedin.com/in/dandevri/", "/static/img/icons/social/linkedin.svg", "LinkedIn", "Experience and all the corporate shanigans") }}
+  {{ social.icon("https://www.instagram.com/dandevri/", "/static/img/icons/social/instagram.svg", "Instagram", "Pretty pictures with tons of filters") }}
+  {{ social.icon("https://dev.to/dandevri", "/static/img/icons/social/dev.svg", "Dev.to", "All the more technical related writing") }}
+  {{ social.icon("https://dribbble.com/dandevri", "/static/img/icons/social/dribbble.svg", "Dribbble", "Design artifacts and work in progress client work") }}
+  {{ social.icon("https://patreon.com/dandevri", "/static/img/icons/social/patreon.svg", "Patreon", "Exclusive content and support option") }}
+  {{ social.icon("https://goodreads.com/dandevri", "/static/img/icons/social/goodreads.svg", "Goodreads", "Want to read books and reviews") }}
+  {{ social.icon("https://codepen.io/dandevri", "/static/img/icons/social/codepen.svg", "Codepen", "Code snippets and developer artifacts") }}
+  {{ social.icon("https://open.spotify.com/user/t95h7b14iz3dgn561fgu1ik14?si=TjbOvzdxS1imHanH2wjZ9Q", "/static/img/icons/social/spotify.svg", "Spotify", "Weekly Playlists and classic house beats") }}
 </ul>
+
+<h3>#AMA</h3>
 
 {{ details.details(
   "Ask Me Anything?",
-  "I host a #ama over on [dev.to](https://dev.to/dandevri/im-danny-de-vries-web-development-lecturer-at-the-amsterdam-university-ask-me-anything-1b48). You can see if I already answered your question publicly! If it's not on there, ask it!")
-}}
-{{ details.details(
-  "Why are you slow to respond?",
-  "I value my time and get quite a lot of mails and messages, often rather spend time making things. I've written about how I deal with mail and messages in [this guide.](/guides/mail-workflow)")
+  "I host a ask me anything over on ['my #ama page'](/ama). You can see if I already answered your question publicly. If it's not on there, ask it and I'll add it to the list!")
 }}
 {{ details.details(
   "What gear do you use?",
-  "I'm an absolute Gearhead and EDC person. On this ['uses'](/#) pages I've listed all the software, hardware and tools that I use.")
+  "I'm an absolute Gearhead and EDC person. On this ['uses'](/uses) pages I've listed all the software, hardware and tools that I use.")
 }}
 
 {{ details.details(

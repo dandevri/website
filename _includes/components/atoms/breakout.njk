@@ -1,0 +1,7 @@
+{% macro beakout(title, description, link, anchor) %}
+  <article class="breakout-box">
+    <h4>{{ title }}</h4>
+    <p>{{ description }}</p>
+    <a class="breakout-button" href="{{ link }}" type="button">{{ anchor }}</a>
+  </article>
+{% endmacro %}
