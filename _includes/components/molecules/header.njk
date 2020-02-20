@@ -1,4 +1,8 @@
 <header>
   <h1>{{ title }}</h1>
-  <h2>{{ description }} </h2>
+  {% if date %}
+    <h2>{{ date | readableDate }} </h2>
+  {% else %}
+    <h2>{{ description }} </h2>
+  {% endif %}
 </header>

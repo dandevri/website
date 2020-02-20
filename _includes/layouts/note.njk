@@ -1,0 +1,18 @@
+---
+layout: layouts/base
+---
+
+{% include 'components/molecules/site-header.njk' %}
+
+<main>
+{% include 'components/molecules/header.njk' %}
+  <div class="content">
+    
+    {{ content | safe }}
+
+    {% if posted %}
+      <hr>
+      <a href="{{ posted }}">Posted on Twitter on {{ date | readableDate}}</a>
+    {% endif %}
+  </div>
+</main>
