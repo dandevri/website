@@ -1,0 +1,7 @@
+<li class="log-item">
+  <a href="{{ item.url }}">
+    <h5>{{ item.data.title }}</h5>
+    <p>{{ item.data.description }}</p>
+    <time datetime="{{ item.date | htmlDateString }}">{{ item.date | dotDate }}</time>
+  </a>
+</li>
