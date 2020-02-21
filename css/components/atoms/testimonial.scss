@@ -1,18 +1,27 @@
-blockquote {
+.testimonial {
   display: flex;
   flex-direction: column;
 
-  .top {
-    order: -1;
-    text-align: left;
+  & > * + * {
+    margin-top: $s-1;
+  }
+
+  &-company {
+    img {
+      width: 20%;
+    }
+  }
+
+  footer {
     display: flex;
     align-items: center;
-    margin-bottom: $s-2;
+    text-align: left;
 
     img {
       width: $s2;
       margin-right: $s-1;
       border-radius: 100%;
     }
+
   }
 }

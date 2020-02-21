@@ -45,8 +45,9 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. 
 
 > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
-> <footer class="image"><img src="https://avatars.io/twitter/dandevri"><strong>Author Name</strong>, <cite>“Work Title”</cite></footer>
+> <footer class="top top-author"><img src="https://avatars.io/twitter/dandevri"><strong>Author Name</strong>, <cite>“Work Title”</cite></footer>
 
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. 
 
 ## Heading 2
 
