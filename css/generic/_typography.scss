@@ -47,3 +47,10 @@ figcaption::before {
   font-size: $s2;
   margin-top: 0;
 }
+
+a {
+  text-decoration-color: inherit;
+  text-decoration-thickness: .080em;
+  text-underline-offset: .150em;
+  text-decoration-skip-ink: auto;
+}
