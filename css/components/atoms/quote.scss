@@ -1,0 +1,18 @@
+blockquote {
+  display: flex;
+  flex-direction: column;
+
+  .image {
+    order: -1;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-bottom: $s-2;
+
+    img {
+      width: $s2;
+      margin-right: $s-1;
+      border-radius: 100%;
+    }
+  }
+}
