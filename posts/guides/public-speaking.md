@@ -1,6 +1,6 @@
 ---
 title: Public Speaking
-description: 
+description: Speaking at events and meet-ups is a privilege I'm grateful for having. This is a list of things I learned along the way.
 date: 2020-02-18
 tags: guide
 layout: layouts/post.njk
@@ -8,7 +8,7 @@ slug: public-speaking
 permalink: /guides/{{ slug }}/index.html
 ---
 
-Speaking at conferences and meet-ups is a privilege I'm grateful for having. This is a list of things I learned along the way.
+Public speaking is not the same as a lecture, it's not a spoken version of your blog post and it's not a good idea to rant and vent. You literally have a stage and an audience so it's more of a performance then you might think. Most talks are either inspirational, emotional and informative.
 
 ## How to start speaking
 
@@ -24,13 +24,13 @@ I think everyone can learn to be a good speaker trough practice, but speaking at
 
 ### Reasons for speaking
 
-You probably have a love of sharing knowledge and speaking is one of the best ways to do that.
+You probably have a love of sharing knowledge and speaking is one of the best ways to do that. You believe in something and want others to share that feeling.
 
 When I started teaching I did a ton of free speaking at local meet-ups and guest lectures and companies. Creating and giving a talk is a massive commitment and time investment. Not to mention the research, content preparation and traveling time. That's why I have become quite picky on which events I speak at.
 
-* You want to explain a technical topic in an easier manner to a wide audience. Take something complicated and try to make it as simple as possible.
-* Pitch new ideas to your audience. They audience will take the idea and adopt it.
-* Tell a story, probably a personal story with a case study. Talk about how you struggled with something and figured it out.
+* You want to explain a technical topic in an easier manner to a wide audience. Take something complicated and try to make it as simple as possible. The best way to learn is to teach it to other people.
+* Pitch new ideas to your audience. They audience will take the idea and adopt it and share it with other people that have similar interests.
+* Tell a story, probably a personal story with a case study. Talk about how you struggled with something and figured it out. It will help people learning the same topic.
 * You'll learn a ton of new skills while watching other talks, traveling to places, build your network, meet people in the industry that you respect and meet friends you only know trough the internet.
 
 The flip side of the coin:
@@ -40,24 +40,42 @@ Creating and giving a talk is a massive commitment and time investment. Not to m
 ## Preparing a talk
 There are two aspects to preparing a talk: the content and the presentation. First think about what you want to say not how to present the material.
 
+How you prepare is very personal, this is just what works for me.
+
+> What is something only you can talk about?
+
 Creating and giving a talk is a massive commitment and time investment. Not to mention the research, content preparation and traveling time. 
 
-You can pick a topic you know well, or pick a new topic you've been wanting to learn.
+People will forget most things you've said. Make the talk around one central idea. Focus on the 'what' you want to talk about and then explain why you want to talk about it and how (the best format).
+
+Find something you are intrinsically motivated in. Recognition or getting a raise are not good motivators. It's easier to pick a topic for something you are already inspired by. It's convincing to talk about something you are passionate about.
+
+You can pick a topic you know well, or pick a new topic you've been wanting to learn. Pick something that you are passionate about and that you feel comfortable with. You don't need to be an expert on it. 
+
+Talks don't have to be technical, I like workshops more for code-heavy and technical things.
 
 You should definitely rehearse your talk. Rehearsing will take out the 'kinks', see how things differ from written form versus speaking and see if you can fit everything in the allocated time frame.
 
 That's why I have become quite picky on which events I speak at.
 
-Don't worry too much about having a [different unique concept][concept]. It's okay to take an existing concept and talk abour your own perspectives.
+Don't worry too much about having a [different unique concept][concept]. It's okay to take an existing concept and talk abour your own perspectives. 
 
 * Get everything out of your head. Use something like a mind-map or A3 paper or mindnotes. Just make sure it's not a blank file where you put things from top to bottom. You don't wany any order.
 * Group similar ideas together like 'chunks'. Those are topics or sections that will form your presentation.
+* Write a rough outline with everything you want to include. It's ok to remove things along the way and filter.
 * Structure the talk and move around the chunks and section so they will feel like a coherent story.
 * Create the slides. Nice slides are a good thing but make sure you have a template and don't start from scratch each time. Don't let this be the main source of time when preparing a talk. Slides are not the talk. Don't use the slides as a defence mechanism.
+
+The making of the outline also helps you find 'gaps' in your talk.
+
 
 
 ## Presenting
 Ever wondered why Ted Talks are only 20 minutes? Because, people have limited attention. Run too long and their attention moves.
+
+Your talk is a performance. Use gestures, use intentions. Be a bit more theatrical than usual.
+
+A performance doesn’t necessarily mean being loud and waving hands. Being calm is even better, people will feel the emotional conviction behind the talk.
 
 * Pacing a presentation is one of the hardest things to do. The golden rule is that you can't go 'to slow'. Never ever rush. You don't want to rush your conclusion.
 * Move but try to [stand still][stand]. Never ever move in front of the screen. Make it natural movement. Lots of moving your feet makes you look nervous.
@@ -75,6 +93,7 @@ Ever wondered why Ted Talks are only 20 minutes? Because, people have limited at
 If you give a talk again learn from the questions you get afterwards (in-person or tweets for example) and see if you can improve. Maybe some explanations need to be clearer or pick different examples to illustrate your point. Praise for a presentation might be a good thing but even better are questions.
 
 ## Slide Design
+Many people are visual oriented, so I usually have a ton of images and diagrams to make concepts more clear.
 * Create ['landmark slides'][landmark] that act as timing milestones. Don't use real time-of-day timings.
 * [Write quotable slidest][quote] that people can take pictures of to share on social media.
 
@@ -95,6 +114,10 @@ Life can be messy and it's okay to pull out. I always try to do it well in advan
 * Case studies work really well to explain topics or do a deep dive.
 * Nerves are natural, all you can do is manage them.
 * I personally choose to have many slides with a small amounts on each. I like the fast-paced flow.
+* Don't try to be the expert but be a storyteller. A good talk is about failure and your process, not the expertise.
+* When you give a tech talk, nobody cares about the technical stuff. Technical stuff only matters in the context of a story.
+* Add your personal story but don't make the talk about you but about the story.
+* I write my speaker notes in bullet points, not full sentences. This gives enough room for improvisation but enough structure to keep coming back to.
 
 ## Books & Resources
 *Cclick on the in-line links in this guide to go to relevant articles. Here is a list of books and other resources that helped me set-up this guide.*
@@ -107,6 +130,9 @@ Life can be messy and it's okay to pull out. I always try to do it well in advan
 * [Ladybug Podcast about speaking at conferences][ladybug]
 * [You're paying to speak by Remy Sharp][sharp]
 * [Speaking At Technical Conferences by Emma Bostion][emma]
+* [Public Speaking as a Developer by Ali Spittel][ali]
+* [Your Perfect Tech Talk with Saron Yitbarek][saron]
+* [Preparing for a Tech Talk by Dan Abramov][dan]
 
 
 [advent]: https://be.noti.st/blog/category/advent-speaker-tips
@@ -116,7 +142,9 @@ Life can be messy and it's okay to pull out. I always try to do it well in advan
 [ladybug]: https://www.ladybug.dev/speaking-at-conferences
 [sharp]: https://remysharp.com/2014/03/07/youre-paying-to-speak
 [emma]: https://dev.to/emmabostian/speaking-at-technical-conferences-1kkk
-
+[ali]: https://dev.to/aspittel/public-speaking-as-a-developer-2ihj
+[saron]: https://www.youtube.com/watch?v=AzVr_nsKoZs&feature=youtu.be
+[dan]: https://overreacted.io/preparing-for-tech-talk-part-1-motivation/
 
 [visit]: https://be.noti.st/2018/visit-the-room
 [small]: https://be.noti.st/2018/start-small
