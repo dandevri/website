@@ -1,0 +1,14 @@
+{% macro company(img, quote, author, name, source) %}
+  <blockquote class="testimonial testimonial-company">
+    <img src="{{ img }}">
+    <p>{{ quote }}</p>
+    <footer><img src="{{ author }}"><strong>{{ name }}</strong><cite>, {{ source }}</cite></footer>
+  </blockquote>
+{% endmacro %}
+
+{% macro user(img, quote, name, source) %}
+  <blockquote class="testimonial testimonial-user">
+    <p>{{ quote }}</p>
+    <footer><img src="{{ img }}"><strong>{{ name }}</strong><cite>, {{ source }}</cite></footer>
+  </blockquote>
+{% endmacro %}
