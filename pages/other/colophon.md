@@ -18,13 +18,21 @@ Layout and components are mostly from [Every Layout][layout] and [Inclusive Comp
 
 I mostly used my hands to type on a keyboard but was accompanied by lots of different tools and products which are listed on this [uses][uses] page.
 
-It was designed design-tool free™, straight in the browser without any unecessary comps and mockups. The text is set in [Simplon][simplon] by [Swiss Typeface][swiss]. Icons and other assets are created using [Figma][figma] or [Dotgrid][dotgrid].
+It was designed design-tool free™, straight in the browser without any unecessary comps and mockups. No Adobe, Webflow, Wix or Squarespace.
+
+The text is set in [Simplon][simplon] by [Swiss Typeface][swiss]. Icons and other assets are created using [Figma][figma] or [Dotgrid][dotgrid]. 
 
 I wanted to thank the people behind the technologies of this website and the people's personal websites I've taken inspiration from. So I did in this [humans.txt][humans] file.
+
+You can also view [the changelog](/changelog) for a list of things on how this site evolved over time with new features and read more about the design and tech stack of this site.
+
+Related pages on this site:
 
 * [Monetizations and referrals](/monetization)
 * [Privacy and ethics](/privacy)
 * [License and OSS](/license)
+* [The Web Archive](/archive)
+* [Changelog and design](/changelog)
 
 Thanks everyone!
 
