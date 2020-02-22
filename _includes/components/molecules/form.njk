@@ -64,6 +64,16 @@
           <span class="c-select-field__decor" aria-hidden="true" role="presentation">&dtrif;</span>
       </div>
 
+      <label for="expenses" class="c-label">Are you covering my travel expenses?</label>
+      <div class="c-select-field">
+          <select name="expenses" id="expenses" class="c-select-field__menu">
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
+              <option value="Partially">Partially</option>
+          </select>
+          <span class="c-select-field__decor" aria-hidden="true" role="presentation">&dtrif;</span>
+      </div>
+
     </fieldset>
 
     <fieldset>
@@ -102,6 +112,18 @@
           </select>
           <span class="c-select-field__decor" aria-hidden="true" role="presentation">&dtrif;</span>
       </div>
+
+      <label for="equipment" class="c-label">Can I use my own equipment?</label>
+      <div class="c-select-field">
+          <select id="equipment" name="equipentm" class="c-select-field__menu">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+          </select>
+          <span class="c-select-field__decor" aria-hidden="true" role="equipment">&dtrif;</span>
+      </div>
+
+      <label for="duration" class="c-label">How long should the presentation be?</label>
+      <input id="duration" class="c-input-field" type="text" name="duration" />
 
       <label for="notes" class="c-label">Any other questions or notes?</label>
       <textarea id="notes" name="notes"  class="c-input-field c-input-field--multiline"></textarea>
