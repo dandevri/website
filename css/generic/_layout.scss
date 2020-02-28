@@ -95,3 +95,10 @@ body {
 .content {
   padding: $s4;
 }
+
+.timeline {
+  display: grid;
+  margin: $s4;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-column-gap: 1em;
+}

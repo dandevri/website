@@ -1,45 +1,48 @@
 ---
-layout: layouts/default
+layout: layouts/default-width
 title: Media Diet
 description: A list of media that I have read, watched or played.
 permalink: media-diet/
 ---
+<div class="timeline">
+  <div class="column">
+    <h2><a href="/media-diet/books">Books</a></h2>
+    <ul class="book-list">
+      {% for item in books.books | reverse %}
+        {% include 'components/atoms/media-line.njk' %}
+      {% endfor %}
+    </ul>
+    <p>Total: {{ books.books | size }}</p>
+  </div>
 
-<ul>
-  <li><a href="/media-diet/books">Books</a></li>
-  <li><a href="/media-diet/movies">Movies</a></li>
-  <li><a href="/media-diet/series">Series</a></li>
-  <li><a href="/media-diet/games">Games</a></li>
-</ul>
+  <div class="column">
+    <h2><a href="/media-diet/movies">Movies</a></h2>
+    <ul class="movies-list">
+      {% for item in movies.movies | reverse %}
+        {% include 'components/atoms/media-line.njk' %}
+      {% endfor %}
+      <p>Total: {{ movies.movies | size }}</p>
+    </ul>
+  </div>
 
-<h2> Books </h2>
+  <div class="column">
+    <h2><a href="/media-diet/series">Series</a></h2>
+    <ul class="series-list">
+      {% for item in series.series | reverse %}
+        {% include 'components/atoms/media-line.njk' %}
+      {% endfor %}
+      <p>Total: {{ series.series| size }}</p>
+    </ul>
+  </div>
 
-<ul class="book-list">
-  {% for item in books.books | reverse %}
-    {% include 'components/atoms/media-line.njk' %}
-  {% endfor %}
-</ul>
+  <div class="column">
+    <h2><a href="/media-diet/games">Games</a></h2>
+    <ul class="games-list">
+      {% for item in games.games | reverse %}
+        {% include 'components/atoms/media-line.njk' %}
+      {% endfor %}
+      <p>Total: {{ games.games| size }}</p>
+    </ul>
+  </div>
 
-<h2> Movies </h2>
-
-<ul class="movies-list">
-  {% for item in movies.movies | reverse %}
-    {% include 'components/atoms/media-line.njk' %}
-  {% endfor %}
-</ul>
-
-<h2> Series </h2>
-
-<ul class="series-list">
-  {% for item in series.series | reverse %}
-    {% include 'components/atoms/media-line.njk' %}
-  {% endfor %}
-</ul>
-
-<h2> Games </h2>
-
-<ul class="games-list">
-  {% for item in games.games | reverse %}
-    {% include 'components/atoms/media-line.njk' %}
-  {% endfor %}
-</ul>
+</div>
