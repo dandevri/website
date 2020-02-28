@@ -1,0 +1,45 @@
+---
+layout: layouts/default
+title: Media Diet
+description: A list of media that I have read, watched or played.
+permalink: media-diet/
+---
+
+<ul>
+  <li><a href="/media-diet/books">Books</a></li>
+  <li><a href="/media-diet/movies">Movies</a></li>
+  <li><a href="/media-diet/series">Series</a></li>
+  <li><a href="/media-diet/games">Games</a></li>
+</ul>
+
+<h2> Books </h2>
+
+<ul class="book-list">
+  {% for item in books.books | reverse %}
+    {% include 'components/atoms/media-line.njk' %}
+  {% endfor %}
+</ul>
+
+<h2> Movies </h2>
+
+<ul class="movies-list">
+  {% for item in movies.movies | reverse %}
+    {% include 'components/atoms/media-line.njk' %}
+  {% endfor %}
+</ul>
+
+<h2> Series </h2>
+
+<ul class="series-list">
+  {% for item in series.series | reverse %}
+    {% include 'components/atoms/media-line.njk' %}
+  {% endfor %}
+</ul>
+
+<h2> Games </h2>
+
+<ul class="games-list">
+  {% for item in games.games | reverse %}
+    {% include 'components/atoms/media-line.njk' %}
+  {% endfor %}
+</ul>

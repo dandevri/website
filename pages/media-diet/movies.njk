@@ -1,0 +1,11 @@
+---
+layout: layouts/default
+title: Media Diet
+permalink: media-diet/movies/index.html
+---
+
+<ul class="movies-list">
+  {% for item in movies.movies | reverse %}
+    {% include 'components/atoms/media-item.njk' %}
+  {% endfor %}
+</ul>
