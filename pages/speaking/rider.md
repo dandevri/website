@@ -57,6 +57,11 @@ permalink: /speaking/rider/
 * If this happens, I will no longer want to be associated with your event.
 * It will be my last resort.
 
+## Pricing
+* Generall ballpark around 2-4 your commercial ticket price for profit and private talks.
+* Usually 3-5 the ticket price if I have to prepare a completely new talk for your event.
+* I'll likely waive my fee and donate my time for educational (guest-lectures), non-profit (community events) and low-cost conferences (€50 ticket prices).
+
 ---
 
 *The riders from [Tatiana Mac][tatiana] and [Josh Simmons][josh] helped me shape mine, thanks!*
