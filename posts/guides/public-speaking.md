@@ -24,7 +24,7 @@ I think everyone can learn to be a good speaker trough practice, but speaking at
 
 ### Reasons for speaking
 
-You probably have a love of sharing knowledge and speaking is one of the best ways to do that. You believe in something and want others to share that feeling.
+You probably have a love of sharing knowledge and speaking is one of the best ways to do that. You believe in something and want others to share that feeling. Try to avoid starting with something you know nothing about.
 
 When I started teaching I did a ton of free speaking at local meet-ups and guest lectures and companies. Creating and giving a talk is a massive commitment and time investment. Not to mention the research, content preparation and traveling time. That's why I have become quite picky on which events I speak at.
 
@@ -133,6 +133,7 @@ Life can be messy and it's okay to pull out. I always try to do it well in advan
 * [Public Speaking as a Developer by Ali Spittel][ali]
 * [Your Perfect Tech Talk with Saron Yitbarek][saron]
 * [Preparing for a Tech Talk by Dan Abramov][dan]
+* [Speaking.io by Zach Holman][zach]
 
 
 [advent]: https://be.noti.st/blog/category/advent-speaker-tips
@@ -145,6 +146,7 @@ Life can be messy and it's okay to pull out. I always try to do it well in advan
 [ali]: https://dev.to/aspittel/public-speaking-as-a-developer-2ihj
 [saron]: https://www.youtube.com/watch?v=AzVr_nsKoZs&feature=youtu.be
 [dan]: https://overreacted.io/preparing-for-tech-talk-part-1-motivation/
+[zach]: https://speaking.io
 
 [visit]: https://be.noti.st/2018/visit-the-room
 [small]: https://be.noti.st/2018/start-small

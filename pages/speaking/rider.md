@@ -20,6 +20,7 @@ permalink: /speaking/rider/
 * I own and retain the rights to official recordings of my presentation and grant you license to use, modify, and redistribute them. (I want to publish a copy of the talk on my own Youtube channel)
 * I will not use branded content like branded templates or slides designed for the event.
 * I usually have a ton of images and diagrams to make concepts more clear. I take time to design my slides.
+* I try to describe the visuals that are in the presentation.
 * I personally choose to have many slides with a small amounts on each. I like the fast-paced flow.
 * It's ok to use my resources (photography, bio) on social media leading up to the event.
 * No censorship.
@@ -36,11 +37,13 @@ permalink: /speaking/rider/
 * I will not create my slides in other programs then I'm currently using myself (keynote).
 
 ## Accessibility
-* Provide open captioning for the audience.
+* Provide open captioning for the audience (CART).
+* Provide transcripts of the talk (I'll usually have one for a talk I've given before).
 * Ensure all official event venues are accessible to people with mobility issues, including people who use wheelchairs. This includes the stage and social gatherings around the event.
 * Reserve some seating in the front rows for people with vision impairments.
 * Run a financial aid, scholarship, opportunity grant, or similar program for attendees.
 * If providing or otherwise facilitating meals, be responsive to people with dietary restrictions.
+* If requested, I'll provide material ahead of time to participants.
 
 ## Inclusive
 * No all white male panels.
