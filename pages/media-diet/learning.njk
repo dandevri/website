@@ -1,0 +1,11 @@
+---
+layout: layouts/default
+title: Learning
+permalink: media-diet/learning/index.html
+---
+
+<ul class="learning-list">
+  {% for item in learning.learning | reverse %}
+    {% include 'components/atoms/media-item.njk' %}
+  {% endfor %}
+</ul>
