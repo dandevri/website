@@ -1,20 +1,24 @@
 ---
 layout: layouts/default
 title: About
-description: tl;dr Hi! I'm Danny de Vries. Indie Maker creating products for the web, working with small companies trough my design studio and lecturer at CMD Amsterdam.
+description: tl;dr I'm Danny de Vries. Indie Maker building digital products for the web and lecturer at CMD Amsterdam.
 permalink: about/
 ---
 
+Hi! I'm Danny de Vries (@dandevri), which you've probably already guessed from the header above. I like making stuff on the internet. I'm passionate about technology, privacy, time well spent, interfaces and building digital products. 
+
 ![Portrait close-up of Danny de Vries](/static/img/photos/portrait.jpg)
 
-I'm passionate about design systems, brand identities, privacy, time well spent, interfaces and web development. My approach is organized, systematic and inclusive.
+> My approach is organized, systematic and inclusive. I embrace flexibility, modularity and am willing to learn but also expect to be wrong.
+
+I am devoted to make technology (and coding) more human, fun and playful. I like to make things that I haven’t made before, that's how I learn.
 
 I live by these [10 principles](/principles).
 
 
 **Lecturing**
 
-I'm a lecturer and mentor at [Communication and Multimedia Design][cmd], a human-centred and context-sensitive bachelor-level design education in the field of interactive digital products and services, at the [Amsterdam University of Applied Sciences][auas]. I lecture about designing for the web in the technical courses of [our program][bt] such as; front-end, [back-end][be] & [data visualization][tt].
+I'm a lecturer and mentor at [Communication and Multimedia Design][cmd], a human-centred and context-sensitive bachelor-level design education in the field of interactive digital products and services, at the [Amsterdam University of Applied Sciences][auas]. I lecture about designing for the web in the technical courses of [our program][bt] such as; front-end, [back-end][be] & [data visualization][tt]. 
 
 **Speaking**
 
