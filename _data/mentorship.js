@@ -30,7 +30,13 @@ const get = [
     description: "Resources curated towards your goals",
   },
   {
+    description: "Critiques, feedback, and tips",
+  },
+  {
     description: "Always availabe for inbetween direct messages",
+  },
+  {
+    description: "A mentoring plan tailored to your goals",
   },
   {
     description: "Fun assignments and challenges",
@@ -45,7 +51,10 @@ const works = [
     description: "A brief write-up (or video) as to why you’d like me to mentor you",
   },
   {
-    description: "Number of sessions and payment agreement. The fee is ... euros per 0:00h session.",
+    description: "We'll plan a series of conversations for a defined period",
+  },
+  {
+    description: "Number of sessions and payment agreement.",
   },
 ]
 
