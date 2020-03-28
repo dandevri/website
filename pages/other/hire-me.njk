@@ -1,9 +1,42 @@
 ---
 layout: layouts/default
-title: Hire
+title: Hire Me
 permalink: hire/
 ---
 
 {% import 'components/atoms/breakout.njk' as breakout %}
+{% import 'components/atoms/button.njk' as button %}
 
-{{ breakout.breakout('Availability', '✕ Currently saying no to full-time job opportunities. ✓ Saying yes to speaking requests, workshops, coaching, interviews, writing and part-time projects.', '/contact', 'Contact me') }}
+<p>I'm Danny de Vries: Indie Maker building digital products for the web and lecturer at CMD Amsterdam. I like making stuff on the internet. I'm passionate about technology, privacy, time well spent, interfaces and building digital products.</p>
+
+<h2>Currently</h2>
+<p>I'm a lecturer and mentor at Communication and Multimedia Design, a human-centred and context-sensitive bachelor-level design education in the field of interactive digital products and services, at the Amsterdam University of Applied Sciences. I lecture about designing for the web in the technical courses of our program such as; front-end, back-end & data visualization.</p>
+
+<h2>What I do</h2>
+<p>Here are some of the things I can do for you in no particular order:</p>
+<ul>
+  <li>I can speak at your event, conference or give a guest lecture about building for the web.</li>
+  <li>I can teach a workshop about building for the web. I can do this in-house with your team, at conferences or for smaller groups.</li>
+  <li>I can be your mentor that I never had helping you develop and improve the areas we’ll work on together.</li>
+  <li>I can work in-house on your digital product either as being part of the team or external 'consultant'.</li>
+</ul>
+
+<h2>Worked for</h2>
+<ul>
+  <li>Worked at Fabrique as a web developer on websites, boilerplates and design systems for high-profile clients while working in a large multi-disciplinary scrum team with visual designers, interaction designers and art directors.</li>
+  <li>Worked at We Brand Creative as a digital designer on brand identities, strategy, concept and static website designs for small local companies.</li>
+</ul>
+
+<h2>Experience</h2>
+<p>A bunch of tech things that I know about and have used. I focus on front-end and am experienced in <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code>, <code>Node</code>, <code>npm</code>, <code>JAMstack</code> &amp; <code>Git</code>, <code>CSS methodologies</code>, <code>Static Site Generators</code>, <code>Build Tools</code>, <code>version control</code>.
+I care a lot about accessibility, animation &amp; interaction, performance and modular components.
+I've dabbled with <code>D3.js</code>, <code>Data visualization</code>, <code>React</code>, <code>Vue</code>, <code>Jekyll</code>, <code>Svelte</code> &amp; <code>Sass</code>. But above all, I’ll learn anything else you need.</p>
+
+<p>I know my way around design tools such as <code>Sketch</code>, <code>Figma</code>, <code>Framer</code>, <code>InVision</code> and the <code>Adobe Suite</code>. I do a lot of <code>UI design</code>, <code>interactive prototyping</code>, <code>UX research</code>, <code>wireframing</code> creating <code>design systems</code> and <code>styleguides</code>. Often doing <code>brand identity</code> work, <code>service design</code> and <code>design thinking</code> &amp; <code>strategy</code> sessions.</p>
+
+{{ button.primary("/resume", "View full resume") }}
+
+<h2>Contact</h2>
+<p>If you are interested in any of these things you should definitely contact me.</p>
+
+{{ breakout.breakout('Availability', '✕ Currently saying no to full-time job opportunities.', '/contact', 'Contact me') }}
