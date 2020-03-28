@@ -46,6 +46,7 @@
 @import 'components/atoms/breakout.scss';
 @import 'components/atoms/quote.scss';
 @import 'components/atoms/testimonial.scss';
+@import 'components/atoms/notification.scss';
 
 /* Molecules */
 @import 'components/molecules/header.scss';

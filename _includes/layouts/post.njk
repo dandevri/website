@@ -3,9 +3,18 @@ layout: layouts/base
 ---
 
 {% include 'components/molecules/site-header.njk' %}
+{% import 'components/atoms/notification.njk' as notification %}
 
   <main class="wrapper">
     <header class="post">
+      {% if tags.includes("archive") %}
+          {{ notification.not
+          (
+            "Archive",
+            "You are looking at a post that is archived, probably because my views have changed or the information in it is outdated."
+          )
+        }}
+      {% endif %}
       <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
       <span> ▪ {{ content | readingTime }}</span>
       <h1 class="header__title display">{{ title }}</h1>

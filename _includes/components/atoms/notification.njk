@@ -1,0 +1,14 @@
+{% macro not(title, desc) %}
+  <div class="notification">
+    <h6>{{ title }}</h6>
+    <p>{{ desc }}</p>
+  </div>
+{% endmacro %}
+
+{% macro notlink(title, desc, anchor, link) %}
+  <div class="notification">
+    <h6>{{ title }}</h6>
+    <p>{{ desc }}</p>
+    <a href="{{ anchor}}"> {{ link }} </a>
+  </div>
+{% endmacro %}

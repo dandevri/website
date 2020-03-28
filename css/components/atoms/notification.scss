@@ -1,0 +1,17 @@
+.notification {
+  border: $b1;
+
+  h6 {
+    padding: $s-1 $s2;
+    background: $white;
+    color: $black;
+  }
+
+  p {
+    padding: $s-1 $s2;
+  }
+
+  a {
+    padding: $s-2 $s2;
+  }
+}
