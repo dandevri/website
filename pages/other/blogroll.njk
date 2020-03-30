@@ -1,0 +1,12 @@
+---
+layout: layouts/default
+title: Blogroll
+description: A rolodex of other people on the web. Friends and other people around the internet I’m proud to know.
+permalink: blogroll/
+---
+
+<ul class="blogroll-list">
+  {% for item in blogroll.blogroll %}
+    {% include 'components/atoms/blogroll.njk' %}
+  {% endfor %}
+</ul>
