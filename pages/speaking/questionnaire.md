@@ -5,7 +5,9 @@ description: My questions for event organizers.
 permalink: /speaking/questionnaire/
 ---
 
-This is a set of questions which help me figure out which events to go to. Before committing to an event I gather information and start by asking a couple of questions. I included most of these questions in my [speaking request form](request). These questions change and I will continue to tweak them. 
+I would love to speak at your event! I just have a few questions to make the whole process a bit simpler. This is a set of questions which help me figure out which events to go to. Before committing to an event I gather information and start by asking a couple of questions. I included most of these questions in my [speaking request form](request). These questions change and I will continue to tweak them. 
+
+
 
 ## Practical questions
 1. How many people do you expect to show up?

@@ -40,11 +40,20 @@ Creating and giving a talk is a massive commitment and time investment. Not to m
 ## Preparing a talk
 There are two aspects to preparing a talk: the content and the presentation. First think about what you want to say not how to present the material.
 
+Hot topics are usually not that good subjects. Hop topics will mean many people will talk about them.
+Convert a popular blog posts you've written to a talk. You can also test out ideas in blog posts.
+
+Keep a list and note down al of your ideas with resources.
+
 How you prepare is very personal, this is just what works for me.
 
 > What is something only you can talk about?
 
 Creating and giving a talk is a massive commitment and time investment. Not to mention the research, content preparation and traveling time. 
+
+Rehearse out loud. Just by hearing your words you get to know the flow of the talk. Start a timer and deliver your presentation to no one. If you don't have the time at least rehearse the first couple of slides. This will be awkward at first but record yourself giving the talk, either with a smartphone or just pop open quicktime and record the screen and audio.
+
+Then rehearse with a couple of friends or co-workers.
 
 People will forget most things you've said. Make the talk around one central idea. Focus on the 'what' you want to talk about and then explain why you want to talk about it and how (the best format).
 
@@ -68,7 +77,7 @@ Don't worry too much about having a [different unique concept][concept]. It's ok
 
 The making of the outline also helps you find 'gaps' in your talk.
 
-
+Ask the organisers if you will be introduced, otherwise put the introduction in your slides. No lengthy introduction but talk a bit yourself.
 
 ## Presenting
 Ever wondered why Ted Talks are only 20 minutes? Because, people have limited attention. Run too long and their attention moves.
@@ -88,14 +97,17 @@ A performance doesn’t necessarily mean being loud and waving hands. Being calm
 * [What to wear?][wear] Clothing is very personal, wear what you are comfortable with. If youre not sure, try to dress one level smarter.
 * Use your voice and body as a tool to keep things interesting.
 * Minimize 'euhm' and be aware of your speaking patterns. This can only be improved trough practice. 
+* After you are done clear the stage, pack your stuff and make room for the next speaker. At the university there  
 
 ### Improve your presentations
-If you give a talk again learn from the questions you get afterwards (in-person or tweets for example) and see if you can improve. Maybe some explanations need to be clearer or pick different examples to illustrate your point. Praise for a presentation might be a good thing but even better are questions.
+If you give a talk again learn from the questions you get afterwards (in-person or tweets for example) and see if you can improve. Maybe some explanations need to be clearer or pick different examples to illustrate your point. Praise for a presentation might be a good thing but even better are questions. Recording your talk will catch your speaking patterns, it will change your perspective.
 
 ## Slide Design
-Many people are visual oriented, so I usually have a ton of images and diagrams to make concepts more clear.
+Many people are visual oriented, so I usually have a ton of images and diagrams to make concepts more clear. You want your slides to accompany your talk, not be the focal point.
 * Create ['landmark slides'][landmark] that act as timing milestones. Don't use real time-of-day timings.
 * [Write quotable slidest][quote] that people can take pictures of to share on social media.
+* Typograpohy is the biggest thing people get wrong. You can’t go too big, use contrast and don't use many words.
+* Use different colors for different sections.
 
 ## Admin stuff
 
@@ -134,6 +146,7 @@ Life can be messy and it's okay to pull out. I always try to do it well in advan
 * [Your Perfect Tech Talk with Saron Yitbarek][saron]
 * [Preparing for a Tech Talk by Dan Abramov][dan]
 * [Speaking.io by Zach Holman][zach]
+* [A few tricks about public speaking and stage technology][chris]
 
 
 [advent]: https://be.noti.st/blog/category/advent-speaker-tips
@@ -147,6 +160,7 @@ Life can be messy and it's okay to pull out. I always try to do it well in advan
 [saron]: https://www.youtube.com/watch?v=AzVr_nsKoZs&feature=youtu.be
 [dan]: https://overreacted.io/preparing-for-tech-talk-part-1-motivation/
 [zach]: https://speaking.io
+[chris]: https://christianheilmann.com/2013/06/20/a-few-tricks-about-public-speaking-and-stage-technology/
 
 [visit]: https://be.noti.st/2018/visit-the-room
 [small]: https://be.noti.st/2018/start-small

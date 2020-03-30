@@ -15,6 +15,7 @@ permalink: /speaking/rider/
 * I expect you to pay for the travel expenses if it's an international event. Either you purchase it or I can reimburse it afterwards.
 * I expect you to pay for the lodging if it's an international event. Either you purchase it or I can reimburse it afterwards.
 * If I speak at your event I expect to also have a ticket to the full conference.
+* I like to book my own travel.
 
 ## Presentation
 * I own and retain the rights to official recordings of my presentation and grant you license to use, modify, and redistribute them. (I want to publish a copy of the talk on my own Youtube channel)
@@ -35,6 +36,8 @@ permalink: /speaking/rider/
 * A Wi-Fi connection is preferred, although most of my slides also work offline.
 * Presenting from my own laptop and settings is preferred. 
 * I will not create my slides in other programs then I'm currently using myself (keynote).
+* I'm not a huge fan of doing Q&A because of reduced hearing unless there is a mic in the room. 
+* If a moderator asks the questions that's usually OK.
 
 ## Accessibility
 * Provide open captioning for the audience (CART).
