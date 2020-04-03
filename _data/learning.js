@@ -39,6 +39,22 @@ const learning = [
     format: "online course",
     url: "https://scrimba.com/g/ges6"
   },
+  {
+    title: "JAMstack Course",
+    author: "freeCodeCamp",
+    tag: "code",
+    read: "2020",
+    format: "youtube stream",
+    url: "https://www.youtube.com/watch?v=A_l0qrPUJds"
+  },
+  {
+    title: "Teachable Machine",
+    author: "The Coding Train",
+    tag: "code",
+    read: "2020",
+    format: "youtube stream",
+    url: "https://www.youtube.com/watch?v=kwcillcWOg0&list=PLRqwX-V7Uu6aJwX0rFP-7ccA6ivsPDsK5"
+  },
 ]
 
 module.exports = {
