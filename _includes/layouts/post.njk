@@ -22,12 +22,10 @@ layout: layouts/base
     </header>
     <div class="content post">
       {{ content | safe }}
-      <div class="footer"
-        {% include 'components/atoms/signature.njk' %}
-        {% include 'components/atoms/biography.njk' %}
-      </div>
+      {% include 'components/atoms/signature.njk' %}
     </div>
     <footer>
+      {% include 'components/atoms/biography.njk' %}
       {% include 'components/molecules/tag-list.njk' %}
     </footer>
   </main>

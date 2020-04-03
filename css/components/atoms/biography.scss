@@ -1,7 +1,22 @@
 .biography {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid white;
+  padding: $s1 $s5;
+
   img {
-    float: left;
-    height: 8vh;
+    height: 5vh;
     margin-right: $s2;
   }
+
+  p {
+    width: $width;
+  }
+}
+
+footer {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
