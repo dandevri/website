@@ -1,13 +1,16 @@
 ---
-layout: layouts/default
+layout: layouts/overview
 title: Teaching
 description: Full-day workshops and online classes
 permalink: teaching/
 ---
 {% import 'components/atoms/card.njk' as card %}
 
-<h2>Workshops</h2>
-<p>Full-day workshops covering designing for the web and making time for things that matter. These are before <strong>conferences</strong>, afternoon before your <strong>meet-up</strong> or a 10% day at <strong>your office</strong>.</p>
+<div class="content">
+  <h2>Workshops</h2>
+  <p>Full-day workshops covering designing for the web and making time for things that matter. These are before <strong>conferences</strong>, afternoon before your <strong>meet-up</strong> or a 10% day at <strong>your office</strong>.</p>
+</div>
+
 <div class="course grid-l">
   {% for workshop in collections.workshop %}
     {{ card.item
@@ -21,10 +24,12 @@ permalink: teaching/
   {% endfor %}
 </div>
 
-<h2>Courses</h2>
-<p>All the technical courses I give at <strong>Communication and Multimedia design</strong> at the <strong>Amsterdam University of Applied Sciences</strong>. They focus on front-end, back-end and data visualization.</p>
+<div class="content">
+  <h2>Courses</h2>
+  <p>All the technical courses I give at <strong>Communication and Multimedia design</strong> at the <strong>Amsterdam University of Applied Sciences</strong>. They focus on front-end, back-end and data visualization.</p>
+</div>
 
-  <div class="course grid-l">
+  <div class="course grid-xl">
     {% for course in courses.courses %}
     {{ card.item
       (

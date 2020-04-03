@@ -1,17 +1,18 @@
 ---
-layout: layouts/default
+layout: layouts/overview
 title: Writing
 description: A few things I've written to help me think or share what I know. Usually short posts and notes but also longer essays and guides.
 permalink: writing/
 ---
-{% import 'components/molecules/tags-list.njk' as list %}
 
-{{ list.tag('articles', 'notes', 'weeknotes', 'journal', 'guides', 'essays', 'links') }}
-
+<ul class="skip-list">
 {% for tag in collections.tagList %}
   {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-  <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+    <li>
+      <a class="skip-item" href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+    </li>
 {% endfor %}
+</ul>
 
 <section class="article-list grid grid-l">
   {%- for article in collections.article | reverse -%}

@@ -1,20 +1,22 @@
 ---
-layout: layouts/default
+layout: layouts/overview
 title: Notes
 permalink: notes/
 ---
 {% import 'components/atoms/card.njk' as card %}
 
-<ul class="list line">
-  {%- for note in collections.note | reverse -%}
-    {{ card.list
-      (
-        note.url,
-        note.data.title,
-        note.templateContent | safe,
-        note.data.date,
-        note.data.type
-      )
-    }}
-  {%- endfor -%}
-</ul>
+<section class="note-list">
+  <ul class="list grid grid-xl">
+    {%- for note in collections.note | reverse -%}
+      {{ card.list
+        (
+          note.url,
+          note.data.title,
+          note.templateContent | safe,
+          note.data.date,
+          note.data.type
+        )
+      }}
+    {%- endfor -%}
+  </ul>
+</section>

@@ -22,12 +22,10 @@
   @mixin fade-out;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: $s4;
 }
 
 .skip-item {
   @mixin reset-link;
-  margin-right: $s-2;
   border: $b1;
   padding: calc($s-2 / 3) calc($s-2);
   font-weight: 700;
@@ -35,7 +33,6 @@
 
   &::before {
       content: "#";
-      margin-right: -0.7em;
   }
 }
 

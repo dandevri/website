@@ -8,6 +8,10 @@ main {
   margin-top: $s1;
 }
 
+.content > * {
+  max-width: $width;
+}
+
 body {
   display: flex;
   flex-wrap: wrap;
@@ -24,20 +28,19 @@ body {
   margin-top: $s2;
 }
 
-.content > * {
-  max-width: $width;
-}
-
 .grid {
   display: grid;
-  grid-gap: $s4;
   grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
 }
 
 .grid-l {
   display: grid;
-  grid-gap: $s5;
   grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+}
+
+.grid-xl {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
 }
 
 .space > * + *{

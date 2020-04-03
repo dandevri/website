@@ -1,12 +1,12 @@
 ---
-layout: layouts/default
+layout: layouts/overview
 title: Links
 permalink: links/
 ---
 
 {% import 'components/atoms/card.njk' as card %}
 
-<ul class="list">
+<ul class="list grid grid-xl">
   {%- for link in collections.link | reverse -%}
     {{ card.list
       (
