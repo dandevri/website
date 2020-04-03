@@ -5,7 +5,7 @@ layout: layouts/base
 {% include 'components/molecules/site-header.njk' %}
 {% import 'components/atoms/notification.njk' as notification %}
 
-  <main class="wrapper">
+  <main class="wrapper" id="main">
     <header class="post">
       {% if tags.includes("archive") %}
           {{ notification.not
