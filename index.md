@@ -2,6 +2,9 @@
 layout: layouts/default
 title: Danny de Vries
 description: Indie Maker and Lecturer
+eleventyNavigation:
+  key: Danny de Vries
+  order: 1
 ---
 
 ```txt

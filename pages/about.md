@@ -3,6 +3,9 @@ layout: layouts/default
 title: About
 description: tl;dr I'm Danny de Vries. Indie Maker building digital products for the web and lecturer at CMD Amsterdam.
 permalink: about/
+eleventyNavigation:
+  key: About
+  order: 2
 ---
 
 Hi! I'm Danny de Vries (@dandevri), which you've probably already guessed from the header above. I like making stuff on the internet. I'm passionate about technology, privacy, time well spent, interfaces and building digital products. 

@@ -1,4 +1,5 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const readingTime = require('eleventy-plugin-reading-time');
 const { DateTime } = require("luxon");
 const markdownIt = require('markdown-it')({
@@ -16,6 +17,7 @@ module.exports = function(config) {
   config.addPassthroughCopy("static/other");
 
   config.addPlugin(pluginRss);
+  config.addPlugin(eleventyNavigationPlugin);
   config.addPlugin(readingTime);
 
   config.addFilter("readableDate", dateObj => {

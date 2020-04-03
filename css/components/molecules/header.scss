@@ -15,15 +15,43 @@ header h2 {
 }
 
 .site-header {
-  flex-basis: 10rem;
+  flex-basis: 15rem;
   flex-grow: 1;
   border-right: $b1;
-  padding: $s3;
+}
+
+nav > ul > li {
+  padding-left: $s3;
+  padding-right: $s3;
+  padding-bottom: $s-3;
+  padding-top: $s-3;
+  margin: 0;
+}
+
+
+
+.active {
+  background: $white;
+  color: $black;
+
+  &:before {
+    content: ">"
+  }
 }
 
 @media (max-width: 60em) {
   .site-header {
     order: 2;
+    padding: $s2 0;
+
+    ul {
+      display: flex;
+      overflow-x: scroll;
+      white-space: nowrap;
+      width: 100vw;
+      align-items: center;
+      border-top: 1px solid white;
+    }
   }
 }
 
