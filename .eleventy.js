@@ -32,6 +32,11 @@ module.exports = function(config) {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
   });
 
+  config.addFilter('year', function(date) {
+    const dateObj = new Date(date)
+    return dateObj.getFullYear()
+  })
+
   config.addFilter('limit', (array, n) => {
     if( n < 0 ) {
       return array.slice(n);

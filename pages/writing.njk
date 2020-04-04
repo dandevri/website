@@ -18,7 +18,11 @@ eleventyNavigation:
 </ul>
 
 <section class="article-list grid grid-l">
-  {%- for article in collections.article | reverse -%}
+    {%- for article in collections.article | reverse -%}
+      {% if article.date | year != lastDate | default('0', true) %}
+        <h3 class="grid-full">{{ article.date | year}}</h3>
+      {% set lastDate = article.date | year %}
+    {% endif %}
     {% include 'components/atoms/article.njk' %}
   {%- endfor -%}
 </section>

@@ -108,3 +108,9 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-column-gap: 1em;
 }
+
+.grid-full {
+  grid-column: 1 / -1;
+  border: 1px solid $white;
+  padding: $s3;
+}
