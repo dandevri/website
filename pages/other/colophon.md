@@ -26,6 +26,11 @@ I wanted to thank the people behind the technologies of this website and the peo
 
 You can also view [the changelog](/changelog) for a list of things on how this site evolved over time with new features and read more about the design and tech stack of this site.
 
+<img src="/static/img/icons/psd.svg" class="badge" alt="Photoshop badge">
+<img src="/static/img/icons/facebook.svg" class="badge" alt="Facebook badge">
+
+---
+
 Related pages on this site:
 
 * [Monetizations and referrals](/monetization)
@@ -35,6 +40,8 @@ Related pages on this site:
 * [Changelog and design](/changelog)
 
 Thanks everyone!
+
+
 
 
 [11ty]: https://www.11ty.io/
