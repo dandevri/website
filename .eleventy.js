@@ -15,6 +15,7 @@ module.exports = function(config) {
   config.addPassthroughCopy("static/js");
   config.addPassthroughCopy("css/style.css");
   config.addPassthroughCopy("static/other");
+  config.addPassthroughCopy("posts/talks/transcripts/");
 
   config.addPlugin(pluginRss);
   config.addPlugin(eleventyNavigationPlugin);
