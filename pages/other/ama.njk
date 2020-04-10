@@ -1,0 +1,75 @@
+---
+layout: layouts/default
+title: AMA
+description: Ask me anything
+permalink: ama/
+---
+
+{% import 'components/atoms/details.njk' as details %}
+{% import 'components/atoms/button.njk' as button %}
+
+<p>I have answered tons of questions trough e-mail and social media. Usually giving advice or recommending products. These are the most common questions. Is your question not on the list? Feel free to ask it!</p>
+
+{{ button.primary("/ask-a-question", "Ask a question!") }}
+
+<p>Just remember that we each have our own unique perspectives and approaches to solving problems. When I give advice it's my advice and that you might not be 100% right. You should seek advice from as many people as possible.</p>
+
+{{ details.details(
+  "What gear do you use?",
+  "I'm an absolute Gearhead and EDC person. On this ['uses'](/uses) pages I've listed all the software, hardware and tools that I use.")
+}}
+
+{{ details.details(
+  "What book(s) changed your life?",
+  "In terms of 'life advice', probably Deep Work and Digital Minimalism by Cal Newport. What if everything you knew about education by David Didau fundamentally changed the way I teach.")
+}}
+
+{{ details.details(
+  "Will you do _insert service or request_ for free?",
+  "No, probably not. And please read Design is a Job by Mike Monteiro.")
+}}
+
+{{ details.details(
+  "Should I do _insert thing here_?",
+  "It doesn’t matter what anyone thinks, do what you think is best. I can give advice but that's just my opinion.")
+}}
+
+{{ details.details(
+  "How many people visit this website?",
+  "I don't know, and I don't want to know. No cookies or third-party tracking scripts are embedded on this site. Privacy is more important than metrics.")
+}}
+
+{{ details.details(
+  "Can I fix something on your site?",
+  "Yea! I sometimes make typo's or break some CSS. You can create a new issue on the repository of this website.")
+}}
+
+{{ details.details(
+  "Can we hop on a quick call or meet for coffee?",
+  "Probably not, but sometimes. I do speak with a lot of people if an idea sounds interesting (see “picking brains” from Jason Fried). ")
+}}
+
+{{ details.details(
+  "Can I use your content that you shared publicly?",
+  "Sure, go ahead! Everything I put on dandevri.es you can use based on the license of the GitHub repository. It would be nice if you could credit me.")
+}}
+
+{{ details.details(
+  "Can you post my content on your site?",
+  "I don’t publish other people’s stuff. This is my personal site and I put whatever I want on here. I do share a ton of other people's work on social media.")
+}}
+
+{{ details.details(
+  "Will you do my interview or podcast?",
+  "Yea! I will make time to do almost any interview or podcast.")
+}}
+
+{{ details.details(
+  "Who made your website?",
+  "I did, in my spare time. The /colophon page lists the technology used in creating this website.")
+}}
+
+{{ details.details(
+  "I need your corporate stuff!",
+  "If something has an exclamation mark on the end, is it a question? Dandevri is registered in the [Netherlands Chamber of Commerce](https://www.kvk.nl/english/) (VAT registered) under number 63938804.")
+}}
