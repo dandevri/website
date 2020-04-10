@@ -26,6 +26,24 @@ const books = [
     format: "Paperback",
     url: "https://www.goodreads.com/book/show/26156469-never-split-the-difference"
   },
+  {
+    title: "Het water komt",
+    author: "Rutger Bregman",
+    tag: "society",
+    cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1580287693l/50711644._SX318_.jpg",
+    read: "2020",
+    format: "Paperback",
+    url: "https://www.goodreads.com/book/show/50711644-het-water-komt"
+  },
+  {
+    title: "Ultralearning",
+    author: "Scott H. Young",
+    tag: "teaching",
+    cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554211384l/44770129._SY475_.jpg",
+    read: "2020",
+    format: "Paperback",
+    url: "https://www.goodreads.com/book/show/44770129-ultralearning"
+  },
 ]
 
 module.exports = {
