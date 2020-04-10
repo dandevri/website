@@ -105,8 +105,16 @@ body {
 .timeline {
   display: grid;
   margin: $s4;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-column-gap: 1em;
+}
+
+.column {
+  margin-bottom: $s6;
+
+  h2 {
+    margin-bottom: $s1;
+  }
 }
 
 .grid-full {

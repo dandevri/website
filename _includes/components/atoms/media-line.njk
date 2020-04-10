@@ -1,5 +1,14 @@
 <li class="media-item">
   <a href="{{ item.url }}">
-    {{ item.title }} by {{ item.author }}
+    {{ item.title }}
+    {% if item.author %}
+      ({{ item.author }})
+    {% elif item.director %}
+      ({{ item.director }}, {{ item.released }})
+    {% elif item.season %}
+      (S{{ item.season }})
+    {% elif item.platform %}
+      ({{ item.platform }})
+    {% endif %}
   </a>
 </li>
