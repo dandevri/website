@@ -1,0 +1,19 @@
+.book-list, .movies-list, .series-list, .games-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-image: none;
+}
+
+.media-item {
+  border: 1px solid $white;
+  margin: 0;
+}
+
+.media-content {
+  padding: $s1;
+}
+
+.media-cover {
+  width: 100%;
+}

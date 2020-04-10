@@ -1,10 +1,10 @@
 ---
-layout: layouts/default
+layout: layouts/overview
 title: Movies
 permalink: media-diet/movies/index.html
 ---
 
-<ul class="movies-list">
+<ul class="movies-list grid">
   {% for item in movies.movies | reverse %}
     {% include 'components/atoms/media-item.njk' %}
   {% endfor %}

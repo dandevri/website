@@ -1,8 +1,17 @@
 <li class="media-item">
   <a href="{{ item.url }}">
-    <img src="{{ item.cover }}" alt="{{item.title }} cover">
-    <p>{{ item.title }}</p>
-    <p>{{ item.author }}</p>
-    <p>{{ item.tag }}</p>
+    <img class="media-cover"src="{{ item.cover }}" alt="{{item.title }} cover">
+    <div class="media-content">
+      <p>{{ item.title }}</p>
+      {% if item.author %}
+        ({{ item.author }})
+      {% elif item.director %}
+        ({{ item.director }}, {{ item.released }})
+      {% elif item.season %}
+        (S{{ item.season }})
+      {% elif item.platform %}
+        ({{ item.platform }})
+    {% endif %}
+    </div>
   </a>
 </li>

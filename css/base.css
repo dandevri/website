@@ -50,6 +50,7 @@
 @import 'components/atoms/notification.scss';
 @import 'components/atoms/blogroll.scss';
 @import 'components/atoms/skip-link.scss';
+@import 'components/atoms/media-item.scss';
 
 /* Molecules */
 @import 'components/molecules/header.scss';

@@ -1,10 +1,10 @@
 ---
-layout: layouts/default
+layout: layouts/overview
 title: Games
 permalink: media-diet/games/index.html
 ---
 
-<ul class="games-list">
+<ul class="games-list grid">
   {% for item in games.games | reverse %}
     {% include 'components/atoms/media-item.njk' %}
   {% endfor %}
