@@ -10,5 +10,10 @@
     margin-top: $s1;
     width: 45%;
     overflow: show;
+    display: none;
+  }
+
+  .is-open {
+    display: block;
   }
 }
