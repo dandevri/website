@@ -6,19 +6,17 @@
 <script>
   const shareButton = document.querySelector('.share label');
   const shareDialog = document.querySelector('.share input');
+  shareButton.addEventListener('click', event => {
   if (navigator.share) {
-    navigator.share({
-          title: '{{ page.title }}',
-          url: '{{ metadata.url }}{{ page.url }}'
-        }).then(() => {
-          console.log('Thanks for sharing!');
-        })
-        .catch(console.error);
-  } else {
-      shareButton.addEventListener('click', event => {
-      shareDialog.classList.add('is-open');
-    });
-  }
-
-
+      navigator.share({
+            title: '{{ page.title }}',
+            url: '{{ metadata.url }}{{ page.url }}'
+          }).then(() => {
+            console.log('Thanks for sharing!');
+          })
+          .catch(console.error);
+    } else {
+        shareDialog.classList.add('is-open');
+    }
+  });
 </script>
