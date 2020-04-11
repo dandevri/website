@@ -27,8 +27,9 @@ permalink: /speaking/rider/
 * No censorship.
 
 ## Setup and AV
-* Lapel or lavalier preferred. No handheld.
+* Lapel or lavalier preferred. Don't make me hold a microphone, please.
 * Lectern (or table) preferred.
+* Don't point a spotlight in my face, please.
 * Timer viewable from the stage is preferred.
 * Confidence monitor preferred. I need to be able to see my slides and notes.
 * USB-C or HDMI preferred. I'll usually have adapters.
@@ -53,10 +54,16 @@ permalink: /speaking/rider/
 * Gender parity with men, women, and nonbinary people.
 * Include people with disabilities, people of color, and LGBTQIA+ people.
 * Offer scholarschip programs or discounted tickets for students.
+* I don't like it if the MC makes jokes about speakers in the introduction.
 
 ## Privacy 
 * Attendee data/information should not be sold, especially not to conference sponsors.
 * Attendees should have the option to not be included in promotion material. (excluded from video or photography)
+
+## Venue
+* It's nice to have a speaker room, doesn't have to be anything fancy but a nice quit room with seating and some extra food is very welcome
+* I have no dietary restrictions. I do often look for veggie options or meat replacements.
+* I've been given speaker gifts but sometimes I can't take them with me (cannot transport, don't have enough space in my bag or gifts aren't allowed on the plan)
 
 ## Withdrawal
 * Life can be messy and I reserve the right to withdraw from your conference. I always try to do it well in advance and notify you. I try to find a replacement speaker.
