@@ -5,6 +5,8 @@ description: A rolodex of other people on the web. Friends and other people arou
 permalink: blogroll/
 ---
 
+<p>There are currently <em>{{ blogroll.blogroll | size }}</em> people on this list.</p>
+
 <ul class="blogroll-list">
   {% for item in blogroll.blogroll %}
     {% include 'components/atoms/blogroll.njk' %}
