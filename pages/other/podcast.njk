@@ -1,0 +1,55 @@
+---
+layout: layouts/empty
+title: Podcast
+description: The Dandevri Show
+permalink: podcast/
+---
+
+{% import 'components/atoms/button.njk' as button %}
+
+<div class="contain">
+<h1>The Dandevri</h1>
+<pre>
+  <code>
+                 _               _
+ _ __   ___   __| | ___ __ _ ___| |_
+| '_ \ / _ \ / _` |/ __/ _` / __| __|
+| |_) | (_) | (_| | (_| (_| \__ \ |_
+| .__/ \___/ \__,_|\___\__,_|___/\__|
+|_|
+  </code>
+</pre>
+
+<p>Listen to audio fragments of articles, talks and essays that appeared on dandevri.es. Talked with :hearts: into a microphone by <a href="/about">Danny de Vries.</a></p>
+
+<p>Search for `dandevri` in your favorite podcast app, click on the buttons below or paste <a href="https://anchor.fm/s/1c798468/podcast/rss">this feed</a> in your app.</p>
+<img src="/static/img/icons/apple_badge.svg" alt="Apple podcast badge">
+<img src="/static/img/icons/pocketcast_badge.svg" alt="Apple podcast badge"
+style="width: 11em; border: 1px solid white; border-radius: 0.5rem">
+<img src="/static/img/icons/spotify_badge.svg" alt="Spotify podcast badge" style="width: 8.5em; border: 1px solid white; border-radius: 0.5rem">
+
+<h3>Latest Episodes</h3>
+
+{%- for podcast in collections.podcast | reverse -%}
+  <iframe src="{{ podcast.data.embed }}" height="102px" width="100%" frameborder="0" scrolling="no"></iframe>
+{%- endfor -%}
+
+<a href="https://anchor.fm/dandevri">Full archive off all episodes</a>
+
+<h4>Ask questions</h4>
+<p>Do you have a question? Ask it through the form below or send me a tweet at @dandevri and I'l answer it on this podcast</p>
+
+{{ button.primary("/ask-a-question", "Ask a question") }}
+
+<h4>Give feedback</h4>
+<p>I would love to hear from you on what you think about this podcast. You can tweet me at <a href="https://twitter.com/dandevri">@dandevri</a> or send me <a href="https://www.dandevri.es/contact/">an e-mail</a>. Please tell me if you don't want your name mentioned because I might use your name and feedback in a future recording.</p>
+
+<h4>Support</h4>
+<p>Did you like this podcast? This podcast is free but not cheap. You can consider <a href="/support">supporting me</a> and decide how much this podcast is worth to you. By supporting you are covering the costs of the transcripts or new gear to improve the quality of this podcast.</p>
+
+<p>You can also <a href="/sponsorship">sponsor this podcast</a>. I'd love to share your message on my podcast.</p>
+
+<hr>
+
+<p>This podcast is hosted by <a href="https://anchor.fm/dandevri">Anchor</a> and uses <a href="https://www.descript.com/">Descript</a> for transcriptions.</p>
+</div>

@@ -59,7 +59,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 96vh;
   width: 100%;
   flex-direction: column;
 }
@@ -121,4 +120,20 @@ body {
   grid-column: 1 / -1;
   border: 1px solid $white;
   padding: $s3;
+}
+
+.contain {
+  max-width: 38rem;
+  padding: 2rem;
+  margin: auto;
+  margin-top: 5vh;
+
+  h1 {
+    font-size: 2em;
+    margin-bottom: -3em;
+  }
+}
+
+.contain > * + * {
+  margin-top: $s1;
 }

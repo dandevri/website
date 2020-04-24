@@ -1,3 +1,7 @@
+iframe {
+  filter: grayscale();
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background: black;
@@ -16,5 +20,9 @@
 
   img {
     opacity: .75;
+  }
+
+  iframe {
+    filter: invert(1) grayscale();
   }
 }
