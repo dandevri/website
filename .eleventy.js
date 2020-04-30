@@ -57,7 +57,11 @@ module.exports = function(config) {
   });
 
   config.addShortcode("figure", function(url, caption) {
-    return `<figure><a href="${url}"><img src="${url}" alt="${caption}"></a><figcaption>${caption}</figcaption></figure>`
+    return `<figure><a href="${url}"><img src="${url}" alt="${caption}"></a><figcaption class="after">${caption}</figcaption></figure>`
+  });
+
+  config.addShortcode("figurePath", function(url, caption) {
+    return `<figure><figcaption class="before">${caption}</figcaption><a href="${url}"><img src="${url}" alt="${caption}"></a></figure>`
   });
 
   return {

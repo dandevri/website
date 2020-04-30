@@ -1,4 +1,3 @@
 /* Shadows */
-$bs1: $s-1 $s-1 $black;
-$bs2: $s-2 $s-2 $black;
-$bs3: $s-4 $s-1 $black;
+$bs1: $s-1 -$s-1 0 0 $black;
+$bs2: .9rem .9rem 0 0 $white;

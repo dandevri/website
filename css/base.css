@@ -18,10 +18,10 @@
 @import 'generic/_typography.scss';
 
 /* Utilities */
-@import 'utilities/_text.scss';
 @import 'utilities/_toggle.scss';
 @import 'utilities/_color-scheme.scss';
 @import 'utilities/_badge.scss';
+@import 'utilities/_images.scss';
 
 /* Elements */
 @import 'elements/_lists.scss';
