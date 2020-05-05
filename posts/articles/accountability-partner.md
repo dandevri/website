@@ -49,8 +49,6 @@ One last note; your partner can change your view but you don't want to turn this
 
 Give it a try, it might work for you as well.
 
----
-
 [rick]: https://rickpastoor.com/userguide
 [grip]: https://gripboek.nl/
 [miranda]: https://www.linkedin.com/in/miranda-endhoven-91643b50/

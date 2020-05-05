@@ -137,3 +137,8 @@ body {
 .contain > * + * {
   margin-top: $s1;
 }
+
+.signature {
+  margin-top: $s2;
+  display: inline-block;
+}
