@@ -1,14 +1,20 @@
 .btn {
-  padding: $s-2 $s-1;
+  padding: $s-3 $s-1;
   font-size: 0.9rem;
   @mixin reset-link;
 
   &-primary {
-    background: $black;
-    color: $white;
-    box-shadow:
-      inset 0 2px 0 $black,
-      0 1px 3px hsla(213, 5%, 39%, .2);
+    background: $white;
+    color: $black;
+    border: $b1 $black;
+    box-shadow: inset 0 -0rem 0 0 $black;
+    transform: translateY(0%);
+
+    &:hover,
+    &:focus {
+      box-shadow: inset 0 -0.15rem 0 0 $black;
+      transform: translateY(-15%);
+    }
   }
 
   &-secondary {

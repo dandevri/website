@@ -10,8 +10,20 @@ iframe {
     transition: color $250ms, background-color $250ms;
   }
 
+  .btn {
+    &-primary {
+      background: $black;
+      color: $white;
+      border: $b1 $white;
+    }
+  }
+
   .newsletter {
     background: black;
+  }
+
+  .content {
+    background: $black;
   }
 
   ul {
@@ -19,7 +31,7 @@ iframe {
   }
 
   img {
-    opacity: .75;
+    opacity: 0.75;
   }
 
   iframe {
