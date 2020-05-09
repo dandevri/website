@@ -1,0 +1,7 @@
+<span>Webmentions:</span>
+{%- set mentions = webmentions.children -%}
+{% if mentions | length %}
+  {{ webmentions.children[0].url }}
+  {{ webmentions.children[0].author.photo }}
+  {{ webmentions.children[0].author.name }}
+{% endif %}
