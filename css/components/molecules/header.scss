@@ -3,6 +3,15 @@ header {
   border-bottom: 1px solid $white;
 }
 
+body > header {
+  background-image: radial-gradient($black 0.5px, transparent 0);
+  background-size: calc(3 * 2px) calc(3 * 2px);
+}
+
+header a {
+  background: $white;
+}
+
 .container > * + * {
   margin-top: $s1;
 }
@@ -28,14 +37,12 @@ nav > ul > li {
   margin: 0;
 }
 
-
-
 .active {
   background: $white;
   color: $black;
 
   &:before {
-    content: ">"
+    content: ">";
   }
 }
 

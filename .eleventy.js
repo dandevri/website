@@ -64,6 +64,14 @@ module.exports = function(config) {
     return `<figure><figcaption class="before">${caption}</figcaption><a href="${url}"><img src="${url}" alt="${caption}"></a></figure>`
   });
 
+  config.addShortcode("notification", function(title, description) {
+    return `<div class="notification"><h6>${title}</h6><p>${description}</p></div>`
+  });
+
+  config.addShortcode("highlight", function(title, description) {
+    return `<div class="bleed"><div class="bleed-wrapper"><h6>${title}</h6><p>${description}</p></div></div>`
+  });
+
   return {
     passthroughFileCopy: true,
     dir: {

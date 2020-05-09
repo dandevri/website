@@ -1,65 +1,64 @@
 /* Settings */
-@import 'settings/_ratio.scss';
-@import 'settings/_scale.scss';
-@import 'settings/_colors.scss';
-@import 'settings/_borders.scss';
-@import 'settings/_easing.scss';
-@import 'settings/_shadows.scss';
+@import "settings/_ratio.scss";
+@import "settings/_scale.scss";
+@import "settings/_colors.scss";
+@import "settings/_borders.scss";
+@import "settings/_easing.scss";
+@import "settings/_shadows.scss";
 
 /* Tools */
-@import 'tools/_font.scss';
-@import 'tools/_mixins.scss';
-@import 'tools/_keyframes.scss';
+@import "tools/_font.scss";
+@import "tools/_mixins.scss";
+@import "tools/_keyframes.scss";
 
 /* Generic */
-@import 'generic/_reset.scss';
-@import 'generic/_sizing.scss';
-@import 'generic/_layout.scss';
-@import 'generic/_typography.scss';
+@import "generic/_reset.scss";
+@import "generic/_sizing.scss";
+@import "generic/_layout.scss";
+@import "generic/_typography.scss";
 
 /* Utilities */
-@import 'utilities/_toggle.scss';
-@import 'utilities/_color-scheme.scss';
-@import 'utilities/_badge.scss';
-@import 'utilities/_images.scss';
+@import "utilities/_toggle.scss";
+@import "utilities/_color-scheme.scss";
+@import "utilities/_badge.scss";
+@import "utilities/_images.scss";
 
 /* Elements */
-@import 'elements/_lists.scss';
-@import 'elements/_headings.scss';
-
-
+@import "elements/_lists.scss";
+@import "elements/_headings.scss";
 
 /* Components */
 
 /* Atoms */
-@import 'components/atoms/button.scss';
-@import 'components/atoms/image-motion.scss';
-@import 'components/atoms/details.scss';
-@import 'components/atoms/card.scss';
-@import 'components/atoms/event.scss';
-@import 'components/atoms/modal.scss';
-@import 'components/atoms/link.scss';
-@import 'components/atoms/article.scss';
-@import 'components/atoms/biography.scss';
-@import 'components/atoms/interview.scss';
-@import 'components/atoms/code.scss';
-@import 'components/atoms/social.scss';
-@import 'components/atoms/breakout.scss';
-@import 'components/atoms/quote.scss';
-@import 'components/atoms/testimonial.scss';
-@import 'components/atoms/notification.scss';
-@import 'components/atoms/blogroll.scss';
-@import 'components/atoms/skip-link.scss';
-@import 'components/atoms/media-item.scss';
+@import "components/atoms/button.scss";
+@import "components/atoms/image-motion.scss";
+@import "components/atoms/details.scss";
+@import "components/atoms/card.scss";
+@import "components/atoms/event.scss";
+@import "components/atoms/modal.scss";
+@import "components/atoms/link.scss";
+@import "components/atoms/article.scss";
+@import "components/atoms/biography.scss";
+@import "components/atoms/interview.scss";
+@import "components/atoms/code.scss";
+@import "components/atoms/social.scss";
+@import "components/atoms/breakout.scss";
+@import "components/atoms/quote.scss";
+@import "components/atoms/testimonial.scss";
+@import "components/atoms/notification.scss";
+@import "components/atoms/blogroll.scss";
+@import "components/atoms/skip-link.scss";
+@import "components/atoms/media-item.scss";
+@import "components/atoms/highlight.scss";
 
 /* Molecules */
-@import 'components/molecules/header.scss';
-@import 'components/molecules/nav.scss';
-@import 'components/molecules/list.scss';
-@import 'components/molecules/block.scss';
-@import 'components/molecules/cover.scss';
-@import 'components/molecules/form.scss';
-@import 'components/molecules/image-grid.scss';
-@import 'components/molecules/share.scss';
+@import "components/molecules/header.scss";
+@import "components/molecules/nav.scss";
+@import "components/molecules/list.scss";
+@import "components/molecules/block.scss";
+@import "components/molecules/cover.scss";
+@import "components/molecules/form.scss";
+@import "components/molecules/image-grid.scss";
+@import "components/molecules/share.scss";
 
 /* @import-normalize; */

@@ -1,0 +1,11 @@
+.bleed {
+  min-width: calc(100vw - 20vw);
+  margin-left: -2.44141rem;
+  border-top: $b1 $black;
+  border-bottom: $b1 $black;
+
+  &-wrapper {
+    padding: $s4;
+    max-width: 40vw;
+  }
+}
