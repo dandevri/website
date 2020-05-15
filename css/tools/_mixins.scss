@@ -29,10 +29,10 @@ ul {
   position: relative;
 
   &:before {
-    content: '';
+    content: "";
     display: block;
     width: 1px;
-    background-color: $black;
+    background-color: $secondary;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -46,8 +46,8 @@ ul {
 }
 
 .highlight {
-  background: $black;
-  color: $white;
+  background: $secondary;
+  color: $primary;
   box-decoration-break: clone;
   padding: $s-3 $s-1;
   display: inline-block;
@@ -59,7 +59,7 @@ ul {
   position: absolute;
   display: block;
   z-index: 2;
-  background-color: $white;
+  background-color: $primary;
   width: calc(1.25 * 1vw);
   top: 0;
   bottom: 0;
@@ -78,38 +78,38 @@ ul {
   position: absolute;
   display: block;
   z-index: 2;
-  background-color: $white;
-  height: calc(1.25 * 1vw);;
+  background-color: $primary;
+  height: calc(1.25 * 1vw);
   left: 0;
   bottom: 0;
   right: 0;
   transform: skewX(45deg) scaleY(-1);
   animation: shadow-2 1s forwards 500ms;
   transform-origin: bottom center;
-  border-top: 1px solid $black;
-  border-bottom: 1px solid $black;
-  border-left: 1px solid $black;
+  border-top: 1px solid $secondary;
+  border-bottom: 1px solid $secondary;
+  border-left: 1px solid $secondary;
   opacity: 0;
 }
 
 @define-mixin focus {
-  transition: outline-offset .1s ease-in;
+  transition: outline-offset 0.1s ease-in;
   outline-offset: 4px;
 
   &:focus {
     outline: 2px dotted black;
     outline-offset: 2px;
-    background:lightgrey;
-    color: $black;
+    background: lightgrey;
+    color: $secondary;
   }
 }
 
 @define-mixin hover {
-  transition: transform .4s;
+  transition: transform 0.4s;
 
   &:hover,
   &:focus {
-    transform: translate(-8px,-8px);
+    transform: translate(-8px, -8px);
   }
 }
 
@@ -129,6 +129,8 @@ ul {
   }
 }
 
-.article-item, .article-next, .bg {
+.article-item,
+.article-next,
+.bg {
   animation: in 500ms;
 }

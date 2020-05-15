@@ -1,15 +1,19 @@
 .boilerform {
-  color: $white;
+  color: $primary;
 }
 
-label, input, select, .boilerform .c-label {
+label,
+input,
+select,
+.boilerform .c-label {
   display: inline-block;
   width: 100%;
   font-family: inherit;
   font-weight: 400;
 }
 
-select, option {
+select,
+option {
   font-family: inherit;
 }
 
@@ -23,7 +27,7 @@ select, option {
 }
 
 .c-select-field__decor {
-  color: $black;
+  color: $secondary;
 }
 
 fieldset {
@@ -41,7 +45,6 @@ fieldset {
 button {
   font-family: inherit;
 }
-
 
 .sign {
   overflow: hidden;

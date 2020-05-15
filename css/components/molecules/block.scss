@@ -3,28 +3,28 @@
 }
 
 .block-list {
-    column-count: 2;
-    column-gap: 2em;
-    columns: 30ch;
-    overflow: auto;
-    padding: $s1 $s4;
-    border: $b1;
-    margin-top: 0;
-    line-height: $s2;
+  column-count: 2;
+  column-gap: 2em;
+  columns: 30ch;
+  overflow: auto;
+  padding: $s1 $s4;
+  border: $b1;
+  margin-top: 0;
+  line-height: $s2;
 
   li {
     column-span: all;
   }
 
-  li:nth-last-child(n+5),
-  li:nth-last-child(n+5) ~ * {
+  li:nth-last-child(n + 5),
+  li:nth-last-child(n + 5) ~ * {
     column-span: none;
   }
 }
 
 .block-title {
-  background: $black;
-  color: $white;
+  background: $secondary;
+  color: $primary;
   margin-bottom: 0;
   padding: $s-1 $s1;
 }
@@ -33,7 +33,7 @@
   border: $b1;
   padding: $s2;
   margin-top: $s6;
-  background: $white;
+  background: $primary;
   max-width: $width;
 
   ul {
@@ -47,7 +47,7 @@
     display: inline-block;
     position: absolute;
     transform: translateY(-3rem);
-    background: $white;
+    background: $primary;
   }
 }
 

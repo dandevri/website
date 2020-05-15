@@ -1,4 +1,7 @@
-.book-list, .movies-list, .series-list, .games-list {
+.book-list,
+.movies-list,
+.series-list,
+.games-list {
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -6,7 +9,7 @@
 }
 
 .media-item {
-  border: 1px solid $white;
+  border: 1px solid $primary;
   margin: 0;
 }
 

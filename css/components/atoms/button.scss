@@ -4,22 +4,22 @@
   @mixin reset-link;
 
   &-primary {
-    background: $white;
-    color: $black;
-    border: $b1 $black;
-    box-shadow: inset 0 -0rem 0 0 $black;
+    background: $primary;
+    color: $secondary;
+    border: $b1 $secondary;
+    box-shadow: inset 0 -0rem 0 0 $secondary;
     transform: translateY(0%);
 
     &:hover,
     &:focus {
-      box-shadow: inset 0 -0.15rem 0 0 $black;
+      box-shadow: inset 0 -0.15rem 0 0 $secondary;
       transform: translateY(-15%);
     }
   }
 
   &-secondary {
-    background: $white;
-    color: $black;
+    background: $primary;
+    color: $secondary;
     border: $b1;
   }
 }

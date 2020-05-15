@@ -13,7 +13,7 @@ time {
 }
 
 img {
-  filter: grayscale()
+  filter: grayscale();
 }
 
 hr {
@@ -39,7 +39,7 @@ ol li {
     content: "0" counter(number);
     font-weight: bold;
     font-size: $s-1;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
     margin-top: 0.1rem;
     margin-left: -2rem;
     position: absolute;
@@ -47,7 +47,5 @@ ol li {
 }
 
 body {
-  background: $white;
-  color: $black;
-  border-color: white;
+  border-color: $primary;
 }

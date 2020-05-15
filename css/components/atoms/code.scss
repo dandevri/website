@@ -2,11 +2,11 @@ p code {
   padding: 0.25em;
   border-radius: 3px;
   border: $b1;
-  box-shadow: 0 2px 0 $black;
+  box-shadow: 0 2px 0 $secondary;
 }
 
 pre {
-  background: $black;
-  color: $white;
+  background: $secondary;
+  color: $primary;
   padding: $s1;
 }

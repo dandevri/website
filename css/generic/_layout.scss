@@ -69,7 +69,7 @@ body {
   flex-direction: column;
   height: 100vh;
   padding: 0 10vw 0 10vw;
-  background: $white;
+  background: $primary;
 }
 
 .newsletter > * + * {
@@ -95,7 +95,7 @@ body {
 
 .content {
   padding: $s4;
-  background: $white;
+  background: $primary;
   position: relative;
   z-index: 1;
 }
@@ -117,7 +117,7 @@ body {
 
 .grid-full {
   grid-column: 1 / -1;
-  border: 1px solid $white;
+  border: 1px solid $primary;
   padding: $s3;
 }
 

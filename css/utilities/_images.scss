@@ -1,11 +1,11 @@
 .content p > img {
-  border: $b1 $white;
-  box-shadow: 10px 10px 0 -1px $black, 10px 10px $white;
+  border: $b1 $primary;
+  box-shadow: 10px 10px 0 -1px $secondary, 10px 10px $primary;
 }
 
 .before {
-  background: $white;
-  color: $black;
+  background: $primary;
+  color: $secondary;
   padding: $s-3;
 }
 
@@ -19,6 +19,6 @@
 }
 
 figure img {
-  border: $b1 $white;
-  box-shadow: 10px 10px 0 -1px $black, 10px 10px $white;
+  border: $b1 $primary;
+  box-shadow: 10px 10px 0 -1px $secondary, 10px 10px $primary;
 }

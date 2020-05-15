@@ -38,7 +38,7 @@
       box-shadow: $bs1;
       display: inline-block;
       position: absolute;
-      transform: translateY(-4rem)
+      transform: translateY(-4rem);
     }
   }
 
@@ -55,8 +55,8 @@
 
     .list-type {
       padding: $s-3 $s-1;
-      background: $black;
-      color: $white;
+      background: $secondary;
+      color: $primary;
       font-size: $s-1;
       position: absolute;
       bottom: 0;
