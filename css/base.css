@@ -19,9 +19,10 @@
 
 /* Utilities */
 @import "utilities/_toggle.scss";
-@import "utilities/_color-scheme.scss";
+/* @import "utilities/_color-scheme.scss";*/
 @import "utilities/_badge.scss";
 @import "utilities/_images.scss";
+@import "utilities/_dither.scss";
 
 /* Elements */
 @import "elements/_lists.scss";

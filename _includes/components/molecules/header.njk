@@ -5,4 +5,7 @@
   {% else %}
     <h2>{{ description }} </h2>
   {% endif %}
+  {% if page.url === '/' %}
+    <img class="header-img" src="/static/img/avatar-doodle.jpg" />
+  {% endif %}
 </header>

@@ -1,6 +1,7 @@
 header {
   padding: $s4 0;
   border-bottom: 2px solid $secondary;
+  position: relative;
 }
 
 body > header {
@@ -68,4 +69,13 @@ main header {
 
 main header > * + * {
   margin-top: $s1;
+}
+
+.header-img {
+  position: absolute;
+  transform: scaleX(-1);
+  width: 30%;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }

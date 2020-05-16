@@ -92,3 +92,9 @@
   height: 6em;
   margin-right: $s2;
 }
+
+.link-block {
+  border-top: 2px solid $secondary;
+  border-right: 2px solid $secondary;
+  padding: $s3;
+}

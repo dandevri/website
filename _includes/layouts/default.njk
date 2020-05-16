@@ -6,10 +6,17 @@ layout: layouts/base
 
 <main id="main">
 {% include 'components/molecules/header.njk' %}
-  <div class="content">
-  {{ content | safe }}
-  {% if shareimage %}
-    <img src="{{ shareimage }}"/>
-  {% endif %}
+
+  {% if page.url === '/' %}
+  <div class="homepage">
+    {{ content | safe }}
   </div>
+  {% else %}
+    <div class="content">
+    {{ content | safe }}
+    {% if shareimage %}
+      <img src="{{ shareimage }}"/>
+    {% endif %}
+    </div>
+  {% endif %}
 </main>

@@ -1,6 +1,7 @@
 .article-item {
   border: $b1;
   padding: $s4;
+  position: relative;
   @mixin hover;
 
   h3 {
