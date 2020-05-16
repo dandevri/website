@@ -13,6 +13,8 @@
 
   h3 {
     font-size: $s1;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
   }
 
   img {
@@ -84,7 +86,7 @@
 }
 
 .list-content {
-  padding: $s2;
+  padding: $s4;
 }
 
 .avatar {

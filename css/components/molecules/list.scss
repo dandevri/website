@@ -28,11 +28,9 @@
   @mixin reset-link;
   border: $b1;
   padding: calc($s-2 / 3) calc($s-2);
-  font-weight: 700;
-  text-transform: uppercase;
 
   &::before {
-      content: "#";
+    content: "#";
   }
 }
 
