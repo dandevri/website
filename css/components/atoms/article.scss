@@ -1,8 +1,8 @@
 .article-item {
-  border: $b1;
+  border-top: $b1;
+  border-right: $b1;
   padding: $s4;
   position: relative;
-  @mixin hover;
 
   h3 {
     font-size: $s2;
@@ -25,4 +25,8 @@
   padding: $s4;
   background: $primary;
   color: $secondary;
+}
+
+.article-item > * + * {
+  margin-top: 1.25rem;
 }

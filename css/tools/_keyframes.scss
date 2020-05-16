@@ -19,13 +19,3 @@
     transform: skewX(45deg) scaleY(-1);
   }
 }
-
-@keyframes in {
-  from {
-    transform: translate(-8px,-8px);
-  }
-
-  to {
-    transform: translate(0, 0);
-  }
-}

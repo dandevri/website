@@ -104,15 +104,6 @@ ul {
   }
 }
 
-@define-mixin hover {
-  transition: transform 0.4s;
-
-  &:hover,
-  &:focus {
-    transform: translate(-8px, -8px);
-  }
-}
-
 @define-mixin fade-out {
   pointer-events: none;
 

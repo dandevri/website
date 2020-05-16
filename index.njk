@@ -11,41 +11,43 @@ eleventyNavigation:
   <article class="article-item">
     <h3>Speaking</h2>
     <p>I give talks and guest lecture at conferences, universities or offices. You should totally ask me to speak.</p>
-    <a href="/speaking">Let's talk about speaking</a>
+    <a href="/speaking" class="btn btn-secondary">Let's talk about speaking</a>
     <div class="speaking-dither"></div>
   </article>
 
   <article class="article-item">
     <h3>Teaching</h2>
-    <p>You'll usually find me in front of a classroom at the Amsterdam University but I also share what I learn by giving full-day workshops and creating online classes.</p>
-    <a href="/teaching">See all courses</a>
+    <p>You'll usually find me in front of a classroom at CMD Amsterdam but I also give workshops and create online courses.</p>
+    <a href="/teaching" class="btn btn-secondary">View all courses</a>
     <div class="teaching-dither"></div>
   </article>
 
   <article class="article-item">
       <h3>Projects</h2>
-      <p>Sometimes I tinker with code or create DIY projects. Most of them are just fun side projects that have no meaning at all and aren't for anybody to use.</p>
-      <a href="/projects">See all projects</a>
+      <p>Sometimes I tinker with code or create DIY projects. Most of them are just fun side projects that have no meaning at all.</p>
+      <a href="/projects" class="btn btn-secondary">See all projects</a>
     <div class="projects-dither"></div>
   </article>
 </div>
 
 <div class="grid">
  <article class="article-item">
-    <h3>Latest writing</h3>
-    <p>Feel free to contact me if you have any questions. You can e-mail, chat or follow me on social.</p>
-    <a href="/contact">Get in touch</a>
+    <h3>Latest writing:</h3>
+    {%- for article in collections.article | reverse | limit(1) -%}
+        <p><strong> {{ article.data.title }}:</strong> {{ article.data.description }}</p>
+    {%- endfor -%}
+    <a href="/writing" class="btn btn-secondary">Read this post</a>
   </article>
    <article class="article-item">
-    <h3>Talk highlight</h3>
-    <p>Feel free to contact me if you have any questions. You can e-mail, chat or follow me on social.</p>
-    <a href="/contact">Get in touch</a>
+    <h3>What's new?</h3>
+    <p>Working on a new venture called <strong>'out-of-office'</strong> to help you make time to focus on what truly matters.</p>
+    <a href="/projects" class="btn btn-secondary">Read more about it</a>
   </article>
 </div>
 
-<div class="grid-xl">
-  <a href="/contact" class="link-block">Contact me</a>
-  <a href="/support" class="link-block">Support me</a>
-  <a href="/uses" class="link-block">Uses</a>
-  <a href="/updates" class="link-block">Stay updated</a>
+<div class="grid">
+  <a href="/contact" class="link-block"><strong>Contact me</strong></a>
+  <a href="/support" class="link-block"><strong>Support me</strong></a>
+  <a href="/uses" class="link-block"><strong>Uses</strong></a>
+  <a href="/updates" class="link-block"><strong>Stay updated</strong></a>
 </div>

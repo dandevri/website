@@ -1,4 +1,8 @@
-<header>
+{% if page.url === '/' %}
+  <header class="homepage-header">
+{% else %}
+  <header>
+{% endif %}
   <h1>{{ title }}</h1>
   {% if date %}
     <h2>{{ date | readableDate }} </h2>
