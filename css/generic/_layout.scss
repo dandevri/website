@@ -117,7 +117,7 @@ body {
 
 .grid-full {
   grid-column: 1 / -1;
-  border: 1px solid $primary;
+  border-top: 2px solid $secondary;
   padding: $s1 $s4;
 }
 
