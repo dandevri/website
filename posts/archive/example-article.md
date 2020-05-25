@@ -3,7 +3,7 @@ title: Example article
 description: Description of the article
 slug: example-article
 date: 2019-11-25
-tags: ["article", "archive"]
+tags: ["archive"]
 layout: layouts/post.njk
 permalink: /archive/{{ slug }}/index.html
 ---

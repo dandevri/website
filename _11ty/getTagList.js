@@ -23,6 +23,12 @@ module.exports = function(collection) {
           case "essay":
           case "workshops":
           case "workshop":
+          case "draft":
+          case "drafts":
+          case "example":
+          case "photo":
+          case "changelog":
+          case "podcast":
             return false;
         }
 
