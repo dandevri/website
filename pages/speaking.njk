@@ -39,6 +39,7 @@ eleventyNavigation:
 
 <ul class="event-list">
   {% for item in events.events | limit(3) %}
+    {% include 'components/atoms/event.njk' %}
   {% endfor %}
 </ul>
 

@@ -152,3 +152,21 @@ body {
     padding-left: $s4;
   }
 }
+
+/* Chain of command */
+
+.content p + h2,
+.content a + h2,
+.content p + h3,
+.content a + h3,
+.content p + h4,
+.content a + h4,
+.content ul + h2,
+.content ul + h3,
+.content ul + h4,
+.content ol + h2,
+.content ol + h3,
+.content ol + h4,
+.content article + h2 {
+  margin-top: $s5;
+}
