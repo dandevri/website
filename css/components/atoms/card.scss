@@ -8,7 +8,8 @@
   }
 
   &-item {
-    border: $b1;
+    border-right: $b1;
+    border-bottom: $b1;
   }
 
   h3 {
@@ -94,4 +95,8 @@
   border-radius: 100%;
   margin-right: $s1;
   vertical-align: sub;
+}
+
+.course {
+  border-top: $b1;
 }

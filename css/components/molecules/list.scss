@@ -1,5 +1,6 @@
 .tag-list {
   @mixin reset-list;
+
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -20,13 +21,16 @@
 .skip-list {
   @mixin reset-list;
   @mixin fade-out;
+
   display: flex;
   flex-wrap: wrap;
 }
 
 .skip-item {
   @mixin reset-link;
-  border: $b1;
+
+  border-bottom: $b1;
+  border-right: $b1;
   padding: calc($s-2 / 3) calc($s-2);
 
   &::before {

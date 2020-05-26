@@ -42,7 +42,7 @@ nav > ul > li {
   background: $primary;
   color: $secondary;
 
-  &:before {
+  &::before {
     content: ">";
   }
 }
@@ -78,8 +78,4 @@ main header > * + * {
   right: 0;
   bottom: 0;
   z-index: -1;
-}
-
-.homepage-header {
-  border-bottom: none;
 }
