@@ -1,6 +1,6 @@
 :root {
-  font-size: calc(.125vw + $base);
-  font-family: 'Simplon Mono', monospace;
+  font-size: calc(0.125vw + $base);
+  font-family: "Simplon Mono", monospace;
   line-height: $ratio;
 }
 
@@ -13,7 +13,9 @@ small {
   font-weight: 700;
 }
 
-time { font-size: $s-1; }
+time {
+  font-size: $s-1;
+}
 
 time {
   letter-spacing: 0.1rem;
@@ -29,8 +31,12 @@ blockquote {
 }
 
 .post > p:last-of-type::after {
-    color: #fff;
-    content: " \25A0";
+  color: #fff;
+  content: " \25A0";
+}
+
+.post {
+  border-bottom: $b1;
 }
 
 .d-1 {
@@ -41,7 +47,7 @@ blockquote {
 
 a {
   text-decoration-color: inherit;
-  text-decoration-thickness: .080em;
-  text-underline-offset: .150em;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.15em;
   text-decoration-skip-ink: auto;
 }

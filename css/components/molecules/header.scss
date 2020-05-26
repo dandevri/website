@@ -2,6 +2,8 @@ header {
   padding: $s4 0;
   border-bottom: 2px solid $secondary;
   position: relative;
+  background: $primary;
+  z-index: 1;
 }
 
 body > header {

@@ -37,10 +37,10 @@
       border: $b1;
       padding: $s-3 $s-1;
       font-weight: bold;
-      box-shadow: $bs1;
       display: inline-block;
       position: absolute;
       transform: translateY(-4rem);
+      background: $primary;
     }
   }
 
