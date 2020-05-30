@@ -6,7 +6,7 @@ permalink: colophon/
 
 © Site made by Danny de Vries. You shall not steal.
 
-This site is mostly powered by Hand Coding™ with a splash of [11ty][11ty] and many [plugins and packages][packages]. You can peek at the source on [GitHub][repo]. It's hosted on [Netlify][netlify]. Feel free to submit a [GitHub issue][issue] if you found a bug or  spot a typo.
+This site is mostly powered by Hand Coding™ with a splash of [11ty][11ty] and many [plugins and packages][packages]. You can peek at the source on [GitHub][repo]. It's hosted on [Netlify][netlify]. Feel free to submit a [GitHub issue][issue] if you found a bug or spot a typo.
 
 No cookies or third-party tracking scripts are embedded on this site. Privacy is more important than metrics.
 
@@ -20,7 +20,7 @@ I mostly used my hands to type on a keyboard but was accompanied by lots of diff
 
 It was designed design-tool free™, straight in the browser without any unecessary comps and mockups. No Adobe, Webflow, Wix or Squarespace.
 
-The text is set in [Simplon][simplon] by [Swiss Typeface][swiss]. Icons and other assets are created using [Figma][figma] or [Dotgrid][dotgrid]. 
+The text is set in [Simplon][simplon] by [Swiss Typeface][swiss]and [Redaction][redcation] by Titus Kaphar and Reginald Dwayne Betts. Icons from [css.gg][css] and other assets are created using [Figma][figma] or [Dotgrid][dotgrid].
 
 I wanted to thank the people behind the technologies of this website and the people's personal websites I've taken inspiration from. So I did in this [humans.txt][humans] file.
 
@@ -33,16 +33,13 @@ You can also view [the changelog](/changelog) for a list of things on how this s
 
 Related pages on this site:
 
-* [Monetizations and referrals](/monetization)
-* [Privacy and ethics](/privacy)
-* [License and OSS](/license)
-* [The Web Archive](/archive)
-* [Changelog and design](/changelog)
+- [Monetizations and referrals](/monetization)
+- [Privacy and ethics](/privacy)
+- [License and OSS](/license)
+- [The Web Archive](/archive)
+- [Changelog and design](/changelog)
 
 Thanks everyone!
-
-
-
 
 [11ty]: https://www.11ty.io/
 [packages]: https://github.com/systemdes/personal-website/blob/master/package.json
@@ -63,3 +60,5 @@ Thanks everyone!
 [audit]: https://github.com/dandevri/static-site-starter/wiki/audits
 [wcag]: https://www.w3.org/TR/WCAG21/
 [indieweb]: https://indieweb.org/
+[css]: https://css.gg
+[redaction]: https://www.redaction.us/
