@@ -81,3 +81,13 @@ main header > * + * {
   bottom: 0;
   z-index: -1;
 }
+
+.redaction {
+  font-family: "Redaction", monospace;
+  position: absolute;
+  font-size: 15vw;
+  line-height: 0.8;
+  color: #e7e7e7;
+  opacity: 0.5;
+  z-index: -1;
+}

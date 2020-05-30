@@ -3,6 +3,7 @@
 {% else %}
   <header>
 {% endif %}
+  <span class="redaction"> {{ title }} </span>
   <h1>{{ title }}</h1>
   {% if date %}
     <h2>{{ date | readableDate }} </h2>

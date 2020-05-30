@@ -1,20 +1,27 @@
 @font-face {
-  font-family: 'Simplon Mono';
-  src: url('/static/fonts/SimplonMono-Regular.woff') format('woff2');
+  font-family: "Simplon Mono";
+  src: url("/static/fonts/SimplonMono-Regular.woff") format("woff2");
   font-display: swap;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Simplon Mono';
-  src: url('/static/fonts/SimplonMono-Bold.woff') format('woff2');
+  font-family: "Simplon Mono";
+  src: url("/static/fonts/SimplonMono-Bold.woff") format("woff2");
   font-display: swap;
   font-weight: 700;
 }
 
 @font-face {
-  font-family: 'Simplon Mono';
-  src: url('/static/fonts/SimplonMono-Light.woff') format('woff2');
+  font-family: "Simplon Mono";
+  src: url("/static/fonts/SimplonMono-Light.woff") format("woff2");
   font-display: swap;
   font-weight: 200;
+}
+
+@font-face {
+  font-family: "Redaction";
+  src: url("/static/fonts/Redaction_100-Bold.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 600;
 }
