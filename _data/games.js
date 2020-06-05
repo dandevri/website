@@ -48,6 +48,27 @@ const games = [
     played: "2020",
     url: "https://www.metacritic.com/game/switch/my-friend-pedro"
   },
+  {
+    title: "Nintendo Labo Kit 02",
+    platform: "Switch",
+    cover: "https://howlongtobeat.com/games/52503_Nintendo_Labo_Robot_Kit.jpg",
+    played: "2020",
+    url: "https://www.metacritic.com/game/switch/nintendo-labo-toycon-02-robot-kit"
+  },
+  {
+    title: "The Stretchers",
+    platform: "Switch",
+    cover: "https://howlongtobeat.com/games/72075_The_Stretchers.jpg",
+    played: "2020",
+    url: "https://www.metacritic.com/game/switch/the-stretchers"
+  },
+  {
+    title: "Overcooked! 2",
+    platform: "Switch",
+    cover: "https://howlongtobeat.com/games/57518_Overcooked_2.jpeg",
+    played: "2020",
+    url: "https://www.metacritic.com/game/switch/overcooked!-2"
+  },
 ]
 
 module.exports = {

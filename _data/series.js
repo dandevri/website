@@ -79,6 +79,30 @@ const series = [
     watched: "2020",
     url: "https://www.imdb.com/title/tt11823076/"
   },
+  {
+    title: "Better Call Saul",
+    created: " Vince Gilligan",
+    season: 5,
+    cover: "https://m.media-amazon.com/images/M/MV5BMGE4YzY4NGEtOWYyYS00ZDk2LWExMmMtZDIyODhiMmNlMGE0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    watched: "2020",
+    url: "https://www.imdb.com/title/tt3032476/"
+  },
+  {
+    title: "After Life",
+    created: "Ricky Gervais",
+    season: 2,
+    cover: "https://m.media-amazon.com/images/M/MV5BZjdjOWIxMDgtYTgwNS00MjE4LTliZWYtZGI1NDhhZmIyYjM1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    watched: "2020",
+    url: "https://www.imdb.com/title/tt8398600/"
+  },
+  {
+    title: "West World",
+    created: "Evan Rachel",
+    season: 3,
+    cover: "https://m.media-amazon.com/images/M/MV5BMTRmYzNmOTctZjMwOS00ODZlLWJiZGQtNDg5NDY5NjE3MTczXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    watched: "2020",
+    url: "https://www.imdb.com/title/tt0475784/?"
+  },
 ]
 
 module.exports = {

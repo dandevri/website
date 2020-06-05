@@ -44,6 +44,34 @@ const books = [
     format: "Paperback",
     url: "https://www.goodreads.com/book/show/44770129-ultralearning"
   },
+  {
+    title: "Bird by Bird",
+    author: "Anne Lamott",
+    tag: "writing",
+    cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394996112l/12543.jpg",
+    read: "2020",
+    format: "Paperback",
+    url: "https://www.goodreads.com/book/show/12543.Bird_by_Bird"
+  },
+  {
+    title: "Het internet is stuk ",
+    author: "Marleen Stikker",
+    tag: "technology",
+    cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574186413l/48894469._SY475_.jpg",
+    read: "2020",
+    format: "Paperback",
+    url: "https://www.goodreads.com/book/show/48894469-het-internet-is-stuk"
+  },
+  {
+    title: "The Checklist Manifesto",
+    author: "Atul Gawande",
+    tag: "productivity",
+    cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1312061594l/6667514.jpg",
+    read: "2020",
+    format: "Paperback",
+    url: "https://www.goodreads.com/book/show/6667514-the-checklist-manifesto"
+  },
+
 ]
 
 module.exports = {
