@@ -53,6 +53,7 @@ nav > ul > li {
   .site-header {
     order: 2;
     padding: $s2 0;
+    border-right: none;
 
     ul {
       display: flex;
