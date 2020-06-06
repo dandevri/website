@@ -10,6 +10,7 @@
 @import "tools/_font.scss";
 @import "tools/_mixins.scss";
 @import "tools/_keyframes.scss";
+@import "tools/_remedy.scss";
 
 /* Generic */
 @import "generic/_reset.scss";
