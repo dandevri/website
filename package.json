@@ -33,6 +33,7 @@
     "@11ty/eleventy": "^0.8.3",
     "@11ty/eleventy-navigation": "^0.1.5",
     "@11ty/eleventy-plugin-rss": "^1.0.6",
+    "@fullhuman/postcss-purgecss": "^2.2.0",
     "autoprefixer": "^9.5.1",
     "cssnano": "^4.1.10",
     "dotenv": "^8.2.0",

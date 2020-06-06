@@ -8,5 +8,10 @@ module.exports = {
     require('postcss-simple-vars'),
     require('autoprefixer'),
     require('cssnano'),
+    require('@fullhuman/postcss-purgecss')({
+      content: [
+        './_site/**/*.html',
+      ],
+    }),
   ]
 }
