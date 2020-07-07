@@ -1,10 +1,9 @@
 ---
 layout: layouts/default
 title: Colophon
+description: © Site made by Danny de Vries. You shall not steal.
 permalink: colophon/
 ---
-
-© Site made by Danny de Vries. You shall not steal.
 
 This site is mostly powered by Hand Coding™ with a splash of [11ty][11ty] and many [plugins and packages][packages]. You can peek at the source on [GitHub][repo]. It's hosted on [Netlify][netlify]. Feel free to submit a [GitHub issue][issue] if you found a bug or spot a typo.
 

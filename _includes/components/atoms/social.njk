@@ -1,7 +1,7 @@
 {% macro icon(link, icon, platform, description) %}
   <li class="social-link">
     <a href="{{ link }}">
-      <img src="{{ icon }}">
+      <img src="{{ icon }}" alt="{{ platform }} icon ">
       <p class="social-title">{{ platform }}</p>
       <p class="social-description">{{ description }}</p>
     </a>

@@ -21,8 +21,8 @@ permalink: media-diet/
       {% for item in movies.movies | reverse %}
         {% include 'components/atoms/media-line.njk' %}
       {% endfor %}
-      <p>Total: {{ movies.movies | size }}</p>
     </ul>
+    <p>Total: {{ movies.movies | size }}</p>
   </div>
 
   <div class="column">
@@ -41,8 +41,8 @@ permalink: media-diet/
       {% for item in games.games | reverse %}
         {% include 'components/atoms/media-line.njk' %}
       {% endfor %}
-      <p>Total: {{ games.games| size }}</p>
     </ul>
+    <p>Total: {{ games.games| size }}</p>
   </div>
 
 </div>

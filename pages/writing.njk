@@ -12,7 +12,7 @@ eleventyNavigation:
 {% for tag in collections.tagList %}
   {% set tagUrl %}/tags/{{ tag }}/{% endset %}
     <li>
-      <a class="skip-item" href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+      <a class="skip-item tag" href="{{ tagUrl | url }}">{{ tag }}</a>
     </li>
 {% endfor %}
 </ul>
