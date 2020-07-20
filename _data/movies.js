@@ -47,6 +47,30 @@ const movies = [
     released: "2019",
     url: "https://www.imdb.com/title/tt8946378/"
   },
+  {
+    title: "I See You",
+    director: "Adam Randall",
+    cover: "https://m.media-amazon.com/images/M/MV5BNzVkOWM5YTEtMDdkNi00YjMzLWEzNWEtODEwN2IyZTc4Yjg2XkEyXkFqcGdeQXVyMjc5MTg0MzQ@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+    watched: "2020",
+    released: "2019",
+    url: "https://www.imdb.com/title/tt6079516/"
+  },
+  {
+    title: "Playing with FIRE: The Documentary",
+    director: "Travis Shakespeare",
+    cover: "https://m.media-amazon.com/images/M/MV5BZmNmZmU4YTEtODdlNS00ZjhjLTgyYWYtMjUxOGY3YzRjZWQ2XkEyXkFqcGdeQXVyODcxMzg2MDc@._V1_SY1000_SX750_AL_.jpg",
+    watched: "2020",
+    released: "2019",
+    url: "https://www.imdb.com/title/tt8941986/"
+  },
+  {
+    title: "PressPausePlay",
+    director: "David Dworsky",
+    cover: "https://m.media-amazon.com/images/M/MV5BMTY1OTI0NzUxNl5BMl5BanBnXkFtZTcwNjI4NDM4NA@@._V1_SY1000_CR0,0,720,1000_AL_.jpg",
+    watched: "2020",
+    released: "2011",
+    url: "https://www.imdb.com/title/tt1737674/"
+  },
 ]
 
 module.exports = {

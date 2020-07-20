@@ -71,7 +71,51 @@ const books = [
     format: "Paperback",
     url: "https://www.goodreads.com/book/show/6667514-the-checklist-manifesto"
   },
-
+  {
+    title: "Hyperfocus",
+    author: "Chris Bailey",
+    tag: "productivity",
+    cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1525203482l/36959766._SX318_.jpg",
+    read: "2020",
+    format: "Paperback",
+    url: "https://www.goodreads.com/book/show/36959766-hyperfocus"
+  },
+  {
+    title: "Keep Going",
+    author: "Austin Kleon",
+    tag: "creative",
+    cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1535883531l/40591677._SX318_.jpg",
+    read: "2020",
+    format: "Paperback",
+    url: "https://www.goodreads.com/book/show/40591677-keep-going"
+  },
+  {
+    title: "Show your Work!",
+    author: "Austin Kleon",
+    tag: "creative",
+    cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1404580714l/18290401.jpg",
+    read: "2020",
+    format: "Paperback",
+    url: "https://www.goodreads.com/book/show/18290401-show-your-work"
+  },
+  {
+    title: "Wijze Lessen: 12 Bouwstenen",
+    author: "Tim Surma",
+    tag: "teaching",
+    cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1568353877l/53152868._SX318_SY475_.jpg",
+    read: "2020",
+    format: "eBook",
+    url: "https://www.goodreads.com/book/show/53152868-wijze-lessen"
+  },
+  {
+    title: "Remote",
+    author: "David Heinemeier Hansson",
+    tag: "work",
+    cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1363265098l/17316682.jpg",
+    read: "2020",
+    format: "eBook",
+    url: "https://www.goodreads.com/book/show/17316682-remote"
+  },
 ]
 
 module.exports = {

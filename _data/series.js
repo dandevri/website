@@ -96,12 +96,36 @@ const series = [
     url: "https://www.imdb.com/title/tt8398600/"
   },
   {
-    title: "West World",
-    created: "Evan Rachel",
-    season: 3,
-    cover: "https://m.media-amazon.com/images/M/MV5BMTRmYzNmOTctZjMwOS00ODZlLWJiZGQtNDg5NDY5NjE3MTczXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    title: "Mr. Robot",
+    created: "Sam Esmail",
+    season: 1,
+    cover: "https://m.media-amazon.com/images/M/MV5BMzgxMmQxZjQtNDdmMC00MjRlLTk1MDEtZDcwNTdmOTg0YzA2XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_SY1000_CR0,0,666,1000_AL_.jpg",
     watched: "2020",
-    url: "https://www.imdb.com/title/tt0475784/?"
+    url: "https://www.imdb.com/title/tt4158110/"
+  },
+  {
+    title: "Mr. Robot",
+    created: "Sam Esmail",
+    season: 2,
+    cover: "https://m.media-amazon.com/images/M/MV5BMzgxMmQxZjQtNDdmMC00MjRlLTk1MDEtZDcwNTdmOTg0YzA2XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_SY1000_CR0,0,666,1000_AL_.jpg",
+    watched: "2020",
+    url: "https://www.imdb.com/title/tt4158110/"
+  },
+  {
+    title: "The Night Manager",
+    created: "David Farr",
+    season: 1,
+    cover: "https://m.media-amazon.com/images/M/MV5BMTk1NzkyMTUyN15BMl5BanBnXkFtZTgwNTM0NzM2ODE@._V1_.jpg",
+    watched: "2020",
+    url: "https://www.imdb.com/title/tt1399664/"
+  },
+  {
+    title: "Mocro Maffia",
+    created: "Achmed Akkabi",
+    season: 2,
+    cover: "https://m.media-amazon.com/images/M/MV5BY2JjMjcxMDgtMDI5OS00NDZhLTg5ZjMtN2M2YzcxYWJmNmZlXkEyXkFqcGdeQXVyNTExMzIyNDM@._V1_.jpg",
+    watched: "2020",
+    url: "https://www.imdb.com/title/tt8810204/"
   },
 ]
 
