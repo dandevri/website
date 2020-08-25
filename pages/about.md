@@ -43,8 +43,6 @@ _Bookmarks_
 
 I graduated from [CMD Amsterdam][cmd] with a Bachelor of Science and started working at agencies like [Fabrique][fabrique] and [We Brand Creative][wbrnd] working on projects for high-profile clients all while doing freelance projects on the side. I saw the good, the bad, and the ugly when it came to dealing with clients, project deadlines and agency culture and got fed up.
 
-So I decided to only work on my own products or work with positive companies trough my design [Studio Deckard][deckard]. Shortly after graduating I was also asked to teach at the Amsterdam University and have been doing both ever since.
-
 [cmd]: https://www.cmd-amsterdam.nl/english/
 [auas]: https://www.amsterdamuas.com/
 [bt]: https://github.com/cmda-bt
@@ -58,8 +56,7 @@ So I decided to only work on my own products or work with positive companies tro
 [books]: https://www.goodreads.com/user/show/82448855-danny-de-vries
 [fabrique]: https://www.fabrique.com/
 [wbrnd]: https://www.webrandcreative.nl/
-[deckard]: https://www.deckard.digital
 [blade]: https://www.imdb.com/title/tt0083658/
-[machines]: https://louderthanten.com/coax/design-machines:
-[deep]: www.calnewport.com/books/deep-work/
+[machines]: https://www.louderthanten.com/coax/design-machines
+[deep]: https://www.calnewport.com/books/deep-work/
 [valley]: https://www.imdb.com/title/tt2575988/

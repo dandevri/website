@@ -44,7 +44,7 @@ const mobile = [
   },
   {
     title: "OnePlus 6 Midnight Black",
-    link: "https://www.oneplus.com/6",
+    link: "https://www.oneplus.com/nl/6",
     description: "Yes, for some reason I like Android as a phone OS. The camera might be a bit lacking in the current age but besides that, I don't feel any reason to upgrade to another phone.",
   },
   {
@@ -166,7 +166,7 @@ const edc = [
   },
   {
     title: "Secrid Wallet Slim Vintage Black",
-    link: "https://secrid.com/en-nl/collections/slimwallet/slimwallet-vintage-black",
+    link: "https://secrid.com/en-nl/slimwallet-vintage-black",
     description: "Compact to keep most of my cards and some loose cash. Can't live without the quick access pop-up card holder which is RFID blocking.",
   },
   {
