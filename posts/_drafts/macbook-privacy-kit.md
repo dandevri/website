@@ -26,6 +26,11 @@ Microphone blockers aren't always a solid solution. They won't [work all the tim
 
 You've might seen people use these on trains and plains, a [Screen Privacy Filter][tech]. I work a lot with student data while commuting but don't use one regularly. I've tried them but they reduce the light coming from the screen and thus [impacts color reproduction][tested]. Some variants aren't permanent you can easily clip them on or off.
 
+## Security Keys
+
+Paul guide to ubikeys. 
+Tweakers guide to yubico keys
+
 _This article was also added to my 'projects' page with additional links to more products and alternatives._
 
 ---
