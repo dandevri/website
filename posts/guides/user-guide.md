@@ -48,6 +48,7 @@ It was quite uncomfortable to write this but writing this was also relieving. If
 * Long exposure to people is exhausting for me. Smalls groups are fine but +8 people, I'm strangely quit. Do not confuse my quiet with a lack of engagement.
 * I really try to get to the place where people feel very comfortable just saying whatever they want to say.
 * I prefer to work on 1 thing on my own to make real progress. Then discuss with other people to make adjustments. 
+* I need good tools to work and willing to invest in them. I don't want any tool, hardware or software get in the way of something I want to achieve.
 
 ![Personality Patterns](/static/img/posts/guides/personality-patterns.png)
 
