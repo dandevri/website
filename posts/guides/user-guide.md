@@ -18,9 +18,10 @@ It was quite uncomfortable to write this but writing this was also relieving. If
 * ENTJ, INTJ, and ISTJ are personality types that fit me well.
 * I'm perceptive about systems and strategy. I want to understand systems and foresee logical outcomes. 
 * I like to organize information and resources and increase knowledge and understanding. I reduce all complex things into systems and small tasks.
-* I'm slightly more introverted. I prefer alone (individual) time but also engage and express my thoughts and feelings.
+* I'm slightly more introverted. I prefer alone (individual) time (to re-charge) but also engage and express my thoughts and feelings if I feel like I can make a difference.
 * My dominant cognitive style is Intuition. I abstractly process information.
-* I'm a thinker, I pursue rational and logical reasoning. I believe that every person has the responsibility to take care of himself.
+* I'm a thinker, I pursue rational and logical reasoning. 
+* I believe that every person has the responsibility to take care of themselves.
 
 
 ## Life
@@ -61,6 +62,7 @@ It was quite uncomfortable to write this but writing this was also relieving. If
 * I have no trouble addressing people when I think they don't have things in order.
 * I hate it when people ask "simple" questions that they can read themselves or have not researched.
 * I look a lot of things that can be done better instead of giving compliments about things that are already good.
+* In bigger groups I need some time to find my place before I speak up about something.
 
 ![Ocean Model](/static/img/posts/guides/ocean-model.png)
 
@@ -73,6 +75,8 @@ It was quite uncomfortable to write this but writing this was also relieving. If
 * I like the flexibility to schedule my own time. I like to work on my terms and be in total control. I don't like 9-5 jobby jobs.
 * I don't believe in work/life balance. Your work should be your life. That doesn't mean I work all the time I do believe in taking time off and work on hobby projects.
 * I'm always on time, most often a bit too early.
+* I have an on/off switch regarding work. I completely disconnect in the evening and on weekends.
+* I do things that are in my calendar and on my to-do list. If something's not on there I'm probably not doing it.
 
 ### Learning
 * I am very eager to learn.
@@ -82,15 +86,20 @@ It was quite uncomfortable to write this but writing this was also relieving. If
 
 ### Communication
 * I'm pretty hard to reach. I don't always carry my phone and turn off notifications. 
-* Be clear what you need from me for your success
+* If you can't reach me it doesn't necessarily mean that I'm busy. Just that I don't want to be bothered with your priorities at that moment.
+* Be clear what you need from me. Ask me what you need and then we can chat.
 * I don't only tell the problem but also the solution.
 * If I know a topic well I can explain them in a clear matter and answer questions immediately.
 * I can listen well and know when to keep my mouth shut.
 * I need time to think about ideas and suggestions.
 * I avoid discussion and walk away if I feel like it's not going anywhere.
-* I don't respond quickly but I do always respond. I never leave a message unanswered.
+* I never leave a message unanswered.
+* I don't respond to messages immediately and don't expect that from you.
+* If something does not need a further answer, don't give me one. Messages and mails with 'thanks' or 'ok' are not necessary.
 * I do not necessarily consider requests from others to be urgent. I think a lot of things can wait.
 * I’m a good listener and I like to absorb things first before responding.
+* If you need me, let me know what for. Don't ask 'can I call you?' or 'can I ask you a question?'. Let me know what it's about. 
+* If prefer async communication (messages, mail) over sync communication (video call).
 
 ---
 
