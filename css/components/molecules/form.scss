@@ -1,5 +1,19 @@
 .boilerform {
-  color: $primary;
+  color: $secondary;
+}
+
+fieldset {
+  border: 2px solid $secondary;
+}
+
+fieldset + button {
+  margin-top: $s4;
+}
+
+input,
+textarea,
+select {
+  border: 2px solid $secondary !important;
 }
 
 label,

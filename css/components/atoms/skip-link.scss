@@ -5,7 +5,9 @@
 }
 
 .skip-to-content-link {
-  background: $primary;
+  background: $secondary;
+  color: $primary;
+  z-index: 2;
   height: 30px;
   left: 50%;
   padding: 8px;
