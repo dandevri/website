@@ -5,9 +5,9 @@ description: Documenting updates and changes to my personal website.
 permalink: changelog/
 ---
 
-<p>The changes of this site use <code>calver</code>, a convention based on a release calendar instead of arbitrary numbers. I try to mirror this changelog on the <a href="https://github.com/systemdes/personal-website/releases">releases of this site's GitHub repo.</a></p>
-
 <h2>Main pillars</h2>
+
+<p>A bit of rationale on each aspect of the design and technicalities of this website.</p>
 
 <section class="grid-l">
   {%- for item in collections.design | reverse -%}
@@ -19,6 +19,8 @@ permalink: changelog/
 
 <h2>Changelog</h2>
 
+<p>The changes of this site use <code>calver</code>, a convention based on a release calendar instead of arbitrary numbers. I try to mirror this changelog on the <a href="https://github.com/systemdes/personal-website/releases">releases of this site's GitHub repo.</a></p>
+
 <section class="grid-l">
   {%- for item in collections.changelog | reverse -%}
       <ul>
@@ -26,3 +28,5 @@ permalink: changelog/
       </ul>
   {%- endfor -%}
 </section>
+
+<p><em>If you really really want to see every little change on this website you can view the commit history on <a href="https://github.com/systemdes/personal-website/commits/master">this site's GitHub repo</a> but I'm not sure if you are into that kinda thing...</e></p>
