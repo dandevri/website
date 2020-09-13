@@ -91,4 +91,8 @@ main header > * + * {
   color: #e7e7e7;
   opacity: 0.5;
   z-index: -1;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
