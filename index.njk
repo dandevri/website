@@ -36,12 +36,12 @@ eleventyNavigation:
     {%- for article in collections.article | reverse | limit(1) -%}
         <p><strong> {{ article.data.title }}:</strong> {{ article.data.description }}</p>
     {%- endfor -%}
-    <a href="/writing" class="btn btn-secondary">Read this post</a>
+    <a href="/writing" class="btn btn-secondary">Read my latest article</a>
   </article>
    <article class="article-item">
     <h3>What's new?</h3>
     <p>Working on a new venture called <strong>'out-of-office'</strong> to help you make time to focus on what truly matters.</p>
-    <a href="/projects" class="btn btn-secondary">Read more about it</a>
+    <a href="/projects" class="btn btn-secondary">View latest project</a>
   </article>
 </div>
 
