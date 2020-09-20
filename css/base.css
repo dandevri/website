@@ -20,7 +20,8 @@
 
 /* Utilities */
 @import "utilities/_toggle.scss";
-/* @import "utilities/_color-scheme.scss";*/
+
+/* @import "utilities/_color-scheme.scss"; */
 @import "utilities/_badge.scss";
 @import "utilities/_images.scss";
 @import "utilities/_dither.scss";
@@ -53,6 +54,7 @@
 @import "components/atoms/skip-link.scss";
 @import "components/atoms/media-item.scss";
 @import "components/atoms/highlight.scss";
+@import "components/atoms/log.scss";
 
 /* Molecules */
 @import "components/molecules/header.scss";

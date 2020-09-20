@@ -5,6 +5,8 @@ description: Documenting updates and changes to my personal website.
 permalink: changelog/
 ---
 
+<p>My work on this site started on <em>July 22, 2019</em> that's when I made the first commit on GitHub. I've been slowly making incremental updates since then which results in the page you are viewing now. This page documents all my thoughts, the process, and decisions.</p>
+
 <h2>Main pillars</h2>
 
 <p>A bit of rationale on each aspect of the design and technicalities of this website.</p>
@@ -17,16 +19,22 @@ permalink: changelog/
   {%- endfor -%}
 </section>
 
+<p>This site has a roadmap which is currently a <em>private Notion board</em> in which I keep all ideas, enhancement and improvements to this website. There are currently about 50+ ideas or things I want to implement. For now it's private but I turn it a public roadmap one day.</p>
+
 <h2>Changelog</h2>
 
 <p>The changes of this site use <code>calver</code>, a convention based on a release calendar instead of arbitrary numbers. I try to mirror this changelog on the <a href="https://github.com/systemdes/personal-website/releases">releases of this site's GitHub repo.</a></p>
 
-<section class="grid-l">
+<section>
   {%- for item in collections.changelog | reverse -%}
-      <ul>
+      {% if item.date | year != lastDate | default('0', true) %}
+        <h3 class="log-year">{{ item.date | year}}</h3>
+      {% set lastDate = item.date | year %}
+    {% endif %}
+      <ul class="log-list">
         {% include 'components/atoms/log.njk' %}
       </ul>
   {%- endfor -%}
 </section>
 
-<p><em>If you really really want to see every little change on this website you can view the commit history on <a href="https://github.com/systemdes/personal-website/commits/master">this site's GitHub repo</a> but I'm not sure if you are into that kinda thing...</e></p>
+<p><em>If you really really want to see every little change on this website you can view the commit history on this site's <a href="https://github.com/systemdes/personal-website/commits/master">GitHub repo</a> but that's probably not a thing you want to do...</e></p>

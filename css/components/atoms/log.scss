@@ -1,0 +1,16 @@
+.log-year {
+  border-bottom: 2px solid $secondary;
+  position: sticky;
+  top: 0;
+  background: $primary;
+  z-index: 1;
+}
+
+.log-label {
+  background: $secondary;
+  color: $primary;
+}
+
+.log-list li {
+  margin-top: $s1;
+}
