@@ -2,6 +2,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const readingTime = require('eleventy-plugin-reading-time');
 const { DateTime } = require("luxon");
+const randomLink = require('./_11ty/randomLink.js');
 const markdownIt = require('markdown-it')({
   html: true,
   breaks: true,
@@ -32,6 +33,8 @@ module.exports = function(config) {
   config.addFilter('htmlDateString', (dateObj) => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
   });
+
+  config.addFilter('randomLink', randomLink);
 
   config.addFilter('year', function(date) {
     const dateObj = new Date(date)

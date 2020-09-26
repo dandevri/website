@@ -1,0 +1,19 @@
+---
+layout: layouts/empty
+permalink: random/
+---
+
+{% set links = collections.all | randomLink(page) %}
+
+<h1>Random</h1>
+<p>If you click the button below you will be taken to a random page of the <strong>{{ collections.all.length }} pages</strong> on my website. Some are useful, some not so.</p>
+<a class="random" href="{{ base }}{{ links.random.url }}">I'm Feeling Lucky</a>
+
+<script type="module">
+  (function() {
+    const randomBtn = document.querySelector('.random');
+    const randomAll = '{{ links.randomAll }}'.split(',');
+    const randomNew = randomAll[Math.floor(Math.random() * randomAll.length)];
+    randomBtn.href = randomNew;
+  })();
+</script>
