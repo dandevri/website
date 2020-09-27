@@ -26,6 +26,7 @@
 @import "utilities/_images.scss";
 @import "utilities/_dither.scss";
 @import "utilities/_boilerform.scss";
+@import "utilities/_cursor.scss";
 
 /* Elements */
 @import "elements/_lists.scss";
@@ -55,6 +56,7 @@
 @import "components/atoms/media-item.scss";
 @import "components/atoms/highlight.scss";
 @import "components/atoms/log.scss";
+@import "components/atoms/widget.scss";
 
 /* Molecules */
 @import "components/molecules/header.scss";
