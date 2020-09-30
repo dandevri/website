@@ -59,8 +59,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 50%;
   flex-direction: column;
+  background-image: radial-gradient($secondary 0.5px, transparent 0);
+  background-size: calc(3 * 2px) calc(3 * 2px);
 }
 
 .newsletter {
@@ -173,4 +175,16 @@ body {
 .content ol + h4,
 .content article + h2 {
   margin-top: $s5;
+}
+
+.box {
+  background: $primary;
+  border: 2px solid black;
+}
+
+.grid-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2em;
+  padding: 4em;
 }

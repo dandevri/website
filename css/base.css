@@ -32,6 +32,9 @@
 @import "elements/_lists.scss";
 @import "elements/_headings.scss";
 
+/* Themes */
+@import "themes/rams.scss";
+
 /* Components */
 
 /* Atoms */
@@ -57,6 +60,7 @@
 @import "components/atoms/highlight.scss";
 @import "components/atoms/log.scss";
 @import "components/atoms/widget.scss";
+@import "components/atoms/map.scss";
 
 /* Molecules */
 @import "components/molecules/header.scss";
