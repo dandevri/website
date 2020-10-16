@@ -4,7 +4,7 @@ title: Hello World
 tags: podcast
 slug: hello-world
 number: 01
-layout: layouts/empty
+layout: layouts/center
 permalink: /podcast/{{ slug }}/index.html
 embed: https://anchor.fm/dandevri/embed/episodes/Hello-World-ecuu73/a-a1vh9hr
 ---
