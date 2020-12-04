@@ -1,42 +1,86 @@
 ---
-layout: layouts/default
+layout: layouts/empty
 title: Stats
 permalink: stats/
 ---
 
-<h2>Numbers</h2>
-<h3>Writing</h3>
-<p>Posts: {{ collections.all | size }}</p>
-<p>Articles: {{ collections.article | size }}</p>
-<p>Essays: {{ collections.essay | size }}</p>
-<p>Guides: {{ collections.guide | size }}</p>
-<p>Journal: {{ collections.journal | size }}</p>
-<p>Links: {{ collections.link | size }}</p>
-<p>Notes: {{ collections.note | size }}</p>
-<p>Weeknotes: {{ collections.weeknote | size }}</p>
-
-<h3>Speaking</h3>
-<p>Talks: {{ collections.talks | size }}</p>
-<p>Events: {{ events.events | size }}</p>
-<p>Interviews: {{ interviews.interviews | size }}</p>
-
-<h3>Projects</h3>
-<p>Projects: {{ collections.project | size }}</p>
-
-<h3>Teaching</h3>
-<p>Workshops: {{ collections.workshop | size }}</p>
-<p>Courses: {{ courses.courses | size }}</p>
-
-<h2>Audits</h2>
-<p><a href="https://fitonafloppy.website/?website=dandevri.es&https=true">Fits on a floppy: ✅ </a></p>
-<p><a href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdandevri.es">Lighthouse Report</a></p>
-<p><a href="https://www.websitecarbon.com/website/dandevri-es/">Website Carbon Report</a></p>
-
-<h2>Badges</h2>
-<img src="https://www.w3.org/Icons/valid-html401" alt="HTML validation badge" />
-<img src="https://www.w3.org/Icons/valid-css2" alt="CSS validation badge" />
-<img src="https://indieweb.org/images/e/e1/indiewebcamp-button.svg" alt="Indieweb badge" /><br>
-<div id="wcb" class="wcb carbonbadge wcb-d"></div>
-<script>
-const $q=e=>document.getElementById(e),url=encodeURIComponent(window.location.href),newRequest=function(e=!0){fetch("https://api.websitecarbon.com/b?url="+url).then((function(e){if(!e.ok)throw Error(e);return e.json()})).then((function(n){e&&renderResult(n),n.t=(new Date).getTime(),localStorage.setItem("wcb_"+url,JSON.stringify(n))})).catch((function(e){$q("wcb_g").innerHTML="No Result",console.log(e),localStorage.removeItem("wcb_"+url)}))},renderResult=function(e){$q("wcb_g").innerHTML=e.c+"g of CO<sub>2</sub>/view",$q("wcb_2").insertAdjacentHTML("beforeEnd","Cleaner than "+e.p+"% of pages tested")},css="<style>.carbonbadge{--b1:#0e11a8;--b2:#00ffbc;font-size:15px;line-height:1.15;text-align:left;color:var(--b1)}.carbonbadge sub{vertical-align:middle;position:relative;top:.3em;font-size:.7em}.carbonbadge a,.carbonbadge p{text-align:left;display:inline-flex;justify-content:center;align-items:center;font-size:1em;margin:.2em 0;line-height:1.15;font-family:-apple-system,BlinkMacSystemFont,sans-serif}#wcb_g,.carbonbadge a{padding:.3em .5em;background:#fff;border:.13em solid var(--b2);border-radius:.3em 0 0 .3em}#wcb_g{border-right:0;min-width:8.2em}.carbonbadge a{border-radius:0 .3em .3em 0;border-left:0;background:var(--b1);color:#fff;text-decoration:none;font-weight:700;border-color:var(--b1)}.wcb-d #wcb_2{color:#fff}.carbonbadge.wcb-d a{color:var(--b1);background:var(--b2);border-color:var(--b2)}</style>",badge=$q("wcb");if("fetch"in window){badge.insertAdjacentHTML("beforeEnd",css),badge.insertAdjacentHTML("beforeEnd",'<div id="wcb_p"><p id="wcb_g">Measuring CO<sub>2</sub>&hellip;</p><a target="_blank" rel="noopener" href="https://websitecarbon.com">Website Carbon</a></div><p id="wcb_2"></p>');let e=localStorage.getItem("wcb_"+url);const n=(new Date).getTime();if(e){const t=JSON.parse(e);renderResult(t),n-t.t>864e5&&newRequest(!1)}else newRequest()}
-</script>
+<div class="apple">
+  <article>
+    <p><span class="lg">{{ collections.all | size }}</span><br>posts</p>
+  </article>
+  <article>
+    <p><span class="lg">110.95kB</span><br><a href="https://fitonafloppy.website/?website=dandevri.es&https=true">Fits on a floppy! </a></p>
+  </article>
+  <article>
+    <p><span class="lg">{{ collections.link | size }}</span><br>links</p>
+  </article>
+  <article>
+    <p>Notes: {{ collections.note | size }}</p>
+  </article>
+  <article>
+    <p><span class="lg">{{ collections.tagList | size }}</span><br>tags</p>
+  </article>
+  <article>
+    <p>Events: {{ events.events | size }}</p>
+  </article>
+  <article>
+    <p>Interviews: {{ interviews.interviews | size }}</p>
+  </article>
+   <article>
+    <p>Projects: {{ collections.project | size }}</p>
+  </article>
+   <article>
+    <h2>Stats</h2>
+  </article>
+  <article>
+    <p>Courses: {{ courses.courses | size }}</p>
+  </article>
+  <article>
+    <p><a href="https://fitonafloppy.website/?website=dandevri.es&https=true">Fits on a floppy! (110.95kB)</a></p>
+  </article>
+  <article>
+    <span class="stats-lighthouse">100</span>
+    <p><a href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fwww.dandevri.es">Lighthouse Report</a></p>
+  </article>
+  <article>
+    <div id="wcb" class="wcb carbonbadge"></div>
+    <script src="https://unpkg.com/website-carbon-badges@^1/b.min.js" defer></script>
+  </article>
+    <article>
+    <p>Things: {{ interviews.interviews | size }}</p>
+  </article>
+    <article>
+    <p>MOre things {{ interviews.interviews | size }}</p>
+  </article>
+<article>
+    <p>🌍 Life stats:</p>
+    <ul>
+      <li><span class="stats-years"></span> years of age</li>
+      <li><span class="stats-date"></span> days since born</li>
+      <li><span class="stats-hours"></span> hours on earth
+      <li><span class="stats-minutes"></span> minutes
+  </article>
+  <article>
+    <p><span class="lg">{{ collections.article | size }}</span><br>articles</p>
+  </article>
+  <article>
+    <p>Links: {{ collections.link | size }}</p>
+  </article>
+  <article>
+    <p><span class="lg">{{ collections.note | size }}</span><br>notes</p>
+  </article>
+  <article>
+    <p>Talks: {{ collections.talks | size }}</p>
+  </article>
+  <article>
+    <p>Events: {{ events.events | size }}</p>
+  </article>
+  <article>
+    <p>Interviews: {{ interviews.interviews | size }}</p>
+  </article>
+   <article>
+    <p>Projects: {{ collections.project | size }}</p>
+  </article>
+  <article>
+    <p>Posts: {{ collections.all | size }}</p>
+  </article>
