@@ -1,6 +1,8 @@
 <li class="media-item">
   <a href="{{ item.url }}">
-    <img class="media-cover"src="{{ item.cover }}" alt="{{item.title }} cover">
+    <div class="poster">
+      <img class="media-cover"src="{{ item.cover }}" alt="{{item.title }} cover">
+    </div>
     <div class="media-content">
       <p>{{ item.title }}</p>
       {% if item.author %}
