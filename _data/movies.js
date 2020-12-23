@@ -71,6 +71,62 @@ const movies = [
     released: "2011",
     url: "https://www.imdb.com/title/tt1737674/"
   },
+  {
+    title: "Borat Subsequent Moviefilm",
+    director: "Jason Woliner",
+    cover: "https://m.media-amazon.com/images/M/MV5BNmY3OTdkOWEtNjc2ZC00OTZmLWI5OWItMjdjYjRkNTExNDNhXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    watched: "2020",
+    released: "2020",
+    url: "https://www.imdb.com/title/tt13143964/"
+  },
+  {
+    title: "Art & Copy",
+    director: "Doug Pray",
+    cover: "https://m.media-amazon.com/images/M/MV5BMTI2MDcxMzk0Ml5BMl5BanBnXkFtZTcwNzcyNDg3Mg@@._V1_UY268_CR4,0,182,268_AL_.jpg",
+    watched: "2020",
+    released: "2009",
+    url: "https://www.imdb.com/title/tt1333631/"
+  },
+  {
+    title: "A Life of Speed",
+    director: "Francisco Macri",
+    cover: "https://m.media-amazon.com/images/M/MV5BZTgyMTE4NDktYjc4OC00NmUzLTg1NWQtNzQ1ZjZiNGZiOTIzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY268_CR4,0,182,268_AL_.jpg",
+    watched: "2020",
+    released: "2020",
+    url: "https://www.imdb.com/title/tt6668212/"
+  },
+  {
+    title: "The Speed Cubers",
+    director: "Sue Kim",
+    cover: "https://m.media-amazon.com/images/M/MV5BZDVlZjg5YTEtM2UyMC00YzYzLWIzZDUtMzRkYWIxYjJkODQ3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    watched: "2020",
+    released: "2020",
+    url: "https://www.imdb.com/title/tt12038300/"
+  },
+  {
+    title: "The Social Dilemma",
+    director: "Jeff Orlowski",
+    cover: "https://m.media-amazon.com/images/M/MV5BNDVhMGNhYjEtMDkwZi00NmQ5LWFkODktYzhiYjY2NTZmYTNhXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY268_CR3,0,182,268_AL_.jpg",
+    watched: "2020",
+    released: "2020",
+    url: "https://www.imdb.com/title/tt11464826/"
+  },
+  {
+    title: "Pretending I'm a Superman",
+    director: "Ludvig Gür",
+    cover: "https://m.media-amazon.com/images/M/MV5BZWIwNmNmZTctYTU4MS00MmE4LTkwNTUtMWZiYTNmODI5NWJhXkEyXkFqcGdeQXVyMzg3NDQzMA@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    watched: "2020",
+    released: "2020",
+    url: "https://www.imdb.com/title/tt11698280/"
+  },
+  {
+    title: "Star Wars: Episode I - The Phantom Menace",
+    director: " George Lucas",
+    cover: "https://m.media-amazon.com/images/M/MV5BYTRhNjcwNWQtMGJmMi00NmQyLWE2YzItODVmMTdjNWI0ZDA2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    watched: "2020",
+    released: "1999",
+    url: "https://www.imdb.com/title/tt0120915/"
+  },
 ]
 
 module.exports = {

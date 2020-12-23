@@ -113,8 +113,107 @@ const books = [
     tag: "work",
     cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1363265098l/17316682.jpg",
     read: "2020",
-    format: "eBook",
+    format: "Paperback",
     url: "https://www.goodreads.com/book/show/17316682-remote"
+  },
+  {
+    title: "Make a Zine",
+    author: "Joe Biel",
+    tag: "craft",
+    cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517438535l/33163327.jpg",
+    read: "2020",
+    format: "Paperback",
+    url: "https://www.goodreads.com/book/show/33163327-make-a-zine"
+  },
+  {
+    title: "Toetsrevolutie",
+    author: "Dominique Sluijsmans",
+    tag: "education",
+    cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523537289l/39808619._SY475_.jpg",
+    read: "2020",
+    format: "Paperback",
+    url: "https://www.goodreads.com/book/show/39808619-toetsrevolutie-naar-een-feedbackcultuur-in-het-hoger-onderwijs"
+  },
+  {
+    title: "Het prachtige risico van onderwijs",
+    author: "Gert Biesta",
+    tag: "education",
+    cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1451152145l/28357027._SY475_.jpg",
+    read: "2020",
+    format: "Paperback",
+    url: "https://www.goodreads.com/book/show/28357027-het-prachtige-risico-van-onderwijs"
+  },
+  {
+    title: "Teaching WalkThrus",
+    author: "Tom Sherrington",
+    tag: "education",
+    cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576456379l/49256630._SX318_.jpg",
+    read: "2020",
+    format: "Paperback",
+    url: "https://www.goodreads.com/book/show/49256630-teaching-walkthrus"
+  },
+  {
+    title: "Rosenshine's Principles in Action",
+    author: "Tom Sherrington",
+    tag: "education",
+    cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1550534534l/44056942._SX318_.jpg",
+    read: "2020",
+    format: "Paperback",
+    url: "https://www.goodreads.com/book/show/44056942-rosenshine-s-principles-in-action"
+  },
+  {
+    title: "Start with Why",
+    author: "Simon Sinek",
+    tag: "life",
+    cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360936414l/7108725.jpg",
+    read: "2020",
+    format: "Paperback",
+    url: "https://www.goodreads.com/book/show/7108725-start-with-why"
+  },
+  {
+    title: "So Good They Can't Ignore You",
+    author: "Cal Newport",
+    tag: "life",
+    cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360564614l/13525945.jpg",
+    read: "2020",
+    format: "Paperback",
+    url: "https://www.goodreads.com/book/show/13525945-so-good-they-can-t-ignore-you"
+  },
+  {
+    title: "Bullshit Jobs",
+    author: "David Graeber",
+    tag: "life",
+    cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523865380l/34466958.jpg",
+    read: "2020",
+    format: "Paperback",
+    url: "https://www.goodreads.com/book/show/34466958-bullshit-jobs"
+  },
+  {
+    title: "The Pomodoro Technique",
+    author: "Francesco Cirillo",
+    tag: "productivity",
+    cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1378948919l/18482790.jpg",
+    read: "2020",
+    format: "Paperback",
+    url: "https://www.goodreads.com/book/show/18482790-the-pomodoro-technique"
+  },
+  {
+    title: "Eat That Frog!",
+    author: "Brian Tracy ",
+    tag: "productivity",
+    cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328854785l/95887.jpg",
+    read: "2020",
+    format: "Paperback",
+    url: "https://www.goodreads.com/book/show/95887.Eat_That_Frog_"
+  },
+  {
+    title: "Ik weet je wachtwoord",
+    author: "Daniël Verlaan",
+    tag: "technology",
+    cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1601985777l/55358346._SY475_.jpg",
+    read: "2020",
+    format: "Paperback",
+    url: "https://www.goodreads.com/book/show/55358346-ik-weet-je-wachtwoord"
   },
 ]
 

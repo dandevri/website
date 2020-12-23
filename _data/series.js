@@ -127,6 +127,95 @@ const series = [
     watched: "2020",
     url: "https://www.imdb.com/title/tt8810204/"
   },
+  {
+    title: "Mr. Robot",
+    created: "Sam Esmail",
+    season: 3,
+    cover: "https://m.media-amazon.com/images/M/MV5BMzgxMmQxZjQtNDdmMC00MjRlLTk1MDEtZDcwNTdmOTg0YzA2XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_SY1000_CR0,0,666,1000_AL_.jpg",
+    watched: "2020",
+    url: "https://www.imdb.com/title/tt4158110/"
+  },
+  {
+    title: "Mr. Robot",
+    created: "Sam Esmail",
+    season: 3,
+    cover: "https://m.media-amazon.com/images/M/MV5BMzgxMmQxZjQtNDdmMC00MjRlLTk1MDEtZDcwNTdmOTg0YzA2XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_SY1000_CR0,0,666,1000_AL_.jpg",
+    watched: "2020",
+    url: "https://www.imdb.com/title/tt4158110/"
+  },
+  {
+    title: "Watchmen",
+    created: "Damon Lindelof",
+    season: 1,
+    cover: "https://m.media-amazon.com/images/M/MV5BYjhhZDE3NjgtMjkzNC00NzI3LWJhOTItMWQ5ZjljODA5NWNkXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    watched: "2020",
+    url: "https://www.imdb.com/title/tt7049682/"
+  },
+  {
+    title: "The Outsider",
+    created: "Richard Price",
+    season: 1,
+    cover: "https://m.media-amazon.com/images/M/MV5BNzgxOTc4ODctNDNhZC00M2UzLTgyYzgtM2Q2OTk3NmQ5NTljXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    watched: "2020",
+    url: "https://www.imdb.com/title/tt8550800/"
+  },
+  {
+    title: "Westworld",
+    created: "Lisa Joy",
+    season: 1,
+    cover: "https://m.media-amazon.com/images/M/MV5BMTRmYzNmOTctZjMwOS00ODZlLWJiZGQtNDg5NDY5NjE3MTczXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    watched: "2020",
+    url: "https://www.imdb.com/title/tt0475784/"
+  },
+  {
+    title: "Westworld",
+    created: "Lisa Joy",
+    season: 2,
+    cover: "https://m.media-amazon.com/images/M/MV5BMTRmYzNmOTctZjMwOS00ODZlLWJiZGQtNDg5NDY5NjE3MTczXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    watched: "2020",
+    url: "https://www.imdb.com/title/tt0475784/"
+  },
+  {
+    title: "Westworld",
+    created: "Lisa Joy",
+    season: 3,
+    cover: "https://m.media-amazon.com/images/M/MV5BMTRmYzNmOTctZjMwOS00ODZlLWJiZGQtNDg5NDY5NjE3MTczXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    watched: "2020",
+    url: "https://www.imdb.com/title/tt0475784/"
+  },
+  {
+    title: "McMillions",
+    created: "HBO",
+    season: 1,
+    cover: "https://m.media-amazon.com/images/M/MV5BZjQ0ZWQxOWQtMDA4Ny00ZTg2LWE1NGUtYjYwZWI4MzZkZTI0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    watched: "2020",
+    url: "https://www.imdb.com/title/tt9148598/"
+  },
+  {
+    title: "Succession",
+    created: "Jesse Armstrong",
+    season: 1,
+    cover: "https://m.media-amazon.com/images/M/MV5BZDMyY2I0ZjEtMzc4Yi00MTQxLWI1MWYtOWJjNjIwMTMyYWFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    watched: "2020",
+    url: "https://www.imdb.com/title/tt7660850/"
+  },
+  {
+    title: "Succession",
+    created: "Jesse Armstrong",
+    season: 2,
+    cover: "https://m.media-amazon.com/images/M/MV5BZDMyY2I0ZjEtMzc4Yi00MTQxLWI1MWYtOWJjNjIwMTMyYWFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    watched: "2020",
+    url: "https://www.imdb.com/title/tt7660850/"
+  },
+  {
+    title: "Tales from the Loop",
+    created: "Nathaniel Halpern",
+    season: 1,
+    cover: "https://m.media-amazon.com/images/M/MV5BNmExMjg1NzgtZmFmMS00ZTEzLWJjODktMmI0ZTJmYjE4ZWRjXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    watched: "2020",
+    url: "https://www.imdb.com/title/tt8741290/"
+  },
+  
 ]
 
 module.exports = {

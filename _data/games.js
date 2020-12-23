@@ -90,6 +90,27 @@ const games = [
     played: "2020",
     url: "https://www.metacritic.com/game/switch/the-legend-of-zelda-breath-of-the-wild"
   },
+  {
+    title: "Fall Guys",
+    platform: "PS4",
+    cover: "https://howlongtobeat.com/games/68270_Fall_Guys.jpg",
+    played: "2020",
+    url: "https://www.metacritic.com/game/playstation-4/fall-guys-ultimate-knockout"
+  },
+  {
+    title: "F1 2020",
+    platform: "PS4",
+    cover: "https://howlongtobeat.com/games/80652_F1_2020.jpg",
+    played: "2020",
+    url: "https://www.metacritic.com/game/playstation-4/f1-2020"
+  },
+  {
+    title: "Death Stranding",
+    platform: "PS4",
+    cover: "https://howlongtobeat.com/games/38061_Death_Stranding.png",
+    played: "2020",
+    url: "https://www.metacritic.com/game/playstation-4/death-stranding"
+  },
 ]
 
 module.exports = {
