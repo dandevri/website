@@ -30,3 +30,8 @@
 .article-item > * + * {
   margin-top: 1.25rem;
 }
+
+.advice {
+  border: $b1;
+  padding: $s1;
+}
