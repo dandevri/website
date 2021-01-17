@@ -5,6 +5,14 @@ p code {
   box-shadow: 0 2px 0 $secondary;
 }
 
+li p code {
+  padding: 0.25em;
+  border-radius: 3px;
+  font-size: 0.7em;
+  border: $b1;
+  box-shadow: 0 2px 0 $primary;
+}
+
 pre {
   background: $secondary;
   color: $primary;

@@ -1,0 +1,69 @@
+---
+layout: layouts/overview
+title: Apps
+description: All my go-to apps, tools and websites I use daily. This list is updated sporadically. I try out many different tools so things often change.
+permalink: apps/
+---
+
+<div class="content">
+
+  <p>
+    <strong>Update 17/01/21</strong>
+  </p>
+
+  <ul class="multi">
+    {% for item in apps.update1721 %}
+      <li>
+        <p>
+          <a href="{{ item.link }}">
+            <strong>{{ item.title }}</strong>
+          </a>
+          <code>{{ item.tag }}</code>:
+          {{ item.description }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p>
+    <strong>Update 16/01/21</strong>
+  </p>
+
+  <ul class="multi">
+    {% for item in apps.update1621 %}
+      <li>
+        <p>
+          <a href="{{ item.link }}">
+            <strong>{{ item.title }}</strong>
+          </a>
+          <code>{{ item.tag }}</code>:
+          {{ item.description }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p>
+    <strong>Original List</strong>
+  </p>
+
+  <ul class="multi">
+    {% for item in apps.original %}
+      <li>
+        <p>
+          <a href="{{ item.link }}">
+            <strong>{{ item.title }}</strong>
+          </a>
+          <code>{{ item.tag }}</code>:
+          {{ item.description }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <hr>
+
+  <p>
+    <em>Almost all of these applications are installed through
+      <a href="https://github.com/Homebrew/homebrew-cask">Homebrew Cask</a>. Have a look at my
+      <a href="https://github.com/dandevri/dotfil.es">dotfiles</a>
+      for a install script.</em>
+  </p>
+</div>
