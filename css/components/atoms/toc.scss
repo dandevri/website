@@ -1,0 +1,37 @@
+.post ul:first-of-type {
+  position: sticky;
+  border: $b1;
+  padding: $s1;
+  top: 5vh;
+  float: right;
+  list-style-image: none;
+  list-style-type: none;
+
+  & li {
+    opacity: 0.8;
+  }
+
+  & .active {
+    opacity: 1;
+    font-weight: bold;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.read {
+  font-style: italic;
+}
+
+@media (max-width: 60em) {
+  .post ul:first-of-type {
+    position: relative;
+    border: $b1;
+    padding: $s1;
+    float: none;
+    list-style-image: none;
+    list-style-type: none;
+  }
+}

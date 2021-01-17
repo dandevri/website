@@ -3,15 +3,20 @@ title: Public Speaking
 description: Speaking at events and meet-ups is a privilege I'm grateful for having. This is a list of things I learned along the way.
 date: 2020-02-18
 tags: guide
-layout: layouts/post.njk
+layout: layouts/guide.njk
 slug: public-speaking
 permalink: /guides/{{ slug }}/index.html
 ---
 
-Public speaking is not the same as a lecture, it's not a spoken version of your blog post and it's not a good idea to rant and vent. You literally have a stage and an audience so it's more of a performance then you might think. Most talks are either inspirational, emotional and informative.
-
+- Table of contents:
+- [How to start speaking](#how-to-start-speaking)
+- [Preparing a talk](#preparing-a-talk)
+- [Presenting](#presenting)
+- [Slide Design](#slide-design)
+- [Admin stuff](#admin-stuff)
+- [Tips](#tips)
+- [Books and Resources](#books-and-resources)
 ## How to start speaking
-
 ### Finding events to speak
 
 Big events aren’t likely to take a chance on an inexperienced speaker.
@@ -131,8 +136,8 @@ Life can be messy and it's okay to pull out. I always try to do it well in advan
 * Add your personal story but don't make the talk about you but about the story.
 * I write my speaker notes in bullet points, not full sentences. This gives enough room for improvisation but enough structure to keep coming back to.
 
-## Books & Resources
-*Cclick on the in-line links in this guide to go to relevant articles. Here is a list of books and other resources that helped me set-up this guide.*
+## Books and Resources
+*Click on the in-line links in this guide to go to relevant articles. Here is a list of books and other resources that helped me set-up this guide.*
 
 ---
 * [Notist Advent speaker tips][advent]

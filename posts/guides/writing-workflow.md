@@ -3,10 +3,16 @@ title: Writing Workflow
 description: Since I'm trying to write more articles and post updates regularly to my personal site I set out to create a writing workflow.
 date: 2019-08-08
 tags: guide
-layout: layouts/post.njk
+layout: layouts/guide.njk
 slug: writing-workflow
 permalink: /guides/{{ slug }}/index.html
 ---
+
+- [Why write?](#why-write)
+- [Editor](#editor)
+- [Editorial process](#editorial-process)
+- [Becoming a better writer](#becoming-a-better-writer)
+- [Style Guide](#style-guide)
 
 ## Why write?
 Writing is a general good skill to have and it's the best medium to voice 
