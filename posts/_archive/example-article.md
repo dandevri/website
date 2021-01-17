@@ -50,11 +50,17 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
 
 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
 
-{% notification 'Tip!', 'This is the content of an inline tip inside of the article to draw attention to something.' %}
+{% notification '?', 'Title of the inline tip', 'This is the content of an inline tip inside of the article to draw attention to something.' %}
 
 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
 
-{% highlight 'Highlight', 'This is the content of an inline tip inside of the article to draw attention to something.' %}
+```html
+<a href="#">Some code block</a>
+```
+
+```js
+var codeBlock = 12;
+```
 
 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
 

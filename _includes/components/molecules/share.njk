@@ -1,22 +1,24 @@
-
 <div class="share">
-  <label for="url">Click to share this article.</label>
-  <input type="text" id="url" name="url" value="{{ metadata.url }}{{ page.url }}" readonly>
+  <a href="mailto:hi@dandevri.es?subject={{ page.url }}">Reply via e-mail</a>
+  <a href="https://twitter.com/intent/tweet?text=@dandevri">Reply on Twitter</a>
+  <label for="url" =" url" "=" url""="url" "" ">Share this article</label>
+  <input type="text" id="url" name="url" value="{{ metadata.url }}{{ page.url }}" readonly="readonly">
 </div>
 <script>
   const shareButton = document.querySelector('.share label');
   const shareDialog = document.querySelector('.share input');
   shareButton.addEventListener('click', event => {
-  if (navigator.share) {
-      navigator.share({
-            title: '{{ page.title }}',
-            url: '{{ metadata.url }}{{ page.url }}'
-          }).then(() => {
-            console.log('Thanks for sharing!');
-          })
-          .catch(console.error);
+    if (navigator.share) {
+      navigator
+        .share({title: '{{ page.title }}', url: '{{ metadata.url }}{{ page.url }}'})
+        .then(() => {
+          console.log('Thanks for sharing!');
+        })
+        .catch(console.error);
     } else {
-        shareDialog.classList.add('is-open');
+      shareDialog
+        .classList
+        .add('is-open');
     }
   });
 </script>

@@ -5,29 +5,32 @@ layout: layouts/base
 {% include 'components/molecules/site-header.njk' %}
 {% import 'components/atoms/notification.njk' as notification %}
 
-  <main class="wrapper" id="main">
-    <header class="post">
-      {% if tags.includes("archive") %}
-          {{ notification.not
+<main class="wrapper" id="main">
+  <header class="post">
+    {% if tags.includes("archive") %}
+      {{ notification.notification
           (
+            "📥",
             "Archive",
             "You are looking at a post that is archived, probably because my views have changed or the information in it is outdated."
           )
         }}
-      {% endif %}
-      <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
-      <span> ▪ {{ content | readingTime }}</span>
-      <h1 class="header__title display">{{ title }}</h1>
-      <h2 class="header__subtitle">{{ description }}</h2>
-    </header>
-    <div class="content post">
-      {{ content | safe }}
-      {% include 'components/atoms/signature.njk' %}
-    </div>
-    <footer>
-      {% include 'components/atoms/biography.njk' %}
-      {% include 'components/molecules/tag-list.njk' %}
-      {% include 'components/molecules/share.njk' %}
-      <!-- {% include 'components/atoms/webmention.njk' %} -->
-    </footer>
-  </main>
+    {% endif %}
+    <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
+    <span>
+      ▪
+      {{ content | readingTime }}</span>
+    <h1 class="header__title display">{{ title }}</h1>
+    <h2 class="header__subtitle">{{ description }}</h2>
+  </header>
+  <div class="content post">
+    {{ content | safe }}
+    {% include 'components/atoms/signature.njk' %}
+  </div>
+  <footer>
+    {% include 'components/atoms/biography.njk' %}
+    {% include 'components/molecules/tag-list.njk' %}
+    {% include 'components/molecules/share.njk' %}
+    <!-- {% include 'components/atoms/webmention.njk' %} -->
+  </footer>
+</main>

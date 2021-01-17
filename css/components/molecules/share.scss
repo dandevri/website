@@ -1,5 +1,11 @@
 .share {
   padding: $s4;
+  display: flex;
+  flex-wrap: wrap;
+
+  & * {
+    margin-right: $s4;
+  }
 
   input {
     padding: $s-2;
@@ -11,6 +17,16 @@
     width: 45%;
     overflow: show;
     display: none;
+  }
+
+  label {
+    cursor: pointer;
+    width: auto;
+    text-decoration: underline;
+    text-decoration-color: inherit;
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.15em;
+    text-decoration-skip-ink: auto;
   }
 
   .is-open {

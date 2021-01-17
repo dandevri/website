@@ -1,6 +1,17 @@
 .notification {
   border: $b1;
 
+  span {
+    filter: grayscale();
+    margin-right: 0.7em;
+    border: 2px solid black;
+    border-radius: 100%;
+    width: 1.5em;
+    display: inline-block;
+    vertical-align: initial;
+    text-align: center;
+  }
+
   h6 {
     padding: $s-1 $s2;
     background: $primary;

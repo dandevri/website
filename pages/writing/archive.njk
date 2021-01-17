@@ -4,17 +4,8 @@ title: Archive
 description: Gathering virtual dust
 permalink: writing/archive/
 ---
-{% import 'components/atoms/notification.njk' as notification %}
 
 <section class="guideslist grid-l">
-  {{ notification.notlink
-    (
-      "Older articles on this website",
-      "This is a list of posts that are archived, probably because my views have changed or the information in it is outdated.",
-      "/writing",
-      "Visit /writing for the latest articles."
-    )
-  }}
   {%- for article in collections.archive | reverse -%}
     {% include 'components/atoms/article.njk' %}
   {%- endfor -%}
