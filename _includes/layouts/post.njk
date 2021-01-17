@@ -16,10 +16,12 @@ layout: layouts/base
           )
         }}
     {% endif %}
-    <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
-    <span>
-      ▪
-      {{ content | readingTime }}</span>
+    <span class="header__date">Written on
+      <time datetime="{{ date | htmlDateString }}">{{ date | dayDate }}</time>
+    </span>
+    <span class="redaction" role="presentation">
+      {{ title }}
+    </span>
     <h1 class="header__title display">{{ title }}</h1>
     <h2 class="header__subtitle">{{ description }}</h2>
   </header>

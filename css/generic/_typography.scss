@@ -13,14 +13,6 @@ small {
   font-weight: 700;
 }
 
-time {
-  font-size: $s-1;
-}
-
-time {
-  letter-spacing: 0.1rem;
-}
-
 blockquote {
   font-style: italic;
   margin: $s1;
@@ -50,4 +42,8 @@ a {
   text-decoration-thickness: 0.08em;
   text-underline-offset: 0.15em;
   text-decoration-skip-ink: auto;
+}
+
+.signature {
+  font-family: "ChicagoFLF", monospace;
 }

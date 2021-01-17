@@ -1,16 +1,20 @@
 {% if page.url === '/' %}
   <header class="homepage-header">
-{% else %}
-  <header>
-{% endif %}
-  <span class="redaction" role="presentation"> {{ title }} </span>
-  <h1>{{ title }}</h1>
-  {% if date %}
-    <h2>{{ date | readableDate }} </h2>
   {% else %}
-    <h2>{{ description }} </h2>
-  {% endif %}
-  {% if page.url === '/' %}
-    <img class="header-img" src="/static/img/avatar-doodle.jpg" alt="Portrait Doodle of Danny de Vries"/>
-  {% endif %}
-</header>
+    <header>
+    {% endif %}
+    <span class="redaction" role="presentation">
+      {{ title }}
+    </span>
+    <h1>{{ title }}</h1>
+    {% if date %}
+      <h2>{{ date | dayDate }}
+      </h2>
+    {% else %}
+      <h2>{{ description }}
+      </h2>
+    {% endif %}
+    {% if page.url === '/' %}
+      <img class="header-img" src="/static/img/avatar-doodle.jpg" alt="Portrait Doodle of Danny de Vries"/>
+    {% endif %}
+  </header>
