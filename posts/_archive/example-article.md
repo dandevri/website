@@ -58,11 +58,47 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
 <a href="#">Some code block</a>
 ```
 
+And here is some CSS code.
+
+```css
+nav > ul {
+  padding-left: 0;
+}
+
+nav > ul > * + * {
+  margin-top: $s1;
+}
+```
+
+And here is JavaScript CSS code.
+
 ```js
 var codeBlock = 12;
 ```
 
+And this is what you put in ya terminal.
+
+```zsh
+npm install -g @11ty/eleventy
+```
+
 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+
+<details>
+  <summary><em>Read the details about further setting up.</em></summary>
+  <p>This is some content. I would like to include markdown.</p>
+
+  * Hello world
+  * People and things
+
+  And it works perfectly. It's great you can also add markdown in here.
+
+  ```
+  sudo
+  ```
+
+</details>
+
 
 ## Heading 2
 

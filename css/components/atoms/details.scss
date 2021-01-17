@@ -1,4 +1,4 @@
-details {
+details:not(.post details) {
   summary {
     list-style-image: url(/static/img/icons/arker-light.svg);
     padding: $s1;
@@ -18,4 +18,17 @@ details {
     color: $primary;
     padding: $s1;
   }
+}
+
+.post summary {
+  margin-bottom: $s1;
+}
+
+.post details > * + * {
+  margin-top: $s1;
+}
+
+.post details p:first-of-type {
+  border-top: $b1;
+  padding-top: $s1;
 }

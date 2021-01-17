@@ -16,5 +16,30 @@ li p code {
 pre {
   background: $secondary;
   color: $primary;
-  padding: $s1;
+  padding: $s2 $s1 $s1 $s1;
+}
+
+pre code {
+  position: relative;
+}
+
+pre code::before {
+  background: $primary;
+  padding: 0.2em;
+  color: $secondary;
+  border: $b1;
+  position: absolute;
+  top: -2.5em;
+}
+
+.language-html::before {
+  content: "html";
+}
+
+.language-css::before {
+  content: "css";
+}
+
+.language-js::before {
+  content: "js";
 }

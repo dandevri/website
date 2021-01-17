@@ -22,6 +22,7 @@
 @import "utilities/_toggle.scss";
 @import "utilities/_external.scss";
 @import "utilities/_poster.scss";
+@import "utilities/_link.scss";
 
 /* @import "utilities/_color-scheme.scss"; */
 @import "utilities/_badge.scss";

@@ -1,0 +1,14 @@
+.post {
+  & h1:hover,
+  h2:hover,
+  h3:hover {
+    .direct-link {
+      opacity: 1;
+    }
+  }
+}
+
+.direct-link {
+  opacity: 0;
+  font-size: 0.8em;
+}

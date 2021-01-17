@@ -3,11 +3,8 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const readingTime = require('eleventy-plugin-reading-time');
 const { DateTime } = require("luxon");
 const randomLink = require('./_11ty/randomLink.js');
-const markdownIt = require('markdown-it')({
-  html: true,
-  breaks: true,
-  linkify: true
-});
+const markdownItAnchor = require("markdown-it-anchor");
+const markdownIt = require('markdown-it');
 
 
 module.exports = function(config) {
@@ -50,7 +47,7 @@ module.exports = function(config) {
   });
 
   config.addFilter('markdownFilter', (value) => {
-    return markdownIt.render(value);
+    return markdownOptions.render(value);
   });
 
   config.addCollection("tagList", require("./_11ty/getTagList"));
@@ -70,6 +67,18 @@ module.exports = function(config) {
   config.addShortcode("notification", function(icon,title, description) {
     return `<div class="notification"><h6><span>${icon}</span>${title}</h6><p>${description}</p></div>`
   });
+
+  let markdownOptions = markdownIt({
+    html: true,
+    breaks: true,
+    linkify: true
+  }).use(markdownItAnchor, {
+    permalink: true,
+    permalinkClass: "direct-link",
+    permalinkSymbol: "¶",
+  });
+
+  config.setLibrary("md", markdownOptions);
 
   return {
     passthroughFileCopy: true,
