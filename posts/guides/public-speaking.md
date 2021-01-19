@@ -9,13 +9,13 @@ permalink: /guides/{{ slug }}/index.html
 ---
 
 - Table of contents:
-- [How to start speaking](#how-to-start-speaking)
+- [Start speaking](#how-to-start-speaking)
 - [Preparing a talk](#preparing-a-talk)
 - [Presenting](#presenting)
 - [Slide Design](#slide-design)
 - [Admin stuff](#admin-stuff)
 - [Tips](#tips)
-- [Books and Resources](#books-and-resources)
+- [Resources](#books-and-resources)
 ## How to start speaking
 ### Finding events to speak
 

@@ -19,3 +19,13 @@ window.addEventListener('DOMContentLoaded', () => {
   });
 
 });
+
+
+const toc = document.querySelector('.guide ul:first-of-type');
+toc.insertAdjacentHTML('afterbegin', '<li><button>✕</button></li>');
+
+const button = document.querySelector('.guide ul li button');
+
+button.addEventListener('click', () => {
+  toc.classList.toggle('hidden')
+})
