@@ -1,19 +1,23 @@
+// Default libs
 const path = require("path");
+const markdownIt = require('markdown-it');
+const markdownItAnchor = require("markdown-it-anchor");
+const { DateTime } = require("luxon")
+
+// 11ty plugins
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const readingTime = require('eleventy-plugin-reading-time');
-const Image = require("@11ty/eleventy-img");
-const { DateTime } = require("luxon");
-const randomLink = require('./_11ty/randomLink.js');
-const markdownItAnchor = require("markdown-it-anchor");
-const markdownIt = require('markdown-it');
+const Image = require("@11ty/eleventy-img");;
+
+// Import filters
+const randomLink = require('./scripts/randomLink.js');
 
 
 module.exports = function(config) {
   config.addPassthroughCopy("static/img");
   config.addPassthroughCopy("static/fonts");
   config.addPassthroughCopy("static/js");
-  config.addPassthroughCopy("css/style.css");
   config.addPassthroughCopy("static/other");
   config.addPassthroughCopy("posts/talks/transcripts/");
 
@@ -56,7 +60,7 @@ module.exports = function(config) {
     return markdownOptions.render(value);
   });
 
-  config.addCollection("tagList", require("./_11ty/getTagList"));
+  config.addCollection("tagList", require("./scripts/getTagList"));
 
   config.addFilter("size", (posts) => {
 		return posts.length;
