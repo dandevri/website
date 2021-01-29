@@ -1,5 +1,6 @@
 // Default libs
 const path = require("path");
+const fs = require("fs");
 const markdownIt = require('markdown-it');
 const markdownItAnchor = require("markdown-it-anchor");
 const { DateTime } = require("luxon")
@@ -140,6 +141,22 @@ module.exports = function(config) {
   });
 
   config.setLibrary("md", markdownOptions);
+
+   config.setBrowserSyncConfig({
+    callbacks: {
+      ready: function(err, bs) {
+
+        bs.addMiddleware("*", (req, res) => {
+          const content_404 = fs.readFileSync('_site/404.html');
+          // Add 404 http status code in request header.
+          res.writeHead(404, { "Content-Type": "text/html; charset=UTF-8" });
+          // Provides the 404 content without redirect.
+          res.write(content_404);
+          res.end();
+        });
+      }
+    }
+  });
 
   return {
     passthroughFileCopy: true,
