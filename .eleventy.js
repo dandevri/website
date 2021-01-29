@@ -1,6 +1,8 @@
+const path = require("path");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const readingTime = require('eleventy-plugin-reading-time');
+const Image = require("@11ty/eleventy-img");
 const { DateTime } = require("luxon");
 const randomLink = require('./_11ty/randomLink.js');
 const markdownItAnchor = require("markdown-it-anchor");
@@ -26,7 +28,6 @@ module.exports = function(config) {
   config.addFilter("dayDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toLocaleString(DateTime.DATE_HUGE);
   });
-
 
   config.addFilter("dotDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd.LL.yy");
@@ -83,10 +84,37 @@ module.exports = function(config) {
   });
 
 
-config.addShortcode('wordCount', function(text){
+  config.addShortcode('wordCount', function(text){
     let wordCount = `${text}`.match(/\b[-?(\w+)?]+\b/gi).length;
     return `${wordCount}`;
   });
+
+  async function imageShortcode(src, alt, sizes) {
+    let metadata = await Image(src, {
+      widths: [600, 1200, 1800],
+      formats: ["avif", "webp", "jpeg"],
+      urlPath: "/static/img/",
+      outputDir: "./_site/static/img",
+      filenameFormat: function (id, src, width, format, options) {
+        const extension = path.extname(src);
+        const name = path.basename(src, extension);
+        return `${name}-${width}w.${format}`;
+      }
+    });
+
+    let imageAttributes = {
+      alt,
+      sizes,
+      loading: "lazy",
+      decoding: "async",
+    };
+
+    return Image.generateHTML(metadata, imageAttributes, {
+      whitespaceMode: "inline"
+    });
+  }
+
+  config.addShortcode("image", imageShortcode);
 
 
   config.addShortcode("figurePath", function(url, caption) {

@@ -10,7 +10,7 @@ eleventyNavigation:
 
 Hi! I'm Danny de Vries (@dandevri), which you've probably already guessed from the header above. I like making stuff on the internet. I'm passionate about technology, privacy, time well spent, interfaces and building digital products.
 
-{% figurePath '/static/img/photos/portrait.jpg', 'portrait-danny.jpg' %}
+{% image "./static/img/photos/portrait.jpg", "Portait of Danny de Vries" %}
 
 > My approach is organized, systematic and inclusive. I embrace flexibility, modularity and am willing to learn but also expect to be wrong.
 

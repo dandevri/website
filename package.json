@@ -6,8 +6,6 @@
   "scripts": {
     "build": "npx eleventy",
     "build:js": "uglifyjs static/js/script.js -c -o _site/static/js/script.js",
-    "build:webp": "imagemin --plugin=webp static/img/* --out-dir=_site/static/img/",
-    "build:img": "imagemin --plugin=mozjpeg --plugin=pngquant --plugin=svgo static/img/* --out-dir=_site/static/img/ & npm run build:webp",
     "build:css": " postcss css/base.css -o css/style.css -w",
     "dev": "npm run build:css & npx eleventy --serve --quiet",
     "debug": "DEBUG=* npx eleventy"
@@ -63,6 +61,7 @@
     }
   },
   "dependencies": {
+    "@11ty/eleventy-img": "^0.7.8",
     "luxon": "^1.15.0"
   }
 }
