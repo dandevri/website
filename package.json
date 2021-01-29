@@ -6,8 +6,9 @@
   "scripts": {
     "build": "npm run build:css & npx eleventy",
     "build:js": "uglifyjs static/js/script.js -c -o _site/static/js/script.js",
-    "build:css": " postcss css/base.css -o _site/css/style.css -w",
-    "dev": "npm run build:css & npx eleventy --serve --quiet",
+    "build:css": "postcss css/base.css -o _site/css/style.css",
+    "watch:css": "postcss css/base.css -o _site/css/style.css -w",
+    "dev": "npm run watch:css & npx eleventy --serve --quiet",
     "debug": "DEBUG=* npx eleventy"
   },
   "repository": {
@@ -37,14 +38,14 @@
     "dotenv": "^8.2.0",
     "eleventy-plugin-reading-time": "0.0.1",
     "eslint": "^5.16.0",
-    "imagemin-cli": "^4.0.1",
+    "imagemin-cli": "^6.0.0",
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-pngquant": "^8.0.0",
     "imagemin-svgo": "^7.0.0",
     "imagemin-webp": "^5.1.0",
     "markdown-it-anchor": "^7.0.0",
     "node-fetch": "^2.6.0",
-    "postcss-cli": "^6.1.2",
+    "postcss-cli": "^8.3.1",
     "postcss-import": "^12.0.1",
     "postcss-mixins": "^6.2.1",
     "postcss-nested": "^4.1.2",
