@@ -12,13 +12,13 @@ const readingTime = require('eleventy-plugin-reading-time');
 const Image = require("@11ty/eleventy-img");;
 
 // Import filters
-const randomLink = require('./scripts/randomLink.js');
+const randomLink = require('./scripts/libs/randomLink.js');
 
 
 module.exports = function(config) {
   config.addPassthroughCopy("static/img");
   config.addPassthroughCopy("static/fonts");
-  config.addPassthroughCopy("static/js");
+  config.addPassthroughCopy("scripts/components");
   config.addPassthroughCopy("static/other");
   config.addPassthroughCopy("posts/talks/transcripts/");
 
@@ -61,7 +61,7 @@ module.exports = function(config) {
     return markdownOptions.render(value);
   });
 
-  config.addCollection("tagList", require("./scripts/getTagList"));
+  config.addCollection("tagList", require("./scripts/libs/getTagList"));
 
   config.addFilter("size", (posts) => {
 		return posts.length;

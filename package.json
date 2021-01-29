@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "build": "npm run build:css & npx eleventy",
-    "build:js": "uglifyjs static/js/script.js -c -o _site/static/js/script.js",
+    "build:js": "rollup -c rollup.config.js",
     "build:css": "postcss css/base.css -o _site/css/style.css",
     "watch:css": "postcss css/base.css -o _site/css/style.css -w",
+    "watch:js": "rollup -c rollup.config.js -w",
     "dev": "npm run watch:css & npx eleventy --serve --quiet",
     "debug": "DEBUG=* npx eleventy"
   },
@@ -53,7 +54,10 @@
     "postcss-normalize": "^8.0.0",
     "postcss-scss": "^2.0.0",
     "postcss-simple-vars": "^5.0.2",
+    "rollup": "^2.38.1",
+    "rollup-plugin-terser": "^7.0.2",
     "stylelint-config-standard": "^18.3.0",
+    "terser": "^5.5.1",
     "uglify-js": "^3.6.0"
   },
   "stylelint": {

@@ -29,3 +29,5 @@ const button = document.querySelector('.guide ul li button');
 button.addEventListener('click', () => {
   toc.classList.toggle('hidden')
 })
+
+console.log('hello world');
