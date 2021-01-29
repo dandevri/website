@@ -1,0 +1,21 @@
+#scrollToTopBtn {
+  background-color: $primary;
+  border: $b1;
+  border-radius: 50%;
+  color: $secondary;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 2vw;
+  width: 1.6em;
+  padding-bottom: 0.3em;
+  vertical-align: baseline;
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+  z-index: 2;
+  display: none;
+
+  @media (min-width: 60em) {
+    display: block;
+  }
+}

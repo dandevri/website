@@ -1,5 +1,17 @@
 console.log('%c Computer says no', 'background: black; color: white; display: block; font-size: 5em;');
 
+const scrollToTopBtn = document.getElementById("scrollToTopBtn")
+const rootElement = document.documentElement;
+
+// Scroll to top logic
+function scrollToTop() {
+  rootElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
+}
+scrollToTopBtn.addEventListener("click", scrollToTop)
+
 /* Calculate date from birth */
 const oneDay = 24 * 60 * 60 * 1000;
 const firstDate = new Date(1997, 06, 07);

@@ -66,6 +66,7 @@
 @import "components/atoms/map.scss";
 @import "components/atoms/copy.scss";
 @import "components/atoms/toc.scss";
+@import "components/atoms/scrolltop.scss";
 
 /* Molecules */
 @import "components/molecules/header.scss";
