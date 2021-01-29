@@ -22,6 +22,9 @@ module.exports = function(config) {
   config.addPassthroughCopy("static/other");
   config.addPassthroughCopy("posts/talks/transcripts/");
 
+  config.addPassthroughCopy("scripts");
+  config.addPassthroughCopy("css");
+
   config.addPlugin(pluginRss);
   config.addPlugin(eleventyNavigationPlugin);
   config.addPlugin(readingTime);

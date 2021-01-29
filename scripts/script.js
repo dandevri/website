@@ -1,4 +1,1 @@
-/* Utilities */
-import './utils/log.js';
-
-/* Third-party Libraries */
+!function(){"use strict";console.log("%c Computer says no","background: black; color: white; display: block; font-size: 5em;"),console.log("things60")}();

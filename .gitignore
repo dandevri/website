@@ -13,3 +13,7 @@ _site
 
 # environment variables file
 .env
+
+# 11ty passtrough copy files
+scripts/script.js
+css/style.css
