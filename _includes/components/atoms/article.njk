@@ -3,5 +3,6 @@
     <h3>{{ article.data.title }}</h3>
     <p>{{ article.data.description }}</p>
     <time datetime="{{ article.date | htmlDateString }}">{{ article.date | dotDate }}</time>
+    <span aria-hidden="true"></span>
   </a>
 </article>

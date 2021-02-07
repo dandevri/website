@@ -1,0 +1,15 @@
+a span[aria-hidden]::after {
+  content: "read";
+  color: white;
+  background: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: $s-3;
+  font-size: 0.8em;
+}
+
+a:visited span[aria-hidden]::after {
+  color: white;
+  background: black;
+}
