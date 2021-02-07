@@ -3,7 +3,8 @@
     <img src="{{ item.avatar }}" alt="Profile picture of {{ item.name }}" class="blogroll-avatar"/>
     <div>
       <p>{{ item.name }}</p>
-      <p>{{ item.website }}</p>
+      <small>(@{{ item.username }})</small>
+      <p><code>{{ item.website }}</code></p>
     </div>
   </div>
     <p>{{ item.bio }}</p>

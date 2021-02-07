@@ -1,29 +1,37 @@
-.blogroll-list > * + *  {
-  margin-top: $s2;
+.blogroll-list {
+  padding: 0;
 }
 
-.blogroll {
+.content .blogroll {
   list-style-type: none;
   list-style-image: none;
   border: $b1;
-  padding: $s1 $s2;
+  margin-top: $s2;
 
   & > * + * {
     padding-top: $s1;
   }
 
   &-avatar {
-    width: 4em;
-    height: 50%;
+    width: 5em;
+    height: 60%;
     object-fit: cover;
+    border-radius: 100%;
+    border: $b1;
   }
 
   &-header {
     display: flex;
     align-items: center;
+    background: #e7e7e7;
+    padding: $s-1 $s2;
 
     div {
-      padding: $s1
+      padding: $s-1;
     }
   }
+}
+
+.blogroll > p {
+  padding: $s1 $s2;
 }
