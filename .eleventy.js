@@ -45,6 +45,20 @@ module.exports = function(config) {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
   });
 
+  config.addFilter('upcoming', events => {
+    const now = new Date();
+    const date = DateTime.fromJSDate(now, {zone: 'utc'}).toFormat("yyyy-LL-dd");
+    const future = a => a.date >= date;
+    return events.filter(future);
+  });
+
+  config.addFilter('past', events => {
+    const now = new Date();
+    const date = DateTime.fromJSDate(now, {zone: 'utc'}).toFormat("yyyy-LL-dd");
+    const past = a => a.date <= date;
+    return events.filter(past);
+  });
+
   config.addFilter('randomLink', randomLink);
 
   config.addFilter('year', function(date) {

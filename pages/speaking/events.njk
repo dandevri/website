@@ -6,8 +6,20 @@ permalink: speaking/events/
 
 <div id="mapid"></div>
 
+<h2>Upcoming events({{ events.events | upcoming |size }})</h2>
+
 <ul class="event-list">
-  {% for item in events.events %}
+  {% for item in events.events | upcoming  %}
     {% include 'components/atoms/event.njk' %}
   {% endfor %}
 </ul>
+
+<h2>Past events ({{ events.events | past | size }})</h2>
+
+<ul class="event-list">
+  {% for item in events.events | past | reverse %}
+    {% include 'components/atoms/event.njk' %}
+  {% endfor %}
+</ul>
+
+<script src="/scripts/components/leaflet.js"></script>
