@@ -24,6 +24,7 @@ module.exports = function(config) {
 
   config.addPassthroughCopy("scripts");
   config.addPassthroughCopy("css");
+  config.addPassthroughCopy("_data");
 
   config.addPlugin(pluginRss);
   config.addPlugin(eleventyNavigationPlugin);

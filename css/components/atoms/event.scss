@@ -1,11 +1,14 @@
 .event-list {
   @mixin reset-list;
+  grid-gap: $s1;
+  margin-top: $s1;
 
   .event-item {
     @mixin reset-list;
     border-top: $b1;
-    padding: $s1 0;
+    padding: $s1;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     max-width: $width;
 
@@ -18,4 +21,31 @@
     flex-basis: 4ch;
     margin-right: $s3;
   }
+}
+
+.events {
+  margin: $s4;
+}
+
+.events p:nth-child(1) {
+  font-size: 1.2em;
+  margin-bottom: $s-1;
+}
+
+.events p:nth-child(2),
+.events p:nth-child(3) {
+  display: flex;
+}
+
+.events p svg {
+  margin-right: $s-2;
+  width: 1em;
+}
+
+.events a:nth-child(4) {
+  margin-left: $s2;
+}
+
+.event-item {
+  border: $b1;
 }

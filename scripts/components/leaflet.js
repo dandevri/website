@@ -2,7 +2,12 @@
   Show my events plotted on a worldmap with markers.
 */
 
-const mymap = L.map('mapid').setView([40, 30], 0).setZoom(3);
+const locations = [
+  ["LOCATION_1", 52.359417240826474, 4.908624111835428],
+  ["LOCATION_2", 52.53408875223329, 13.384882246726036],
+];
+
+const map = L.map('mapid').setView([40, 30], 0).setZoom(3);
 
 // Create a custom marker
 const icon = L.icon({
@@ -19,8 +24,10 @@ L.tileLayer('https://api.mapbox.com/styles/v1/dandevri/ckkvjrjop0q5r17qqitvmhp7q
     tileSize: 512,
     zoomOffset: -1,
     accessToken: 'pk.eyJ1IjoiZGFuZGV2cmkiLCJhIjoiY2tmbGN3cmgzMGlxNzJ0bmRudnMwODd5dCJ9.pJY0KKw84BmvNeTyY3A-kw'
-}).addTo(mymap);
+}).addTo(map);
 
-// Create markers and bind pop-ups
-const marker = L.marker([52.35938447998207, 4.908699214377195], {icon: icon}).addTo(mymap);
-marker.bindPopup("<b>Golden Dot Awards</b><br>Amsterdam, The Netherlands").openPopup();
+locations.forEach(function(marker) {
+  new L.marker([marker[1], marker[2]])
+    .bindPopup(marker[0])
+    .addTo(map);
+})
