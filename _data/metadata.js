@@ -7,7 +7,7 @@ const metadata = {
   subject: "Personal Site of Danny de Vries",
   theme: "#000",
   lang: "en_US",
-  share: "/static/img/",
+  share: "/static/img/share-image.jpg",
   social: "dandevri",
   license: "https://github.com/systemdes/personal-website/blob/master/license"
 }

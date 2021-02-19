@@ -11,7 +11,8 @@
     "watch:js": "rollup -c rollup.config.js -w",
     "watch:11ty": "npx eleventy --serve --quiet",
     "build": "concurrently \"npm:build:*\"",
-    "dev": "concurrently \"npm:watch:*\""
+    "dev": "concurrently \"npm:watch:*\"",
+    "generate-image": "node scripts/libs/generateShareImage.js"
   },
   "repository": {
     "type": "git",
@@ -70,6 +71,7 @@
   },
   "dependencies": {
     "@11ty/eleventy-img": "^0.7.8",
+    "canvas": "^2.6.1",
     "luxon": "^1.15.0",
     "markdown-it": "^12.0.4"
   }
