@@ -1,7 +1,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="{{ metadata.description }}">
+{% if sentence %}
+  <meta name="description" content="{{ sentence }}">
+{% else %}
+  <meta name="description" content="{{ metadata.description }}">
+{% endif %}
 <meta name="subject" content="{{ metadata.subject }}">
 <meta name="rating" content="General">
 <meta name="apple-mobile-web-app-capable" content="yes">

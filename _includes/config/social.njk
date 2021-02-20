@@ -9,11 +9,11 @@
     <meta property="og:description" content="{{ metadata.description }}">
   {% endif %}
   {% if cover %}
-    <meta property="og:image:url" content="{{ metadata.url }}{{ cover }}">
-    <meta property="og:image" content="{{ metadata.url }}{{ cover }}">
+    <meta property="og:image:url" content="{{ metadata.url }}{{ cover }}/">
+    <meta property="og:image" content="{{ metadata.url }}{{ cover }}/">
   {% else %}
-    <meta property="og:image:url" content="{{ metadata.url }}{{ metadata.share }}">
-    <meta property="og:image" content="{{ metadata.url }}{{ metadata.share }}">
+    <meta property="og:image:url" content="{{ metadata.url }}{{ metadata.share }}/">
+    <meta property="og:image" content="{{ metadata.url }}{{ metadata.share }}/">
   {% endif %}
   <meta name="twitter:title" content="{{ title }}">
   <meta name="twitter:url" content="{{ url }}">
@@ -23,9 +23,9 @@
     <meta name="twitter:description" content="{{ metadata.description }}">
   {% endif %}
   {% if cover %}
-    <meta name="twitter:image" content="{{ metadata.url }}{{ cover }}">
+    <meta name="twitter:image" content="{{ metadata.url }}{{ cover }}/">
   {% else %}
-    <meta name="twitter:image" content="{{ metadata.url }}{{  etadata.share }}">
+    <meta name="twitter:image" content="{{ metadata.url }}{{ metadata.share }}/">
   {% endif %}
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@{{ metadata.social }}">
