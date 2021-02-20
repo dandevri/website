@@ -15,7 +15,11 @@
     <meta property="og:image:url" content="{{ metadata.url }}{{ metadata.share }}">
     <meta property="og:image" content="{{ metadata.url }}{{ metadata.share }}">
   {% endif %}
-  <meta name="twitter:title" content="{{ title }}">
+  {% if title %}
+    <meta name="twitter:title" content="{{ title + ' ⇢ ' + metadata.author }}">
+  {% else %}
+    <meta name="twitter:title" content="{{ metadata.author }}">
+  {% endif %}
   {% if sentence %}
     <meta name="twitter:description" content="{{ sentence }}">
   {% else %}
