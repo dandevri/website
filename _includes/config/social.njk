@@ -26,8 +26,8 @@
     <meta property="twitter:description" content="{{ metadata.description }}">
   {% endif %}
   <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="{{ metadata.url}}{{ page.url }}">
   <meta property="twitter:site" content="@{{ metadata.social }}">
-  <meta property="twitter:dnt" content="on">
   {% if cover %}
     <meta property="twitter:image" content="{{ metadata.url }}{{ cover }}">
   {% else %}
