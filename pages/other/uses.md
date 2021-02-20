@@ -6,6 +6,8 @@ permalink: uses/
 eleventyNavigation:
   key: Uses
   order: 7
+cover: /static/img/share/share-uses.jpg
+sentence: Here are the tools of the trade that I love to use. I recommend each item on this list and switch things up pretty often to see if something improves my workflow.
 ---
 
 ![Set-up desk with all the gear](/static/img/photos/desk.jpeg)
