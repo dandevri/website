@@ -36,6 +36,6 @@ loadImage('./static/img/share-template.png').then(image => {
   context.fillText(author, 600, 500)
   context.font = 'bold 80pt Menlo'
   context.fillText(text, 600, 350)
-  const buffer = canvas.toBuffer('image/png')
-  fs.writeFileSync(`./static/img/share/${slug}.png`, buffer)
+  const buffer = canvas.toBuffer('image/jpeg')
+  fs.writeFileSync(`./static/img/share/${slug}.jpg`, buffer)
 })

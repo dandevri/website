@@ -7,7 +7,7 @@ date: 2021-02-15
 tags: ["article", "day", "life", "work"]
 layout: layouts/post.njk
 permalink: /articles/{{ slug }}/index.html
-cover: /static/img/share/my-typical-day.png
+cover: /static/img/share/my-typical-day.jpg
 sentence: A bunch of people over on Twitter sharted sharing their posts about their typical days. Colin Devroe was the one who started it.
 ---
 
