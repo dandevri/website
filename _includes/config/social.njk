@@ -1,7 +1,7 @@
   <meta property="og:locale" content="{{ metadata.lang }}">
   <meta property="og:site_name" content="{{ metadata.author }}">
   <meta property="og:title" content="{{ title }}">
-  <meta property="og:url" content="{{ url }}">
+  <meta property="og:url" content="{{ metadata.url}}{{ page.url }}">
   <meta property="og:type" content="website">
   {% if sentence %}
     <meta property="og:description" content="{{ sentence }}">
@@ -9,24 +9,23 @@
     <meta property="og:description" content="{{ metadata.description }}">
   {% endif %}
   {% if cover %}
-    <meta property="og:image:url" content="{{ metadata.url }}{{ cover }}/">
-    <meta property="og:image" content="{{ metadata.url }}{{ cover }}/">
+    <meta property="og:image:url" content="{{ metadata.url }}{{ cover }}">
+    <meta property="og:image" content="{{ metadata.url }}{{ cover }}">
   {% else %}
-    <meta property="og:image:url" content="{{ metadata.url }}{{ metadata.share }}/">
-    <meta property="og:image" content="{{ metadata.url }}{{ metadata.share }}/">
+    <meta property="og:image:url" content="{{ metadata.url }}{{ metadata.share }}">
+    <meta property="og:image" content="{{ metadata.url }}{{ metadata.share }}">
   {% endif %}
   <meta name="twitter:title" content="{{ title }}">
-  <meta name="twitter:url" content="{{ url }}">
   {% if sentence %}
     <meta name="twitter:description" content="{{ sentence }}">
   {% else %}
     <meta name="twitter:description" content="{{ metadata.description }}">
   {% endif %}
-  {% if cover %}
-    <meta name="twitter:image" content="{{ metadata.url }}{{ cover }}/">
-  {% else %}
-    <meta name="twitter:image" content="{{ metadata.url }}{{ metadata.share }}/">
-  {% endif %}
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@{{ metadata.social }}">
   <meta name="twitter:dnt" content="on">
+  {% if cover %}
+    <meta name="twitter:image" content="{{ metadata.url }}{{ cover }}">
+  {% else %}
+    <meta name="twitter:image" content="{{ metadata.url }}{{ metadata.share }}">
+  {% endif %}
