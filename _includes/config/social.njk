@@ -16,20 +16,20 @@
     <meta property="og:image" content="{{ metadata.url }}{{ metadata.share }}">
   {% endif %}
   {% if title %}
-    <meta name="twitter:title" content="{{ title + ' ⇢ ' + metadata.author }}">
+    <meta property="twitter:title" content="{{ title + ' ⇢ ' + metadata.author }}">
   {% else %}
-    <meta name="twitter:title" content="{{ metadata.author }}">
+    <meta property="twitter:title" content="{{ metadata.author }}">
   {% endif %}
   {% if sentence %}
-    <meta name="twitter:description" content="{{ sentence }}">
+    <meta property="twitter:description" content="{{ sentence }}">
   {% else %}
-    <meta name="twitter:description" content="{{ metadata.description }}">
+    <meta property="twitter:description" content="{{ metadata.description }}">
   {% endif %}
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@{{ metadata.social }}">
-  <meta name="twitter:dnt" content="on">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:site" content="@{{ metadata.social }}">
+  <meta property="twitter:dnt" content="on">
   {% if cover %}
-    <meta name="twitter:image" content="{{ metadata.url }}{{ cover }}">
+    <meta property="twitter:image" content="{{ metadata.url }}{{ cover }}">
   {% else %}
-    <meta name="twitter:image" content="{{ metadata.url }}{{ metadata.share }}">
+    <meta property="twitter:image" content="{{ metadata.url }}{{ metadata.share }}">
   {% endif %}
