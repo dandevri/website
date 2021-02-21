@@ -17,3 +17,6 @@ _site
 # 11ty passtrough copy files
 scripts/script.js
 css/style.css
+
+# Webmentions cache
+_cache/

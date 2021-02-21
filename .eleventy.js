@@ -13,6 +13,7 @@ const Image = require("@11ty/eleventy-img");;
 
 // Import filters
 const randomLink = require('./scripts/libs/randomLink.js');
+const webMentionFilters = require('./scripts/libs/webMentionFilters')
 
 
 module.exports = function(config) {
@@ -59,6 +60,10 @@ module.exports = function(config) {
     const past = a => a.date <= date;
     return events.filter(past);
   });
+
+   Object.keys(webMentionFilters).forEach(filterName => {
+    config.addFilter(filterName, webMentionFilters[filterName])
+  })
 
   config.addFilter('randomLink', randomLink);
 

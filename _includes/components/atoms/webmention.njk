@@ -1,7 +1,76 @@
-<span>Webmentions:</span>
-{%- set mentions = webmentions.children -%}
-{% if mentions | length %}
-  {{ webmentions.children[0].url }}
-  {{ webmentions.children[0].author.photo }}
-  {{ webmentions.children[0].author.name }}
-{% endif %}
+<!-- Set the filters -->
+{% set webmentionUrl %}{{ page.url | url | absoluteUrl(site.url) }}{% endset %}
+
+<!-- Filter the cached mentions to only include ones matching the post's url -->
+{% set mentions = webmentions | getWebmentionsForUrl(metadata.url + webmentionUrl) %}
+<!-- Set reposts as mentions that are `repost-of`  -->
+{% set reposts = mentions | webmentionsByType('repost-of') %}
+<!-- Count the total reposts -->
+{% set repostsSize = reposts | size %}
+<!-- Set likes as mentions that are `like-of`  -->
+{% set likes = mentions | webmentionsByType('like-of') %}
+<!-- Count the total likes -->
+{% set likesSize = likes | size %}
+<!-- Set replies as mentions that are `in-reply-to`  -->
+{% set replies = mentions | webmentionsByType('in-reply-to') %}
+<!-- Count the total replies -->
+{% set repliesSize = replies | size %}
+
+<div class="webmention">
+
+  {% if likesSize > 0 %}
+
+  <div class="webmention-likes">
+    <p><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M12.0122 5.57169L10.9252 4.48469C8.77734 2.33681 5.29493 2.33681 3.14705 4.48469C0.999162 6.63258 0.999162 10.115 3.14705 12.2629L11.9859 21.1017L11.9877 21.0999L12.014 21.1262L20.8528 12.2874C23.0007 10.1395 23.0007 6.65711 20.8528 4.50923C18.705 2.36134 15.2226 2.36134 13.0747 4.50923L12.0122 5.57169ZM11.9877 18.2715L16.9239 13.3352L18.3747 11.9342L18.3762 11.9356L19.4386 10.8732C20.8055 9.50635 20.8055 7.29028 19.4386 5.92344C18.0718 4.55661 15.8557 4.55661 14.4889 5.92344L12.0133 8.39904L12.006 8.3918L12.005 8.39287L9.51101 5.89891C8.14417 4.53207 5.92809 4.53207 4.56126 5.89891C3.19442 7.26574 3.19442 9.48182 4.56126 10.8487L7.10068 13.3881L7.10248 13.3863L11.9877 18.2715Z"
+          fill="currentColor" />
+      </svg>
+      {% if repostsSize> 11 or likesSize > 11 %} class="webmentions__facepile__squish" {%
+      endif %}{{ likesSize }}
+      Like{% if likesSize != 1 %}s{% endif %}</p>
+
+    {% for webmention in likes %}
+
+    {% if webmention.url != "" %}
+    <a class="h-card u-url link-u-exempt" href="{{ webmention.url }}" target="_blank" rel="noopener noreferrer">
+      {% endif %}
+
+      {% if webmention.author.photo %}
+      <img src="{{ webmention.author.photo }}" alt="{{ webmention.author.name }}" width="48" height="48" loading="lazy">
+      {% else %}
+      <img src="{{ '/img/avatar.svg' | url }}" alt="" width="48" height="48">
+      {% endif %}
+
+      {% if webmention.url != "" %}
+    </a>
+    {% endif %}
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <p>These likes and replies are using <a class="webmention-icon" href="https://indieweb.org/Webmention">Webmentions<svg
+        width="21" height="21" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M11 10.9794C11 10.4271 11.4477 9.97937 12 9.97937C12.5523 9.97937 13 10.4271 13 10.9794V16.9794C13 17.5317 12.5523 17.9794 12 17.9794C11.4477 17.9794 11 17.5317 11 16.9794V10.9794Z"
+          fill="currentColor" />
+        <path
+          d="M12 6.05115C11.4477 6.05115 11 6.49886 11 7.05115C11 7.60343 11.4477 8.05115 12 8.05115C12.5523 8.05115 13 7.60343 13 7.05115C13 6.49886 12.5523 6.05115 12 6.05115Z"
+          fill="currentColor" />
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM4 12C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12Z"
+          fill="currentColor" />
+      </svg></a>via the Indieweb. Manually notify me by mentioning this
+    post with <a href="https://webmention.io">webmention.io</a> from your site:
+  <div class="boilerform">
+    <form action="https://webmention.io/dandevri.es/webmention" method="post" class="form-webmention">
+      <label class="c-label" for="form-webmention-source">URL</label><br>
+      <input class="c-input-field" id="form-webmention-source" type="url" name="source" placeholder="https://" required>
+      <input type="hidden" name="target" value="https://dandevri.es/{{ page.url }}">
+      <input type="submit" class="btn btn-secondary" value="Ping!">
+    </form>
+  </div>
+</div>
+
+
+</div>

@@ -78,5 +78,6 @@
 @import "components/molecules/form.scss";
 @import "components/molecules/image-grid.scss";
 @import "components/molecules/share.scss";
+@import "components/molecules/webmention.scss";
 
 /* @import-normalize; */
