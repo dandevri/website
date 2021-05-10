@@ -72,7 +72,7 @@
   "dependencies": {
     "@11ty/eleventy-img": "^0.7.8",
     "canvas": "^2.6.1",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "luxon": "^1.15.0",
     "markdown-it": "^12.0.4"
   }
