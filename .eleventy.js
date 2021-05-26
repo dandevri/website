@@ -166,6 +166,8 @@ module.exports = function(config) {
   config.setLibrary("md", markdownOptions);
 
    config.setBrowserSyncConfig({
+    notify: true,
+    open: "external",
     callbacks: {
       ready: function(err, bs) {
 
